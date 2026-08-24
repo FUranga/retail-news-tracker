@@ -471,7 +471,7 @@ function render() {
           ${bodyHtml}
           <div class="story-actions-row">
             <button class="btn" data-copy="${uid}">Copy text</button>
-            <button class="btn btn-primary" data-draft="${uid}" ${it.body ? "" : "disabled"} title="Copy draft prompt to clipboard">Draft</button>
+            <button class="btn btn-primary" data-draft="${uid}" ${it.body ? "" : "disabled"} title="Copy article id — paste into Claude Code as /draft ${it.id}">Draft</button>
             ${it.url ? `<a class="btn-link" href="${it.url}" target="_blank" rel="noopener">Source ↗</a>` : ""}
             <span class="copy-feedback" data-feedback="${uid}">Copied</span>
           </div>
@@ -502,7 +502,7 @@ function render() {
       const uid = btn.dataset.draft;
       const item = items.find((it, idx) => String(it.id ?? idx) === uid);
       const fb = box.querySelector(`[data-feedback="${uid}"]`);
-      copyToClipboard(buildDraftPrompt(item), fb);
+      copyToClipboard(`/draft ${item.id}`, fb);
     });
   });
 }
