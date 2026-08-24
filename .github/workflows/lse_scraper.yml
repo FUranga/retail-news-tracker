@@ -1,0 +1,46 @@
+name: LSE scraper (Retailers + Grocery)
+
+on:
+  schedule:
+    # GitHub Actions cron usa UTC siempre. Reino Unido está en BST (UTC+1)
+    # de fines de marzo a fines de octubre, y en GMT (UTC+0) el resto del
+    # año. Estos horarios están calculados para BST (verano UK, vigente
+    # ahora). Cuando termine el horario de verano (finales de octubre),
+    # hay que sumarles 1 hora en UTC para que sigan cayendo a las 07:01 y
+    # 07:15 hora de Londres. Lo marco acá para no olvidarlo.
+    - cron: "1 6 * * 1-5"   # 07:01 UK time (BST) — lunes a viernes
+    - cron: "15 6 * * 1-5"  # 07:15 UK time (BST) — re-chequeo
+  workflow_dispatch: {}      # permite correrlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write   # necesario para que el job pueda commitear el resultado
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install requests pandas
+
+      - name: Correr scraper LSE
+        run: python lse_scraper.py
+
+      - name: Actualizar dashboard_data.json
+        run: python transform_to_dashboard.py lse_latest.csv
+
+      - name: Commitear cambios
+        run: |
+          git config user.name "lse-scraper-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/raw/*.csv lse_latest.csv dashboard_data.json
+          git diff --staged --quiet && echo "Sin cambios, nada que commitear" && exit 0
+          git commit -m "Actualización automática LSE $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
