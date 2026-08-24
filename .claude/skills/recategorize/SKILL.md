@@ -1,64 +1,54 @@
 ---
-name: feedback
-description: Compares Claude's original drafts against the user's edited versions, identifies systematic style preferences, and updates docs/retail_wire_drafting_reference.md accordingly. Use when the user shares edited stories and wants to refine the drafting criteria.
+name: recategorize
+description: Reviews items in unmapped_categories.json against their article body in dashboard_data.json, assigns an editorial story_type and noise judgement, and writes the result to article_overrides.json. Use when the user asks to recategorize, review ambiguous items, clear the review queue, or work through unmapped_categories.json.
 ---
 
-# Update drafting criteria from edited stories
+# Recategorize ambiguous items
 
-This skill learns from the difference between what Claude drafted and what
-the user actually published. It updates `docs/retail_wire_drafting_reference.md`
-so future `/draft` calls are closer to the user's real voice from the start.
+This is an on-demand, explicitly-invoked task. Never run this as part of
+scraping or any automated flow — only when the user asks for it in this
+session.
 
 ## Process
 
-1. Ask the user for their edited version and the article id (or filename
-   in `drafts/`). Look for the original draft in `drafts/` — it should
-   be saved there automatically by `/draft`. If it's not there, tell the
-   user and offer to regenerate it from the article body before comparing.
+1. Read `unmapped_categories.json`. If it's empty (`{}`), tell the user
+   the review queue is clear and stop — nothing else to do.
+2. For each code in the queue, look at its `examples` (article ids and
+   titles). For each example id, find the matching item in
+   `dashboard_data.json` and read its full `body` text — the code alone
+   is not enough context, the title alone is not enough either.
+3. For each article, decide:
+   - `story_type`: a short, specific label (e.g. "Partnership", "Product
+     Launch", "Strategy", "Restructuring") — not a repeat of "Other".
+   - `is_noise`: true only if this is regulatory boilerplate unlikely to
+     ever be a story (compare against the existing noise categories in
+     `category_map.json` — POS, HOL, AGM, TVR — as the bar for "noise").
+   - A one-to-two sentence `note` explaining the call in plain English,
+     referencing something specific from the body (a figure, a quote, a
+     deal detail) — not a generic justification.
+4. Write each decision to `article_overrides.json`, keyed by article id
+   as a string, with `reviewed_by: "claude-code"` and the note. Preserve
+   any existing entries already in the file — this is an update, not an
+   overwrite of the whole file.
+5. Do NOT edit `category_map.json` directly unless the user explicitly
+   asks you to promote a code to a permanent mapping (e.g. "always treat
+   XYZ as a Dividend story") — by default, overrides stay per-article,
+   because catch-all codes like MSC don't reliably mean the same thing
+   twice.
+6. After writing `article_overrides.json`, run:
+   `python transform_to_dashboard.py lse_latest.csv`
+   (or the most recent CSV in `data/raw/` if `lse_latest.csv` isn't
+   present) to regenerate `dashboard_data.json` with the overrides
+   applied, and confirm `unmapped_categories.json` is now empty or
+   reduced.
+7. Summarize what was reclassified — one line per article, story_type,
+   and a short reason — so the user can review the calls before pushing.
+   Do not `git commit` or `git push` automatically; ask first, since this
+   changes editorial judgement, not just data.
 
-2. For each pair, do a careful diff. Look for:
-   - **Structural changes**: did they move paragraphs, cut the to-be-sure,
-     shorten the nut graph?
-   - **Tone changes**: did they make it terser, cut hedging language, remove
-     "is pleased to announce" type phrases?
-   - **Lead changes**: did they rewrite the first sentence, change the angle,
-     lead with a different fact?
-   - **Quote handling**: did they cut the quote, shorten it, or reframe it?
-   - **Length**: systematically shorter or longer than Claude's version?
+## If the same code recurs across many unrelated stories
 
-3. Identify patterns across all pairs — a change made in one story could be
-   personal preference for that piece; the same change made in three stories
-   is a rule. Only promote patterns to the reference document, not one-offs.
-
-4. Read `docs/retail_wire_drafting_reference.md` in full before editing it.
-   The document has two sections:
-   - **Core method** (Bloomberg four-paragraph structure, Retail Week house
-     style) — never touch this section. It's the foundation.
-   - **Learned preferences** — this is where new rules go. If the section
-     doesn't exist yet, create it at the bottom of the document.
-
-5. Draft the proposed updates to the "Learned preferences" section and show
-   them to the user BEFORE writing anything. Each rule should be:
-   - Specific and actionable ("never use 'is pleased to announce'" not
-     "avoid corporate language")
-   - Attributed to evidence ("changed in 3 of 4 drafts reviewed")
-   - Written as a positive instruction where possible ("lead with the
-     percentage change" not "don't bury the number")
-
-6. Only after the user confirms: update `docs/retail_wire_drafting_reference.md`
-   with the approved changes. Then commit with a message like:
-   `docs: update drafting preferences from [date] feedback session`
-   and push to GitHub — so the learning is versioned and doesn't live
-   only on this machine.
-
-7. Summarise what was added, what was considered but rejected (and why),
-   and what to watch for in the next feedback session.
-
-## What NOT to do
-
-- Don't update the core Bloomberg method section — that's the structure,
-  not the style.
-- Don't promote a change from a single story to a permanent rule.
-- Don't commit without showing the proposed changes first.
-- Don't push if the user says "save locally" — in that case, write the
-  file but skip the git commit/push.
+If you notice a code (e.g. MSC) keeps appearing for stories that all turn
+out to be genuinely the same type — flag this to the user explicitly and
+suggest promoting it to `category_map.json` instead of continuing to
+override it article-by-article. Don't make that call unilaterally.
