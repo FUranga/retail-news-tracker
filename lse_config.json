@@ -1,0 +1,19 @@
+{
+  "endpoint": {
+    "base_url": "https://api.londonstockexchange.com/api/v1/components/refresh",
+    "component_id": "block_content:431d02ac-09b8-40c9-aba6-04a72a4f2e49",
+    "tab_id": "58734a12-d97c-40cb-8047-df76e660f23f"
+  },
+  "filters": {
+    "sectors": ["404010", "452010"]
+  },
+  "company_overrides": {
+    "include": [],
+    "exclude": []
+  },
+  "request": {
+    "page_size": 50,
+    "max_pages": 20,
+    "sleep_seconds": 0.5
+  }
+}
