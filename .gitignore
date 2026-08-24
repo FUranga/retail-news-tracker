@@ -6,3 +6,7 @@ lse_latest.csv
 
 __pycache__/
 *.pyc
+# Archivos locales de automatización — específicos de cada máquina
+update_retail_wire.ps1
+retail_wire_update.bat
+setup_task_scheduler.ps1
