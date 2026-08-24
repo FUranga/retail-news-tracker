@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Retail Wire — UK retail news tracker</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
 <style>
   /* ---------- Design tokens: minimalist, white, data-dashboard sans-serif ---------- */
   :root {
@@ -174,11 +175,18 @@
   .story.expanded .story-panel { display: block; }
   .story-body {
     font-size: 14px; line-height: 1.7; color: var(--ink-soft);
-    max-height: 260px; overflow-y: auto; white-space: pre-wrap;
+    max-height: 320px; overflow-y: auto;
     background: var(--panel); border-radius: 8px; padding: 14px 16px;
     margin-bottom: 12px;
   }
   .story-body.empty { font-style: italic; color: var(--ink-faint); }
+  .story-body p { margin-bottom: 10px; }
+  .story-body p:last-child { margin-bottom: 0; }
+  .story-body strong, .story-body b { color: var(--ink); font-weight: 600; }
+  .story-body table { border-collapse: collapse; width: 100%; font-size: 13px; margin: 10px 0; }
+  .story-body th, .story-body td { border: 1px solid var(--rule-strong); padding: 5px 8px; text-align: left; }
+  .story-body th { background: var(--rule); font-weight: 600; }
+  .story-body h1, .story-body h2, .story-body h3 { font-size: 14px; font-weight: 600; color: var(--ink); margin: 12px 0 4px; }
   .story-actions-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
   .btn {
     font-size: 12px; font-weight: 500;
@@ -445,7 +453,7 @@ function render() {
       : `<span class="story-company">${it.source || ""}</span>`;
 
     const bodyHtml = it.body
-      ? `<div class="story-body">${escapeHtml(it.body)}</div>`
+      ? `<div class="story-body">${typeof marked !== 'undefined' ? marked.parse(it.body) : escapeHtml(it.body)}</div>`
       : `<div class="story-body empty">No full text captured for this item yet.</div>`;
 
     return `
