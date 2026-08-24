@@ -26,7 +26,6 @@ todavía, ver nota al final del archivo.
 Corre 100% con `requests` — sin browser/Playwright, sin AI, sin tokens.
 """
 
-import html as html_lib
 import json
 import re
 import time
@@ -74,13 +73,26 @@ def build_article_url(companycode, title, article_id):
 
 
 def strip_html(raw_html):
-    """Convierte el body HTML del comunicado en texto plano legible."""
+    """Convierte el body HTML del comunicado en Markdown legible.
+    Los comunicados del LSE tienen estructura mínima (párrafos <p>, negritas
+    <strong>, tablas ocasionales) — los convertimos a Markdown para que
+    el dashboard pueda renderizarlos con estructura y Claude Code los lea bien.
+    """
     if not raw_html:
         return ""
-    text = re.sub(r"<[^>]+>", " ", raw_html)
-    text = html_lib.unescape(text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+    from markdownify import markdownify as md
+    # Convertir HTML a Markdown preservando párrafos, negritas y tablas
+    result = md(
+        raw_html,
+        heading_style="ATX",
+        bullets="-",
+        strip=["script", "style", "img"],
+    )
+    # Limpiar el comentario inicial típico de los RNS /* */
+    result = re.sub(r"^/\*.*?\*/\s*", "", result, flags=re.DOTALL)
+    # Colapsar más de dos saltos de línea consecutivos
+    result = re.sub(r"\n{3,}", "\n\n", result)
+    return result.strip()
 
 
 # ---------- Listado (sin filtro de sector — no funciona en este endpoint) ----------
