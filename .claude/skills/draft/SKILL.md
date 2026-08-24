@@ -30,8 +30,9 @@ as a side effect of scraping, recategorizing, or any other task.
    or a closely related one from the last few days — if something adds
    useful context (a prior trading update, a related M&A story), mention
    it as a possible addition, but keep the draft itself focused.
-7. Show the draft in the chat first. Only save it to `drafts/` (as
-   `drafts/<id>-<slugified-headline>.md`) if the user confirms they want
-   it saved — don't write files unprompted.
+7. Save the draft to `drafts/` automatically as
+   `drafts/<id>-<slugified-headline>.md` without asking — the user
+   always wants it saved for the `/feedback` workflow. Tell the user
+   the filename so they know where to find it.
 8. Never commit or push draft files — `drafts/` is scratch space, not
    part of the published dataset.
