@@ -1,0 +1,8 @@
+# Scratch space for /draft — personal drafts, not part of the published dataset
+drafts/
+
+# Local pointer CSV, regenerated on every scraper run — no need to version it
+lse_latest.csv
+
+__pycache__/
+*.pyc
