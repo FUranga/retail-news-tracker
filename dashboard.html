@@ -5,125 +5,116 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Retail Wire — UK retail news tracker</title>
 <style>
-  /* ---------- Design tokens ---------- */
+  /* ---------- Design tokens: minimalist, white, data-dashboard sans-serif ---------- */
   :root {
-    --paper: #fbfaf7;
-    --ink: #1a1917;
-    --ink-soft: #55524c;
-    --ink-faint: #8f8b83;
-    --rule: #e4e0d8;
-    --rule-strong: #c9c4b8;
-    --accent: #123a5e;      /* deep press blue */
-    --accent-soft: #eef2f6;
-    --flag: #a03725;        /* embargo/paywall red-brick */
-    --flag-soft: #f6ece9;
-    --live: #2f6b3f;        /* "new today" green */
-    --live-soft: #ebf2 ed;
-    --disabled: #b8b4ab;
+    --paper: #ffffff;
+    --panel: #fafafa;
+    --ink: #14161a;
+    --ink-soft: #5b6068;
+    --ink-faint: #9497a0;
+    --rule: #ececec;
+    --rule-strong: #dcdde0;
+    --accent: #1d4ed8;
+    --accent-soft: #eef2ff;
+    --flag: #b3261e;
+    --flag-soft: #fbeceb;
+    --live: #15803d;
+    --live-soft: #ecf7ef;
+    --disabled: #c7c9cd;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
-
   html { -webkit-text-size-adjust: 100%; }
 
   body {
     background: var(--paper);
     color: var(--ink);
-    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
   }
 
-  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+  code, .mono {
+    font-family: ui-monospace, "SF Mono", "IBM Plex Mono", Menlo, Consolas, monospace;
+  }
+
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
 
   /* ---------- Masthead ---------- */
   header.masthead {
-    border-bottom: 2px solid var(--ink);
-    padding: 22px 0 14px;
-    margin-bottom: 0;
+    padding: 28px 0 16px;
+    border-bottom: 1px solid var(--rule-strong);
   }
   .masthead-top {
     display: flex; align-items: baseline; justify-content: space-between;
     flex-wrap: wrap; gap: 8px;
   }
   .logo {
-    font-weight: 700; font-size: 30px; letter-spacing: -0.5px;
-    font-variant: small-caps;
+    font-weight: 700; font-size: 22px; letter-spacing: -0.02em;
   }
   .logo .dot { color: var(--accent); }
   .masthead-meta {
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
     font-size: 11px; color: var(--ink-faint);
-    text-transform: uppercase; letter-spacing: 0.08em;
-    text-align: right; line-height: 1.6;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    text-align: right; line-height: 1.7;
   }
   .masthead-meta strong { color: var(--ink-soft); font-weight: 600; }
 
-  /* ---------- Stream tabs (All / News / ...) ---------- */
+  /* ---------- Stream tabs ---------- */
   nav.streams {
-    display: flex; gap: 0; flex-wrap: wrap;
-    border-bottom: 1px solid var(--rule-strong);
-    margin-bottom: 18px;
+    display: flex; gap: 4px; flex-wrap: wrap;
+    padding: 14px 0; margin-bottom: 4px;
   }
   .stream-tab {
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-    font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em;
-    padding: 12px 18px 10px; border: none; background: none;
-    color: var(--ink-soft); cursor: pointer;
-    border-bottom: 2px solid transparent; margin-bottom: -1px;
-    transition: color .15s, border-color .15s;
+    font-size: 13px; font-weight: 500;
+    padding: 7px 14px; border: 1px solid transparent; border-radius: 999px;
+    background: none; color: var(--ink-soft); cursor: pointer;
+    transition: background .12s, color .12s, border-color .12s;
   }
-  .stream-tab:hover:not(:disabled) { color: var(--ink); }
-  .stream-tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+  .stream-tab:hover:not(:disabled) { background: var(--panel); color: var(--ink); }
+  .stream-tab.active { color: var(--accent); background: var(--accent-soft); font-weight: 600; }
   .stream-tab:disabled { color: var(--disabled); cursor: not-allowed; }
   .stream-tab .soon {
-    display: inline-block; font-size: 8.5px; vertical-align: super;
+    font-family: ui-monospace, monospace; font-size: 8.5px; vertical-align: super;
     margin-left: 3px; letter-spacing: 0.04em;
   }
   .stream-tab .count {
     display: inline-block; margin-left: 6px; padding: 1px 6px;
-    background: var(--accent-soft); color: var(--accent);
-    border-radius: 8px; font-size: 10px; font-weight: 600;
+    background: rgba(0,0,0,.06); border-radius: 8px; font-size: 10px; font-weight: 600;
   }
   .stream-tab.active .count { background: var(--accent); color: #fff; }
 
   /* ---------- Control bar ---------- */
   .controls {
-    display: flex; gap: 14px; align-items: center; flex-wrap: wrap;
-    padding: 4px 0 16px;
+    display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+    padding: 10px 0 18px;
   }
   .seg {
-    display: inline-flex; border: 1px solid var(--rule-strong); border-radius: 6px;
+    display: inline-flex; border: 1px solid var(--rule-strong); border-radius: 8px;
     overflow: hidden;
   }
   .seg button {
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-    font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em;
+    font-size: 12px; font-weight: 500;
     padding: 7px 14px; border: none; background: var(--paper);
     color: var(--ink-soft); cursor: pointer; transition: background .12s, color .12s;
   }
   .seg button + button { border-left: 1px solid var(--rule-strong); }
-  .seg button.active { background: var(--accent); color: #fff; }
+  .seg button.active { background: var(--ink); color: #fff; }
 
   .filter-group { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
   select, .search-box {
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-    font-size: 12px; padding: 7px 10px; border: 1px solid var(--rule-strong);
-    border-radius: 6px; background: var(--paper); color: var(--ink);
+    font-size: 12.5px; padding: 7px 10px; border: 1px solid var(--rule-strong);
+    border-radius: 8px; background: var(--paper); color: var(--ink);
   }
   select:focus, .search-box:focus { outline: 2px solid var(--accent-soft); border-color: var(--accent); }
-  .search-box { min-width: 180px; }
+  .search-box { min-width: 190px; }
 
   .noise-toggle {
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-    font-size: 11px; color: var(--ink-soft); text-transform: uppercase;
-    letter-spacing: 0.04em; display: inline-flex; align-items: center;
-    gap: 6px; cursor: pointer; user-select: none;
+    font-size: 12px; color: var(--ink-soft);
+    display: inline-flex; align-items: center; gap: 6px; cursor: pointer; user-select: none;
   }
   .noise-toggle input { cursor: pointer; accent-color: var(--accent); }
-
-  .story.is-noise .story-title { color: var(--ink-soft); font-weight: 500; }
-  .story.is-noise .story-title a { color: var(--ink-soft); }
 
   .spacer { flex: 1; }
   .result-count {
@@ -134,80 +125,99 @@
   /* ---------- Story list ---------- */
   .stories { border-top: 1px solid var(--rule); }
   .story {
-    display: grid;
-    grid-template-columns: 78px 1fr auto;
-    gap: 18px; align-items: start;
-    padding: 16px 4px; border-bottom: 1px solid var(--rule);
-    transition: background .1s;
+    border-bottom: 1px solid var(--rule);
+    padding: 16px 4px; transition: background .1s;
   }
-  .story:hover { background: #f5f2ec; }
+  .story-row {
+    display: grid;
+    grid-template-columns: 76px 1fr auto;
+    gap: 16px; align-items: start; cursor: pointer;
+  }
   .story-time {
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
     font-size: 12px; color: var(--ink-faint); padding-top: 3px; line-height: 1.4;
   }
   .story-time .date { display: block; font-size: 10px; color: var(--ink-faint); }
   .story-main { min-width: 0; }
-  .story-flags { display: flex; gap: 7px; align-items: center; margin-bottom: 5px; flex-wrap: wrap; }
+  .story-flags { display: flex; gap: 6px; align-items: center; margin-bottom: 5px; flex-wrap: wrap; }
   .tag {
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
     font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em;
     padding: 2px 7px; border-radius: 4px; font-weight: 600;
   }
   .tag-stream { background: var(--accent-soft); color: var(--accent); }
-  .tag-type { background: #efece5; color: var(--ink-soft); }
+  .tag-type { background: var(--panel); color: var(--ink-soft); border: 1px solid var(--rule-strong); }
   .tag-paywall { background: var(--flag-soft); color: var(--flag); }
-  .tag-new { background: #e9f1ec; color: var(--live); }
+  .tag-new { background: var(--live-soft); color: var(--live); }
+  .tag-reviewed { background: #f5f0ff; color: #6d28d9; }
   .story-title {
-    font-size: 19px; line-height: 1.32; font-weight: 600; letter-spacing: -0.1px;
-    margin-bottom: 4px;
+    font-size: 17px; line-height: 1.35; font-weight: 600; letter-spacing: -0.01em;
+    margin-bottom: 4px; color: var(--ink);
   }
-  .story-title a { color: var(--ink); text-decoration: none; }
-  .story-title a:hover { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  .story.is-noise .story-title { color: var(--ink-soft); font-weight: 500; }
   .story-company {
-    font-size: 13px; color: var(--ink-soft);
+    font-size: 12.5px; color: var(--ink-soft);
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   }
   .story-company .ticker { color: var(--accent); font-weight: 600; }
-  .story-actions { display: flex; flex-direction: column; gap: 6px; align-items: flex-end; }
-  .btn-draft {
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-    font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em;
-    padding: 6px 12px; border: 1px solid var(--accent); border-radius: 6px;
-    background: var(--paper); color: var(--accent); cursor: pointer;
-    white-space: nowrap; transition: background .12s, color .12s;
+  .story-chevron {
+    color: var(--ink-faint); font-size: 12px; padding-top: 6px;
+    transition: transform .15s;
   }
-  .btn-draft:hover { background: var(--accent); color: #fff; }
-  .btn-source {
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-    font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em;
-    color: var(--ink-faint); text-decoration: none; white-space: nowrap;
-  }
-  .btn-source:hover { color: var(--accent); }
+  .story.expanded .story-chevron { transform: rotate(90deg); }
 
-  .empty {
-    padding: 60px 20px; text-align: center; color: var(--ink-faint);
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 13px;
+  /* ---------- Expanded panel: body text + actions ---------- */
+  .story-panel {
+    display: none; margin-top: 14px; padding-top: 14px;
+    border-top: 1px dashed var(--rule-strong);
+  }
+  .story.expanded .story-panel { display: block; }
+  .story-body {
+    font-size: 14px; line-height: 1.7; color: var(--ink-soft);
+    max-height: 260px; overflow-y: auto; white-space: pre-wrap;
+    background: var(--panel); border-radius: 8px; padding: 14px 16px;
+    margin-bottom: 12px;
+  }
+  .story-body.empty { font-style: italic; color: var(--ink-faint); }
+  .story-actions-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .btn {
+    font-size: 12px; font-weight: 500;
+    padding: 7px 13px; border-radius: 7px; cursor: pointer;
+    border: 1px solid var(--rule-strong); background: var(--paper); color: var(--ink);
+    transition: background .12s, border-color .12s, color .12s;
+  }
+  .btn:hover { background: var(--panel); }
+  .btn-primary { border-color: var(--accent); color: var(--accent); }
+  .btn-primary:hover { background: var(--accent); color: #fff; }
+  .btn:disabled { color: var(--disabled); border-color: var(--rule); cursor: not-allowed; background: var(--paper); }
+  .btn-link {
+    font-size: 11px; color: var(--ink-faint); text-decoration: none;
+    padding: 7px 4px;
+  }
+  .btn-link:hover { color: var(--accent); }
+  .copy-feedback {
+    font-size: 11px; color: var(--live); font-weight: 600; opacity: 0;
+    transition: opacity .15s;
+  }
+  .copy-feedback.show { opacity: 1; }
+
+  .empty-state {
+    padding: 60px 20px; text-align: center; color: var(--ink-faint); font-size: 13px;
   }
 
-  /* ---------- Footer note ---------- */
   footer {
-    margin: 40px 0 24px; padding-top: 16px; border-top: 1px solid var(--rule);
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-    font-size: 11px; color: var(--ink-faint); line-height: 1.7;
+    margin: 44px 0 28px; padding-top: 16px; border-top: 1px solid var(--rule);
+    font-size: 11.5px; color: var(--ink-faint); line-height: 1.7;
   }
   footer .roadmap { margin-top: 6px; }
   footer .roadmap b { color: var(--ink-soft); }
 
   @media (max-width: 640px) {
-    .story { grid-template-columns: 1fr; gap: 8px; }
+    .story-row { grid-template-columns: 1fr; gap: 6px; }
     .story-time { padding-top: 0; }
-    .story-actions { flex-direction: row; align-items: center; }
     .masthead-meta { text-align: left; }
   }
-
-  @media (prefers-reduced-motion: reduce) {
-    * { transition: none !important; }
-  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 </head>
 <body>
@@ -248,7 +258,7 @@
     Retail Wire · Module 1 live: <b>LSE press releases</b>. Every story always links to its original source.
     <div class="roadmap">
       Upcoming modules (buttons already visible, disabled): <b>News</b> (UK media) ·
-      <b>Government</b> (ONS / GOV.UK) · <b>Companies</b> · <b>Suppliers</b> · <b>Bloomberg-style</b> drafting · weekly agenda.
+      <b>Government</b> (ONS / GOV.UK) · <b>Companies</b> · <b>Suppliers</b> · weekly agenda.
     </div>
   </footer>
 
@@ -256,8 +266,6 @@
 
 <script>
 // ---------- Stream configuration (tabs) ----------
-// enabled:false => button visible but disabled ("coming soon"),
-// switched on as we add each module.
 const STREAMS = [
   { key: "all",           label: "All",            enabled: true  },
   { key: "press_release", label: "Press releases", enabled: true  },
@@ -268,15 +276,10 @@ const STREAMS = [
 ];
 
 let DATA = { items: [], generated_at: null };
-let state = { stream: "all", window: "today", type: "", company: "", search: "", hideNoise: false };
+let state = { stream: "all", window: "today", type: "", company: "", search: "", hideNoise: false, expanded: new Set() };
 
-// Data sources to try, in order. The real scraper generates
-// dashboard_data.json; sample_data.json is the demo fallback.
 const DATA_SOURCES = ["dashboard_data.json", "sample_data.json"];
 
-// ---------- Data loading ----------
-// Tries dashboard_data.json first (real pipeline output), falls back
-// to sample_data.json so the dashboard always has something to render.
 async function loadData() {
   for (const src of DATA_SOURCES) {
     try {
@@ -344,6 +347,57 @@ function buildFilterOptions() {
   companies.forEach(c => compSel.insertAdjacentHTML("beforeend", `<option value="${c}">${c}</option>`));
 }
 
+// ---------- Bloomberg-method prompt builder ----------
+// This is copied to the clipboard, not sent anywhere — the dashboard has no
+// backend and never calls any AI directly. Paste it into a Claude
+// conversation to get the actual draft.
+function buildDraftPrompt(item) {
+  return `Write a news story about the press release below, following Bloomberg's four-paragraph lead method and Retail Week house style.
+
+BLOOMBERG METHOD:
+- Headline: max ~64 characters. Lead with the newsworthy name. First few words must hook the reader. Convey what's at stake.
+- Paragraph 1 (the lead/theme): what happened AND why it matters ("what... so what"). Under 20 words if possible. Only the single most newsworthy figure — no pile of numbers.
+- Paragraph 2 (details): the essential facts and figures that support the theme. Dose the data — don't dump every number, save the rest for later in the piece.
+- Paragraph 3 (quote): a plain-English quote from an authoritative source backing the theme. If none is available in the source material, note that a quote is needed rather than inventing one.
+- Paragraph 4 (nut graph): what's at stake going forward — winners/losers, outlook. This paragraph should NOT be something that could have been written yesterday; it must reflect today's news specifically.
+- Include a short "to be sure" section (1-2 paragraphs) presenting at least one other side of the story.
+
+RETAIL WEEK STYLE:
+- Terse, straightforward. No padding, no throat-clearing.
+- British English spelling and terminology throughout.
+- Present tense for immediate developments where natural.
+
+SOURCE MATERIAL
+Company: ${item.companyname || "—"} ${item.companycode ? "(" + item.companycode + ")" : ""}
+Headline: ${item.title}
+Date: ${item.datetime}
+Sector: ${item.icbsector || "—"}
+Source URL: ${item.url || "—"}
+
+Full press release text:
+"""
+${item.body || "(no body text captured for this item)"}
+"""
+
+Write the draft now.`;
+}
+
+async function copyToClipboard(text, feedbackEl) {
+  try {
+    await navigator.clipboard.writeText(text);
+  } catch (e) {
+    const ta = document.createElement("textarea");
+    ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); } catch (e2) { /* give up silently */ }
+    document.body.removeChild(ta);
+  }
+  if (feedbackEl) {
+    feedbackEl.classList.add("show");
+    setTimeout(() => feedbackEl.classList.remove("show"), 1400);
+  }
+}
+
 // ---------- Main render ----------
 function currentItems() {
   return DATA.items
@@ -365,47 +419,90 @@ function render() {
     state.window === "today" ? "Today" : "History";
 
   if (!items.length) {
-    box.innerHTML = `<div class="empty">No stories match these filters.</div>`;
+    box.innerHTML = `<div class="empty-state">No stories match these filters.</div>`;
     return;
   }
 
-  box.innerHTML = items.map(it => {
+  box.innerHTML = items.map((it, idx) => {
+    const uid = String(it.id ?? idx);
     const d = new Date(it.datetime);
     const time = d.toLocaleTimeString("en-GB", { hour:"2-digit", minute:"2-digit" });
     const date = d.toLocaleDateString("en-GB", { day:"2-digit", month:"short" });
     const isNew = new Date(it.datetime) >= todayWindowStart();
     const streamLabel = (STREAMS.find(s => s.key === it.stream) || {}).label || it.stream;
+    const isExpanded = state.expanded.has(uid);
 
     const flags = [
       `<span class="tag tag-stream">${streamLabel}</span>`,
       it.story_type ? `<span class="tag tag-type">${it.story_type}</span>` : "",
       it.paywall ? `<span class="tag tag-paywall">Paywall</span>` : "",
       (isNew && state.window === "history") ? `<span class="tag tag-new">New</span>` : "",
+      it.reviewed_by ? `<span class="tag tag-reviewed" title="${it.review_note ? it.review_note.replace(/"/g,'&quot;') : ''}">AI-reviewed</span>` : "",
     ].filter(Boolean).join("");
 
     const company = it.companyname
       ? `<span class="story-company">${it.companyname}${it.companycode ? ` · <span class="ticker">${it.companycode}</span>` : ""}${it.icbsector ? ` · ${it.icbsector}` : ""}</span>`
       : `<span class="story-company">${it.source || ""}</span>`;
 
-    const titleInner = it.url
-      ? `<a href="${it.url}" target="_blank" rel="noopener">${it.title}</a>`
-      : it.title;
+    const bodyHtml = it.body
+      ? `<div class="story-body">${escapeHtml(it.body)}</div>`
+      : `<div class="story-body empty">No full text captured for this item yet.</div>`;
 
     return `
-      <article class="story${it.is_noise ? " is-noise" : ""}">
-        <div class="story-time">${time}<span class="date">${date}</span></div>
-        <div class="story-main">
-          <div class="story-flags">${flags}</div>
-          <h2 class="story-title">${titleInner}</h2>
-          ${company}
+      <article class="story${it.is_noise ? " is-noise" : ""}${isExpanded ? " expanded" : ""}" data-uid="${uid}">
+        <div class="story-row" data-toggle="${uid}">
+          <div class="story-time">${time}<span class="date">${date}</span></div>
+          <div class="story-main">
+            <div class="story-flags">${flags}</div>
+            <h2 class="story-title">${it.title}</h2>
+            ${company}
+          </div>
+          <div class="story-chevron">›</div>
         </div>
-        <div class="story-actions">
-          <button class="btn-draft" title="Bloomberg-style draft (coming soon)" disabled
-                  style="opacity:.4;cursor:not-allowed;border-color:var(--disabled);color:var(--disabled)">Draft</button>
-          ${it.url ? `<a class="btn-source" href="${it.url}" target="_blank" rel="noopener">Source ↗</a>` : ""}
+        <div class="story-panel">
+          ${bodyHtml}
+          <div class="story-actions-row">
+            <button class="btn" data-copy="${uid}">Copy text</button>
+            <button class="btn btn-primary" data-draft="${uid}" ${it.body ? "" : "disabled"}>Copy Bloomberg draft prompt</button>
+            ${it.url ? `<a class="btn-link" href="${it.url}" target="_blank" rel="noopener">Source ↗</a>` : ""}
+            <span class="copy-feedback" data-feedback="${uid}">Copied</span>
+          </div>
         </div>
       </article>`;
   }).join("");
+
+  // Wire up per-story events (row toggle + copy buttons)
+  box.querySelectorAll("[data-toggle]").forEach(row => {
+    row.addEventListener("click", () => {
+      const uid = row.dataset.toggle;
+      if (state.expanded.has(uid)) state.expanded.delete(uid); else state.expanded.add(uid);
+      render();
+    });
+  });
+  box.querySelectorAll("[data-copy]").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const uid = btn.dataset.copy;
+      const item = items.find((it, idx) => String(it.id ?? idx) === uid);
+      const fb = box.querySelector(`[data-feedback="${uid}"]`);
+      copyToClipboard(item.body || "", fb);
+    });
+  });
+  box.querySelectorAll("[data-draft]").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const uid = btn.dataset.draft;
+      const item = items.find((it, idx) => String(it.id ?? idx) === uid);
+      const fb = box.querySelector(`[data-feedback="${uid}"]`);
+      copyToClipboard(buildDraftPrompt(item), fb);
+    });
+  });
+}
+
+function escapeHtml(str) {
+  const div = document.createElement("div");
+  div.textContent = str;
+  return div.innerHTML;
 }
 
 // ---------- Events ----------

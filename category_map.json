@@ -1,0 +1,16 @@
+{
+  "POS": ["Buyback", true],
+  "HOL": ["Holding", true],
+  "DSH": ["Director Dealing", false],
+  "NOR": ["Notice of Results", false],
+  "FR":  ["Results", false],
+  "IR":  ["Results", false],
+  "TST": ["Trading Update", false],
+  "ACQ": ["M&A", false],
+  "DIS": ["M&A", false],
+  "AGM": ["AGM", true],
+  "TVR": ["Voting Rights", true],
+  "DIV": ["Dividend", false],
+  "BOA": ["Board Change", false],
+  "IOE": ["Equity Issue", false]
+}
