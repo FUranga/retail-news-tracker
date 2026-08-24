@@ -471,7 +471,7 @@ function render() {
           ${bodyHtml}
           <div class="story-actions-row">
             <button class="btn" data-copy="${uid}">Copy text</button>
-            <button class="btn btn-primary" data-draft="${uid}" ${it.body ? "" : "disabled"}>Copy Bloomberg draft prompt</button>
+            <button class="btn btn-primary" data-draft="${uid}" ${it.body ? "" : "disabled"} title="Copy draft prompt to clipboard">Draft</button>
             ${it.url ? `<a class="btn-link" href="${it.url}" target="_blank" rel="noopener">Source ↗</a>` : ""}
             <span class="copy-feedback" data-feedback="${uid}">Copied</span>
           </div>
