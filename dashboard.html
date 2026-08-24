@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Retail Wire — UK retail news tracker</title>
+<style>
+  /* ---------- Design tokens ---------- */
+  :root {
+    --paper: #fbfaf7;
+    --ink: #1a1917;
+    --ink-soft: #55524c;
+    --ink-faint: #8f8b83;
+    --rule: #e4e0d8;
+    --rule-strong: #c9c4b8;
+    --accent: #123a5e;      /* deep press blue */
+    --accent-soft: #eef2f6;
+    --flag: #a03725;        /* embargo/paywall red-brick */
+    --flag-soft: #f6ece9;
+    --live: #2f6b3f;        /* "new today" green */
+    --live-soft: #ebf2 ed;
+    --disabled: #b8b4ab;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+
+  /* ---------- Masthead ---------- */
+  header.masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 22px 0 14px;
+    margin-bottom: 0;
+  }
+  .masthead-top {
+    display: flex; align-items: baseline; justify-content: space-between;
+    flex-wrap: wrap; gap: 8px;
+  }
+  .logo {
+    font-weight: 700; font-size: 30px; letter-spacing: -0.5px;
+    font-variant: small-caps;
+  }
+  .logo .dot { color: var(--accent); }
+  .masthead-meta {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 11px; color: var(--ink-faint);
+    text-transform: uppercase; letter-spacing: 0.08em;
+    text-align: right; line-height: 1.6;
+  }
+  .masthead-meta strong { color: var(--ink-soft); font-weight: 600; }
+
+  /* ---------- Stream tabs (All / News / ...) ---------- */
+  nav.streams {
+    display: flex; gap: 0; flex-wrap: wrap;
+    border-bottom: 1px solid var(--rule-strong);
+    margin-bottom: 18px;
+  }
+  .stream-tab {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em;
+    padding: 12px 18px 10px; border: none; background: none;
+    color: var(--ink-soft); cursor: pointer;
+    border-bottom: 2px solid transparent; margin-bottom: -1px;
+    transition: color .15s, border-color .15s;
+  }
+  .stream-tab:hover:not(:disabled) { color: var(--ink); }
+  .stream-tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+  .stream-tab:disabled { color: var(--disabled); cursor: not-allowed; }
+  .stream-tab .soon {
+    display: inline-block; font-size: 8.5px; vertical-align: super;
+    margin-left: 3px; letter-spacing: 0.04em;
+  }
+  .stream-tab .count {
+    display: inline-block; margin-left: 6px; padding: 1px 6px;
+    background: var(--accent-soft); color: var(--accent);
+    border-radius: 8px; font-size: 10px; font-weight: 600;
+  }
+  .stream-tab.active .count { background: var(--accent); color: #fff; }
+
+  /* ---------- Control bar ---------- */
+  .controls {
+    display: flex; gap: 14px; align-items: center; flex-wrap: wrap;
+    padding: 4px 0 16px;
+  }
+  .seg {
+    display: inline-flex; border: 1px solid var(--rule-strong); border-radius: 6px;
+    overflow: hidden;
+  }
+  .seg button {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em;
+    padding: 7px 14px; border: none; background: var(--paper);
+    color: var(--ink-soft); cursor: pointer; transition: background .12s, color .12s;
+  }
+  .seg button + button { border-left: 1px solid var(--rule-strong); }
+  .seg button.active { background: var(--accent); color: #fff; }
+
+  .filter-group { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  select, .search-box {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12px; padding: 7px 10px; border: 1px solid var(--rule-strong);
+    border-radius: 6px; background: var(--paper); color: var(--ink);
+  }
+  select:focus, .search-box:focus { outline: 2px solid var(--accent-soft); border-color: var(--accent); }
+  .search-box { min-width: 180px; }
+
+  .noise-toggle {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 11px; color: var(--ink-soft); text-transform: uppercase;
+    letter-spacing: 0.04em; display: inline-flex; align-items: center;
+    gap: 6px; cursor: pointer; user-select: none;
+  }
+  .noise-toggle input { cursor: pointer; accent-color: var(--accent); }
+
+  .story.is-noise .story-title { color: var(--ink-soft); font-weight: 500; }
+  .story.is-noise .story-title a { color: var(--ink-soft); }
+
+  .spacer { flex: 1; }
+  .result-count {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 11px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.06em;
+  }
+
+  /* ---------- Story list ---------- */
+  .stories { border-top: 1px solid var(--rule); }
+  .story {
+    display: grid;
+    grid-template-columns: 78px 1fr auto;
+    gap: 18px; align-items: start;
+    padding: 16px 4px; border-bottom: 1px solid var(--rule);
+    transition: background .1s;
+  }
+  .story:hover { background: #f5f2ec; }
+  .story-time {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12px; color: var(--ink-faint); padding-top: 3px; line-height: 1.4;
+  }
+  .story-time .date { display: block; font-size: 10px; color: var(--ink-faint); }
+  .story-main { min-width: 0; }
+  .story-flags { display: flex; gap: 7px; align-items: center; margin-bottom: 5px; flex-wrap: wrap; }
+  .tag {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em;
+    padding: 2px 7px; border-radius: 4px; font-weight: 600;
+  }
+  .tag-stream { background: var(--accent-soft); color: var(--accent); }
+  .tag-type { background: #efece5; color: var(--ink-soft); }
+  .tag-paywall { background: var(--flag-soft); color: var(--flag); }
+  .tag-new { background: #e9f1ec; color: var(--live); }
+  .story-title {
+    font-size: 19px; line-height: 1.32; font-weight: 600; letter-spacing: -0.1px;
+    margin-bottom: 4px;
+  }
+  .story-title a { color: var(--ink); text-decoration: none; }
+  .story-title a:hover { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  .story-company {
+    font-size: 13px; color: var(--ink-soft);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  .story-company .ticker { color: var(--accent); font-weight: 600; }
+  .story-actions { display: flex; flex-direction: column; gap: 6px; align-items: flex-end; }
+  .btn-draft {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em;
+    padding: 6px 12px; border: 1px solid var(--accent); border-radius: 6px;
+    background: var(--paper); color: var(--accent); cursor: pointer;
+    white-space: nowrap; transition: background .12s, color .12s;
+  }
+  .btn-draft:hover { background: var(--accent); color: #fff; }
+  .btn-source {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--ink-faint); text-decoration: none; white-space: nowrap;
+  }
+  .btn-source:hover { color: var(--accent); }
+
+  .empty {
+    padding: 60px 20px; text-align: center; color: var(--ink-faint);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 13px;
+  }
+
+  /* ---------- Footer note ---------- */
+  footer {
+    margin: 40px 0 24px; padding-top: 16px; border-top: 1px solid var(--rule);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 11px; color: var(--ink-faint); line-height: 1.7;
+  }
+  footer .roadmap { margin-top: 6px; }
+  footer .roadmap b { color: var(--ink-soft); }
+
+  @media (max-width: 640px) {
+    .story { grid-template-columns: 1fr; gap: 8px; }
+    .story-time { padding-top: 0; }
+    .story-actions { flex-direction: row; align-items: center; }
+    .masthead-meta { text-align: left; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="masthead-top">
+      <div class="logo">Retail Wire<span class="dot">.</span></div>
+      <div class="masthead-meta">
+        <div>UK retail news tracker</div>
+        <div><strong id="meta-window">Today</strong> · updated <strong id="meta-updated">—</strong></div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="streams" id="streams"></nav>
+
+  <div class="controls">
+    <div class="seg" id="window-seg">
+      <button data-window="today" class="active">Today</button>
+      <button data-window="history">History</button>
+    </div>
+    <div class="filter-group">
+      <select id="filter-type"><option value="">Story type · all</option></select>
+      <select id="filter-company"><option value="">Company · all</option></select>
+      <input type="text" class="search-box" id="search" placeholder="Search headlines…">
+      <label class="noise-toggle" id="noise-toggle-label">
+        <input type="checkbox" id="noise-toggle"> Hide regulatory noise
+      </label>
+    </div>
+    <div class="spacer"></div>
+    <div class="result-count" id="result-count">—</div>
+  </div>
+
+  <div class="stories" id="stories"></div>
+
+  <footer>
+    Retail Wire · Module 1 live: <b>LSE press releases</b>. Every story always links to its original source.
+    <div class="roadmap">
+      Upcoming modules (buttons already visible, disabled): <b>News</b> (UK media) ·
+      <b>Government</b> (ONS / GOV.UK) · <b>Companies</b> · <b>Suppliers</b> · <b>Bloomberg-style</b> drafting · weekly agenda.
+    </div>
+  </footer>
+
+</div>
+
+<script>
+// ---------- Stream configuration (tabs) ----------
+// enabled:false => button visible but disabled ("coming soon"),
+// switched on as we add each module.
+const STREAMS = [
+  { key: "all",           label: "All",            enabled: true  },
+  { key: "press_release", label: "Press releases", enabled: true  },
+  { key: "news",          label: "News",           enabled: false },
+  { key: "government",    label: "Government",     enabled: false },
+  { key: "company",       label: "Companies",      enabled: false },
+  { key: "supplier",      label: "Suppliers",      enabled: false },
+];
+
+let DATA = { items: [], generated_at: null };
+let state = { stream: "all", window: "today", type: "", company: "", search: "", hideNoise: false };
+
+// Data sources to try, in order. The real scraper generates
+// dashboard_data.json; sample_data.json is the demo fallback.
+const DATA_SOURCES = ["dashboard_data.json", "sample_data.json"];
+
+// ---------- Data loading ----------
+// Tries dashboard_data.json first (real pipeline output), falls back
+// to sample_data.json so the dashboard always has something to render.
+async function loadData() {
+  for (const src of DATA_SOURCES) {
+    try {
+      const res = await fetch(src);
+      if (!res.ok) continue;
+      DATA = await res.json();
+      break;
+    } catch (e) { /* try next source */ }
+  }
+  renderMeta();
+  renderStreams();
+  buildFilterOptions();
+  render();
+}
+
+function renderMeta() {
+  const upd = DATA.generated_at ? new Date(DATA.generated_at) : null;
+  document.getElementById("meta-updated").textContent = upd
+    ? upd.toLocaleString("en-GB", { day:"2-digit", month:"short", hour:"2-digit", minute:"2-digit" })
+    : "—";
+}
+
+// "Today" = editorial window: from yesterday 16:00 onward (spans two calendar days).
+function todayWindowStart() {
+  const now = new Date();
+  const start = new Date(now);
+  start.setDate(now.getDate() - 1);
+  start.setHours(16, 0, 0, 0);
+  return start;
+}
+
+function inWindow(item) {
+  if (state.window === "history") return true;
+  return new Date(item.datetime) >= todayWindowStart();
+}
+
+// ---------- Streams ----------
+function renderStreams() {
+  const nav = document.getElementById("streams");
+  nav.innerHTML = "";
+  STREAMS.forEach(s => {
+    const btn = document.createElement("button");
+    btn.className = "stream-tab" + (state.stream === s.key ? " active" : "");
+    btn.disabled = !s.enabled;
+    const count = s.enabled ? countForStream(s.key) : 0;
+    btn.innerHTML = s.label
+      + (s.enabled && count ? `<span class="count">${count}</span>` : "")
+      + (s.enabled ? "" : `<span class="soon">soon</span>`);
+    if (s.enabled) btn.onclick = () => { state.stream = s.key; renderStreams(); render(); };
+    nav.appendChild(btn);
+  });
+}
+
+function countForStream(key) {
+  return DATA.items.filter(it => inWindow(it) && (key === "all" || it.stream === key)).length;
+}
+
+// ---------- Filters ----------
+function buildFilterOptions() {
+  const types = [...new Set(DATA.items.map(i => i.story_type).filter(Boolean))].sort();
+  const companies = [...new Set(DATA.items.map(i => i.companyname).filter(Boolean))].sort();
+  const typeSel = document.getElementById("filter-type");
+  const compSel = document.getElementById("filter-company");
+  types.forEach(t => typeSel.insertAdjacentHTML("beforeend", `<option value="${t}">${t}</option>`));
+  companies.forEach(c => compSel.insertAdjacentHTML("beforeend", `<option value="${c}">${c}</option>`));
+}
+
+// ---------- Main render ----------
+function currentItems() {
+  return DATA.items
+    .filter(inWindow)
+    .filter(it => state.stream === "all" || it.stream === state.stream)
+    .filter(it => !state.type || it.story_type === state.type)
+    .filter(it => !state.company || it.companyname === state.company)
+    .filter(it => !state.search || it.title.toLowerCase().includes(state.search.toLowerCase()))
+    .filter(it => !state.hideNoise || !it.is_noise)
+    .sort((a,b) => new Date(b.datetime) - new Date(a.datetime));
+}
+
+function render() {
+  const items = currentItems();
+  const box = document.getElementById("stories");
+  document.getElementById("result-count").textContent =
+    `${items.length} ${items.length === 1 ? "story" : "stories"}`;
+  document.getElementById("meta-window").textContent =
+    state.window === "today" ? "Today" : "History";
+
+  if (!items.length) {
+    box.innerHTML = `<div class="empty">No stories match these filters.</div>`;
+    return;
+  }
+
+  box.innerHTML = items.map(it => {
+    const d = new Date(it.datetime);
+    const time = d.toLocaleTimeString("en-GB", { hour:"2-digit", minute:"2-digit" });
+    const date = d.toLocaleDateString("en-GB", { day:"2-digit", month:"short" });
+    const isNew = new Date(it.datetime) >= todayWindowStart();
+    const streamLabel = (STREAMS.find(s => s.key === it.stream) || {}).label || it.stream;
+
+    const flags = [
+      `<span class="tag tag-stream">${streamLabel}</span>`,
+      it.story_type ? `<span class="tag tag-type">${it.story_type}</span>` : "",
+      it.paywall ? `<span class="tag tag-paywall">Paywall</span>` : "",
+      (isNew && state.window === "history") ? `<span class="tag tag-new">New</span>` : "",
+    ].filter(Boolean).join("");
+
+    const company = it.companyname
+      ? `<span class="story-company">${it.companyname}${it.companycode ? ` · <span class="ticker">${it.companycode}</span>` : ""}${it.icbsector ? ` · ${it.icbsector}` : ""}</span>`
+      : `<span class="story-company">${it.source || ""}</span>`;
+
+    const titleInner = it.url
+      ? `<a href="${it.url}" target="_blank" rel="noopener">${it.title}</a>`
+      : it.title;
+
+    return `
+      <article class="story${it.is_noise ? " is-noise" : ""}">
+        <div class="story-time">${time}<span class="date">${date}</span></div>
+        <div class="story-main">
+          <div class="story-flags">${flags}</div>
+          <h2 class="story-title">${titleInner}</h2>
+          ${company}
+        </div>
+        <div class="story-actions">
+          <button class="btn-draft" title="Bloomberg-style draft (coming soon)" disabled
+                  style="opacity:.4;cursor:not-allowed;border-color:var(--disabled);color:var(--disabled)">Draft</button>
+          ${it.url ? `<a class="btn-source" href="${it.url}" target="_blank" rel="noopener">Source ↗</a>` : ""}
+        </div>
+      </article>`;
+  }).join("");
+}
+
+// ---------- Events ----------
+document.getElementById("window-seg").addEventListener("click", e => {
+  if (e.target.tagName !== "BUTTON") return;
+  document.querySelectorAll("#window-seg button").forEach(b => b.classList.remove("active"));
+  e.target.classList.add("active");
+  state.window = e.target.dataset.window;
+  renderStreams(); render();
+});
+document.getElementById("filter-type").addEventListener("change", e => { state.type = e.target.value; render(); });
+document.getElementById("filter-company").addEventListener("change", e => { state.company = e.target.value; render(); });
+document.getElementById("search").addEventListener("input", e => { state.search = e.target.value; render(); });
+document.getElementById("noise-toggle").addEventListener("change", e => { state.hideNoise = e.target.checked; render(); });
+
+loadData();
+</script>
+</body>
+</html>
