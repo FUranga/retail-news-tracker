@@ -28,7 +28,7 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependencias
-        run: pip install requests pandas
+        run: pip install requests pandas markdownify
 
       - name: Correr scraper LSE
         run: python lse_scraper.py
@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "lse-scraper-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/raw/*.csv lse_latest.csv dashboard_data.json
+          git add data/raw/*.csv dashboard_data.json unmapped_categories.json
           git diff --staged --quiet && echo "Sin cambios, nada que commitear" && exit 0
           git commit -m "Actualización automática LSE $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
