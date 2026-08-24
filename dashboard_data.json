@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-08-24T15:51:50",
+  "generated_at": "2026-08-24T16:15:29",
   "items": [
+    {
+      "id": 17753919,
+      "datetime": "2026-08-24 16:00:00",
+      "title": "Holding(s) in Company",
+      "companyname": "ASOS PLC",
+      "companycode": "ASC",
+      "category": "HOL",
+      "icbsector": "Retailers ",
+      "source": "LSE",
+      "stream": "press_release",
+      "story_type": "Holding",
+      "is_noise": true,
+      "paywall": false,
+      "url": "https://www.londonstockexchange.com/news-article/ASC/holdings-in-company/17753919"
+    },
+    {
+      "id": 17753915,
+      "datetime": "2026-08-24 15:55:18",
+      "title": "Holding(s) in Company",
+      "companyname": "Headlam Group PLC",
+      "companycode": "HEAD",
+      "category": "HOL",
+      "icbsector": "Retailers ",
+      "source": "LSE",
+      "stream": "press_release",
+      "story_type": "Holding",
+      "is_noise": true,
+      "paywall": false,
+      "url": "https://www.londonstockexchange.com/news-article/HEAD/holdings-in-company/17753915"
+    },
     {
       "id": 17753781,
       "datetime": "2026-08-24 14:10:34",
