@@ -1,0 +1,204 @@
+{
+  "_note": "Config del Módulo 2 — escaneo de medios UK. Agregar/quitar fuentes sin tocar código. method = rss | scrape | api. paywall = true si el contenido completo está detrás de paywall.",
+
+  "sources": [
+    {
+      "id": "retail_gazette",
+      "name": "Retail Gazette",
+      "url": "https://www.retailgazette.co.uk",
+      "rss": "https://www.retailgazette.co.uk/feed",
+      "method": "rss",
+      "paywall": false,
+      "category": "trade"
+    },
+    {
+      "id": "grocery_gazette",
+      "name": "Grocery Gazette",
+      "url": "https://www.grocerygazette.co.uk",
+      "rss": "https://www.grocerygazette.co.uk/feed",
+      "method": "rss",
+      "paywall": false,
+      "category": "trade"
+    },
+    {
+      "id": "drapers",
+      "name": "Drapers",
+      "url": "https://www.drapersonline.com",
+      "rss": "https://www.drapersonline.com/rss",
+      "method": "rss",
+      "paywall": true,
+      "category": "trade"
+    },
+    {
+      "id": "the_grocer",
+      "name": "The Grocer",
+      "url": "https://www.thegrocer.co.uk",
+      "rss": "https://www.thegrocer.co.uk/rss",
+      "method": "rss",
+      "paywall": true,
+      "category": "trade"
+    },
+    {
+      "id": "retail_week",
+      "name": "Retail Week",
+      "url": "https://www.retail-week.com",
+      "rss": "https://www.retail-week.com/rss",
+      "method": "rss",
+      "paywall": true,
+      "category": "trade",
+      "note": "RSS may be limited — verify"
+    },
+    {
+      "id": "just_food",
+      "name": "Just Food",
+      "url": "https://www.just-food.com",
+      "rss": "https://www.just-food.com/rss",
+      "method": "rss",
+      "paywall": true,
+      "category": "trade"
+    },
+    {
+      "id": "bbc_business",
+      "name": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/business",
+      "rss": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "method": "rss",
+      "paywall": false,
+      "category": "general"
+    },
+    {
+      "id": "guardian_retail",
+      "name": "The Guardian — Retail",
+      "url": "https://www.theguardian.com/business/retail",
+      "rss": "https://www.theguardian.com/business/retail/rss",
+      "method": "rss",
+      "paywall": false,
+      "category": "general"
+    },
+    {
+      "id": "guardian_business",
+      "name": "The Guardian — Business",
+      "url": "https://www.theguardian.com/uk/business",
+      "rss": "https://www.theguardian.com/uk/business/rss",
+      "method": "rss",
+      "paywall": false,
+      "category": "general"
+    },
+    {
+      "id": "city_am",
+      "name": "City A.M.",
+      "url": "https://www.cityam.com",
+      "rss": "https://www.cityam.com/feed",
+      "method": "rss",
+      "paywall": false,
+      "category": "general"
+    },
+    {
+      "id": "sky_business",
+      "name": "Sky News — Business",
+      "url": "https://news.sky.com/business",
+      "rss": "https://feeds.skynews.com/feeds/rss/business.xml",
+      "method": "rss",
+      "paywall": false,
+      "category": "general"
+    },
+    {
+      "id": "reuters_uk",
+      "name": "Reuters UK",
+      "url": "https://www.reuters.com/world/uk",
+      "rss": "https://feeds.reuters.com/reuters/UKBusinessNews",
+      "method": "rss",
+      "paywall": false,
+      "category": "general",
+      "note": "RSS endpoint may have changed — verify"
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "url": "https://www.ft.com",
+      "rss": "https://www.ft.com/rss/home/uk",
+      "method": "rss",
+      "paywall": true,
+      "category": "general",
+      "note": "Hard paywall — capture headline and summary only"
+    },
+    {
+      "id": "the_times",
+      "name": "The Times",
+      "url": "https://www.thetimes.co.uk",
+      "rss": "https://www.thetimes.co.uk/feed",
+      "method": "rss",
+      "paywall": true,
+      "category": "general"
+    },
+    {
+      "id": "the_telegraph",
+      "name": "The Telegraph",
+      "url": "https://www.telegraph.co.uk",
+      "rss": "https://www.telegraph.co.uk/rss.xml",
+      "method": "rss",
+      "paywall": true,
+      "category": "general"
+    },
+    {
+      "id": "property_week",
+      "name": "Property Week",
+      "url": "https://www.propertyweek.com",
+      "rss": "https://www.propertyweek.com/rss",
+      "method": "rss",
+      "paywall": true,
+      "category": "property"
+    },
+    {
+      "id": "costar_uk",
+      "name": "CoStar UK",
+      "url": "https://www.costar.com/articles/UK",
+      "rss": null,
+      "method": "scrape",
+      "paywall": true,
+      "category": "property",
+      "note": "No RSS — scraping required, verify feasibility"
+    },
+    {
+      "id": "retail_times",
+      "name": "Retail Times",
+      "url": "https://www.retailtimes.co.uk",
+      "rss": "https://www.retailtimes.co.uk/feed",
+      "method": "rss",
+      "paywall": false,
+      "category": "trade"
+    },
+    {
+      "id": "retail_sector",
+      "name": "Retail Sector",
+      "url": "https://www.retailsector.co.uk",
+      "rss": "https://www.retailsector.co.uk/feed",
+      "method": "rss",
+      "paywall": false,
+      "category": "trade"
+    },
+    {
+      "id": "the_retail_bulletin",
+      "name": "The Retail Bulletin",
+      "url": "https://www.theretailbulletin.com",
+      "rss": "https://www.theretailbulletin.com/rss",
+      "method": "rss",
+      "paywall": false,
+      "category": "trade"
+    }
+  ],
+
+  "schedule": {
+    "runs": ["06:30", "07:05", "11:00", "14:00", "16:00"],
+    "timezone": "Europe/London",
+    "window_hours": "since last run",
+    "today_window_start": "yesterday 16:00"
+  },
+
+  "filtering": {
+    "retailers_file": "retailers.json",
+    "min_tier": 2,
+    "use_keywords": true,
+    "note": "Article is relevant if it mentions any retailer up to min_tier OR contains any keyword. Tier 1 = always include."
+  }
+}
