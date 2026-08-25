@@ -5,7 +5,7 @@
     "tab_id": "58734a12-d97c-40cb-8047-df76e660f23f"
   },
   "filters": {
-    "sectors": ["404010", "452010"]
+    "sectors": ["404010", "452010", "402040"]
   },
   "company_overrides": {
     "include": [],
