@@ -1,0 +1,1084 @@
+{
+  "_note": "Retailers UK para filtrado de noticias. Tier 1 = imprescindibles, Tier 2 = importantes, Tier 3 = seguimiento. listed = FTSE100/FTSE250/AIM/LSE/NYSE/NASDAQ/private. parent = empresa madre si es subsidiaria.",
+  "tier1": [
+    {
+      "name": "Tesco",
+      "ticker": "TSCO",
+      "listed": "FTSE100",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Sainsbury's",
+      "ticker": "SBRY",
+      "listed": "FTSE100",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Marks & Spencer",
+      "ticker": "MKS",
+      "listed": "FTSE100",
+      "exchange": "LSE"
+    },
+    {
+      "name": "M&S",
+      "ticker": "MKS",
+      "listed": "FTSE100",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Next",
+      "ticker": "NXT",
+      "listed": "FTSE100",
+      "exchange": "LSE"
+    },
+    {
+      "name": "JD Sports",
+      "ticker": "JD.",
+      "listed": "FTSE100",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Kingfisher",
+      "ticker": "KGF",
+      "listed": "FTSE100",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Burberry",
+      "ticker": "BRBY",
+      "listed": "FTSE100",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Associated British Foods",
+      "ticker": "ABF",
+      "listed": "FTSE100",
+      "exchange": "LSE",
+      "note": "owner of Primark"
+    },
+    {
+      "name": "Primark",
+      "listed": "private",
+      "parent": "Associated British Foods",
+      "parent_ticker": "ABF"
+    },
+    {
+      "name": "Ocado",
+      "ticker": "OCDO",
+      "listed": "FTSE100",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Frasers Group",
+      "ticker": "FRAS",
+      "listed": "FTSE250",
+      "exchange": "LSE",
+      "note": "Sports Direct, Flannels, House of Fraser"
+    },
+    {
+      "name": "Sports Direct",
+      "listed": "private",
+      "parent": "Frasers Group",
+      "parent_ticker": "FRAS"
+    },
+    {
+      "name": "B&M",
+      "ticker": "BME",
+      "listed": "FTSE100",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Asda",
+      "listed": "private",
+      "note": "owned by Issa brothers / TDR Capital"
+    },
+    {
+      "name": "Morrisons",
+      "listed": "private",
+      "note": "owned by Clayton Dubilier & Rice"
+    },
+    {
+      "name": "Aldi UK",
+      "listed": "private",
+      "note": "German private company"
+    },
+    {
+      "name": "Lidl GB",
+      "listed": "private",
+      "note": "German private company"
+    },
+    {
+      "name": "Iceland",
+      "listed": "private"
+    },
+    {
+      "name": "Co-op",
+      "listed": "private",
+      "note": "cooperative"
+    },
+    {
+      "name": "John Lewis",
+      "listed": "private",
+      "note": "employee-owned partnership"
+    },
+    {
+      "name": "Waitrose",
+      "listed": "private",
+      "parent": "John Lewis Partnership"
+    },
+    {
+      "name": "Boots",
+      "listed": "private",
+      "parent": "Walgreens Boots Alliance",
+      "parent_ticker": "WBA",
+      "note": "parent on NASDAQ"
+    },
+    {
+      "name": "Currys",
+      "ticker": "CURY",
+      "listed": "FTSE250",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Argos",
+      "listed": "private",
+      "parent": "Sainsbury's",
+      "parent_ticker": "SBRY"
+    },
+    {
+      "name": "Halfords",
+      "ticker": "HFD",
+      "listed": "FTSE250",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Dunelm",
+      "ticker": "DNLM",
+      "listed": "FTSE250",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Pets at Home",
+      "ticker": "PETS",
+      "listed": "FTSE250",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Card Factory",
+      "ticker": "CARD",
+      "listed": "FTSE250",
+      "exchange": "LSE"
+    },
+    {
+      "name": "WH Smith",
+      "ticker": "SMWH",
+      "listed": "FTSE250",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Superdrug",
+      "listed": "private",
+      "parent": "AS Watson / CK Hutchison"
+    },
+    {
+      "name": "Holland & Barrett",
+      "listed": "private"
+    },
+    {
+      "name": "TK Maxx",
+      "listed": "private",
+      "parent": "TJX Companies",
+      "parent_ticker": "TJX",
+      "note": "parent on NYSE"
+    },
+    {
+      "name": "Home Bargains",
+      "listed": "private",
+      "note": "TJ Morris Ltd"
+    },
+    {
+      "name": "Poundland",
+      "listed": "private",
+      "parent": "Pepco Group",
+      "note": "Pepco on Warsaw SE"
+    },
+    {
+      "name": "ASOS",
+      "ticker": "ASC",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Boohoo",
+      "ticker": "BOO",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Amazon UK",
+      "listed": "private",
+      "parent": "Amazon",
+      "parent_ticker": "AMZN",
+      "note": "parent on NASDAQ"
+    },
+    {
+      "name": "Debenhams",
+      "listed": "private",
+      "note": "closed 2021, brand online via Boohoo",
+      "parent": "Boohoo",
+      "parent_ticker": "BOO"
+    },
+    {
+      "name": "Temu UK",
+      "listed": "private",
+      "parent": "PDD Holdings",
+      "note": "parent on NASDAQ"
+    }
+  ],
+  "tier2": [
+    {
+      "name": "River Island",
+      "listed": "private"
+    },
+    {
+      "name": "New Look",
+      "listed": "private"
+    },
+    {
+      "name": "Monsoon Accessorize",
+      "listed": "private"
+    },
+    {
+      "name": "H&M UK",
+      "listed": "private",
+      "parent": "H&M Group",
+      "note": "parent on Stockholm SE"
+    },
+    {
+      "name": "Zara UK",
+      "listed": "private",
+      "parent": "Inditex",
+      "note": "parent on Madrid SE"
+    },
+    {
+      "name": "Uniqlo UK",
+      "listed": "private",
+      "parent": "Fast Retailing",
+      "note": "parent on Tokyo SE"
+    },
+    {
+      "name": "Gap UK",
+      "listed": "private",
+      "parent": "Gap Inc",
+      "parent_ticker": "GAP",
+      "note": "parent on NYSE"
+    },
+    {
+      "name": "PrettyLittleThing",
+      "listed": "private",
+      "parent": "Boohoo",
+      "parent_ticker": "BOO"
+    },
+    {
+      "name": "Very",
+      "listed": "private",
+      "parent": "The Very Group"
+    },
+    {
+      "name": "The Hut Group",
+      "ticker": "THG",
+      "listed": "LSE",
+      "exchange": "LSE"
+    },
+    {
+      "name": "THG",
+      "ticker": "THG",
+      "listed": "LSE",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Dr. Martens",
+      "ticker": "DOCS",
+      "listed": "FTSE250",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Mulberry",
+      "ticker": "MUL",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Ted Baker",
+      "listed": "private",
+      "note": "acquired by Authentic Brands Group 2023"
+    },
+    {
+      "name": "Joules",
+      "listed": "private",
+      "parent": "Next",
+      "parent_ticker": "NXT"
+    },
+    {
+      "name": "Fat Face",
+      "listed": "private",
+      "parent": "Next",
+      "parent_ticker": "NXT"
+    },
+    {
+      "name": "Reiss",
+      "listed": "private",
+      "parent": "Next",
+      "parent_ticker": "NXT"
+    },
+    {
+      "name": "White Stuff",
+      "listed": "private"
+    },
+    {
+      "name": "Seasalt",
+      "listed": "private"
+    },
+    {
+      "name": "Hobbycraft",
+      "listed": "private"
+    },
+    {
+      "name": "The Works",
+      "ticker": "WRKS",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Waterstones",
+      "listed": "private",
+      "parent": "Elliott Advisors"
+    },
+    {
+      "name": "B&Q",
+      "listed": "private",
+      "parent": "Kingfisher",
+      "parent_ticker": "KGF"
+    },
+    {
+      "name": "Screwfix",
+      "listed": "private",
+      "parent": "Kingfisher",
+      "parent_ticker": "KGF"
+    },
+    {
+      "name": "Toolstation",
+      "listed": "private",
+      "parent": "Travis Perkins",
+      "ticker": "TPK"
+    },
+    {
+      "name": "Wickes",
+      "ticker": "WIX",
+      "listed": "LSE",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Homebase",
+      "listed": "private"
+    },
+    {
+      "name": "Matalan",
+      "listed": "private"
+    },
+    {
+      "name": "Spar UK",
+      "listed": "private"
+    },
+    {
+      "name": "Wilko",
+      "listed": "private",
+      "note": "entered administration 2023, brand sold to The Range"
+    },
+    {
+      "name": "Shoe Zone",
+      "ticker": "SHOE",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Clarks",
+      "listed": "private"
+    },
+    {
+      "name": "Office Shoes",
+      "listed": "private"
+    },
+    {
+      "name": "Schuh",
+      "listed": "private",
+      "parent": "Genesco"
+    },
+    {
+      "name": "USC",
+      "listed": "private",
+      "parent": "Frasers Group",
+      "parent_ticker": "FRAS"
+    },
+    {
+      "name": "Flannels",
+      "listed": "private",
+      "parent": "Frasers Group",
+      "parent_ticker": "FRAS"
+    },
+    {
+      "name": "Warpaint London",
+      "ticker": "W7L",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Revolution Beauty",
+      "ticker": "REVB",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Sephora UK",
+      "listed": "private",
+      "parent": "LVMH"
+    },
+    {
+      "name": "Space NK",
+      "listed": "private"
+    },
+    {
+      "name": "AO.com",
+      "ticker": "AO.",
+      "listed": "LSE",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Wayfair UK",
+      "listed": "private",
+      "parent": "Wayfair",
+      "parent_ticker": "W",
+      "note": "parent on NYSE"
+    },
+    {
+      "name": "SHEIN UK",
+      "listed": "private"
+    },
+    {
+      "name": "eBay UK",
+      "listed": "private",
+      "parent": "eBay",
+      "parent_ticker": "EBAY",
+      "note": "parent on NASDAQ"
+    },
+    {
+      "name": "Moonpig",
+      "ticker": "MOON",
+      "listed": "LSE",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Hotel Chocolat",
+      "listed": "private",
+      "note": "acquired by Mars 2023"
+    },
+    {
+      "name": "Lush",
+      "listed": "private"
+    },
+    {
+      "name": "The Body Shop",
+      "listed": "private",
+      "note": "entered administration 2024"
+    },
+    {
+      "name": "Specsavers",
+      "listed": "private"
+    },
+    {
+      "name": "Vision Express",
+      "listed": "private",
+      "parent": "EssilorLuxottica"
+    },
+    {
+      "name": "Smyths Toys",
+      "listed": "private"
+    },
+    {
+      "name": "The Entertainer",
+      "listed": "private"
+    },
+    {
+      "name": "Mountain Warehouse",
+      "listed": "private"
+    },
+    {
+      "name": "Go Outdoors",
+      "listed": "private",
+      "parent": "JD Sports",
+      "parent_ticker": "JD."
+    },
+    {
+      "name": "Decathlon UK",
+      "listed": "private",
+      "parent": "Decathlon Group"
+    },
+    {
+      "name": "Jigsaw",
+      "listed": "private"
+    },
+    {
+      "name": "Phase Eight",
+      "listed": "private",
+      "parent": "TFG London"
+    },
+    {
+      "name": "Whistles",
+      "listed": "private",
+      "parent": "TFG London"
+    },
+    {
+      "name": "Karen Millen",
+      "listed": "private",
+      "note": "brand acquired by Boohoo"
+    },
+    {
+      "name": "Peacocks",
+      "listed": "private"
+    },
+    {
+      "name": "Boden",
+      "listed": "private"
+    },
+    {
+      "name": "Gymshark",
+      "listed": "private"
+    },
+    {
+      "name": "Sweaty Betty",
+      "listed": "private",
+      "parent": "VF Corporation"
+    },
+    {
+      "name": "Lululemon UK",
+      "listed": "private",
+      "parent": "Lululemon Athletica",
+      "parent_ticker": "LULU",
+      "note": "parent on NASDAQ"
+    },
+    {
+      "name": "Charlotte Tilbury",
+      "listed": "private",
+      "parent": "Puig"
+    },
+    {
+      "name": "Lookfantastic",
+      "listed": "private",
+      "parent": "THG",
+      "parent_ticker": "THG"
+    },
+    {
+      "name": "Vinted UK",
+      "listed": "private"
+    },
+    {
+      "name": "Depop",
+      "listed": "private",
+      "parent": "Etsy",
+      "parent_ticker": "ETSY"
+    },
+    {
+      "name": "DFS",
+      "ticker": "DFS",
+      "listed": "LSE",
+      "exchange": "LSE"
+    },
+    {
+      "name": "ScS",
+      "ticker": "SCS",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Furniture Village",
+      "listed": "private"
+    },
+    {
+      "name": "Oak Furnitureland",
+      "listed": "private"
+    },
+    {
+      "name": "IKEA UK",
+      "listed": "private",
+      "parent": "Ingka Group"
+    },
+    {
+      "name": "Carpetright",
+      "listed": "private",
+      "note": "entered administration 2024"
+    },
+    {
+      "name": "Victorian Plumbing",
+      "ticker": "VIC",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Howdens",
+      "ticker": "HWDN",
+      "listed": "FTSE250",
+      "exchange": "LSE"
+    },
+    {
+      "name": "The Range",
+      "listed": "private"
+    },
+    {
+      "name": "Selfridges",
+      "listed": "private"
+    },
+    {
+      "name": "Harvey Nichols",
+      "listed": "private"
+    },
+    {
+      "name": "Harrods",
+      "listed": "private",
+      "parent": "Qatar Investment Authority"
+    },
+    {
+      "name": "Fortnum & Mason",
+      "listed": "private"
+    },
+    {
+      "name": "Liberty London",
+      "listed": "private"
+    },
+    {
+      "name": "Fenwick",
+      "listed": "private"
+    },
+    {
+      "name": "Game",
+      "listed": "private",
+      "parent": "Frasers Group",
+      "parent_ticker": "FRAS"
+    },
+    {
+      "name": "HMV",
+      "listed": "private"
+    },
+    {
+      "name": "Superdry",
+      "ticker": "SDRY",
+      "listed": "LSE",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Quiz",
+      "ticker": "QUIZ",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Sosandar",
+      "ticker": "SOS",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Naked Wines",
+      "ticker": "WINE",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Majestic Wine",
+      "listed": "private"
+    },
+    {
+      "name": "Watches of Switzerland",
+      "ticker": "WOSG",
+      "listed": "LSE",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Goldsmiths",
+      "listed": "private",
+      "parent": "Watches of Switzerland",
+      "parent_ticker": "WOSG"
+    },
+    {
+      "name": "Pandora UK",
+      "listed": "private",
+      "parent": "Pandora A/S",
+      "note": "parent on Copenhagen SE"
+    },
+    {
+      "name": "Topps Tiles",
+      "ticker": "TPT",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Richer Sounds",
+      "listed": "private"
+    },
+    {
+      "name": "House of Fraser",
+      "listed": "private",
+      "parent": "Frasers Group",
+      "parent_ticker": "FRAS"
+    },
+    {
+      "name": "NISA Local",
+      "listed": "private",
+      "parent": "Co-op"
+    },
+    {
+      "name": "Heron Foods",
+      "listed": "private"
+    },
+    {
+      "name": "Abel & Cole",
+      "listed": "private"
+    },
+    {
+      "name": "Riverford",
+      "listed": "private"
+    },
+    {
+      "name": "Simmer",
+      "listed": "private"
+    },
+    {
+      "name": "Hollister Co.",
+      "listed": "private",
+      "parent": "Abercrombie & Fitch",
+      "note": "parent on NYSE"
+    },
+    {
+      "name": "Moss Bros",
+      "listed": "private",
+      "note": "acquired by Crew Clothing / Brigadier 2020"
+    },
+    {
+      "name": "Simply Be",
+      "listed": "private",
+      "parent": "N Brown Group",
+      "ticker": "NBROWN"
+    },
+    {
+      "name": "JD Williams",
+      "listed": "private",
+      "parent": "N Brown Group"
+    },
+    {
+      "name": "Littlewoods",
+      "listed": "private",
+      "parent": "The Very Group"
+    },
+    {
+      "name": "Tu Clothing",
+      "listed": "private",
+      "parent": "Sainsbury's",
+      "parent_ticker": "SBRY"
+    },
+    {
+      "name": "Crew Clothing",
+      "listed": "private"
+    },
+    {
+      "name": "Back Market",
+      "listed": "private",
+      "note": "French startup, operates in UK"
+    },
+    {
+      "name": "Dreams",
+      "listed": "private"
+    },
+    {
+      "name": "Bensons for Beds",
+      "listed": "private"
+    },
+    {
+      "name": "Sofology",
+      "listed": "private",
+      "parent": "DFS",
+      "parent_ticker": "DFS"
+    },
+    {
+      "name": "Robert Dyas",
+      "listed": "private"
+    },
+    {
+      "name": "Tapi Carpets",
+      "listed": "private"
+    },
+    {
+      "name": "Jewsons",
+      "listed": "private",
+      "parent": "Saint-Gobain"
+    },
+    {
+      "name": "Adidas UK",
+      "listed": "private",
+      "parent": "Adidas AG",
+      "note": "parent on Frankfurt SE"
+    },
+    {
+      "name": "Nike UK",
+      "listed": "private",
+      "parent": "Nike Inc",
+      "note": "parent on NYSE"
+    },
+    {
+      "name": "Footasylum",
+      "listed": "private",
+      "parent": "JD Sports",
+      "parent_ticker": "JD."
+    },
+    {
+      "name": "Butternut Box",
+      "listed": "private"
+    },
+    {
+      "name": "Tails.com",
+      "listed": "private"
+    },
+    {
+      "name": "Dobbies Garden Centre",
+      "listed": "private"
+    },
+    {
+      "name": "Waitrose & Partners",
+      "listed": "private",
+      "parent": "John Lewis Partnership"
+    },
+    {
+      "name": "M&S Food",
+      "listed": "private",
+      "parent": "Marks & Spencer",
+      "parent_ticker": "MKS"
+    }
+  ],
+  "tier3": [
+    {
+      "name": "PZ Cussons",
+      "ticker": "PZC",
+      "listed": "LSE",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Unilever",
+      "ticker": "ULVR",
+      "listed": "FTSE100",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Reckitt",
+      "ticker": "RKT",
+      "listed": "FTSE100",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Premier Foods",
+      "ticker": "PFD",
+      "listed": "LSE",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Cranswick",
+      "ticker": "CWK",
+      "listed": "LSE",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Fevertree",
+      "ticker": "FEVR",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Dyson",
+      "listed": "private"
+    },
+    {
+      "name": "Apple UK",
+      "listed": "private",
+      "parent": "Apple Inc",
+      "parent_ticker": "AAPL",
+      "note": "parent on NASDAQ"
+    },
+    {
+      "name": "Cake Box",
+      "ticker": "CBOX",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Huddled",
+      "ticker": "HUD",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Notonthehighstreet",
+      "listed": "private"
+    },
+    {
+      "name": "Bloom & Wild",
+      "listed": "private"
+    },
+    {
+      "name": "Interflora UK",
+      "listed": "private"
+    },
+    {
+      "name": "Clintons",
+      "listed": "private"
+    },
+    {
+      "name": "Costco UK",
+      "listed": "private",
+      "parent": "Costco Wholesale",
+      "parent_ticker": "COST",
+      "note": "parent on NASDAQ"
+    },
+    {
+      "name": "Booths",
+      "listed": "private"
+    },
+    {
+      "name": "Mamas & Papas",
+      "listed": "private"
+    },
+    {
+      "name": "Photobox",
+      "listed": "private"
+    },
+    {
+      "name": "Ryman",
+      "listed": "private"
+    },
+    {
+      "name": "CEX",
+      "listed": "private"
+    },
+    {
+      "name": "Ebuyer",
+      "listed": "private"
+    },
+    {
+      "name": "Beaverbrooks",
+      "listed": "private"
+    },
+    {
+      "name": "H.Samuel",
+      "listed": "private",
+      "parent": "Signet Jewelers",
+      "parent_ticker": "SIG"
+    },
+    {
+      "name": "Ernest Jones",
+      "listed": "private",
+      "parent": "Signet Jewelers",
+      "parent_ticker": "SIG"
+    },
+    {
+      "name": "Warren James",
+      "listed": "private"
+    },
+    {
+      "name": "Virgin Wines",
+      "ticker": "VINO",
+      "listed": "AIM",
+      "exchange": "LSE"
+    },
+    {
+      "name": "Laithwaites",
+      "listed": "private"
+    },
+    {
+      "name": "One Stop",
+      "listed": "private",
+      "parent": "Tesco",
+      "parent_ticker": "TSCO"
+    },
+    {
+      "name": "Costcutter",
+      "listed": "private"
+    },
+    {
+      "name": "Simply Fresh",
+      "listed": "private"
+    }
+  ],
+  "keywords": [
+    "retail",
+    "retailer",
+    "high street",
+    "shopping centre",
+    "shopping center",
+    "department store",
+    "supermarket",
+    "grocery",
+    "convenience store",
+    "business rates",
+    "retail park",
+    "consumer spending",
+    "consumer confidence",
+    "footfall",
+    "like-for-like",
+    "LFL",
+    "same-store sales",
+    "CVA",
+    "administration",
+    "insolvency",
+    "pre-pack",
+    "store closure",
+    "store opening",
+    "new store",
+    "store rollout",
+    "online retail",
+    "ecommerce",
+    "e-commerce",
+    "click and collect",
+    "supply chain",
+    "logistics",
+    "fulfilment",
+    "last mile",
+    "inflation",
+    "cost of living",
+    "consumer prices",
+    "CPI retail",
+    "planning permission retail",
+    "permitted development retail",
+    "retail employment",
+    "retail jobs",
+    "Black Friday",
+    "Cyber Monday",
+    "Christmas trading",
+    "Easter trading",
+    "summer trading",
+    "shrinkage",
+    "shoplifting",
+    "retail crime",
+    "loyalty scheme",
+    "rewards programme",
+    "own label",
+    "private label",
+    "net zero retail",
+    "sustainability retail",
+    "BRC",
+    "British Retail Consortium",
+    "ONS retail",
+    "retail sales figures",
+    "National Living Wage",
+    "employer NIC",
+    "business rates relief",
+    "planning reform retail",
+    "retail media",
+    "loyalty data"
+  ]
+}
