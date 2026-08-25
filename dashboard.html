@@ -152,10 +152,12 @@
   .tag-new { background: var(--live-soft); color: var(--live); }
   .tag-reviewed { background: #f5f0ff; color: #6d28d9; }
   .story-title {
-    font-size: 17px; line-height: 1.35; font-weight: 600; letter-spacing: -0.01em;
+    font-size: 17px; line-height: 1.35; font-weight: 700; letter-spacing: -0.01em;
     margin-bottom: 4px; color: var(--ink);
   }
+  .story.is-read .story-title { font-weight: 400; color: var(--ink-soft); }
   .story.is-noise .story-title { color: var(--ink-soft); font-weight: 500; }
+  .story.is-noise.is-read .story-title { font-weight: 400; }
   .story-company {
     font-size: 12.5px; color: var(--ink-soft);
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
@@ -285,6 +287,17 @@ const STREAMS = [
 
 let DATA = { items: [], generated_at: null };
 let state = { stream: "all", window: "today", type: "", company: "", search: "", hideNoise: false, expanded: new Set() };
+
+// Read/unread state — persists in localStorage, never uploaded to GitHub
+const READ_KEY = "retail_wire_read";
+function loadRead() {
+  try { return new Set(JSON.parse(localStorage.getItem(READ_KEY) || "[]")); }
+  catch(e) { return new Set(); }
+}
+function saveRead(readSet) {
+  try { localStorage.setItem(READ_KEY, JSON.stringify([...readSet])); } catch(e) {}
+}
+let readIds = loadRead();
 
 const DATA_SOURCES = ["dashboard_data.json", "sample_data.json"];
 
@@ -439,6 +452,7 @@ function render() {
     const isNew = new Date(it.datetime) >= todayWindowStart();
     const streamLabel = (STREAMS.find(s => s.key === it.stream) || {}).label || it.stream;
     const isExpanded = state.expanded.has(uid);
+    const isRead = readIds.has(uid);
 
     const flags = [
       `<span class="tag tag-stream">${streamLabel}</span>`,
@@ -457,7 +471,7 @@ function render() {
       : `<div class="story-body empty">No full text captured for this item yet.</div>`;
 
     return `
-      <article class="story${it.is_noise ? " is-noise" : ""}${isExpanded ? " expanded" : ""}" data-uid="${uid}">
+      <article class="story${it.is_noise ? " is-noise" : ""}${isExpanded ? " expanded" : ""}${isRead ? " is-read" : ""}" data-uid="${uid}">
         <div class="story-row" data-toggle="${uid}">
           <div class="story-time">${time}<span class="date">${date}</span></div>
           <div class="story-main">
@@ -483,7 +497,14 @@ function render() {
   box.querySelectorAll("[data-toggle]").forEach(row => {
     row.addEventListener("click", () => {
       const uid = row.dataset.toggle;
-      if (state.expanded.has(uid)) state.expanded.delete(uid); else state.expanded.add(uid);
+      if (state.expanded.has(uid)) {
+        state.expanded.delete(uid);
+      } else {
+        state.expanded.add(uid);
+        // Mark as read when expanded
+        readIds.add(uid);
+        saveRead(readIds);
+      }
       render();
     });
   });
