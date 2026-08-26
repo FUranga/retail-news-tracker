@@ -279,7 +279,7 @@
 const STREAMS = [
   { key: "all",           label: "All",            enabled: true  },
   { key: "press_release", label: "Press releases", enabled: true  },
-  { key: "news",          label: "News",           enabled: false },
+  { key: "news",          label: "News",           enabled: true  },
   { key: "government",    label: "Government",     enabled: false },
   { key: "company",       label: "Companies",      enabled: false },
   { key: "supplier",      label: "Suppliers",      enabled: false },
@@ -300,8 +300,10 @@ function saveRead(readSet) {
 let readIds = loadRead();
 
 const DATA_SOURCES = ["dashboard_data.json", "sample_data.json"];
+const MEDIA_SOURCES = ["media_data.json"];
 
 async function loadData() {
+  // Cargar LSE data
   for (const src of DATA_SOURCES) {
     try {
       const res = await fetch(src);
@@ -310,6 +312,21 @@ async function loadData() {
       break;
     } catch (e) { /* try next source */ }
   }
+
+  // Cargar media data y mergear
+  for (const src of MEDIA_SOURCES) {
+    try {
+      const res = await fetch(src);
+      if (!res.ok) continue;
+      const mediaData = await res.json();
+      // Mergear items, deduplicando por URL
+      const existingUrls = new Set(DATA.items.map(i => i.url).filter(Boolean));
+      const newItems = (mediaData.items || []).filter(i => !existingUrls.has(i.url));
+      DATA.items = [...DATA.items, ...newItems];
+      break;
+    } catch (e) { /* media data no disponible todavía */ }
+  }
+
   renderMeta();
   renderStreams();
   buildFilterOptions();
