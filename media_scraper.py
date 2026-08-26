@@ -25,6 +25,7 @@ except ImportError:
 MEDIA_CONFIG_PATH = Path("media_config.json")
 RETAILERS_PATH    = Path("retailers.json")
 MEDIA_DATA_PATH   = Path("media_data.json")
+SECTOR_CONFIG_PATH = Path("sector_config.json")
 SLEEP             = 1.0   # segundos entre requests — buen ciudadano
 
 HEADERS = {
@@ -56,6 +57,31 @@ def build_retailer_set(retailers_data, min_tier=2):
             if name:
                 names.add(name.lower())
     return names
+
+
+def get_retail_sector(title, summary, match_reason, sector_config):
+    """Asigna categoría editorial de sector a un artículo de noticias.
+    Primero intenta via el retailer mencionado (match_reason), luego por keywords."""
+    if not sector_config:
+        return None
+    retailer_map = sector_config.get("retailer_categories", {})
+    kw_map = sector_config.get("keyword_categories", {})
+
+    # Si el match fue por un retailer conocido, usar su categoría
+    if match_reason and match_reason.startswith("retailer:"):
+        name = match_reason.split("retailer:")[1].split(" (")[0].strip()
+        # Buscar en el mapa (case-insensitive)
+        for retailer, cat in retailer_map.items():
+            if retailer.lower() == name.lower():
+                return cat
+
+    # Si no, buscar por keywords en el título + summary
+    text = ((title or "") + " " + (summary or "")).lower()
+    for cat_id, kws in kw_map.items():
+        if any(kw.lower() in text for kw in kws):
+            return cat_id
+
+    return None
 
 
 def build_retailer_sets(retailers_data, min_tier=2):
@@ -191,6 +217,7 @@ def run():
     config   = load_json(MEDIA_CONFIG_PATH)
     retailers = load_json(RETAILERS_PATH)
     existing  = load_json(MEDIA_DATA_PATH, {"items": [], "generated_at": None})
+    sector_config = load_json(SECTOR_CONFIG_PATH, {})
 
     min_tier = config.get("filtering", {}).get("min_tier", 2)
     use_kw   = config.get("filtering", {}).get("use_keywords", True)
@@ -235,10 +262,11 @@ def run():
                         existing_item["body"] = full_body
                 continue
 
-            a["match_reason"] = match
-            a["stream"]       = "news"
-            a["story_type"]   = None
-            a["is_noise"]     = False
+            a["match_reason"]  = match
+            a["stream"]        = "news"
+            a["story_type"]    = None
+            a["is_noise"]      = False
+            a["retail_sector"] = get_retail_sector(a["title"], a.get("summary",""), match, sector_config)
             full_body = fetch_full_body(a.get("url"), paywall=source.get("paywall", False))
             a["body"] = full_body
             new_items.append(a)

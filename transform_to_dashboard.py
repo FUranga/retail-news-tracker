@@ -56,6 +56,7 @@ DEFAULT_CATEGORY_MAP = {
 CATEGORY_MAP_PATH = Path("category_map.json")
 ARTICLE_OVERRIDES_PATH = Path("article_overrides.json")
 UNMAPPED_LOG_PATH = Path("unmapped_categories.json")
+SECTOR_CONFIG_PATH = Path("sector_config.json")
 
 
 def load_json(path, default):
@@ -65,6 +66,14 @@ def load_json(path, default):
         except Exception as e:
             print(f"[WARN] No se pudo leer {path}, uso default: {e}")
     return default
+
+
+def get_retail_sector(companyname, sector_config):
+    """Asigna categoría editorial de sector a partir del nombre de empresa."""
+    if not companyname or not sector_config:
+        return None
+    mapping = sector_config.get("retailer_categories", {})
+    return mapping.get(companyname)
 
 
 def classify(article_id, code, title, category_map, article_overrides):
@@ -104,6 +113,7 @@ def transform(csv_path, out_path="dashboard_data.json"):
     category_map = load_json(CATEGORY_MAP_PATH, DEFAULT_CATEGORY_MAP)
     article_overrides = load_json(ARTICLE_OVERRIDES_PATH, {})
     unmapped_log = load_json(UNMAPPED_LOG_PATH, {})
+    sector_config = load_json(SECTOR_CONFIG_PATH, {})
 
     new_items = []
     for _, r in df.iterrows():
@@ -120,14 +130,16 @@ def transform(csv_path, out_path="dashboard_data.json"):
         if story_type == "Other" and str(article_id) not in article_overrides:
             unmapped_log = log_unmapped(unmapped_log, code, title, article_id)
 
+        companyname = r.get("companyname") if pd.notna(r.get("companyname")) else None
         item = {
             "id": article_id,
             "datetime": str(r.get("datetime")),
             "title": title,
-            "companyname": r.get("companyname") if pd.notna(r.get("companyname")) else None,
+            "companyname": companyname,
             "companycode": r.get("companycode") if pd.notna(r.get("companycode")) else None,
             "category": code,
             "icbsector": r.get("icbsector") if pd.notna(r.get("icbsector")) else None,
+            "retail_sector": get_retail_sector(companyname, sector_config),
             "body": r.get("body") if pd.notna(r.get("body")) else None,
             "source": "LSE",
             "stream": "press_release",
