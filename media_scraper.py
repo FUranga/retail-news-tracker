@@ -125,18 +125,20 @@ def fetch_full_body(url, paywall=False):
         text = trafilatura.extract(resp.text)
         if not text or len(text) < 300:
             return None
-        # Descartar resultados que son claramente basura (listas de idiomas, errores, etc.)
         garbage_signals = ["access denied", "englishunited states", "deutsch\n- english\n- español"]
         if any(sig in text.lower()[:200] for sig in garbage_signals):
             return None
-        return text  # texto completo sin límite de caracteres
+        return text
     except Exception:
         return None
+
+
+def clean_html(raw):
     if not raw:
         return ""
     text = re.sub(r"<[^>]+>", " ", raw)
     text = re.sub(r"\s+", " ", text).strip()
-    return text[:1000]  # cap summary a 1000 chars
+    return text[:1000]
 
 
 def fetch_rss(source):
@@ -213,8 +215,6 @@ def run():
 
         source_new = 0
         for a in articles:
-            if a["url"] in existing_ids:
-                continue
             if source_new >= max_per_source:
                 break
 
@@ -226,13 +226,21 @@ def run():
             if not relevant:
                 continue
 
+            # Si ya existe en el histórico, solo actualizar el body si falta
+            if a["url"] in existing_ids:
+                existing_item = next((i for i in existing.get("items", []) if i.get("url") == a["url"]), None)
+                if existing_item and not existing_item.get("body"):
+                    full_body = fetch_full_body(a.get("url"), paywall=source.get("paywall", False))
+                    if full_body:
+                        existing_item["body"] = full_body
+                continue
+
             a["match_reason"] = match
             a["stream"]       = "news"
             a["story_type"]   = None
             a["is_noise"]     = False
-            # Intentar body completo para artículos sin paywall
             full_body = fetch_full_body(a.get("url"), paywall=source.get("paywall", False))
-            a["body"] = full_body  # None si no se pudo o es paywall
+            a["body"] = full_body
             new_items.append(a)
             existing_ids.add(a["url"])
             source_new += 1
