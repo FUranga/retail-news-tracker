@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-25T15:43:16",
+  "generated_at": "2026-08-26T06:43:25",
   "items": [
+    {
+      "id": 17756186,
+      "datetime": "2026-08-26 06:00:01",
+      "title": "Transaction in Own Shares",
+      "companyname": "AO World plc",
+      "companycode": "AO.",
+      "category": "POS",
+      "icbsector": "Retailers ",
+      "body": null,
+      "source": "LSE",
+      "stream": "press_release",
+      "story_type": "Buyback",
+      "is_noise": true,
+      "paywall": false,
+      "url": "https://www.londonstockexchange.com/news-article/AO./transaction-in-own-shares/17756186"
+    },
     {
       "id": 17755788,
       "datetime": "2026-08-25 13:00:00",
