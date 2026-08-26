@@ -28,7 +28,7 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependencias
-        run: pip install requests feedparser
+        run: pip install requests feedparser trafilatura
 
       - name: Correr media scraper
         run: python media_scraper.py
