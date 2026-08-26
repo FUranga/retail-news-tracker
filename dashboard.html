@@ -147,6 +147,7 @@
     padding: 2px 7px; border-radius: 4px; font-weight: 600;
   }
   .tag-stream { background: var(--accent-soft); color: var(--accent); }
+  .tag-source { background: #f0f0f0; color: var(--ink-soft); font-style: italic; }
   .tag-type { background: var(--panel); color: var(--ink-soft); border: 1px solid var(--rule-strong); }
   .tag-paywall { background: var(--flag-soft); color: var(--flag); }
   .tag-new { background: var(--live-soft); color: var(--live); }
@@ -471,8 +472,14 @@ function render() {
     const isExpanded = state.expanded.has(uid);
     const isRead = readIds.has(uid);
 
+    // Tag de medio — visible para artículos de noticias
+    const sourceTag = it.source_name
+      ? `<span class="tag tag-source">${it.source_name}</span>`
+      : "";
+
     const flags = [
       `<span class="tag tag-stream">${streamLabel}</span>`,
+      sourceTag,
       it.story_type ? `<span class="tag tag-type">${it.story_type}</span>` : "",
       it.paywall ? `<span class="tag tag-paywall">Paywall</span>` : "",
       (isNew && state.window === "history") ? `<span class="tag tag-new">New</span>` : "",
@@ -483,9 +490,11 @@ function render() {
       ? `<span class="story-company">${it.companyname}${it.companycode ? ` · <span class="ticker">${it.companycode}</span>` : ""}${it.icbsector ? ` · ${it.icbsector}` : ""}</span>`
       : `<span class="story-company">${it.source || ""}</span>`;
 
-    const bodyHtml = it.body
-      ? `<div class="story-body">${typeof marked !== 'undefined' ? marked.parse(it.body) : escapeHtml(it.body)}</div>`
-      : `<div class="story-body empty">No full text captured for this item yet.</div>`;
+    // Body: para artículos de noticias usa summary, para LSE usa body completo
+    const bodyContent = it.body || it.summary;
+    const bodyHtml = bodyContent
+      ? `<div class="story-body">${typeof marked !== 'undefined' ? marked.parse(bodyContent) : escapeHtml(bodyContent)}</div>`
+      : `<div class="story-body empty">No text available for this item.</div>`;
 
     return `
       <article class="story${it.is_noise ? " is-noise" : ""}${isExpanded ? " expanded" : ""}${isRead ? " is-read" : ""}" data-uid="${uid}">
