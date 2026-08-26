@@ -129,7 +129,7 @@ def fetch_full_body(url, paywall=False):
         garbage_signals = ["access denied", "englishunited states", "deutsch\n- english\n- español"]
         if any(sig in text.lower()[:200] for sig in garbage_signals):
             return None
-        return text[:5000]  # cap a 5000 chars
+        return text  # texto completo sin límite de caracteres
     except Exception:
         return None
     if not raw:
@@ -242,6 +242,15 @@ def run():
     # Acumular contra el histórico existente
     all_items = existing.get("items", []) + new_items
     all_items.sort(key=lambda x: x.get("datetime", ""), reverse=True)
+
+    # Purgar artículos más viejos que keep_days
+    keep_days = config.get("retention", {}).get("keep_days", 7)
+    cutoff = (datetime.now() - timedelta(days=keep_days)).isoformat()
+    before_purge = len(all_items)
+    all_items = [i for i in all_items if i.get("datetime", "") >= cutoff]
+    purged = before_purge - len(all_items)
+    if purged:
+        print(f"{purged} artículos purgados (más de {keep_days} días)")
 
     payload = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
