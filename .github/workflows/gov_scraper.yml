@@ -2,11 +2,13 @@ name: Gov scraper (UK government & statistics)
 
 on:
   schedule:
+    # GitHub Actions cron usa UTC. UK está en BST (UTC+1) hasta finales de octubre.
+    # Ajustar +1h en UTC cuando termine BST (finales de octubre).
     - cron: "0 6 * * 1-5"    # 07:00 BST
-    - cron: "45 8 * * 1-5"   # 09:45 BST
+    - cron: "45 8 * * 1-5"   # 09:45 BST — post-ONS (casi siempre publica a las 9:30)
     - cron: "30 11 * * 1-5"  # 12:30 BST
-    - cron: "30 13 * * 1-5"  # 14:30 BST
-    - cron: "30 16 * * 1-5"  # 17:30 BST
+    - cron: "30 13 * * 1-5"  # 14:30 BST — post-PMQs y committee hearings
+    - cron: "30 16 * * 1-5"  # 17:30 BST — cierre del día parlamentario
   workflow_dispatch: {}
 
 concurrency:
@@ -29,7 +31,7 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependencias
-        run: pip install requests feedparser
+        run: pip install requests feedparser trafilatura
 
       - name: Correr gov scraper
         run: python gov_scraper.py
