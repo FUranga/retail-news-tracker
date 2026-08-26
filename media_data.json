@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-26T16:11:06",
+  "generated_at": "2026-08-26T16:34:58",
   "items": [
+    {
+      "source_id": "guardian_business",
+      "source_name": "The Guardian — Business",
+      "source_cat": "general",
+      "paywall": false,
+      "title": "The London stock market dodged a bullet with Shein | Nils Pratley",
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/aug/26/london-stock-market-dodged-bullet-shein-china-hong-kong",
+      "summary": "China’s fashion giant will list in Hong Kong with a shrunken price tag – and big questions over its business model In a parallel world, we might now be preparing for the arrival on the London stock market of Shein , the giant Chinese-founded fast-fashion retailer. Or it could have happened already. The possibility of a London flotation was a running story during 2024 and into last year as politicians from both main parties engaged in behind-the-scenes wooing. Shein was seen as a shot of tech adrenalin for a listless local listings scene, and an opportunity to advertise the UK’s openness to international capital. Continue reading...",
+      "datetime": "2026-08-26T16:21:36",
+      "match_reason": "keyword:retailer",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "fashion",
+      "body": "In a parallel world, we might now be preparing for the arrival on the London stock market of Shein, the giant Chinese-founded fast-fashion retailer. Or it could have happened already.\nThe possibility of a London flotation was a running story during 2024 and into last year as politicians from both main parties engaged in behind-the-scenes wooing. Shein was seen as a shot of tech adrenalin for a listless local listings scene, and an opportunity to advertise the UK’s openness to international capital.\nInstead, Shein will float next week in Hong Kong. To which one can only say: thank goodness for that.\nIn a listings context, Shein was a cast-off. The company had rejected New York amid tensions between Washington and Beijing and hostile questions from US lawmakers over labour practices in its supply chains in China. London was merely the next-best option for a company whose owners seemed suspiciously anxious to find a stock market home in the west.\nLondon did its reputation no favours with its willingness to jump. The Financial Conduct Authority, in charge of listings, took the view that it was “not unusual” for UK-listed companies to carry legal risks around the world and that what mattered was disclosure to allow investors to form their own view. The Labour government sounded keen. Donald Tang, the banker hired as Shein’s chair, did a round of feelgood meetings.\nThis positivity was punctured, however, in January last year when Shein’s general counsel in Europe appeared at the Commons business select committee and stone-walled.\nDid Shein source cotton from China, asked the committee chair, Liam Byrne. The company representative was not qualified to reveal such “detailed operational information”. Byrne had not even been asking at that point about allegations of use of cotton produced in the Xinjiang region, which has been linked to Uyghur forced labour.\nThe company, it should be added, had already said it had signed statements of compliance to modern slavery acts in the US, UK and elsewhere. But Byrne’s view was entirely fair: “The reluctance to answer basic questions has frankly bordered on contempt of the committee.”\nThe idea of listing in London soon went away – encouraged, it seemed, by pressure from Beijing. And so, Hong Kong it is.\nNote, though, how the company’s price tag has shrunk from the £50bn that was talked about during the London leg of the global tour. The valuation will be $27bn (£20bn).\nThat figure also reflects the other issue that has dogged Shein: political and societal resistance to the practice of shipping goods in small packages out of China to take advantage of tax breaks on low-value imported goods. The US has already closed such “de minimis” exceptions as part of President Trump’s tariffs wars; the EU says it will phase them out; the UK intends to get there by 2029. Shein used to argue that its business model did not depend on tax breaks, but the reduced valuation suggests that investors do not regard the issue as irrelevant.\nIn a world in which Shein had somehow managed to list in London last year, the valuation drop would have been felt here. The supposedly hot prize would look substantially less so. London dodged a bullet on this one. Those politicians who encouraged the flirtation might reflect that, while the stock market is obviously desperate for exciting newcomers, you’ve got to choose your targets carefully. Nobody is talking about a missed opportunity."
+    },
     {
       "source_id": "retail_sector",
       "source_name": "Retail Sector",
@@ -361,6 +377,22 @@
       "story_type": null,
       "is_noise": false,
       "body": "Lancashire has been the site of many British innovations throughout history, from the spinning jenny, which transformed textile production, to the creation of jelly babies.\nNow it has welcomed another first: AI shopping trolleys.\nA Morrisons in Lancashire has become the first supermarket in the UK to trial the use of “smart trolleys” that allow customers to do their shopping without having to scan a single item.\nThe AI-powered Caper smart trolleys, created by San Francisco-based Instacart, automatically register each item placed in the trolley, adding up the cost and recommending related products as you shop. Once finished, customers can scan their trolley screen rather than visiting a checkout.\nPreston is the first city in Britain to use them after the supermarket chain announced a deal to trial them at its location in Ashton-on-Ribble, to the west of the city.\nAmazon Fresh, which allowed shoppers to take items from the shelves and leave the shop without checking out, using cameras to charge directly to online accounts, failed to take off in the UK, with the company’s last physical British store closing in 2025. But Morrisons is more hopeful that its smart trolleys will be a success, with plans to put them in supermarkets across the country.\nThe smart trolleys are already used in more than 100 cities across the world. They are similar in design and function to the Dash Cart used by Amazon’s Fresh stores, which still operate outside the UK.\nAfter the trolleys rolled into Ashton-on-Ribble last month, customer Matthew Byrne said they had “massively” helped him keep track of his shopping. Byrne is autistic and struggles to stick to set plans for what to get from the shops.\n“Having what I’ve bought on screen has been great. I have a habit of just grabbing things and throwing them in my trolley, and then wondering how I’m paying so much. It’s been amazing to visualise it and see it in real time. I came here with an £80 budget, and I’ve actually been able to stick to it.”\nKaz Bond was disappointed to be forced to use a normal trolley for her latest shop due to a fault on her phone, having used them for every trip she has made to Morrisons since they became commonplace around four weeks ago.\n“Honestly, I think they’re brilliant,” said Bond. “They make life much easier. I wouldn’t be that surprised if they’re everywhere before long. I reckon it’s the future.”\nDebbie Files had chosen Tuesday as the day to take a leap of faith and use the trolleys for the first time, albeit with the help of a Morrisons employee.\n“It was a little bit confusing at first, but you get used to it pretty quickly,” said Files. “It’s heavy, though. I’ve barely been able to turn it. I feel like I need a driving lesson to use it, but I got the hang of it. If they make a smaller one then that will get me to use it again.”"
+    },
+    {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Retailers hit record productivity from existing store space in Q2 - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORkpRTUo5Zk5LS0pMY3BiaWs0aVQ0WjBUUWxrcmV1TmVsQlVZc2JyR1UwTkxhTjcxR0EyenpWbG5CbVRQaG1EaW1pRmpkSEhzaEltb1BXYWRmYUJHbHphQWlJZVo1Sk1jNW1KTzc2WDRDc21vdjFhOXRMZkQybEVoVVp3dGU1TXE5aDZNZGU2NW1NNjFZMlFtejY3V29RQlJGX3lPS3JEUQ?oc=5",
+      "summary": "Retailers hit record productivity from existing store space in Q2 &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-25T16:01:45",
+      "match_reason": "keyword:retail sector",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": null,
+      "body": null
     },
     {
       "source_id": "guardian_business",
