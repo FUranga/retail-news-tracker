@@ -2,15 +2,17 @@ name: Media scraper (UK retail news)
 
 on:
   schedule:
-    # GitHub Actions cron usa UTC. UK está en BST (UTC+1) hasta finales de octubre.
-    # Ajustar +1h en UTC cuando termine BST (finales de octubre).
-    - cron: "15 5 * * 1-5"   # 06:15 BST — apertura temprana
-    - cron: "45 5 * * 1-5"   # 06:45 BST
-    - cron: "30 6 * * 1-5"   # 07:30 BST — después del rush de las 7am
-    - cron: "15 10 * * 1-5"  # 11:15 BST
-    - cron: "15 13 * * 1-5"  # 14:15 BST
-    - cron: "15 15 * * 1-5"  # 16:15 BST
+    - cron: "15 5 * * 1-5"
+    - cron: "45 5 * * 1-5"
+    - cron: "30 6 * * 1-5"
+    - cron: "15 10 * * 1-5"
+    - cron: "15 13 * * 1-5"
+    - cron: "15 15 * * 1-5"
   workflow_dispatch: {}
+
+concurrency:
+  group: media-scraper
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -40,5 +42,5 @@ jobs:
           git add media_data.json
           git diff --staged --quiet && echo "Sin cambios nuevos" && exit 0
           git commit -m "Media update $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git pull --rebase origin main
+          git pull --rebase=false --strategy=ours origin main || git pull origin main
           git push
