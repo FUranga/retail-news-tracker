@@ -117,6 +117,35 @@
   }
   .noise-toggle input { cursor: pointer; accent-color: var(--accent); }
 
+  /* Etiquetas clicables de empresa */
+  .company-tags {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    padding: 8px 0 4px;
+  }
+  .company-tag {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 11px; padding: 4px 10px; border-radius: 999px;
+    border: 1px solid var(--rule-strong); background: var(--paper);
+    color: var(--ink-soft); cursor: pointer;
+    transition: background .12s, color .12s, border-color .12s;
+  }
+  .company-tag:hover { background: var(--panel); color: var(--ink); }
+  .company-tag.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+
+  /* Filtro de sectores */
+  .sector-filters {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    padding: 4px 0 12px;
+  }
+  .sector-pill {
+    font-size: 11px; font-weight: 600; padding: 4px 11px; border-radius: 999px;
+    border: 1.5px solid transparent; cursor: pointer;
+    transition: opacity .12s, border-color .12s;
+    opacity: 0.55;
+  }
+  .sector-pill:hover { opacity: 0.8; }
+  .sector-pill.active { opacity: 1; border-color: currentColor; }
+
   .spacer { flex: 1; }
   .result-count {
     font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
@@ -246,6 +275,8 @@
 
   <nav class="streams" id="streams"></nav>
 
+  <div class="sector-filters" id="sector-filters"></div>
+
   <div class="controls">
     <div class="seg" id="window-seg">
       <button data-window="today" class="active">Today</button>
@@ -253,7 +284,6 @@
     </div>
     <div class="filter-group">
       <select id="filter-type"><option value="">Story type · all</option></select>
-      <select id="filter-company"><option value="">Company · all</option></select>
       <input type="text" class="search-box" id="search" placeholder="Search headlines…">
       <label class="noise-toggle" id="noise-toggle-label">
         <input type="checkbox" id="noise-toggle"> Hide regulatory noise
@@ -262,6 +292,8 @@
     <div class="spacer"></div>
     <div class="result-count" id="result-count">—</div>
   </div>
+
+  <div class="company-tags" id="company-tags"></div>
 
   <div class="stories" id="stories"></div>
 
@@ -281,13 +313,14 @@ const STREAMS = [
   { key: "all",           label: "All",            enabled: true  },
   { key: "press_release", label: "Press releases", enabled: true  },
   { key: "news",          label: "News",           enabled: true  },
-  { key: "government",    label: "Government",     enabled: false },
+  { key: "government",    label: "Government",     enabled: true  },
   { key: "company",       label: "Companies",      enabled: false },
   { key: "supplier",      label: "Suppliers",      enabled: false },
 ];
 
 let DATA = { items: [], generated_at: null };
-let state = { stream: "all", window: "today", type: "", company: "", search: "", hideNoise: false, expanded: new Set() };
+let SECTOR_CONFIG = { categories: [], retailer_categories: {} };
+let state = { stream: "all", window: "today", type: "", company: "", sector: "", search: "", hideNoise: false, expanded: new Set() };
 
 // Read/unread state — persists in localStorage, never uploaded to GitHub
 const READ_KEY = "retail_wire_read";
@@ -302,8 +335,15 @@ let readIds = loadRead();
 
 const DATA_SOURCES = ["dashboard_data.json", "sample_data.json"];
 const MEDIA_SOURCES = ["media_data.json"];
+const GOV_SOURCES   = ["gov_data.json"];
 
 async function loadData() {
+  // Cargar sector config
+  try {
+    const res = await fetch("sector_config.json");
+    if (res.ok) SECTOR_CONFIG = await res.json();
+  } catch(e) {}
+
   // Cargar LSE data
   for (const src of DATA_SOURCES) {
     try {
@@ -328,9 +368,24 @@ async function loadData() {
     } catch (e) { /* media data no disponible todavía */ }
   }
 
+  // Cargar gov data y mergear
+  for (const src of GOV_SOURCES) {
+    try {
+      const res = await fetch(src);
+      if (!res.ok) continue;
+      const govData = await res.json();
+      const existingUrls = new Set(DATA.items.map(i => i.url).filter(Boolean));
+      const newItems = (govData.items || []).filter(i => !existingUrls.has(i.url));
+      DATA.items = [...DATA.items, ...newItems];
+      break;
+    } catch (e) { /* gov data no disponible todavía */ }
+  }
+
   renderMeta();
   renderStreams();
   buildFilterOptions();
+  renderSectorPills();
+  renderCompanyTags();
   render();
 }
 
@@ -377,13 +432,72 @@ function countForStream(key) {
 }
 
 // ---------- Filters ----------
+function renderSectorPills() {
+  const container = document.getElementById("sector-filters");
+  if (!container) return;
+  const cats = SECTOR_CONFIG.categories || [];
+  if (!cats.length) { container.style.display = "none"; return; }
+
+  container.innerHTML = cats.map(cat => {
+    const active = state.sector === cat.id;
+    const count = currentItemsForSector(cat.id);
+    if (!count) return "";
+    return `<button class="sector-pill${active ? " active" : ""}"
+      style="background:${cat.color}18;color:${cat.color}"
+      data-sector="${cat.id}">${cat.label} <span style="opacity:.7">${count}</span></button>`;
+  }).join("");
+
+  container.querySelectorAll("[data-sector]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      state.sector = state.sector === btn.dataset.sector ? "" : btn.dataset.sector;
+      renderSectorPills();
+      renderCompanyTags();
+      render();
+    });
+  });
+}
+
+function currentItemsForSector(sectorId) {
+  return DATA.items.filter(it =>
+    inWindow(it) &&
+    (state.stream === "all" || it.stream === state.stream) &&
+    it.retail_sector === sectorId
+  ).length;
+}
+
+function renderCompanyTags() {
+  const container = document.getElementById("company-tags");
+  if (!container) return;
+
+  // Empresas visibles con el filtro actual (excepto company)
+  const visible = DATA.items.filter(it =>
+    inWindow(it) &&
+    (state.stream === "all" || it.stream === state.stream) &&
+    (!state.sector || it.retail_sector === state.sector) &&
+    (!state.hideNoise || !it.is_noise)
+  );
+
+  const companies = [...new Set(visible.map(i => i.companyname).filter(Boolean))].sort();
+  if (!companies.length) { container.innerHTML = ""; return; }
+
+  container.innerHTML = companies.map(c => {
+    const active = state.company === c;
+    return `<button class="company-tag${active ? " active" : ""}" data-company="${c}">${c}</button>`;
+  }).join("");
+
+  container.querySelectorAll("[data-company]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      state.company = state.company === btn.dataset.company ? "" : btn.dataset.company;
+      renderCompanyTags();
+      render();
+    });
+  });
+}
+
 function buildFilterOptions() {
   const types = [...new Set(DATA.items.map(i => i.story_type).filter(Boolean))].sort();
-  const companies = [...new Set(DATA.items.map(i => i.companyname).filter(Boolean))].sort();
   const typeSel = document.getElementById("filter-type");
-  const compSel = document.getElementById("filter-company");
   types.forEach(t => typeSel.insertAdjacentHTML("beforeend", `<option value="${t}">${t}</option>`));
-  companies.forEach(c => compSel.insertAdjacentHTML("beforeend", `<option value="${c}">${c}</option>`));
 }
 
 // ---------- Bloomberg-method prompt builder ----------
@@ -444,6 +558,7 @@ function currentItems() {
     .filter(it => state.stream === "all" || it.stream === state.stream)
     .filter(it => !state.type || it.story_type === state.type)
     .filter(it => !state.company || it.companyname === state.company)
+    .filter(it => !state.sector || it.retail_sector === state.sector)
     .filter(it => !state.search || it.title.toLowerCase().includes(state.search.toLowerCase()))
     .filter(it => !state.hideNoise || !it.is_noise)
     .sort((a,b) => new Date(b.datetime) - new Date(a.datetime));
@@ -569,7 +684,6 @@ document.getElementById("window-seg").addEventListener("click", e => {
   renderStreams(); render();
 });
 document.getElementById("filter-type").addEventListener("change", e => { state.type = e.target.value; render(); });
-document.getElementById("filter-company").addEventListener("change", e => { state.company = e.target.value; render(); });
 document.getElementById("search").addEventListener("input", e => { state.search = e.target.value; render(); });
 document.getElementById("noise-toggle").addEventListener("change", e => { state.hideNoise = e.target.checked; render(); });
 
