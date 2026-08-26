@@ -12,6 +12,10 @@ on:
     - cron: "15 6 * * 1-5"  # 07:15 UK time (BST) — re-chequeo
   workflow_dispatch: {}      # permite correrlo a mano desde la pestaña Actions
 
+concurrency:
+  group: lse-scraper
+  cancel-in-progress: false
+
 permissions:
   contents: write   # necesario para que el job pueda commitear el resultado
 
@@ -43,5 +47,5 @@ jobs:
           git add data/raw/*.csv dashboard_data.json unmapped_categories.json
           git diff --staged --quiet && echo "Sin cambios, nada que commitear" && exit 0
           git commit -m "Actualización automática LSE $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git pull --rebase origin main
+          git pull --rebase=false --strategy=ours origin main || git pull origin main
           git push
