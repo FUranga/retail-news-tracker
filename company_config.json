@@ -1,0 +1,395 @@
+{
+  "_note": "Config del Módulo 4 — webs de prensa corporativa de retailers UK. Cualquier publicación de estas fuentes es relevante por definición — son las empresas hablando. method = google_news (via Google News RSS). Agregar/quitar empresas sin tocar código.",
+  "schedule": {
+    "runs_bst": [
+      "07:00",
+      "09:00",
+      "12:00",
+      "15:00",
+      "17:00"
+    ],
+    "days": "weekdays",
+    "note": "Más espaciado que medios — las empresas no publican con tanta frecuencia"
+  },
+  "retention": {
+    "keep_days": 7
+  },
+  "filtering": {
+    "always_include": true,
+    "note": "Todas las publicaciones de estas fuentes son relevantes — no se filtra por keywords"
+  },
+  "sources": [
+    {
+      "id": "tesco",
+      "name": "Tesco",
+      "tier": 1,
+      "listed": "FTSE100",
+      "rss": "https://news.google.com/rss/search?q=site:tescoplc.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery"
+    },
+    {
+      "id": "sainsburys",
+      "name": "Sainsbury's",
+      "tier": 1,
+      "listed": "FTSE100",
+      "rss": "https://news.google.com/rss/search?q=site:j-sainsbury.co.uk+OR+site:sainsburys.co.uk/inspiration&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery"
+    },
+    {
+      "id": "ms",
+      "name": "Marks & Spencer",
+      "tier": 1,
+      "listed": "FTSE100",
+      "rss": "https://news.google.com/rss/search?q=site:corporate.marksandspencer.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion"
+    },
+    {
+      "id": "next",
+      "name": "Next",
+      "tier": 1,
+      "listed": "FTSE100",
+      "rss": "https://news.google.com/rss/search?q=site:nextplc.co.uk&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion"
+    },
+    {
+      "id": "jdsports",
+      "name": "JD Sports",
+      "tier": 1,
+      "listed": "FTSE100",
+      "rss": "https://news.google.com/rss/search?q=site:jdplc.com+-store+-colleague+-fitness+-coach+-supervisor+-merchandiser&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "sport"
+    },
+    {
+      "id": "kingfisher",
+      "name": "Kingfisher",
+      "tier": 1,
+      "listed": "FTSE100",
+      "rss": "https://news.google.com/rss/search?q=site:kingfisher.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "home"
+    },
+    {
+      "id": "burberry",
+      "name": "Burberry",
+      "tier": 1,
+      "listed": "FTSE100",
+      "rss": "https://news.google.com/rss/search?q=site:burberryplc.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "luxury"
+    },
+    {
+      "id": "frasers",
+      "name": "Frasers Group",
+      "tier": 1,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=site:frasers.com+OR+site:frasersgroupplc.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "sport"
+    },
+    {
+      "id": "bm",
+      "name": "B&M",
+      "tier": 1,
+      "listed": "FTSE100",
+      "rss": "https://news.google.com/rss/search?q=site:bandmretail.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery"
+    },
+    {
+      "id": "ocado",
+      "name": "Ocado",
+      "tier": 1,
+      "listed": "FTSE100",
+      "rss": "https://news.google.com/rss/search?q=site:ocadogroup.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery"
+    },
+    {
+      "id": "currys",
+      "name": "Currys",
+      "tier": 1,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=site:currysplc.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "electronics"
+    },
+    {
+      "id": "halfords",
+      "name": "Halfords",
+      "tier": 1,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=site:halfordscompany.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "sport"
+    },
+    {
+      "id": "dunelm",
+      "name": "Dunelm",
+      "tier": 1,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=site:dunelm.com/info&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "home"
+    },
+    {
+      "id": "pets_at_home",
+      "name": "Pets at Home",
+      "tier": 1,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=site:petsathome.com/corporate&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pets"
+    },
+    {
+      "id": "howdens",
+      "name": "Howdens",
+      "tier": 1,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=site:howdensjoinerygroup.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "home"
+    },
+    {
+      "id": "asda",
+      "name": "Asda",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=site:corporate.asda.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery"
+    },
+    {
+      "id": "morrisons",
+      "name": "Morrisons",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=site:morrisons-corporate.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery"
+    },
+    {
+      "id": "aldi_uk",
+      "name": "Aldi UK",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"Aldi+UK\"+announces+OR+launches+OR+opens&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery"
+    },
+    {
+      "id": "lidl_gb",
+      "name": "Lidl GB",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"Lidl+GB\"+OR+\"Lidl+UK\"+announces+OR+launches+OR+opens&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery"
+    },
+    {
+      "id": "john_lewis",
+      "name": "John Lewis Partnership",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=site:johnlewispartnership.co.uk+-media-centre+announces+OR+launches+OR+opens+OR+partners&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion"
+    },
+    {
+      "id": "primark",
+      "name": "Primark",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"Primark\"+announces+OR+launches+OR+opens+OR+partnership+UK+OR+England+OR+Britain&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion"
+    },
+    {
+      "id": "iceland",
+      "name": "Iceland",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"Iceland+Foods\"+announces+OR+launches+OR+opens&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery"
+    },
+    {
+      "id": "coop",
+      "name": "Co-op",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=site:coop.co.uk/media&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery"
+    },
+    {
+      "id": "home_bargains",
+      "name": "Home Bargains",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"Home+Bargains\"+announces+OR+launches+OR+opens&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery"
+    },
+    {
+      "id": "boots",
+      "name": "Boots",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=site:boots.com/media-centre+OR+site:walgreensbootsalliance.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "health"
+    },
+    {
+      "id": "tkmaxx",
+      "name": "TK Maxx",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"TK+Maxx\"+announces+OR+launches+OR+opens+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion"
+    },
+    {
+      "id": "ikea_uk",
+      "name": "IKEA UK",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"IKEA+UK\"+announces+OR+launches+OR+opens&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "home"
+    },
+    {
+      "id": "asos",
+      "name": "ASOS",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=site:asosplc.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion"
+    },
+    {
+      "id": "boohoo",
+      "name": "Boohoo",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=site:boohooplc.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion"
+    },
+    {
+      "id": "thg",
+      "name": "THG",
+      "tier": 2,
+      "listed": "LSE",
+      "rss": "https://news.google.com/rss/search?q=site:thg.com/news&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay"
+    },
+    {
+      "id": "dr_martens",
+      "name": "Dr. Martens",
+      "tier": 2,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=site:drmartensplc.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion"
+    },
+    {
+      "id": "shoe_zone",
+      "name": "Shoe Zone",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=site:shoezone.com/corporate&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion"
+    },
+    {
+      "id": "card_factory",
+      "name": "Card Factory",
+      "tier": 2,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=site:cardfactoryplc.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay"
+    },
+    {
+      "id": "wh_smith",
+      "name": "WH Smith",
+      "tier": 2,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=site:whsmithplc.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay"
+    },
+    {
+      "id": "mulberry",
+      "name": "Mulberry",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=site:mulberry.com/corporate&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "luxury"
+    },
+    {
+      "id": "warpaint",
+      "name": "Warpaint London",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=site:warpaintlondon.com/investors&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "health"
+    },
+    {
+      "id": "superdry",
+      "name": "Superdry",
+      "tier": 2,
+      "listed": "LSE",
+      "rss": "https://news.google.com/rss/search?q=site:superdryglobal.com/investors&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion"
+    },
+    {
+      "id": "dfs",
+      "name": "DFS",
+      "tier": 2,
+      "listed": "LSE",
+      "rss": "https://news.google.com/rss/search?q=site:dfsgroup.co.uk&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "home"
+    },
+    {
+      "id": "gymshark",
+      "name": "Gymshark",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"Gymshark\"+announces+OR+launches+OR+opens+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "sport"
+    },
+    {
+      "id": "decathlon",
+      "name": "Decathlon UK",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"Decathlon+UK\"+announces+OR+launches+OR+opens&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "sport"
+    },
+    {
+      "id": "river_island",
+      "name": "River Island",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"River+Island\"+announces+OR+launches+OR+partnership+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion"
+    },
+    {
+      "id": "new_look",
+      "name": "New Look",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"New+Look\"+announces+OR+launches+OR+partnership+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion"
+    },
+    {
+      "id": "holland_barrett",
+      "name": "Holland & Barrett",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"Holland+Barrett\"+announces+OR+launches+OR+partnership&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "health"
+    },
+    {
+      "id": "specsavers",
+      "name": "Specsavers",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"Specsavers\"+announces+OR+launches+OR+partnership+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "health"
+    }
+  ],
+  "noise_title_signals": [
+    "store colleague",
+    "part time",
+    "full time",
+    "full-time",
+    "part-time",
+    "fitness coach",
+    "supervisor",
+    "merchandiser",
+    "general assistant",
+    "media centre & uk press releases",
+    "help and advice hub",
+    "sign up to emails",
+    "kitchen & household",
+    "fashion, home & beauty",
+    "apply.",
+    "careers.",
+    "job opportunity",
+    "vacancy"
+  ]
+}
