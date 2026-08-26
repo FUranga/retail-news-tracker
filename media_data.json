@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T08:16:26",
+  "generated_at": "2026-08-26T10:50:28",
   "items": [
     {
       "source_id": "bbc_business",
@@ -1159,20 +1159,6 @@
       "summary": "M&amp;S has introduced an own-brand pet food range called Paws &amp; Pals. The retailer said the move is another step in its transformation to become a&hellip;",
       "datetime": "2026-08-19T14:04:15",
       "match_reason": "retailer:m&s",
-      "stream": "news",
-      "story_type": null,
-      "is_noise": false
-    },
-    {
-      "source_id": "the_retail_bulletin",
-      "source_name": "The Retail Bulletin",
-      "source_cat": "trade",
-      "paywall": false,
-      "title": "Poundland owner weighs sale of the retailer a year after acquisition",
-      "url": "https://www.theretailbulletin.com/general-merchandise/poundland-owner-weighs-sale-of-the-retailer-a-year-after-acquisition-19-08-2026/",
-      "summary": "The owner of Poundland is exploring a potential sale of the business just over a year after buying it. According to Sky News, Gordon Brothers is&hellip;",
-      "datetime": "2026-08-19T08:43:04",
-      "match_reason": "retailer:poundland",
       "stream": "news",
       "story_type": null,
       "is_noise": false
