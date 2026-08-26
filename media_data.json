@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T11:48:42",
+  "generated_at": "2026-08-26T14:06:27",
   "items": [
     {
       "source_id": "grocery_gazette",
@@ -681,6 +681,21 @@
       "is_noise": false
     },
     {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Morrisons launches price guarantee across 500 essential lines - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZUVPUUFXcF9aeU9DTDdMbTNRQ2NLc1BXd1dZODMtcjNVSE5kZ3dkc1lTVktNMXZJbDYzZzdfQmgycDhwdzFjeERmTk02dmZjT05iNW9sZTdUQU4zZGtFcWU0M2RqbEZRUlpwV1FmMURtRDk2SnNwTDRnYU54LUJFWEZGRTFKeFNtZENNSEdsS0FMSHByTFFpcmtlS2g5QXh2RHc?oc=5",
+      "summary": "Morrisons launches price guarantee across 500 essential lines &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-25T10:03:51",
+      "match_reason": "retailer:morrisons",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "body": null
+    },
+    {
       "source_id": "guardian_business",
       "source_name": "The Guardian — Business",
       "source_cat": "general",
@@ -966,6 +981,21 @@
       "stream": "news",
       "story_type": null,
       "is_noise": false
+    },
+    {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Alibaba raises £7.8bn in share placement to boost AI growth - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLUFwZ29CREo1bWVrQmhuZG11ejU1MDJDdDYzeHVkWG43SUN2SmJaSTd2TlFDZnpZbDQwbFZTMW0yeDY3ZXBsVlZpNTJQZW41dHpLdm0yY2x2ekF5RHUtY0VubUlWaW53QlQ1VWNpcTNpQ2hKWUtwMUFzZGpBNTRCbVM5cmNycjlOSndfbTBvNFl5NmJJdGt6eEYwblNTZw?oc=5",
+      "summary": "Alibaba raises £7.8bn in share placement to boost AI growth &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-24T10:08:14",
+      "match_reason": "keyword:retail sector",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "body": null
     },
     {
       "source_id": "retail_sector",
@@ -1633,18 +1663,19 @@
       "is_noise": false
     },
     {
-      "source_id": "the_retail_bulletin",
-      "source_name": "The Retail Bulletin",
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
       "source_cat": "trade",
       "paywall": false,
-      "title": "M&S launches own-brand pet food range Paws & Pals",
-      "url": "https://www.theretailbulletin.com/food-and-drink/ms-launches-own-brand-pet-food-range-paws-pals-19-08-2026/",
-      "summary": "M&amp;S has introduced an own-brand pet food range called Paws &amp; Pals. The retailer said the move is another step in its transformation to become a&hellip;",
-      "datetime": "2026-08-19T14:04:15",
-      "match_reason": "retailer:m&s",
+      "title": "Poundland owner explores sale of discount chain - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWHJPZ3U2UnQyWVVIR1hMSlE1VDRNbUNfRDNDeTBQV2puSnB6dG40bk9zZjF1eVJXOFJlem9mQ3g4azJNSVRySkljNERTVFRBS1Z6dWpuVzlsRFlHUGpQTDlsYW5uWExfVm9aNTN6UVhHLWlULWxib2lMa0g4OFZuVlpybDd1ZlRHMUw4aHFkTQ?oc=5",
+      "summary": "Poundland owner explores sale of discount chain &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-20T02:53:22",
+      "match_reason": "retailer:poundland",
       "stream": "news",
       "story_type": null,
-      "is_noise": false
+      "is_noise": false,
+      "body": null
     }
   ]
 }
