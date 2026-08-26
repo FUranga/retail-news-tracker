@@ -8,11 +8,8 @@ on:
     # ahora). Cuando termine el horario de verano (finales de octubre),
     # hay que sumarles 1 hora en UTC para que sigan cayendo a las 07:01 y
     # 07:15 hora de Londres. Lo marco acá para no olvidarlo.
-    - cron: "1 6 * * 1-5"    # 07:01 BST
-    - cron: "15 6 * * 1-5"   # 07:15 BST
-    - cron: "0 10 * * 1-5"   # 11:00 BST
-    - cron: "0 13 * * 1-5"   # 14:00 BST
-    - cron: "0 15 * * 1-5"   # 16:00 BST
+    - cron: "1 6 * * 1-5"   # 07:01 UK time (BST) — lunes a viernes
+    - cron: "15 6 * * 1-5"  # 07:15 UK time (BST) — re-chequeo
   workflow_dispatch: {}      # permite correrlo a mano desde la pestaña Actions
 
 permissions:
@@ -46,4 +43,5 @@ jobs:
           git add data/raw/*.csv dashboard_data.json unmapped_categories.json
           git diff --staged --quiet && echo "Sin cambios, nada que commitear" && exit 0
           git commit -m "Actualización automática LSE $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
           git push
