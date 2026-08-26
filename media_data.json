@@ -1,6 +1,54 @@
 {
-  "generated_at": "2026-08-26T14:06:27",
+  "generated_at": "2026-08-26T16:11:06",
   "items": [
+    {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Sainsbury’s launches 10,000 work experience opportunities for young people - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM1RRSXhhTGlMdmZuOUJ5REtRanJtQkU2Q29EbDdNWC1sb0NCX2U1S2hWR0x4c0I3aVZySE9nOGhxRnltc3lEOFZHdmt2bU1xV0k0Y3hDY005U3pSNlo0UWNHaG1GdnljM1p6ajAwZlZFZ19VOE9iUXNlSGpkLUVobXN5WExSRWY1eTFwMGIzaFVZNFVDNWtFdGw0bW43d2JYcUhEQUtCbHo2V2Ffak5vbg?oc=5",
+      "summary": "Sainsbury’s launches 10,000 work experience opportunities for young people &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-26T15:12:20",
+      "match_reason": "keyword:retail sector",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": null,
+      "body": null
+    },
+    {
+      "source_id": "guardian_business",
+      "source_name": "The Guardian — Business",
+      "source_cat": "general",
+      "paywall": false,
+      "title": "Pubs, bars and hotels report ‘Burnham bounce’ in optimism but call for further tax relief",
+      "url": "https://www.theguardian.com/business/2026/aug/26/pubs-bars-hotels-hospitality-burnham-bounce-optimism-tax-relief",
+      "summary": "Sentiment in hospitality and brewing sectors more positive since business rates action, trade bodies’ survey finds Pubs, bars and hotels have reported a “Burnham bounce” in optimism as a result of the prime minister’s overtures to the sector, polling suggests, but they warn that the goodwill could evaporate without further tax relief. Andy Burnham has positioned himself as a staunch ally of the UK’s hospitality industry both before and since his arrival at No 10, last month announcing a discount on business rates for pubs, clubs and live music venues. Continue reading...",
+      "datetime": "2026-08-26T14:35:24",
+      "match_reason": "keyword:business rates",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "property",
+      "body": "Pubs, bars and hotels have reported a “Burnham bounce” in optimism as a result of the prime minister’s overtures to the sector, polling suggests, but they warn that the goodwill could evaporate without further tax relief.\nAndy Burnham has positioned himself as a staunch ally of the UK’s hospitality industry both before and since his arrival at No 10, last month announcing a discount on business rates for pubs, clubs and live music venues.\nThe result, according to a survey by multiple trade bodies, is that 37% of businesses in the sector now feel that his government will benefit hospitality and brewing, which are collectively worth about £100bn to the economy.\nThe degree of optimism is more than double the 18% recorded before the policy on business rates was announced, an increase described by the trade bodies as a “Burnham bounce”.\nThe government has signalled further reform of business rates to ease pressure on the sector. But with the details still uncertain, some venue owners have warned that the steps taken so far have done very little to reduce their groaning pile of rising costs.\nThe survey findings, shared with the Guardian, also show that the industry believes the tax burden – in particular VAT – is continuing to hold back the sector.\nThree-quarters of respondents pointed to tax as the biggest barrier for businesses, with political instability (37%) cited as the second biggest.\nThe survey was compiled by the British Beer & Pubs Association, UK Hospitality, the British Institute of Innkeeping, and Hospitality Ulster.\n“The new prime minister’s action to back hospitality has clearly driven a boost in the sector’s optimism, yet significant challenges remain,” said the trade bodies in a joint statement.\n“The support for pubs and live music venues on business rates was a great first step, and now we need to see wider support and conditions to allow the entire hospitality sector to grow and create jobs.\n“Our tax burden – amongst the highest in the economy – along with new regulatory costs is overwhelming us and the real victims are high streets, jobs, and communities. A lower rate of VAT, wider permanent business rates reform and changes to employer NICs [national insurance contributions] would help deliver the prime minister’s bold ambitions for every postcode.”\nMore than 330,000 people have signed a petition calling on the government to cut VAT on hospitality from 20% to 10%, a sector-specific relief that would bring the sales tax on the sector in line with that in many European countries.\nHowever, critics have said this would be an inefficient way to spur growth and would cost more than £10bn, much of which would benefit large, profitable multinational chains.\nA government spokesperson said: “The chancellor prioritised support for the hospitality industry in his first week in the job when he cut business rates by 20% for pubs, social clubs and live music venues – saving thousands of locals over £1,000 a year. This is on top of providing a tax break on poured pints and capping corporation tax.”"
+    },
+    {
+      "source_id": "drapers",
+      "source_name": "Drapers",
+      "source_cat": "trade",
+      "paywall": true,
+      "title": "Sainsbury’s Tu rolls out RFID technology to 400 stores",
+      "url": "https://www.drapersonline.com/news/sainsburys-tu-rolls-out-rfid-technology-to-400-stores",
+      "summary": "Drapers Sainsbury&#8217;s Tu rolls out RFID technology to 400 stores Sainsbury's Tu will roll out radio frequency identification (RFID) technology across its clothing departments in around 400 stores by early September, Drapers can reveal. The post Sainsbury&#8217;s Tu rolls out RFID technology to 400 stores appeared first on Drapers .",
+      "datetime": "2026-08-26T14:13:12",
+      "match_reason": "retailer:sainsbury's",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "body": null
+    },
     {
       "source_id": "grocery_gazette",
       "source_name": "Grocery Gazette",
@@ -1040,6 +1088,22 @@
       "story_type": null,
       "is_noise": false,
       "body": "Pubs and hotels could see business rates reformed after review\n- Published\nA review is being launched into the way business rates are calculated for pubs and hotels in England and Wales, and could lead to a reform of the system.\nThe Treasury says business rates expert Jerry Schurder will lead the review into rate valuations and report back in March 2027, with the government calling for the views of landlords, hoteliers and business owners to feed in to the process.\nLast month, Andy Burnham announced a 20% cut in business rates for pubs, social clubs and live music venues in England, to come into effect in April.\nPub groups have argued they face disproportionately higher rates bills, but other businesses have called for a wider reform of the rates system.\nAccording to the British Beer and Pub Association (BBPA), 161 pubs closed in the first three months of this year across England, Scotland and Wales, equating to the loss of around 2,400 jobs.\nRising business rates are cited as one issue facing the sector, although there have also been complaints that increases in National Insurance and the minimum wage have made staff costs more expensive.\nJames Murray, financial secretary to the Treasury, said the new review would look at \"a rethink of valuations - so that we can build a fairer system for the future\".\nEmma McClarkin, chief executive of the BBPA, said: \"For years pubs have paid a disproportionately higher business rates bill which has ground down their ability to keep the doors open, so this review is sorely needed and hugely welcome.\"\nThe BBPA says pubs are valued differently for rates than retail venues. Instead of being based just on floor area, they are judged by a measure called Fair Maintainable Trade (FMT) - which means when a pub's turnover increases, so does its rates bill.\nJonathan Lawson, the chief executive of Butcombe Group, which has 120 pubs across the south and south west of England, told the BBC's Today programme that the use of FMT meant pubs were effectively being \"punished for success\", while large online retailers that operate out of warehouses were not subject to revenue-based rates calculations.\nTheir rates, he said, \"are calculated based on what is deemed to be the market rent for that area, and takes very little on board in terms of revenue driven through that site\".\n\"You can have a very large site paying a relatively low level of business rates versus a relatively small pub... paying a very high level of business rates.\"\nSchurder is a former business rates policy lead at advisory firm Newmark UK, and his review will feed into the next rates revaluation in 2029.\nNorthern Ireland and Scotland set their own valuations, while Wales presently chooses to align its methodology with England. As the same approach is used across England and Wales, the review will be looking for responses from both nations.\nSchurder's appointment was welcomed by Craig Beaumont of the Federation of Small Businesses (FSB) who said he would bring \"crucial heavyweight business rates expertise into the Treasury\".\nHowever, Beaumont said the government needed to address the wider business rates system and exempt more smaller firms by increasing the rates relief threshold for small businesses.\nJonny Haseldine from the British Chambers of Commerce (BCC) also said the review of valuations should be wider.\n\"The full reform of business rates, promised by the government at the last election, is urgently needed. This continued piecemeal approach to reform is the wrong approach,\" he said.\nWhile the BCC said hospitality was the sector most worried about rates, Haseldine warned firms in every sector were struggling with the \"complex and outdated\" system.\nShadow Chancellor Sir Mel Stride said the review was \"far too late for a sector this Labour government has already done its best to kill off\".\n\"Tax hikes on business premises and jobs, alongside job-destroying regulation in the Employment Rights Act, have left many hospitality businesses on the brink,\" he said.\nLiberal Democrat Treasury spokesperson Daisy Cooper said reform of business rates was \"long overdue\", but also called for an emergency VAT cut and a reverse to jobs tax changes \"which have hammered hospitality in particular\".\nLast year, under the previous chancellor Rachel Reeves, the government had said it would scale back business rate discounts that had been in force since the Covid pandemic and announced that there would be no discount at all from April this year.\nThat, combined with big upward adjustments to rateable values of pub premises, left landlords with the prospect of much higher bills.\nFollowing criticism from the hospitality industry, the government cut business rates for pubs and music venues by 15% earlier in 2026.\nThe 20% discount in England announced in July will apply on top of the existing support.\nHowever, the government said the rates discount would not apply to the \"very largest\" live music venues, and there was some confusion among some businesses as to whether they would be classed as a pub and therefore eligible for the relief.\nDetails about which businesses are eligible are expected to be announced at Chancellor John Healey's first Budget in the autumn.\nGet in touch\nHow has business rates affected your going concern? Share with us your experiences."
+    },
+    {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Morrisons unveils 1,000 new apprenticeships to tackle retail skills shortages - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeW9Mc0NTeHhTNC1uajBZSG9MZjUzdHpsTGRENWJCNS1jcXV0OHVQc3k0VG15bVZidmVFNFZ0QjRhcDduRGtBNkZkWFNoOWNlSjI5MzJCUFEzWDJYMlJRSE1jQ1hUamtxMmxrQ0x3LWpVRTNZbmxGdDlGRzdNS2dxaFJyVVdOWkx3cG1IeGt5WlRQSlJvclJnS2V4SWJWMHgwcmdlS1VYX29CLVg0azQyeklqR253UQ?oc=5",
+      "summary": "Morrisons unveils 1,000 new apprenticeships to tackle retail skills shortages &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-24T09:32:27",
+      "match_reason": "retailer:morrisons",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "body": null
     },
     {
       "source_id": "retail_sector",
