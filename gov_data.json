@@ -1,6 +1,29 @@
 {
-  "generated_at": "2026-08-26T22:33:52",
+  "generated_at": "2026-08-26T22:44:10",
   "items": [
+    {
+      "source_id": "gov_dbt",
+      "source_name": "GOV.UK — Department for Business and Trade",
+      "source_cat": "policy",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "",
+      "url": "",
+      "summary": "",
+      "datetime": "2026-08-26T22:41:31.958507",
+      "match_reason": "priority:high (gov_dbt)",
+      "stream": "government",
+      "story_type": "policy",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "retail strategy",
+        "trade policy",
+        "business rates",
+        "high street"
+      ],
+      "body": null
+    },
     {
       "source_id": "companies_house",
       "source_name": "Companies House — Significant Filings",
