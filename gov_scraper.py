@@ -46,6 +46,32 @@ def load_json(path, default=None):
     return default if default is not None else {}
 
 
+try:
+    import trafilatura
+    TRAFILATURA_AVAILABLE = True
+except ImportError:
+    TRAFILATURA_AVAILABLE = False
+
+
+def fetch_full_body(url, paywall=False):
+    """Intenta bajar el texto completo para fuentes sin paywall."""
+    if paywall or not url or not TRAFILATURA_AVAILABLE:
+        return None
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+        if resp.status_code != 200:
+            return None
+        text = trafilatura.extract(resp.text)
+        if not text or len(text) < 200:
+            return None
+        garbage = ["access denied", "englishunited states", "javascript is required"]
+        if any(g in text.lower()[:200] for g in garbage):
+            return None
+        return text
+    except Exception:
+        return None
+
+
 def clean_html(raw):
     if not raw:
         return ""
@@ -178,6 +204,7 @@ def run():
                 a["title"], a["summary"], match, sector_config
             )
             a["tags"]          = source.get("tags", [])
+            a["body"]          = fetch_full_body(a.get("url"), paywall=source.get("paywall", False))
             new_items.append(a)
             existing_ids.add(a["url"])
 
