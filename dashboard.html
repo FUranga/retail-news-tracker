@@ -314,7 +314,7 @@ const STREAMS = [
   { key: "press_release", label: "Press releases", enabled: true  },
   { key: "news",          label: "News",           enabled: true  },
   { key: "government",    label: "Government",     enabled: true  },
-  { key: "company",       label: "Companies",      enabled: false },
+  { key: "company",       label: "Companies",      enabled: true  },
   { key: "supplier",      label: "Suppliers",      enabled: false },
 ];
 
@@ -334,8 +334,9 @@ function saveRead(readSet) {
 let readIds = loadRead();
 
 const DATA_SOURCES = ["dashboard_data.json", "sample_data.json"];
-const MEDIA_SOURCES = ["media_data.json"];
-const GOV_SOURCES   = ["gov_data.json"];
+const MEDIA_SOURCES   = ["media_data.json"];
+const GOV_SOURCES     = ["gov_data.json"];
+const COMPANY_SOURCES = ["company_data.json"];
 
 async function loadData() {
   // Cargar sector config
