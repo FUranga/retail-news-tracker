@@ -58,19 +58,80 @@ def build_retailer_set(retailers_data, min_tier=2):
     return names
 
 
-def is_relevant(title, summary, retailer_names, keywords):
-    """Devuelve True si el artículo menciona un retailer o contiene una keyword."""
+def build_retailer_sets(retailers_data, min_tier=2):
+    """Construye dos sets: nombres claros y nombres ambiguos."""
+    clear = set()
+    ambiguous = set()
+    tiers = ["tier1", "tier2"] if min_tier >= 2 else ["tier1"]
+    if min_tier >= 3:
+        tiers.append("tier3")
+    for tier in tiers:
+        for r in retailers_data.get(tier, []):
+            name = r.get("name", "").lower()
+            if not name:
+                continue
+            if r.get("ambiguous"):
+                ambiguous.add(name)
+            else:
+                clear.add(name)
+    return clear, ambiguous
+
+
+def is_relevant(title, summary, clear_names, ambiguous_names, keywords, context_keywords):
+    """Devuelve (relevant, reason).
+    - Nombres claros: match directo con word boundary.
+    - Nombres ambiguos: solo matchean si el texto también contiene
+      al menos una context_keyword (señal de que es contexto retail).
+    - Keywords: match directo.
+    """
     text = (title + " " + (summary or "")).lower()
-    for name in retailer_names:
-        if name in text:
+
+    # Nombres claros — match directo
+    for name in clear_names:
+        if re.search(r'\b' + re.escape(name), text):
             return True, f"retailer:{name}"
+
+    # Nombres ambiguos — requieren contexto retail adicional
+    has_context = any(ck in text for ck in context_keywords)
+    if has_context:
+        for name in ambiguous_names:
+            if re.search(r'\b' + re.escape(name), text):
+                return True, f"retailer:{name} (context)"
+
+    # Keywords específicas
     for kw in keywords:
         if kw.lower() in text:
             return True, f"keyword:{kw}"
+
     return False, None
 
 
-def clean_html(raw):
+try:
+    import trafilatura
+    TRAFILATURA_AVAILABLE = True
+except ImportError:
+    TRAFILATURA_AVAILABLE = False
+
+
+def fetch_full_body(url, paywall=False):
+    """Intenta bajar el texto completo del artículo para medios sin paywall.
+    Devuelve el texto limpio o None si falla / es basura."""
+    if paywall or not url or not TRAFILATURA_AVAILABLE:
+        return None
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+        if resp.status_code != 200:
+            return None
+        text = trafilatura.extract(resp.text)
+        if not text or len(text) < 300:
+            return None
+        # Descartar resultados que son claramente basura (listas de idiomas, errores, etc.)
+        garbage_signals = ["access denied", "englishunited states", "deutsch\n- english\n- español"]
+        if any(sig in text.lower()[:200] for sig in garbage_signals):
+            return None
+        return text[:5000]  # cap a 5000 chars
+    except Exception:
+        return None
     if not raw:
         return ""
     text = re.sub(r"<[^>]+>", " ", raw)
@@ -131,9 +192,11 @@ def run():
 
     min_tier = config.get("filtering", {}).get("min_tier", 2)
     use_kw   = config.get("filtering", {}).get("use_keywords", True)
+    max_per_source = config.get("filtering", {}).get("max_per_source", 50)
 
-    retailer_names = build_retailer_set(retailers, min_tier)
-    keywords       = retailers.get("keywords", []) if use_kw else []
+    clear_names, ambiguous_names = build_retailer_sets(retailers, min_tier)
+    keywords        = retailers.get("keywords", []) if use_kw else []
+    context_keywords = retailers.get("ambiguous_context_keywords", [])
 
     existing_ids = {item["url"] for item in existing.get("items", []) if item.get("url")}
     new_items    = []
@@ -148,20 +211,31 @@ def run():
         articles = fetch_source(source)
         total_fetched += len(articles)
 
+        source_new = 0
         for a in articles:
             if a["url"] in existing_ids:
-                continue  # ya lo tenemos
+                continue
+            if source_new >= max_per_source:
+                break
 
-            relevant, match = is_relevant(a["title"], a["summary"], retailer_names, keywords)
+            relevant, match = is_relevant(
+                a["title"], a["summary"],
+                clear_names, ambiguous_names,
+                keywords, context_keywords
+            )
             if not relevant:
                 continue
 
             a["match_reason"] = match
             a["stream"]       = "news"
-            a["story_type"]   = None  # se asigna en la capa de AI on-demand
+            a["story_type"]   = None
             a["is_noise"]     = False
+            # Intentar body completo para artículos sin paywall
+            full_body = fetch_full_body(a.get("url"), paywall=source.get("paywall", False))
+            a["body"] = full_body  # None si no se pudo o es paywall
             new_items.append(a)
             existing_ids.add(a["url"])
+            source_new += 1
 
         time.sleep(SLEEP)
 
