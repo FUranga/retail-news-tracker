@@ -361,9 +361,8 @@ async function loadData() {
       const res = await fetch(src);
       if (!res.ok) continue;
       const mediaData = await res.json();
-      // Mergear items, deduplicando por URL
-      const existingUrls = new Set(DATA.items.map(i => i.url).filter(Boolean));
-      const newItems = (mediaData.items || []).filter(i => !existingUrls.has(i.url));
+      const existingKeys = new Set(DATA.items.map(i => `${i.stream}:${i.url}`).filter(Boolean));
+      const newItems = (mediaData.items || []).filter(i => !existingKeys.has(`${i.stream}:${i.url}`));
       DATA.items = [...DATA.items, ...newItems];
       break;
     } catch (e) { /* media data no disponible todavía */ }
@@ -375,11 +374,24 @@ async function loadData() {
       const res = await fetch(src);
       if (!res.ok) continue;
       const govData = await res.json();
-      const existingUrls = new Set(DATA.items.map(i => i.url).filter(Boolean));
-      const newItems = (govData.items || []).filter(i => !existingUrls.has(i.url));
+      const existingKeys = new Set(DATA.items.map(i => `${i.stream}:${i.url}`).filter(Boolean));
+      const newItems = (govData.items || []).filter(i => !existingKeys.has(`${i.stream}:${i.url}`));
       DATA.items = [...DATA.items, ...newItems];
       break;
     } catch (e) { /* gov data no disponible todavía */ }
+  }
+
+  // Cargar company data y mergear
+  for (const src of COMPANY_SOURCES) {
+    try {
+      const res = await fetch(src);
+      if (!res.ok) continue;
+      const companyData = await res.json();
+      const existingKeys = new Set(DATA.items.map(i => `${i.stream}:${i.url}`).filter(Boolean));
+      const newItems = (companyData.items || []).filter(i => !existingKeys.has(`${i.stream}:${i.url}`));
+      DATA.items = [...DATA.items, ...newItems];
+      break;
+    } catch (e) { /* company data no disponible todavía */ }
   }
 
   renderMeta();
