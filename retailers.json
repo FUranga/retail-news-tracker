@@ -29,7 +29,8 @@
       "name": "Next",
       "ticker": "NXT",
       "listed": "FTSE100",
-      "exchange": "LSE"
+      "exchange": "LSE",
+      "ambiguous": true
     },
     {
       "name": "JD Sports",
@@ -109,7 +110,8 @@
     },
     {
       "name": "Iceland",
-      "listed": "private"
+      "listed": "private",
+      "ambiguous": true
     },
     {
       "name": "Co-op",
@@ -238,11 +240,13 @@
   "tier2": [
     {
       "name": "River Island",
-      "listed": "private"
+      "listed": "private",
+      "ambiguous": true
     },
     {
       "name": "New Look",
-      "listed": "private"
+      "listed": "private",
+      "ambiguous": true
     },
     {
       "name": "Monsoon Accessorize",
@@ -282,7 +286,8 @@
     {
       "name": "Very",
       "listed": "private",
-      "parent": "The Very Group"
+      "parent": "The Very Group",
+      "ambiguous": true
     },
     {
       "name": "The Hut Group",
@@ -329,7 +334,8 @@
       "name": "Reiss",
       "listed": "private",
       "parent": "Next",
-      "parent_ticker": "NXT"
+      "parent_ticker": "NXT",
+      "ambiguous": true
     },
     {
       "name": "White Stuff",
@@ -347,7 +353,8 @@
       "name": "The Works",
       "ticker": "WRKS",
       "listed": "AIM",
-      "exchange": "LSE"
+      "exchange": "LSE",
+      "ambiguous": true
     },
     {
       "name": "Waterstones",
@@ -484,7 +491,8 @@
     },
     {
       "name": "Lush",
-      "listed": "private"
+      "listed": "private",
+      "ambiguous": true
     },
     {
       "name": "The Body Shop",
@@ -535,7 +543,8 @@
     {
       "name": "Whistles",
       "listed": "private",
-      "parent": "TFG London"
+      "parent": "TFG London",
+      "ambiguous": true
     },
     {
       "name": "Karen Millen",
@@ -631,7 +640,8 @@
     },
     {
       "name": "The Range",
-      "listed": "private"
+      "listed": "private",
+      "ambiguous": true
     },
     {
       "name": "Selfridges",
@@ -662,7 +672,8 @@
       "name": "Game",
       "listed": "private",
       "parent": "Frasers Group",
-      "parent_ticker": "FRAS"
+      "parent_ticker": "FRAS",
+      "ambiguous": true
     },
     {
       "name": "HMV",
@@ -678,7 +689,8 @@
       "name": "Quiz",
       "ticker": "QUIZ",
       "listed": "AIM",
-      "exchange": "LSE"
+      "exchange": "LSE",
+      "ambiguous": true
     },
     {
       "name": "Sosandar",
@@ -766,7 +778,8 @@
       "name": "Simply Be",
       "listed": "private",
       "parent": "N Brown Group",
-      "ticker": "NBROWN"
+      "ticker": "NBROWN",
+      "ambiguous": true
     },
     {
       "name": "JD Williams",
@@ -791,7 +804,8 @@
     {
       "name": "Back Market",
       "listed": "private",
-      "note": "French startup, operates in UK"
+      "note": "French startup, operates in UK",
+      "ambiguous": true
     },
     {
       "name": "Dreams",
@@ -1015,17 +1029,21 @@
     }
   ],
   "keywords": [
-    "retail",
+    "retail sales",
+    "retail sector",
+    "retail market",
+    "retail industry",
+    "retail park",
+    "retail property",
     "retailer",
     "high street",
     "shopping centre",
     "shopping center",
     "department store",
     "supermarket",
-    "grocery",
+    "grocery store",
     "convenience store",
     "business rates",
-    "retail park",
     "consumer spending",
     "consumer confidence",
     "footfall",
@@ -1033,9 +1051,7 @@
     "LFL",
     "same-store sales",
     "CVA",
-    "administration",
-    "insolvency",
-    "pre-pack",
+    "company voluntary arrangement",
     "store closure",
     "store opening",
     "new store",
@@ -1044,14 +1060,11 @@
     "ecommerce",
     "e-commerce",
     "click and collect",
-    "supply chain",
-    "logistics",
-    "fulfilment",
-    "last mile",
-    "inflation",
-    "cost of living",
-    "consumer prices",
-    "CPI retail",
+    "supply chain retail",
+    "retail logistics",
+    "last mile delivery",
+    "retail inflation",
+    "shop price",
     "planning permission retail",
     "permitted development retail",
     "retail employment",
@@ -1061,24 +1074,37 @@
     "Christmas trading",
     "Easter trading",
     "summer trading",
-    "shrinkage",
     "shoplifting",
     "retail crime",
+    "shrinkage",
     "loyalty scheme",
-    "rewards programme",
+    "loyalty card",
     "own label",
     "private label",
-    "net zero retail",
-    "sustainability retail",
     "BRC",
     "British Retail Consortium",
     "ONS retail",
     "retail sales figures",
-    "National Living Wage",
-    "employer NIC",
+    "National Living Wage retail",
     "business rates relief",
-    "planning reform retail",
     "retail media",
     "loyalty data"
+  ],
+  "ambiguous_context_keywords": [
+    "store",
+    "stores",
+    "shop",
+    "shops",
+    "retail",
+    "retailer",
+    "high street",
+    "supermarket",
+    "grocery",
+    "fashion",
+    "plc",
+    "group",
+    "brand",
+    "chain",
+    "outlet"
   ]
 }
