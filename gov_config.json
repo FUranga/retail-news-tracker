@@ -1,0 +1,334 @@
+{
+  "_note": "Config del Módulo 3 — fuentes gubernamentales, estadísticas y regulación UK. method = rss | api | scrape. priority = high/medium/low. Agregar/quitar fuentes sin tocar código.",
+
+  "schedule": {
+    "runs_bst": ["07:00", "09:45", "12:30", "14:30", "17:30"],
+    "days": "weekdays",
+    "note": "09:45 captura publicaciones del ONS (casi siempre a las 9:30). 14:30 captura post-PMQs y committee hearings de la mañana. Ajustar +1h en UTC cuando termine BST (finales de octubre)."
+  },
+
+  "retention": {
+    "keep_days": 14,
+    "note": "Gov data se retiene más tiempo que noticias — un informe puede ser relevante días después de su publicación"
+  },
+
+  "sources": [
+
+    {
+      "id": "ons_retail",
+      "name": "ONS — Retail Sales",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry",
+      "rss": "https://www.ons.gov.uk/feed?categories=businessindustryandtrade/retailindustry",
+      "method": "rss",
+      "priority": "high",
+      "category": "statistics",
+      "tags": ["retail sales", "ONS"],
+      "paywall": false,
+      "note": "Monthly retail sales index — one of the most market-moving stats for retail"
+    },
+    {
+      "id": "ons_cpi",
+      "name": "ONS — Inflation (CPI/RPI)",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices",
+      "rss": "https://www.ons.gov.uk/feed?categories=economy/inflationandpriceindices",
+      "method": "rss",
+      "priority": "high",
+      "category": "statistics",
+      "tags": ["inflation", "CPI", "RPI", "shop prices"],
+      "paywall": false
+    },
+    {
+      "id": "ons_employment",
+      "name": "ONS — Employment",
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork",
+      "rss": "https://www.ons.gov.uk/feed?categories=employmentandlabourmarket/peopleinwork",
+      "method": "rss",
+      "priority": "medium",
+      "category": "statistics",
+      "tags": ["employment", "wages", "ASHE", "retail jobs"],
+      "paywall": false
+    },
+    {
+      "id": "ons_household",
+      "name": "ONS — Household Spending",
+      "url": "https://www.ons.gov.uk/economy/nationalaccounts/satelliteaccounts/bulletins/familyspendingintheuk",
+      "rss": "https://www.ons.gov.uk/feed?categories=economy/nationalaccounts",
+      "method": "rss",
+      "priority": "medium",
+      "category": "statistics",
+      "tags": ["household spending", "consumer spending"],
+      "paywall": false
+    },
+    {
+      "id": "ons_internet_sales",
+      "name": "ONS — Internet Sales",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry/bulletins/internetsales",
+      "rss": "https://www.ons.gov.uk/feed?categories=businessindustryandtrade/itandinternetindustry",
+      "method": "rss",
+      "priority": "medium",
+      "category": "statistics",
+      "tags": ["internet sales", "ecommerce", "online retail"],
+      "paywall": false
+    },
+
+    {
+      "id": "gov_dbt",
+      "name": "GOV.UK — Department for Business and Trade",
+      "url": "https://www.gov.uk/government/organisations/department-for-business-and-trade",
+      "rss": "https://www.gov.uk/government/organisations/department-for-business-and-trade.atom",
+      "method": "rss",
+      "priority": "high",
+      "category": "policy",
+      "tags": ["retail strategy", "trade policy", "business rates", "high street"],
+      "paywall": false
+    },
+    {
+      "id": "gov_treasury",
+      "name": "GOV.UK — HM Treasury",
+      "url": "https://www.gov.uk/government/organisations/hm-treasury",
+      "rss": "https://www.gov.uk/government/organisations/hm-treasury.atom",
+      "method": "rss",
+      "priority": "high",
+      "category": "policy",
+      "tags": ["budget", "business rates", "VAT", "fiscal policy"],
+      "paywall": false
+    },
+    {
+      "id": "gov_mhclg",
+      "name": "GOV.UK — MHCLG (Housing & Communities)",
+      "url": "https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government",
+      "rss": "https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government.atom",
+      "method": "rss",
+      "priority": "medium",
+      "category": "policy",
+      "tags": ["planning", "high street", "levelling up", "retail parks"],
+      "paywall": false
+    },
+    {
+      "id": "gov_defra",
+      "name": "GOV.UK — Defra",
+      "url": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+      "rss": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs.atom",
+      "method": "rss",
+      "priority": "medium",
+      "category": "policy",
+      "tags": ["packaging", "EPR", "plastic", "food standards", "sustainability"],
+      "paywall": false
+    },
+    {
+      "id": "gov_hmrc",
+      "name": "GOV.UK — HMRC",
+      "url": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "rss": "https://www.gov.uk/government/organisations/hm-revenue-customs.atom",
+      "method": "rss",
+      "priority": "medium",
+      "category": "policy",
+      "tags": ["VAT", "Making Tax Digital", "business rates", "tax"],
+      "paywall": false
+    },
+    {
+      "id": "gov_home_office",
+      "name": "GOV.UK — Home Office",
+      "url": "https://www.gov.uk/government/organisations/home-office",
+      "rss": "https://www.gov.uk/government/organisations/home-office.atom",
+      "method": "rss",
+      "priority": "low",
+      "category": "policy",
+      "tags": ["shoplifting", "retail crime", "theft"],
+      "paywall": false
+    },
+
+    {
+      "id": "cma",
+      "name": "CMA — Competition and Markets Authority",
+      "url": "https://www.gov.uk/government/organisations/competition-and-markets-authority",
+      "rss": "https://www.gov.uk/government/organisations/competition-and-markets-authority.atom",
+      "method": "rss",
+      "priority": "high",
+      "category": "regulation",
+      "tags": ["merger", "competition", "investigation", "consumer protection", "CMA"],
+      "paywall": false,
+      "note": "Critical for M&A retail — catch merger clearances and investigations early"
+    },
+    {
+      "id": "asa",
+      "name": "ASA — Advertising Standards Authority",
+      "url": "https://www.asa.org.uk",
+      "rss": "https://www.asa.org.uk/news/latest-news.rss",
+      "method": "rss",
+      "priority": "medium",
+      "category": "regulation",
+      "tags": ["advertising", "greenwashing", "ASA ruling", "misleading"],
+      "paywall": false
+    },
+    {
+      "id": "fca",
+      "name": "FCA — Financial Conduct Authority",
+      "url": "https://www.fca.org.uk",
+      "rss": "https://www.fca.org.uk/news/rss.xml",
+      "method": "rss",
+      "priority": "medium",
+      "category": "regulation",
+      "tags": ["BNPL", "buy now pay later", "consumer credit", "Klarna", "Clearpay"],
+      "paywall": false
+    },
+    {
+      "id": "psr",
+      "name": "PSR — Payment Systems Regulator",
+      "url": "https://www.psr.org.uk",
+      "rss": "https://www.psr.org.uk/our-work/publications/rss",
+      "method": "rss",
+      "priority": "medium",
+      "category": "regulation",
+      "tags": ["card fees", "interchange", "payment", "merchant fees"],
+      "paywall": false
+    },
+    {
+      "id": "ico",
+      "name": "ICO — Information Commissioner's Office",
+      "url": "https://ico.org.uk",
+      "rss": "https://ico.org.uk/about-the-ico/media-centre/rss/",
+      "method": "rss",
+      "priority": "low",
+      "category": "regulation",
+      "tags": ["data protection", "loyalty data", "GDPR retail"],
+      "paywall": false
+    },
+    {
+      "id": "planning_inspectorate",
+      "name": "Planning Inspectorate",
+      "url": "https://www.gov.uk/government/organisations/planning-inspectorate",
+      "rss": "https://www.gov.uk/government/organisations/planning-inspectorate.atom",
+      "method": "rss",
+      "priority": "low",
+      "category": "regulation",
+      "tags": ["retail development", "planning permission", "out-of-town"],
+      "paywall": false
+    },
+
+    {
+      "id": "parliament_business_trade",
+      "name": "Parliament — Business and Trade Committee",
+      "url": "https://committees.parliament.uk/committee/365/business-and-trade-committee",
+      "rss": "https://committees.parliament.uk/committee/365/business-and-trade-committee/rss/",
+      "method": "rss",
+      "priority": "high",
+      "category": "parliament",
+      "tags": ["retail inquiry", "committee hearing", "business rates"],
+      "paywall": false,
+      "note": "Key committee for retail legislation and inquiries"
+    },
+    {
+      "id": "parliament_treasury",
+      "name": "Parliament — Treasury Select Committee",
+      "url": "https://committees.parliament.uk/committee/158/treasury-committee",
+      "rss": "https://committees.parliament.uk/committee/158/treasury-committee/rss/",
+      "method": "rss",
+      "priority": "medium",
+      "category": "parliament",
+      "tags": ["fiscal policy", "budget", "consumer"],
+      "paywall": false
+    },
+    {
+      "id": "parliament_environmental",
+      "name": "Parliament — Environmental Audit Committee",
+      "url": "https://committees.parliament.uk/committee/73/environmental-audit-committee",
+      "rss": "https://committees.parliament.uk/committee/73/environmental-audit-committee/rss/",
+      "method": "rss",
+      "priority": "low",
+      "category": "parliament",
+      "tags": ["sustainability", "packaging", "fast fashion", "greenwashing"],
+      "paywall": false
+    },
+
+    {
+      "id": "low_pay_commission",
+      "name": "Low Pay Commission",
+      "url": "https://www.gov.uk/government/organisations/low-pay-commission",
+      "rss": "https://www.gov.uk/government/organisations/low-pay-commission.atom",
+      "method": "rss",
+      "priority": "high",
+      "category": "labour",
+      "tags": ["National Living Wage", "minimum wage", "NLW", "labour costs"],
+      "paywall": false
+    },
+    {
+      "id": "insolvency_service",
+      "name": "The Insolvency Service",
+      "url": "https://www.gov.uk/government/organisations/insolvency-service",
+      "rss": "https://www.gov.uk/government/organisations/insolvency-service.atom",
+      "method": "rss",
+      "priority": "high",
+      "category": "insolvency",
+      "tags": ["administration", "CVA", "insolvency", "liquidation", "retail failure"],
+      "paywall": false
+    },
+    {
+      "id": "companies_house",
+      "name": "Companies House — Significant Filings",
+      "url": "https://www.gov.uk/government/organisations/companies-house",
+      "rss": "https://www.gov.uk/government/organisations/companies-house.atom",
+      "method": "rss",
+      "priority": "medium",
+      "category": "insolvency",
+      "tags": ["administration", "liquidation", "filing"],
+      "paywall": false,
+      "note": "RSS is general — consider API for targeted filing alerts in future"
+    },
+
+    {
+      "id": "bank_of_england",
+      "name": "Bank of England",
+      "url": "https://www.bankofengland.co.uk",
+      "rss": "https://www.bankofengland.co.uk/rss/publications",
+      "method": "rss",
+      "priority": "high",
+      "category": "macro",
+      "tags": ["interest rates", "MPC", "inflation", "consumer credit", "mortgage"],
+      "paywall": false,
+      "note": "MPC decisions affect consumer credit and mortgage costs = consumer spending"
+    },
+
+    {
+      "id": "brc_reports",
+      "name": "British Retail Consortium",
+      "url": "https://brc.org.uk",
+      "rss": "https://brc.org.uk/news/rss",
+      "method": "rss",
+      "priority": "high",
+      "category": "research",
+      "tags": ["BRC", "retail sales", "crime", "sustainability", "employment"],
+      "paywall": false
+    },
+    {
+      "id": "centre_retail_research",
+      "name": "Centre for Retail Research",
+      "url": "https://www.retailresearch.org",
+      "rss": null,
+      "method": "scrape",
+      "priority": "medium",
+      "category": "research",
+      "tags": ["retail insolvency", "retail crime", "store closures"],
+      "paywall": false,
+      "note": "No RSS — periodic scrape or Google News alert"
+    },
+    {
+      "id": "which",
+      "name": "Which? — Consumer Research",
+      "url": "https://www.which.co.uk/news",
+      "rss": "https://www.which.co.uk/news/rss",
+      "method": "rss",
+      "priority": "medium",
+      "category": "research",
+      "tags": ["consumer rights", "prices", "supermarket", "loyalty"],
+      "paywall": false
+    }
+  ],
+
+  "filtering": {
+    "always_include_high_priority": true,
+    "note": "High priority sources are always included regardless of keyword match. Medium and low are filtered by tags/keywords against retailers.json.",
+    "retailers_file": "retailers.json",
+    "sector_config_file": "sector_config.json"
+  }
+}
