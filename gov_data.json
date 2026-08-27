@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T21:07:55",
+  "generated_at": "2026-08-27T23:04:21",
   "items": [
     {
       "source_id": "gov_treasury",
@@ -5652,6 +5652,29 @@
       ]
     },
     {
+      "source_id": "ons_cpi",
+      "source_name": "ONS — Inflation (CPI/RPI)",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Inflation in the UK: Economic indicators - The House of Commons Library",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhenhHZFZuRHh1cmQ4a0VIT1JROW14dmpOd19QT29vc3RBbWZvOXJzLW4wNm8wLVJ0a1Jxa3c1OGdSa2ItSjMyYS1SMUdwb2ZNVzkwNDhZVUx3RDBMSVozVFFzYmd3V3htck9KbXJ3aDhsQQ?oc=5",
+      "summary": "Inflation in the UK: Economic indicators &nbsp;&nbsp; The House of Commons Library",
+      "datetime": "2026-08-19T07:00:00",
+      "match_reason": "priority:high (ons_cpi)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "inflation",
+        "CPI",
+        "RPI",
+        "shop prices"
+      ],
+      "body": null
+    },
+    {
       "source_id": "bank_of_england",
       "source_name": "Bank of England",
       "source_cat": "macro",
@@ -5827,6 +5850,28 @@
         "levelling up",
         "retail parks"
       ]
+    },
+    {
+      "source_id": "ons_internet_sales",
+      "source_name": "ONS — Internet Sales",
+      "source_cat": "statistics",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Free Ecommerce Website Builders for UK SMEs in 2026 - Startups.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdVNnbkJPUFV3VFQxdURFaDJxeWpUeVdWREsyR2hvVmU3TTdhLUpDN01McGl4N2VvdDlZNUY1ZnVjQnFHUkVWSmlUT1EtQWgzQVhzSExoNnJYcVN5ajZXelJHeGtvT29LMXMtb3EtQkk0OG9pdVFWWDFmQzB2WFVsMlF0dWwtdw?oc=5",
+      "summary": "Free Ecommerce Website Builders for UK SMEs in 2026 &nbsp;&nbsp; Startups.co.uk",
+      "datetime": "2026-08-17T07:00:00",
+      "match_reason": "tag:ecommerce",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "pureplay",
+      "tags": [
+        "internet sales",
+        "ecommerce",
+        "online retail"
+      ],
+      "body": null
     },
     {
       "source_id": "brc_reports",
