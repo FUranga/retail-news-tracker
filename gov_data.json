@@ -1,6 +1,29 @@
 {
-  "generated_at": "2026-08-26T22:44:10",
+  "generated_at": "2026-08-27T06:11:36",
   "items": [
+    {
+      "source_id": "gov_dbt",
+      "source_name": "GOV.UK — Department for Business and Trade",
+      "source_cat": "policy",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "",
+      "url": "",
+      "summary": "",
+      "datetime": "2026-08-27T06:09:02.799899",
+      "match_reason": "priority:high (gov_dbt)",
+      "stream": "government",
+      "story_type": "policy",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "retail strategy",
+        "trade policy",
+        "business rates",
+        "high street"
+      ],
+      "body": null
+    },
     {
       "source_id": "gov_dbt",
       "source_name": "GOV.UK — Department for Business and Trade",
@@ -5042,6 +5065,27 @@
       "source_cat": "statistics",
       "source_pri": "high",
       "paywall": false,
+      "title": "UK retail sales slow sharply, but GBP/USD moves higher - equiti.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdEIyNDZmNmxIbWUxaVV0aWRhcktQSWlkcThQWDF4ak1xdm9yS1pvVVN3dkJjOUNFS1NTaWUyZWtjcS16Q0pvWlN3LTJ5YnU5X3l2bGdBYlpTYmlMb2xiX3ppT09lSUNCRG52a2VIVkloZkZrU2RxeUpTdkNDcElZR2NZSzZZNzhXRXhCU09wMnRQV3VKeElzS2xPSU5EX2tnOWFn?oc=5",
+      "summary": "UK retail sales slow sharply, but GBP/USD moves higher &nbsp;&nbsp; equiti.com",
+      "datetime": "2026-08-22T01:57:41",
+      "match_reason": "priority:high (ons_retail)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "retail sales",
+        "ONS"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "ons_retail",
+      "source_name": "ONS — Retail Sales",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
       "title": "Retail sales in Great Britain fall despite heatwave increasing food and drink demand | Retail industry - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT3YydHVHUlRJZDZNME93eW96ekc5cXhzWlhzMkJxamI2WlF0OHctNVlzYlhPR1Q2NDRnak1Za2Z0UWFyc2lra25RSlBaQmVZTmJYbzRXYkV3MmN5SmJmZHlNRlVnMnJjaV9oSGpZZVUzVWdLd09DWVEzUW5rZjRkN1I4b0pobjRKR1pWSnR0SlV4dHdPbXNDdk55YmZ1UThlTnNlR2dWQmYtUktZN2ZObk1fV0dIMFlzMHJxX3hSZXNBY0NvRjNtY2hXT1N4UQ?oc=5",
       "summary": "Retail sales in Great Britain fall despite heatwave increasing food and drink demand | Retail industry &nbsp;&nbsp; The Guardian",
@@ -5448,6 +5492,30 @@
         "RPI",
         "shop prices"
       ]
+    },
+    {
+      "source_id": "bank_of_england",
+      "source_name": "Bank of England",
+      "source_cat": "macro",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "POLL Bank of England to hold rates for remainder of year despite inflation risks - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQzJRYVd3OEZsRm9qOF93SEZvN3RzTFpldTNxaWhlWW85MEVEbjZaTFExVnhLdHdSN3A3MWZvV0VFcktyd3ZTQ0Y1cnZNQW45N2cyZTNzMFZpdGJQcEpzazNJSFNZS1NDWXRwMnQ0OXhmNUNpUzVPeGdzZ0ZzOTJGUXdIdW05S3pLUmJjd3l3U2J4TWtaenJDQVI1R1l6ZG1Ob1JZdGlCUUJOY1U?oc=5",
+      "summary": "POLL Bank of England to hold rates for remainder of year despite inflation risks &nbsp;&nbsp; Reuters",
+      "datetime": "2026-08-18T15:01:51",
+      "match_reason": "priority:high (bank_of_england)",
+      "stream": "government",
+      "story_type": "macro",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "interest rates",
+        "MPC",
+        "inflation",
+        "consumer credit",
+        "mortgage"
+      ],
+      "body": null
     },
     {
       "source_id": "ons_employment",
