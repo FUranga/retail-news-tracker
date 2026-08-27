@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-27T16:49:19",
+  "generated_at": "2026-08-27T17:51:01",
   "items": [
+    {
+      "source_id": "the_telegraph",
+      "source_name": "The Telegraph",
+      "source_cat": "general",
+      "paywall": true,
+      "title": "Mike Ashley: Burnham’s plan to save high street is delusional - The Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWEtPcUluX2V6UWd4WXplQkNYV3FZWV9CNWUxMktLX0tVdFJuLTMwdXB2Y21GLUpGWkVzTU80SnZ6WHZBUFFrR0tHV2cxSjV0Z0RrNGY5ZW5VOFA3WlVSelV3VTllQjEzVDhDbkx5OFVvVzNWMGk1ZWgxR1hvTnd1ZmtueVNYQWxDdkc3TVo0cmNvd0NHVXlnY3U0TWpuM2E5cUs0a21TN3VRMVFz?oc=5",
+      "summary": "Mike Ashley: Burnham’s plan to save high street is delusional &nbsp;&nbsp; The Telegraph",
+      "datetime": "2026-08-27T16:53:00",
+      "match_reason": "keyword:high street",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "property",
+      "body": null
+    },
     {
       "source_id": "retail_times",
       "source_name": "Retail Times",
@@ -32,6 +48,22 @@
       "is_noise": false,
       "retail_sector": "macro",
       "body": "With more than half of high-risk suppliers serving the UK retail sector lacking formal worker grievance channels, Antoine Heuty, senior vice president for Human Rights at EcoVadis, explains why retailers must close the gap between human rights commitments and conditions on the ground.\nRetailers cannot address labour abuse they cannot see, and they cannot gain a reliable picture of conditions within their supply chains if workers have no safe way to speak.\nWhen employees are unable to report unpaid wages, excessive overtime, harassment or coercion, serious human rights violations can remain hidden until they cause lasting harm to workers and significant legal, operational and reputational damage to businesses.\nRetailers have invested heavily in human rights policies, supplier codes of conduct and social audits. These are important foundations, but they cannot alone reveal what is happening within factories, farms and other workplaces deep within global supply chains.\nAn EcoVadis report highlights the scale of this gap. It assessed 2,899 suppliers to UK retail and consumer goods companies between 2023 and 2025, including 242 based in countries classified as presenting a high risk of labour and human rights abuses.\nAlthough 72% of these high-risk suppliers had a written human rights policy, 56% provided no formal channel through which workers could safely report labour-related concerns. Only 61% had introduced operational measures such as worker training, whistleblowing systems or third-party audits. Just one in five had reached an advanced level of maturity, combining a formal policy with at least four practical worker protection measures.\nAt the same time, the proportion of procurement by UK retail and consumer goods businesses coming from high-risk countries increased by 22% over two years. Retailers’ exposure is therefore rising precisely where the systems needed to identify and address exploitation remain weakest.\nFrom policy to practice\nA human rights policy is the beginning of due diligence, not its conclusion.\nA commitment approved at corporate level has limited impact when a worker does not know it exists, cannot access a reporting channel in their own language or fears dismissal or retaliation if they raise a concern.\nTraditional social audits only provide a partial picture. They are just a snapshot in time, and workers may be reluctant to speak openly when they do not trust that their identity will be protected.\nEffective grievance mechanisms provide a more continuous source of intelligence. They help businesses identify emerging problems before they develop into systemic exploitation, supply disruption, public controversy or situations that are costly to manage.\nHowever, establishing a telephone line or online form is not enough. A grievance mechanism is only effective when workers know about it, can access it easily, trust it and see evidence that concerns lead to action.\nUK regulation is moving towards greater accountability\nThese findings come amid growing policy scrutiny of labour exploitation and forced labour in supply chains.\nThe recently introduced Immigration and Asylum Bill strengthens transparency expectations around forced labour, while the Independent Anti-Slavery Commissioner has called for more robust government action to prevent exploitation and hold organisations to account.\nThe Bill gives further impetus for businesses and organisations to take action as the Asylum Bill proposes changes to the reporting regime under section 54 of the Modern Slavery Act 2015. These cover: the requirement for an accuracy statement from the relevant signatory; extended scope to public bodies above a budget threshold; and financial penalties for non-compliance – up to £1 million or 1% of total turnover, whichever is greater.\nFor retailers, the direction of travel is clear. Publishing a modern slavery statement or supplier code will increasingly be viewed as insufficient. Businesses will need to demonstrate how risks are identified, what safeguards are operating within their supply chains and whether those measures are producing meaningful outcomes for workers.\nThree priority actions for retailers\n- Move to performance – prioritise supplier action rates over statement compliance in procurement due diligence.\n- Close the consistency gap – apply heightened scrutiny to high-risk geographies, not just high-risk product categories.\n- Centre the worker – require evidence that shows workers can access, understand and use grievance mechanisms in their own language, and that what they raise leads to a response. A modern slavery framework that doesn’t centre the worker is incomplete by design.\nIt should be noted that a higher number of complaints is not necessarily evidence that conditions are worsening. It may show that workers trust the system enough to use it. The critical measure is whether concerns are investigated and resolved.\nWorker grievance mechanisms should not be treated as peripheral ESG initiatives. They are essential business controls that help retailers identify risks conventional monitoring can miss.\nThe findings expose a dangerous mismatch: sourcing from high-risk markets is increasing, while many workers most vulnerable to exploitation still lack a safe route to report it. Closing that gap is fundamental to protecting workers, meeting growing regulatory expectations and ensuring retailers can substantiate the human rights commitments they make."
+    },
+    {
+      "source_id": "drapers",
+      "source_name": "Drapers",
+      "source_cat": "trade",
+      "paywall": true,
+      "title": "Mike Ashley calls on Andy Burnham to tackle theft, business rates and price fixing",
+      "url": "https://www.drapersonline.com/news/mike-ashley-calls-on-andy-burnham-to-tackle-theft-business-rates-and-price-fixing",
+      "summary": "Drapers Mike Ashley calls on Andy Burnham to tackle theft, business rates and price fixing Frasers Group founder Mike Ashley has written to prime minister Andy Burnham, warning that factors such as rising business rates and employment costs are putting retailers under increasing pressure. The post Mike Ashley calls on Andy Burnham to tackle theft, business rates and price fixing appeared first on Drapers .",
+      "datetime": "2026-08-27T16:27:00",
+      "match_reason": "retailer:frasers group",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "sport",
+      "body": null
     },
     {
       "source_id": "drapers",
@@ -2061,6 +2093,22 @@
       "body": null
     },
     {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Mamas and Papas completes refinancing after FY sales hit £170m - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMjRuN2x2YnJONHZvNXdSZk5EbW52bUhSekpaUVRMQnVvd2J4NXFIQks0SjZGV0p3UzVzaDBQS05rekJZQ0hNZWt6dlh4dlQwZXpaTDd2dkVxcm04MnZWSlVaMV9ETVQyRXFLcHg0NkozdXZYNDVmcWtzcjB6Q243ZUozS3p3c2FqQlhWM0o4Nm0tRWlEd3NaM1ZLWW1jVklrSmc?oc=5",
+      "summary": "Mamas and Papas completes refinancing after FY sales hit £170m &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-21T13:13:44",
+      "match_reason": "keyword:retail sector",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": null,
+      "body": null
+    },
+    {
       "source_id": "guardian_retail",
       "source_name": "The Guardian — Retail",
       "source_cat": "general",
@@ -2203,21 +2251,6 @@
       "story_type": null,
       "is_noise": false,
       "body": null
-    },
-    {
-      "source_id": "guardian_retail",
-      "source_name": "The Guardian — Retail",
-      "source_cat": "general",
-      "paywall": false,
-      "title": "JD Sports boss is still struggling to turn up the heat on a tepid trainer market",
-      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/aug/20/jd-sports-boss-is-still-struggling-to-turn-up-the-heat-amid-tepid-trainer-market",
-      "summary": "Latest profit warning is particularly disappointing in a World Cup year, which should have given the global business a sporty buzz JD Sports cuts £50m from profit forecast as cost of living pressures hit trainer sales It was a slower quarter for “high-heat footwear product”, said JD Sports . It didn’t mean it was struggling to shift sandals during a heatwave. Rather, it was referring coyly to the big global trainer brands’ failure to come up with hot new designs. When Nike and Adidas, reckoned by City analysts to account for slightly more than half JD’s sales, are on tepid form, the self-styled “king of trainers” retailer usually is as well. The low-heat grumble will be familiar to JD’s shareholders. So, too, the one about “incremental cost of living pressures”, especially in the US. And the phrase “a promotional market” has appeared so often in the company’s updates in the past couple of years that it would be easier to tell us when discounting isn’t dominant. Continue reading...",
-      "datetime": "2026-08-20T17:14:31",
-      "match_reason": "retailer:jd sports",
-      "stream": "news",
-      "story_type": null,
-      "is_noise": false,
-      "body": "It was a slower quarter for “high-heat footwear product”, said JD Sports. It didn’t mean it was struggling to shift sandals during a heatwave. Rather, it was referring coyly to the big global trainer brands’ failure to come up with hot new designs. When Nike and Adidas, reckoned by City analysts to account for slightly more than half JD’s sales, are on tepid form, the self-styled “king of trainers” retailer usually is as well.\nThe low-heat grumble will be familiar to JD’s shareholders. So, too, the one about “incremental cost of living pressures”, especially in the US. And the phrase “a promotional market” has appeared so often in the company’s updates in the past couple of years that it would be easier to tell us when discounting isn’t dominant.\nThe result was another warning on profits and a 14% slump in the share price. JD now thinks it’ll make between £700m and £800m at an underlying pre-tax level this financial year. The difference from the previous estimate of £750m-£850m isn’t huge, but they all count. This was the third warning since early 2024. The particular disappointment this time is that it was a men’s football World Cup year, which ought to have been good for generating a general sporty buzz for a global business.\nThe market clearly is genuinely weak. Nike’s share price is down a third this year even after a miserable performance in the last two. Or look at Adidas’s own recent warning that its big marketing bet on the World Cup didn’t pay off. Or at the sluggish spending among US consumers in response to higher energy prices: Walmart, the largest US retailer, this week reported its slowest sales growth in six years.\nEven so, the deeper worry at JD is that the whole “athleisure” trend isn’t coming back – or, if it does, at nothing like the level of the old days. The Covid pandemic created a mini-boom for joggers and trainers but since then the direction has only been one way. Did Nike and Adidas push prices too far? Have they been outflanked by the likes of Hoka and On? Or have consumer tastes just changed? Probably all of the above to an extent – and none is good news for JD.\nThe cashflow forecast, for £460m-£520m, didn’t change, which is evidence to support JD’s boasts about sharpening internal controls after its previous boom years of successful global expansion in the 2010s. All the same, waiting for an upturn, counting the cashflow and buying back a few shares makes for an uninspiring life.\nDisagreements about strategy reportedly led to the exit of the chair, Andrew Higginson, last month, and it is easy to see why there would be tension. The share price is back at 2019 levels. If this were a conventionally owned public company, as opposed to one with a 55% shareholder in the form of the Pentland Group, the chief executive Régis Schultz might be under more pressure to generate some trading heat via self-help. Non-Pentland shareholders are surely frustrated."
     }
   ]
 }
