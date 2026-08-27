@@ -1,6 +1,120 @@
 {
-  "generated_at": "2026-08-27T06:11:36",
+  "generated_at": "2026-08-27T17:13:42",
   "items": [
+    {
+      "source_id": "gov_treasury",
+      "source_name": "GOV.UK — HM Treasury",
+      "source_cat": "policy",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Ministers to boost innovation in payments with new objective for Bank of England",
+      "url": "https://www.govwire.co.uk/news/hm-treasury/ministers-to-boost-innovation-in-payments-with-new-objective-for-bank-of-england-g2547831",
+      "summary": "The Government intends to give the Bank of England a new responsibility to support innovation in payment systems and emerging forms of digital money, whilst continuing to prioritise financial stability. | HM Treasury.",
+      "datetime": "2026-08-27T17:10:50.067121",
+      "match_reason": "priority:high (gov_treasury)",
+      "stream": "government",
+      "story_type": "policy",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "budget",
+        "business rates",
+        "VAT",
+        "fiscal policy"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "gov_treasury",
+      "source_name": "GOV.UK — HM Treasury",
+      "source_cat": "policy",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Interim Chair of National Savings and Investments appointment extended",
+      "url": "https://www.govwire.co.uk/news/hm-treasury/interim-chair-of-national-savings-and-investments-appointment-extended-g2550284",
+      "summary": "Luke Jensen's appointment as Interim Chair has been extended. | HM Treasury.",
+      "datetime": "2026-08-27T17:10:50.067087",
+      "match_reason": "priority:high (gov_treasury)",
+      "stream": "government",
+      "story_type": "policy",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "budget",
+        "business rates",
+        "VAT",
+        "fiscal policy"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "brc_reports",
+      "source_name": "British Retail Consortium",
+      "source_cat": "research",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "BRC responds to latest figures on NEETs - British Retail Consortium",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLWdDUmoyR01oUkVCaXlDZnh4YTlDTGZoU0ppQkJMc1dBMVpYcXhNamVpZnpMMWtBNWthdFJ2eGIzMFk2V3pUb2ZnSXBrWEowbm1uaDBWcHduaTBFZjB3ekhVV2k5YjhpQU8yZ3ZSTGM4b0t6MW9YUzNOWFVnQTdqOEVEc1JGd18tbUhid3Y1WnFLTUljN21zQzVzTDBySVhxNGVwc1hKaUVESmNGVUxVbA?oc=5",
+      "summary": "BRC responds to latest figures on NEETs &nbsp;&nbsp; British Retail Consortium",
+      "datetime": "2026-08-27T11:20:10",
+      "match_reason": "priority:high (brc_reports)",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "BRC",
+        "retail sales",
+        "crime",
+        "sustainability",
+        "employment"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "ons_calendar",
+      "source_name": "ONS — Release Calendar",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Young people not in education, employment or training (NEET), UK: August 2026",
+      "url": "https://www.ons.gov.uk/releases/youngpeoplenotineducationemploymentortrainingneetukaugust2026",
+      "summary": "Estimates of young people (aged 16 to 24 years) who are not in education, employment or training, by age and sex. These are official statistics.",
+      "datetime": "2026-08-27T08:30:00",
+      "match_reason": "priority:high (ons_calendar)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "ONS",
+        "statistics",
+        "release"
+      ],
+      "body": "Release\n  Young people not in education, employment or training (NEET), UK: August 2026\n              Released:\n              27 August 2026 9:30am\n            \n            \n              Next release:\n              26 November 2026\n            \n          Summary\nEstimates of young people (aged 16 to 24 years) who are not in education, employment or training, by age and sex. These are official statistics."
+    },
+    {
+      "source_id": "ons_calendar",
+      "source_name": "ONS — Release Calendar",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Economic activity and social change in the UK, real-time indicators: 27 August 2026",
+      "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators27august2026",
+      "summary": "Early experimental data and analysis on economic activity and social change in the UK. These real-time indicators are created using rapid response surveys, novel data sources and experimental methods.",
+      "datetime": "2026-08-27T08:30:00",
+      "match_reason": "priority:high (ons_calendar)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "ONS",
+        "statistics",
+        "release"
+      ],
+      "body": "- \n      \n        \n        \n          Weekly shipping indicators\n        \n       \n          Weekly data showing ship visits to and from selected UK ports. These are official statistics in development. Source: exactEarth.\n        \n- \n      \n        \n        \n          System Price of electricity\n        \n       \n          Daily data showing the System Price of electricity and rolling seven-day average in Great Britain. These are official statistics in development. Source: Elexon. \n        \n- \n      \n        \n        \n          System Average Price (SAP) of gas \n        \n       \n          Daily data showing System Average Price (SAP) of gas, and rolling seven-day average, traded in Great Britain over the On-the-Day Commodity Market (OCM). These are official statistics in development. Source: National Gas Transmission. \n        \n- \n      \n        \n        \n          Rightmove housing market insights\n        \n       \n          Weekly and monthly data relating to the housing market in Great Britain. These are official statistics in development. Source: Rightmove.\n        \n- \n      \n        \n        \n          Advanced notification of potential redundancies\n        \n       \n          Weekly data showing the number of potential redundancies from Insolvency Service HR1 forms and the number of employers proposing redundancies, Great Britain. These are official statistics in development. Source: Insolvency Service - HR1 forms.\n        \n- \n      \n        \n        \n          Daily UK flights\n        \n       \n          Daily data showing UK flight numbers and rolling seven-day average, including flights to, from, and within the UK. These are official statistics in development. Source: EUROCONTROL.\n        \n- \n      \n        \n        \n          Energy Performance Building Certificates (EPC)\n        \n       \n          Weekly number of Energy Performance Building Certificates (EPCs) for new and existing domestic properties in England and Wales. These are official statistics in development. Source: Ministry of Housing, Communities and Local Government.\n        \n- \n      \n        \n        \n          Revolut spending on debit cards\n        \n       \n          Weekly and monthly data showing indices of Revolut debit card transaction data, UK. These are official statistics in development. Source: Revolut.\n        \n- \n      \n        \n        \n          UK retail footfall\n        \n       \n          Weekly and monthly data showing retail footfall in the UK, split by location category and UK region. These are official statistics in development. Source: BT Active Intelligence."
+    },
     {
       "source_id": "gov_dbt",
       "source_name": "GOV.UK — Department for Business and Trade",
@@ -5288,6 +5402,29 @@
         "statistics",
         "release"
       ]
+    },
+    {
+      "source_id": "gov_mhclg",
+      "source_name": "GOV.UK — MHCLG (Housing & Communities)",
+      "source_cat": "policy",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "72 things you need to know about the final version of the new NPPF - Planning Resource",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZWpGaFotclR1WDRsVGF4QlhpeG1BejhpVTVEVlBheWJ3MmNlTk13NHNfbWIyZzl5bU9XYXFLLWJTTWthN2lHMUJDd3BRS1I3WGZ1bW50aVh1RUN5MHVsRXFsSWViZmticmV2VG5kRFo1dWxhMWRwSF9vaE82SDhPYjdQejBLNHpaNERMM2Rtb3dEOFVzS2VTOQ?oc=5",
+      "summary": "72 things you need to know about the final version of the new NPPF &nbsp;&nbsp; Planning Resource",
+      "datetime": "2026-08-20T18:25:39",
+      "match_reason": "tag:planning",
+      "stream": "government",
+      "story_type": "policy",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "planning",
+        "high street",
+        "levelling up",
+        "retail parks"
+      ],
+      "body": null
     },
     {
       "source_id": "brc_reports",
