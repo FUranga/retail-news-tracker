@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-08-27T20:54:24",
+  "generated_at": "2026-08-27T23:32:38",
   "items": [
+    {
+      "source_id": "jdsports",
+      "source_name": "JD Sports",
+      "companyname": "JD Sports",
+      "retail_sector": "sport",
+      "listed": "FTSE100",
+      "tier": 1,
+      "paywall": false,
+      "title": "Retail - JD Sports Fashion PLC - JD Sports Fashion – Investor Relations",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xYlZJQ2dYdVNsZkM2YzNmb2hjdThHcmhxcElibkphOGdyUFc1SXZ2bGN5dElDVlc1UG5tY3pMd1p3UHZTZ3ZMdXNNLVFpcUVvSGVodUxrbTJrOHpwdEE?oc=5",
+      "summary": "Retail - JD Sports Fashion PLC &nbsp;&nbsp; JD Sports Fashion – Investor Relations",
+      "datetime": "2026-08-27T21:23:54",
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:JD Sports",
+      "body": null
+    },
     {
       "source_id": "river_island",
       "source_name": "River Island",
