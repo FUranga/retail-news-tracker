@@ -186,6 +186,10 @@ def run():
         total_fetched += len(articles)
 
         for a in articles:
+            # Descartar entradas vacías del feed
+            if not a.get("title") or not a.get("url"):
+                continue
+
             if a["url"] in existing_ids:
                 # Re-intentar si ya existe pero sin match_reason (primera vez)
                 continue
