@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T17:26:33",
+  "generated_at": "2026-08-27T18:59:30",
   "items": [
     {
       "source_id": "river_island",
@@ -290,6 +290,24 @@
       "body": null
     },
     {
+      "source_id": "dr_martens",
+      "source_name": "Dr. Martens",
+      "companyname": "Dr. Martens",
+      "retail_sector": "fashion",
+      "listed": "FTSE250",
+      "tier": 2,
+      "paywall": false,
+      "title": "Share price tools - Dr. Martens plc",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11M25GS1RGRnpqQ1BoQTJ4YzZnOGdqSjNBdWk5U2NuMFIwTGRXLVhjczloTkNaNFVrMFZoRl8tdDZ5dGdwTVdDVFdoNXdSU0otX3BuMlpJN1pZZlNXREFmR3JoVHZzRFhL?oc=5",
+      "summary": "Share price tools &nbsp;&nbsp; Dr. Martens plc",
+      "datetime": "2026-08-25T15:50:00",
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:Dr. Martens",
+      "body": null
+    },
+    {
       "source_id": "aldi_uk",
       "source_name": "Aldi UK",
       "companyname": "Aldi UK",
@@ -395,6 +413,24 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "company:Specsavers",
+      "body": null
+    },
+    {
+      "source_id": "dr_martens",
+      "source_name": "Dr. Martens",
+      "companyname": "Dr. Martens",
+      "retail_sector": "fashion",
+      "listed": "FTSE250",
+      "tier": 2,
+      "paywall": false,
+      "title": "Investors - Dr. Martens plc",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE93TU9lQVoxNHo0T0hucmpqSWtBWnM5SE9QOXN5TW1BMFo0VHJadU5GRFRqZjVKSVR4ZDNCVC1UMnY5bU5ORVRNSE9MN2pmbUd1?oc=5",
+      "summary": "Investors &nbsp;&nbsp; Dr. Martens plc",
+      "datetime": "2026-08-25T07:00:00",
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:Dr. Martens",
       "body": null
     },
     {
