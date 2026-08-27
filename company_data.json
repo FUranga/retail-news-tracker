@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T18:59:30",
+  "generated_at": "2026-08-27T20:54:24",
   "items": [
     {
       "source_id": "river_island",
@@ -35,6 +35,24 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "company:Primark",
+      "body": null
+    },
+    {
+      "source_id": "river_island",
+      "source_name": "River Island",
+      "companyname": "River Island",
+      "retail_sector": "fashion",
+      "listed": "private",
+      "tier": 2,
+      "paywall": false,
+      "title": "British clothing chain with 47 stores around UK launches 'closing down' sale as it shuts town centre branch - The Sun",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNFhWVXBBeEdLM010d2d6d25VeFgya3MtSU5OcG1jd3l3d1dNOG0yZ2dEal9jMVpibHhLOXA3QmoyVmN6ckVGejFuWW8tRVFZR2o5RHlpOWV5Y2pJcC1NTXoxaUdkRF9lVTlXN1hVNkxHeXZOVm5QLVY5b0JSTDk0cnRrLUMxOXB4c3c?oc=5",
+      "summary": "British clothing chain with 47 stores around UK launches 'closing down' sale as it shuts town centre branch &nbsp;&nbsp; The Sun",
+      "datetime": "2026-08-27T15:57:00",
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:River Island",
       "body": null
     },
     {
@@ -863,6 +881,24 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "company:ASOS",
+      "body": null
+    },
+    {
+      "source_id": "halfords",
+      "source_name": "Halfords",
+      "companyname": "Halfords",
+      "retail_sector": "sport",
+      "listed": "FTSE250",
+      "tier": 1,
+      "paywall": false,
+      "title": "Supplier hub - Halfords Group plc",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uTnNqSEozUGNjM2JrWmlYc19nYWZ3Q1RPVTVUeVJRczExOGlpdWQzclFLdlozRUU4RE04N09SVFRJSURYMzVfanFyVVVYWmlWT2hMQy1oOUptTEZVckpZTUVubDMwdzg?oc=5",
+      "summary": "Supplier hub &nbsp;&nbsp; Halfords Group plc",
+      "datetime": "2026-08-21T07:54:25",
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:Halfords",
       "body": null
     },
     {
