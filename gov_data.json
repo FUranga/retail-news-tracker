@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T17:13:42",
+  "generated_at": "2026-08-27T19:19:10",
   "items": [
     {
       "source_id": "gov_treasury",
@@ -5471,6 +5471,27 @@
         "sustainability",
         "employment"
       ]
+    },
+    {
+      "source_id": "ons_retail",
+      "source_name": "ONS — Retail Sales",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "UK retail sales fall as shoppers cut back on clothing and online spending - inkl",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaHRxRFZaOXFjNTM3cjFuWFZnLW1aaUhxT19KZFl1MmF0NTRDZ3VoTWFrTnpvN1ByakJ1bURzRnZndEtjZGVsNEFHSzcwSThKSUoxQnFPY3U0N0J6NngxR0t2bFlFOGxoczdMZkdyQ1ZSNE5pZ1U4QTNfbkJYS3p2NUY3X0xOZlFoVUpycGZ3ejVVNDRHWFh6OUtZMTA?oc=5",
+      "summary": "UK retail sales fall as shoppers cut back on clothing and online spending &nbsp;&nbsp; inkl",
+      "datetime": "2026-08-20T07:00:00",
+      "match_reason": "priority:high (ons_retail)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "fashion",
+      "tags": [
+        "retail sales",
+        "ONS"
+      ],
+      "body": null
     },
     {
       "source_id": "gov_mhclg",
