@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-08-28T21:20:13",
+  "generated_at": "2026-08-28T23:23:58",
   "items": [
+    {
+      "source_id": "jdsports",
+      "source_name": "JD Sports",
+      "companyname": "JD Sports",
+      "retail_sector": "sport",
+      "listed": "FTSE100",
+      "tier": 1,
+      "paywall": false,
+      "title": "- JD Sports Fashion – Investor Relations",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xUllabFVGTEdHb1ZKWWhGdVlpT1llMjZHWFdsN1BTSHppMVVlTGNPV3ZlVGNLLVA0REVwNHRtRHlaS0Zuc3Q1S0xPRDFsOW9aeTFtcmtNM3kyWnc?oc=5",
+      "summary": "&nbsp;&nbsp; JD Sports Fashion – Investor Relations",
+      "datetime": "2026-08-28T14:59:10",
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:JD Sports",
+      "body": null
+    },
     {
       "source_id": "asda",
       "source_name": "Asda",
