@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-28T17:27:35",
+  "generated_at": "2026-08-28T17:42:49",
   "items": [
+    {
+      "source_id": "retail_times",
+      "source_name": "Retail Times",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Aldi names next 25 UK stores set for upgrades",
+      "url": "https://retailtimes.co.uk/aldi-names-next-25-uk-stores-set-for-upgrades/",
+      "summary": "Discover what's happening in retail today, Retail Times publishes international &amp; UK retail news covering products, data, tech, packaging, people, research, comment and much more. Aldi has revealed the next 25 locations to benefit from its £300 million investment in upgrading existing stores across the UK this year. Stores in London, Liverpool, Aberdeen, Sunderland and Bedford are among those receiving refurbishments and other improvements, including more energy-efficient technology. Five stores – in Stirling, Paisley, Wollaston, Linlithgow and Lewes – will [&#8230;] If you want more information Retail Times get in touch! Retail Times - Retail Times, a free to view retail news website",
+      "datetime": "2026-08-28T17:41:27",
+      "match_reason": "retailer:next (context)",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "fashion",
+      "body": "Aldi has revealed the next 25 locations to benefit from its £300 million investment in upgrading existing stores across the UK this year.\nStores in London, Liverpool, Aberdeen, Sunderland and Bedford are among those receiving refurbishments and other improvements, including more energy-efficient technology.\nFive stores – in Stirling, Paisley, Wollaston, Linlithgow and Lewes – will also be extended as part of the investment programme.\nChanges will vary by store, with selected locations benefiting from upgrades to Bakery, Health & Beauty and fresh food areas.\nThe programme will also introduce more sustainable features, including energy-efficient fridge doors and natural refrigerants designed to help reduce carbon emissions.\nJonathan Neale, Managing Director of National Real Estate at Aldi UK, said: “We’re continuing to invest in our existing stores because we know how important the in-store experience is to customers.\n“These upgrades will create more space, improve key areas of our stores and make them easier to shop. It’s an important part of how we’re investing in the communities we serve.”\nThe 25 Aldi locations receiving upgrades are:\n- Arndale, Manchester\n- Barnsley Road, Doncaster\n- Batley Road, Wakefield\n- Brackley Court, Blaby\n- Bridgnorth Road, Wollaston\n- Brooks Road, Lewes\n- Chapel Street, Belper\n- Cornhill Shopping Arcade, Aberdeen\n- Crown Road, Enfield\n- Falkirk Road, Linlithgow\n- Grooms Alley, Wellington\n- Holyhead Road, Telford\n- Holloway Road, Archway\n- Knollside Close, Sunderland\n- London Road, Blackwater\n- Moreland Avenue, Billingham\n- Old Beck Road, Harrogate\n- Printers Place, Paisley\n- Ringtail Retail Park, Burscough\n- Rockingham Road, Corby\n- Sandbach Road, Congleton\n- Springbank Road, Stirling\n- St. John Centre, Liverpool\n- Stratford Road, Hall Green\n- Westville Road, Bedford\nAldi is also investing £370 million to open around 40 new stores across the UK in 2026."
+    },
     {
       "source_id": "retail_times",
       "source_name": "Retail Times",
@@ -66,6 +82,38 @@
       "body": null
     },
     {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "John Lewis launches Christmas range early as demand surges - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNVdlemplMWJGcWh0SzFla1o3aFlnU19FVllzLWN2VWdrNmRXcWxhbGI3ODlSc1lzSFNJaXNfTV9pMExZNGZqWll5dzR0X202RzdnaWJyaVdhS1I3UklvQ3VIMHFwVzByMVZxQzlLOWV2VTNjMGk3cG1JdlczcHc4N3VKSkJrWnhUN3hGX2xnOElfazliYjc0bFJNUmdJQQ?oc=5",
+      "summary": "John Lewis launches Christmas range early as demand surges &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-28T13:40:28",
+      "match_reason": "retailer:john lewis",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": null,
+      "body": null
+    },
+    {
+      "source_id": "the_telegraph",
+      "source_name": "The Telegraph",
+      "source_cat": "general",
+      "paywall": true,
+      "title": "Asda boss: Labour is harming the economy - The Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVzFxSDFwaHFrTVVsU2h1U21nRGtnT3BZVVVtOVVPT0FPTllfTGQ0c29ERm52VEp2VFAzbWdjazU1bE9JSjVTZVVtNDhtck1pMXhYeE5aUDJyUEU4enJ5aXk1bnVVVVNhMVB0a0ZLNXRzdWhtUVJCakhvY1hweV9Ick9zdTBIb3lOYkdrcFVJNl9XQQ?oc=5",
+      "summary": "Asda boss: Labour is harming the economy &nbsp;&nbsp; The Telegraph",
+      "datetime": "2026-08-28T13:05:00",
+      "match_reason": "retailer:asda",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "body": null
+    },
+    {
       "source_id": "guardian_retail",
       "source_name": "The Guardian — Retail",
       "source_cat": "general",
@@ -112,6 +160,22 @@
       "is_noise": false,
       "retail_sector": "grocery",
       "body": "October Budget could be a ‘tipping point,’ Asda boss warns Burnham\nAndy Burnham’s first Budget in October could be a “tipping point” for British businesses and the economy, the chair of supermarket giant Asda has warned.\nAllan Leighton, who is attempting to push through a turnaround of the grocer, said it is “too early to tell” whether the government is committed to halting the rise of taxes facing the UK’s businesses but warned the Prime Minister he must not “inhibit growth”.\n“The model so far has been to inhibit growth, which is high taxation of consumers, relatively high taxation and lots of costs being piled on business, and [with] those two things you’ll never grow,” he told City AM.\n“For me it’s all to play for. I think [it is a] tipping point. It’ll be a tipping point, the Budget, for consumer confidence and growth of the country.”\nLeighton has been critical of previous governments, which he said have been “more and more difficult” to deal with and less supportive of businesses.\nThe Asda chair said it is “too early to tell” if Burnham will support the growth of British firms. “I’m a bit of a Burnham fan, but that’s another story.\n“I think he’s a very shrewd politician, and has announced things that are popular. But that’s not the full answer. The full answer is what’s the economic model for the country.”\nBusiness rates reform would make ‘big difference’\nThe comments echo an intervention by Frasers Group founder Mike Ashley, who on Thursday accused Burnham of choosing “populist” policies over long-term fixes.\n“Rather than address the real underlying issues of how the country’s financial affairs are managed […] it is easier for you to pick topics which provide good media soundbites and the old salve of yet more regulation – which is not what the country needs to become competitive,” Ashley told the Prime Minister in a letter.\nThe retail tycoon’s letter took aim at Burnham’s “disastrous” position on business rates, and Leighton said that reforms to this tax would make a “big difference” for British firms.\nRetailers have urged Labour to meet its manifesto pledge to “replace” the business rates system, but Burnham this week announced a review into the tax which covers only pubs and hotels.\nLeighton returned to Asda in November 2024, more than three decades after he first joined the grocer. As marketing director and later chief executive, he overhauled the retailer and orchestrated its blockbuster £6.7bn sale to US retail giant Walmart.\n“If I didn’t think we were going to restore the business to what it was, then I wouldn’t be here. So I’m confident that we’re doing the right things, but all these businesses are the same. It’s how you execute in every individual store, every day,” he said.\nNew Asda CEO ‘not imminent’\nLeighton expects his turnaround of Asda to take between three and five years, adding that his previous efforts at the grocer took four.\nThe grocer is in a “not dissimilar” position now compared to when he first joined the business, though its clothing, petrol and convenience arms “give us another couple channels to fight in,” he said.\nLeighton is currently Asda’s sole figurehead as its chair, and he said that the appointment of a chief executive is “not imminent”.\n“The preference would be to appoint a CEO from inside the company, and we have a very highly talented group of executives, and my hope is that somebody would emerge from the group.\n“But that is not imminent yet because we’re still working with the group that we’ve got to deliver what we’re doing. But that’s the intent,” he said.\nAsda returned to growth for the first time in more than two years in the seven weeks to mid-August, with like-for-like sales excluding fuel rising by 0.2 per cent.\nThe private-equity-owned grocer fell to a £989m pre-tax loss in the year to December 2025, as its debt pile fell from £4.1bn to £3.5bn."
+    },
+    {
+      "source_id": "the_times",
+      "source_name": "The Times",
+      "source_cat": "general",
+      "paywall": true,
+      "title": "Asda posts sales growth for first time in two years - The Times",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYjltUVlWbURIWWJPaDJaak1IeG1jVDc0WlpIb0RpYTAyMkwxYWctWFlUSlU4anNvX0hEVFVUUmllcEdGdi0tUW8tSU1DeFJudEF3WGVLVlZGdnVqQ0thSkVrSHlvQXZoMEUxUXRBMUxWX3JiNXZJekxIR1BSSUl5bzJVRHd1bXRpR25iVTlXclJ1UWJFd3p1YTVSWW80NkRCS0FDUnlraXQxZ0J1RlgyMHVRaHU2V1VHLTgwS2U1ZDA5M3dkZF9jM29NWXBoMjF1?oc=5",
+      "summary": "Asda posts sales growth for first time in two years &nbsp;&nbsp; The Times",
+      "datetime": "2026-08-28T13:00:00",
+      "match_reason": "retailer:asda",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "body": null
     },
     {
       "source_id": "retail_times",
@@ -178,6 +242,22 @@
       "body": "With Halloween landing on a ‘spooky Saturday’ this year, Co-op is helping shoppers get ready for a fang-tastic night of celebrating with an even bigger offer of spooky sweet treats, party favourites, decorations and pumpkin-carving essentials.\nFrom trick or treat bags, ideal for those tiny torturous trick or treaters, to frightfully fun decorations, the retailer’s Halloween range has everything families need to throw a hauntingly good party, with options available for less than a pound.\nIn a brand-new look, the range features new ghoulishly great treats, including:\nNEW! Co-op Toffee Popcorn Brains 170g, £1.30\nGet your teeth into this frighteningly tasty Halloween treat. These apple and orange flavoured toffee-coated popcorn pieces are sure to be a no-brainer when it comes to party snacking. In store 30th September.\nNEW! Co-op Sticky Toffee Apple Flapjacks 20pcs, £3.00\nA devilishly delicious twist on a seasonal favourite, these sticky flapjacks combine classic toffee apple flavours in every bite. They’re bound to disappear faster than a ghost on Halloween night. In store 30th September.\nNEW! Co-op Spooky Sour Slime Doughnuts 4pk, £\nThese wickedly colourful doughnuts are filled with sour apple filling and topped with vibrant purple icing and sugar strands. The perfect centrepiece for a monster munch table.\nNEW! Co-op Monster Mash Cookies 5pk, £\nPacked with Fairtrade milk and white chocolate chunks, these bright green and orange cookies are monstrously moreish and guaranteed to satisfy little monsters and grown-up ghouls alike.\nNEW! Co-op Gruesome Gummies 130g, £0.90p\nThese fruity jelly sweets are frighteningly hard to share. Perfect for trick-or-treat bowls or enjoying during a Halloween movie night. In store 02nd September.\nNEW! Co-op Frightfully Fizzy Worms 130g, £0.90p\nThese sour-coated jelly worms bring a tongue-tingling twist to Halloween snacking. They’re sure to worm their way into shoppers’ baskets this season. In store 02nd September.\nNEW! Co-op Cheesy Monster Jaws 100g, £1.30\nSink your teeth into these crunchy cheese-flavoured snacks. Shaped for Halloween fun, they’re ideal for sharing at spooky gatherings and family movie nights. In store 30th September.\nAlso, back by popular demand this year:\nCo-op Trick or Treat Bag 20pk, £2.25\nA Halloween essential packed with treats ready for eager doorstep visitors. No tricks required. In store 30th September.\nCo-op 2 Trick or Treat Cupcakes £1.25\nThese pumpkin-topped cupcakes are proof that good things come in spooky packages. Perfect for parties or an afternoon treat. In store 30th September.\nCo-op 9 Spooky Sprinkle Fairy Cupcakes £2.75\nBursting with colourful icing and Halloween sprinkles, these bite-sized bakes are ready to steal the spotlight at any celebration. In store 30th September.\nCo-op 4 Haunted House Brownies £3.00\nRich chocolate brownies topped with orange frosting and spooky sprinkles make these a ‘scare-iously’ tempting addition to any Halloween spread. In store 30th September.\nAlongside Co-op ‘spook-tacular’ treats, the retailer also offers a range of affordable Halloween décor which will help create the ultimate ‘horror house’ party. Included within the range:\n- Co-op Carving Pumpkin, £2.50 – In store 01st October.\n- Co-op Ghost Pumpkin, £1.15 – In store 01st October.\n- Co-op Mixed Squash, £3.00 – In store 01st October.\n- Co-op Halloween Bucket (Each), £1.00 – In store 02nd September.\n- Co-op Halloween Tea Lights (2 pk), £1.50 – In store 14th September.\n- Co-op Halloween Garlands, Pumpkins & Ghosts (Each), £1.50 – In store 02nd September.\n- Co-op Pop Out Eyes Horror Masks (Each), £3.50 – In store 02nd September.\n- Co-op Gel Window Stickers (Each), £1.50 – In store 02nd September.\n- Co-op Halloween Fright Tapes (3 pk), £1.50 – In store 02nd September.\n- Co-op Pumpkin Carving Set (Each), £1.50 – In store 02nd September.\n- Co-op String Lights Pumpkins (Each), £3.00 – In store 02nd September.\nTo top it off, Co-op has a number of ‘ghoulishly’ good deals on wine that are perfect to sit on any party table.\n19 Crimes Red Blend 75cl (Australia) – on offer from 14th October – 03rd November inclusive priced at £8.25, normally £10\nCo-op Irresistible Rioja Crianza 75cl (Spain) – on offer from 14th October – 03rd November inclusive priced at £8.00, normally £9\nCo-op Irresistible Bio Bio Malbec 75cl (Chile) – on offer from 14th October – 03rd November inclusive priced at £8.00, normally £8.95\nCo-op Irresistible Chilean Carménère, 75cl (Chile) – on offer from 14th October – 03rd November inclusive priced at £7.95, normally £8.95"
     },
     {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Clothing & Shoes News - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pNUlHTVhkWm90UU5GOGc2cmtYNGsxcU5RNFFfTHJGOVJPU2NwQmlSQUd1aWFPczBISGh1cXZXT3NpVXJyblZ0bnAtNkFJengyeFFQaW52alFOQlVBWVE2UU5jSW05dWlkR0VDUWNmMmFzWnItblplaQ?oc=5",
+      "summary": "Clothing & Shoes News &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-28T10:29:02",
+      "match_reason": "keyword:retail sector",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "fashion",
+      "body": null
+    },
+    {
       "source_id": "retail_times",
       "source_name": "Retail Times",
       "source_cat": "trade",
@@ -239,6 +319,22 @@
       "story_type": null,
       "is_noise": false,
       "retail_sector": null,
+      "body": null
+    },
+    {
+      "source_id": "the_times",
+      "source_name": "The Times",
+      "source_cat": "general",
+      "paywall": true,
+      "title": "Mike Ashley calls Andy Burnham’s high street plan ‘delusional’ - The Times",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeHFKS3VvWXdiTEZnRzlKallQOC1zS25QcHp6a0M5bUdFNzJ3ZFBhUG9SUXFuT0M5RU1JX2R3YndfelVpTlFEVVUyUkJPcXZNZ2hpYzROdDBzTlBsY2Nic0RUcGkxLU5BdG5famFjenRaSjJ2Tko2azdORlNZbzdCaHN6Tnp5a3lhMTJGNnVsVzgzLW1haVdReWRBbzJuQUpHakdxWUpZU3NMOHpqTjRtYzhWUnZlRnFORURvbjZxOWxEQ25mazdkZ0tUdw?oc=5",
+      "summary": "Mike Ashley calls Andy Burnham’s high street plan ‘delusional’ &nbsp;&nbsp; The Times",
+      "datetime": "2026-08-28T06:36:48",
+      "match_reason": "keyword:high street",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "property",
       "body": null
     },
     {
@@ -447,6 +543,38 @@
       "story_type": null,
       "is_noise": false,
       "retail_sector": "grocery",
+      "body": null
+    },
+    {
+      "source_id": "the_grocer",
+      "source_name": "The Grocer",
+      "source_cat": "trade",
+      "paywall": true,
+      "title": "Co-op Group scraps low-value missing stock claims for Southern Co-op franchisees - The Grocer",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUVNLZ3lNQ2ozR0Z2Y2lDR2dCaUtYU29zbC1VVmdxWlRueW1QYzZvYVRCQWVwWm9wV1ZiaFpLX3M4Q0xKUS0tTHd0VEVQSUp1dnI4eFpnZzliRFVPMzE5YWEzbXhoellSVVU2UEJrYjR5NVF2VUp1OU1zZ1Y3d28tYkV4QjJ2cmZqZktNaUhzbHRTZHA5MURxbFpHUllyM1lneU9xb2Z6NHV4U0Z4SDJqdnczeUdLWllfMHo2OU1jZV8zNFZMNVVj?oc=5",
+      "summary": "Co-op Group scraps low-value missing stock claims for Southern Co-op franchisees &nbsp;&nbsp; The Grocer",
+      "datetime": "2026-08-27T13:21:35",
+      "match_reason": "retailer:co-op",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "body": null
+    },
+    {
+      "source_id": "bloomberg_uk",
+      "source_name": "Bloomberg UK",
+      "source_cat": "general",
+      "paywall": true,
+      "title": "Spain’s Answer to Budget Fashion Chain Primark Lands in the UK - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTndXV3FndWNVQkNpSG9LR3BiUmtZSnF2SXFDV2x1TjZsNnk1YUZiWURQVGtFeFJCY1ZWRWV4TVlJOWY3TWxwTXQzVEFnTS1sc3VnSHVsVDdEZHBYQlBvcS00LXNKX3lVazNuYV96dlp6S01MY0M2THdoaEFnVjBFUXJiV1U3TzRHemdrd1VSM0dwYnN4OUdZQ2l0WUNHZllkSWhxcEhwMkpETnQ1c3VwTktCTQ?oc=5",
+      "summary": "Spain’s Answer to Budget Fashion Chain Primark Lands in the UK &nbsp;&nbsp; Bloomberg.com",
+      "datetime": "2026-08-27T13:12:35",
+      "match_reason": "retailer:primark",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "fashion",
       "body": null
     },
     {
@@ -1465,6 +1593,22 @@
       "stream": "news",
       "story_type": null,
       "is_noise": false
+    },
+    {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "UK retail sales volumes drop 0.5% in July following June surge - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbGtvQmtUQWt2NUx5dmxwdnpkdVpwLVNvMFFoYXZuSzM4dVdMYmk4azFFZlFPVHN5cFdFWVllbVNNVVBlaHhyYWU4cUpDUC03a3A4WkpwcTJSTXdDOUYzN3pFODViMTlKVTRFVEh6Z2ZFT05ya1ZTVmlhbUJqd01zSUVTRVR0clE0M1FnZGtmeHIzQ2IzYm4zZHJpYkpNRHRDM2c?oc=5",
+      "summary": "UK retail sales volumes drop 0.5% in July following June surge &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-25T14:04:44",
+      "match_reason": "keyword:retail sales",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "macro",
+      "body": null
     },
     {
       "source_id": "retail_sector",
