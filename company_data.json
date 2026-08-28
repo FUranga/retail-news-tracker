@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T20:06:28",
+  "generated_at": "2026-08-28T21:20:13",
   "items": [
     {
       "source_id": "asda",
@@ -17,6 +17,24 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "company:Asda",
+      "body": null
+    },
+    {
+      "source_id": "aldi_uk",
+      "source_name": "Aldi UK",
+      "companyname": "Aldi UK",
+      "retail_sector": "grocery",
+      "listed": "private",
+      "tier": 1,
+      "paywall": false,
+      "title": "Aldi announces 25 stores to be refurbished as part of £300m investment - Retail Bulletin",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNazBSTmM0YjJ6Mm1tMkxKZU5WaHkzR3oxeDA2YTFhcm9LX29QVFMyVFIwZkdDZzdnYWh3dTZnbHNUaXo5cVlja0l4UnJGYWUtQnJPcDc4U1pQRjZIUWh2dTNMNDVYLW1LaDRCWkRTZUNXY29UVVBaYkFaY3I4T1RuODAyamtOdkZkQjhVNkFaZnRnb2tJUV9xV19nZ01LS0haSU1lYlJpQ01mMmZEejNKMmVZQW5LV3NveVA0UXkzcmFDT1BEdHJqam93?oc=5",
+      "summary": "Aldi announces 25 stores to be refurbished as part of £300m investment &nbsp;&nbsp; Retail Bulletin",
+      "datetime": "2026-08-28T14:34:33",
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:Aldi UK",
       "body": null
     },
     {
