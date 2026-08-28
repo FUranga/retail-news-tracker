@@ -9,7 +9,7 @@
   },
   "company_overrides": {
     "include": [],
-    "exclude": ["VTU", "HEAD"]
+    "exclude": ["VTU", "HEAD", "MCB"]
   },
   "request": {
     "page_size": 50,
