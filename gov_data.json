@@ -1,6 +1,97 @@
 {
-  "generated_at": "2026-08-28T01:06:00",
+  "generated_at": "2026-08-28T18:00:06",
   "items": [
+    {
+      "source_id": "cma",
+      "source_name": "CMA — Competition and Markets Authority",
+      "source_cat": "regulation",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "CMA secures compensation for heating oil customers",
+      "url": "https://www.govwire.co.uk/news/competition-and-markets-authority/cma-secures-compensation-for-heating-oil-customers-g2554101",
+      "summary": "Hundreds set to receive compensation after their orders were cancelled following the conflict in the Middle East. | Competition and Markets Authority.",
+      "datetime": "2026-08-28T17:58:15.900661",
+      "match_reason": "priority:high (cma)",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "merger",
+        "competition",
+        "investigation",
+        "consumer protection",
+        "CMA"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "gov_treasury",
+      "source_name": "GOV.UK — HM Treasury",
+      "source_cat": "policy",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Great British Summer Savings: millions of pounds saved by families",
+      "url": "https://www.govwire.co.uk/news/hm-treasury/great-british-summer-savings-millions-of-pounds-saved-by-families-g2552803",
+      "summary": "Hard working families across the UK have saved millions of pounds over the summer thanks to the Governments Great British Summer Savings. | HM Treasury.",
+      "datetime": "2026-08-28T17:57:43.405190",
+      "match_reason": "priority:high (gov_treasury)",
+      "stream": "government",
+      "story_type": "policy",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "budget",
+        "business rates",
+        "VAT",
+        "fiscal policy"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "ons_calendar",
+      "source_name": "ONS — Release Calendar",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Quarterly personal well-being statistics, August 2026",
+      "url": "https://www.ons.gov.uk/releases/quarterlypersonalwellbeingstatisticsaugust2026",
+      "summary": "Non-seasonally adjusted and seasonally adjusted quarterly estimates of life satisfaction, feeling that the things done in life are worthwhile, happiness and anxiety in the UK.",
+      "datetime": "2026-08-28T08:30:00",
+      "match_reason": "priority:high (ons_calendar)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "ONS",
+        "statistics",
+        "release"
+      ],
+      "body": "Release\n  Quarterly personal well-being statistics, August 2026\n              Released:\n              28 August 2026 9:30am\n            \n            \n              Next release:\n              November 2026\n            \n          Summary\nNon-seasonally adjusted and seasonally adjusted quarterly estimates of life satisfaction, feeling that the things done in life are worthwhile, happiness and anxiety in the UK."
+    },
+    {
+      "source_id": "ons_calendar",
+      "source_name": "ONS — Release Calendar",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Household Costs Indices for UK household groups: April to June 2026",
+      "url": "https://www.ons.gov.uk/releases/householdcostsindicesforukhouseholdgroupsapriltojune2026",
+      "summary": "Household Costs Indices, 12-month growth rates, expenditure shares and contributions for UK household groups and all-households.",
+      "datetime": "2026-08-28T08:30:00",
+      "match_reason": "priority:high (ons_calendar)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "ONS",
+        "statistics",
+        "release"
+      ],
+      "body": "Release\n  Household Costs Indices for UK household groups: April to June 2026\n              Released:\n              28 August 2026 9:30am\n            \n            \n              Next release:\n              27 November 2026\n            \n          Summary\nHousehold Costs Indices, 12-month growth rates, expenditure shares and contributions for UK household groups and all-households."
+    },
     {
       "source_id": "gov_treasury",
       "source_name": "GOV.UK — HM Treasury",
@@ -5307,6 +5398,27 @@
       "source_cat": "statistics",
       "source_pri": "high",
       "paywall": false,
+      "title": "UK retail sales fall as shoppers cut back on clothing and online spending - Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWjhVcEJSa1Q1SkJXWl9SR3ZBeHltc0JFTGgyVE1jUTVTYTNpZW5IcEQyWS0wSmlIRGtGenFhRF9ibzNzU25oR0NiTFU2anNTV3lMU2NaMGR2OUJMNXFzOGxObFZDc0Y2cW5zNWVtbE5nUWNpcHY2MXdCUWtlS0ZDbW5WMWJGTDg?oc=5",
+      "summary": "UK retail sales fall as shoppers cut back on clothing and online spending &nbsp;&nbsp; Yahoo Finance UK",
+      "datetime": "2026-08-21T08:27:23",
+      "match_reason": "priority:high (ons_retail)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "fashion",
+      "tags": [
+        "retail sales",
+        "ONS"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "ons_retail",
+      "source_name": "ONS — Retail Sales",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
       "title": "UK retail sales fall as shoppers cut back on online spending - The Independent",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd2lnZ1Z0SUItTDNtYnJyMVEyNTRWQVhCdGpFWkxaLWZ2NFU2LTh2NUo2ZVhHU2xNMnJXME5lUmxNcl9tUk5YbmFCUXFOR2JBZndfNFpVT1B6akVESEZiQ2c1VFExTGI2VFc2NlQ4YVRBT1hkRHVrNW9FaEpCc3d0OXZ2dmJUS3g0bTVWTi1iOWlMSTVCbl9wcFpR?oc=5",
       "summary": "UK retail sales fall as shoppers cut back on online spending &nbsp;&nbsp; The Independent",
@@ -5872,29 +5984,6 @@
         "online retail"
       ],
       "body": null
-    },
-    {
-      "source_id": "brc_reports",
-      "source_name": "British Retail Consortium",
-      "source_cat": "research",
-      "source_pri": "high",
-      "paywall": false,
-      "title": "EUDR Working Group | September 2026 - British Retail Consortium",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObjJ1OGpsVWVyN254b18wRzhGeHV1WlJ1b1VyMjU0b2JJMkVFazBoMU1qQktaNG1admRaemdmQmpUZEY2aWpCSmV2eC0ydzVDVk5jbHd1ZmZUT2dpNkRpLTUydjFqMFI1aUlXT3hpblZsQTI2OFUyUDZhSmp6TGNadE5n?oc=5",
-      "summary": "EUDR Working Group | September 2026 &nbsp;&nbsp; British Retail Consortium",
-      "datetime": "2026-08-14T11:13:50",
-      "match_reason": "priority:high (brc_reports)",
-      "stream": "government",
-      "story_type": "research",
-      "is_noise": false,
-      "retail_sector": "macro",
-      "tags": [
-        "BRC",
-        "retail sales",
-        "crime",
-        "sustainability",
-        "employment"
-      ]
     }
   ]
 }
