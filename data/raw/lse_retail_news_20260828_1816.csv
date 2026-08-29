@@ -1,0 +1,1171 @@
+id,datetime,title,companyname,companycode,category,source,rnsnumber,url,body,icbsectorcode,icbsector
+17762520,2026-08-28 15:30:04,Holding(s) in Company,Burberry Group PLC,BRBY,HOL,RNS,6876S,https://www.londonstockexchange.com/news-article/BRBY/holdings-in-company/17762520,"/\*<![CDATA[\*/
+/\*\*/
+/\*\*/
+/\*\*/
+p{margin-right:0cm;margin-left:0cm;font-size:12.0pt;font-family:""Times New Roman"",""serif"";}
+div.av{size:595.3pt 841.9pt;margin:72.0pt 72.0pt 72.0pt 72.0pt;margin-left:22.5pt;margin-right:22.5pt}p.as{text-align:center}span.at{font-size:11.0pt; font-family:""Verdana"",""sans-serif""}div.ap{margin-top:7.5pt;margin-bottom:7.5pt}p.aw{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";background:#7C173A}span.ar{font-size:11.0pt;font-family:""Verdana"",""sans-serif""}div.ao{margin-left:7.5pt}p.a,li.a,div.a{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";}div.an{border:solid #666666 1.0pt;padding:0cm 0cm 0cm 0cm;margin-left: 9.75pt;margin-top:3.75pt;margin-bottom:7.5pt}div.am{margin-left:1.5pt}
+div.al{border:solid #666666 1.0pt;padding:0cm 0cm 0cm 0cm;margin-left: 1.5pt;margin-top:3.75pt;margin-bottom:7.5pt}table.ax{width:406.15pt;margin-left:-.75pt;border-collapse:collapse;border:none}td.aj{border-top:solid #666666 1.0pt;border-left:solid #666666 1.0pt; border-bottom:none;border-right:none;padding:.75pt .75pt .75pt .75pt}p.ay{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";text-align:center}span.ak{color:white}td.ah{border:solid #666666 1.0pt;padding:.75pt .75pt .75pt 6.0pt}span.ai{font-size:7.5pt;font-family:""Verdana"",""sans-serif""}td.ag{border:solid #666666 1.0pt;border-left:none; padding:.75pt .75pt .75pt 6.0pt}td.ad{border:solid #666666 1.0pt;padding:.75pt .75pt .75pt .75pt}p.az{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";margin-top:3.75pt;margin-right:0cm;margin-bottom: 7.5pt;margin-left:9.75pt}
+span.af{font-size:11.0pt;font-family: ""Verdana"",""sans-serif""}td.ac{border-top:none;border-left:none;border-bottom:solid #666666 1.0pt; border-right:solid #666666 1.0pt;padding:.75pt .75pt .75pt .75pt}td.ab{border:solid #666666 1.0pt;border-top:none;padding:.75pt .75pt .75pt .75pt}table.ba{width:406.15pt;margin-left:-1.5pt;border-collapse:collapse;border:none}td.z{width:20.0%;border:solid #666666 1.0pt;padding:.75pt .75pt .75pt 1.5pt}td.y{border:solid #666666 1.0pt;border-left:none; padding:.75pt .75pt .75pt 1.5pt}td.v{width:20.0%;border:solid #666666 1.0pt;border-top: none;padding:.75pt .75pt .75pt .75pt}p.bb{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";margin-top:3.75pt;margin-right:0cm;margin-bottom: 7.5pt;margin-left:2.25pt}span.x{font-size:10.0pt;font-family: ""Verdana"",""sans-serif""}td.u{border:solid #666666 1.0pt;border-top:none; padding:.75pt .75pt .75pt 1.5pt}
+td.t{border-top:none;border-left:none;border-bottom:solid #666666 1.0pt; border-right:solid #666666 1.0pt;padding:.75pt .75pt .75pt .75pt}td.r{width:16.0%;border:solid #666666 1.0pt;border-left: none;padding:.75pt .75pt .75pt 1.5pt}td.q{width:20.0%;border:solid #666666 1.0pt;border-left: none;padding:.75pt .75pt .75pt 1.5pt}td.p{width:17.0%;border:solid #666666 1.0pt;border-left: none;padding:.75pt .75pt .75pt 1.5pt}p.bc{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";margin-top:3.75pt;margin-right:0cm;margin-bottom: 7.5pt;margin-left:3.75pt}td.n{width:16.0%;border-top:none;border-left:none; border-bottom:solid #666666 1.0pt;border-right:solid #666666 1.0pt; padding:.75pt .75pt .75pt .75pt}td.m{width:20.0%;border-top:none;border-left:none; border-bottom:solid #666666 1.0pt;border-right:solid #666666 1.0pt; padding:.75pt .75pt .75pt .75pt}td.l{width:17.0%;border-top:none;border-left:none; border-bottom:solid #666666 1.0pt;border-right:solid #666666 1.0pt; padding:.75pt .75pt .75pt .75pt}td.k{width:15.0%;border:solid #666666 1.0pt;padding:.75pt .75pt .75pt 1.5pt}td.j{width:15.0%;border:solid #666666 1.0pt;border-top: none;padding:.75pt .75pt .75pt .75pt}
+span.i{font-size:10.0pt} .fr-view-element{font-family: sans-serif;font-size: 12pt;line-height: 140%;padding: 20px;box-sizing: border-box;overflow-x: auto;min-height: 60px;text-align: left;margin-bottom: 10px;width: 837px;} .fr-view-element img{padding: 0 1px;} .fr-view-element .WordSection1\_tidyNotWord-39{margin: 63.8pt 1.6cm 62.35pt 1.6cm;} .fr-view-element p{font-size: 10pt;}
+/\*\*/
+/\*\*/
+/\*\*/
+/\*]]>\*/
+
+RNS Number : 6876S
+
+Burberry Group PLC
+
+28 August 2026
+
+TR-1: Standard form for notification of major holdings
+
+1. Issuer Details
+
+ISIN
+
+GB0031743007
+
+Issuer Name
+
+BURBERRY GROUP PLC
+
+UK or Non-UK Issuer
+
+UK
+
+2. Reason for Notification
+
+An acquisition or disposal of voting rights; An acquisition or disposal of financial instruments
+
+3. Details of person subject to the notification obligation
+
+Name
+
+BlackRock, Inc.
+
+City of registered office (if applicable)
+
+Wilmington
+
+Country of registered office (if applicable)
+
+USA
+
+4. Details of the shareholder
+
+Full name of shareholder(s) if different from the person(s) subject to the notification obligation, above
+
+City of registered office (if applicable)
+
+Country of registered office (if applicable)
+
+5. Date on which the threshold was crossed or reached
+
+27-Aug-2026
+
+6. Date on which Issuer notified
+
+28-Aug-2026
+
+7. Total positions of person(s) subject to the notification obligation
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+|  | % of voting rights attached to shares (total of 8.A) | % of voting rights through financial instruments (total of 8.B 1 + 8.B 2) | Total of both in % (8.A + 8.B) | Total number of voting rights held in issuer |
+| Resulting situation on the date on which threshold was crossed or reached | Below 5% | Below 5% | Below 5% | 18025307 |
+| Position of previous notification (if applicable) | 4.810000 | 0.190000 | 5.000000 |  |
+
+8. Notified details of the resulting situation on the date on which the threshold was crossed or reached
+
+8A. Voting rights attached to shares
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| Class/Type of shares ISIN code(if possible) | Number of direct voting rights (DTR5.1) | Number of indirect voting rights (DTR5.2.1) | % of direct voting rights (DTR5.1) | % of indirect voting rights (DTR5.2.1) |
+| GB0031743007 |  | 16677771 |  | 4.610000 |
+| Sub Total 8.A | 16677771 | | 4.610000% | |
+
+8B1. Financial Instruments according to (DTR5.3.1R.(1) (a))
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| Type of financial instrument | Expiration date | Exercise/conversion period | Number of voting rights that may be acquired if the instrument is exercised/converted | % of voting rights |
+| American Depository Receipt | N/A |  | 314840 | 0.080000 |
+| Securities Lending | N/A |  | 46578 | 0.010000 |
+| Sub Total 8.B1 |  | | 361418 | 0.090000% |
+
+8B2. Financial Instruments with similar economic effect according to (DTR5.3.1R.(1) (b))
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Type of financial instrument | Expiration date | Exercise/conversion period | Physical or cash settlement | Number of voting rights | % of voting rights |
+| CFD | N/A |  | Cash | 986118 | 0.270000 |
+| Sub Total 8.B2 |  | | | 986118 | 0.270000% |
+
+9. Information in relation to the person subject to the notification obligation
+
+2. Full chain of controlled undertakings through which the voting rights and/or the financial instruments are effectively held starting with the ultimate controlling natural person or legal entities (please add additional rows as necessary)
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| Ultimate controlling person | Name of controlled undertaking | % of voting rights if it equals or is higher than the notifiable threshold | % of voting rights through financial instruments if it equals or is higher than the notifiable threshold | Total of both if it equals or is higher than the notifiable threshold |
+| BlackRock, Inc. (Chain 1) | BlackRock Saturn Subco, LLC |  |  |  |
+| BlackRock, Inc. (Chain 1) | BlackRock Finance, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 1) | Trident Merger, LLC |  |  |  |
+| BlackRock, Inc. (Chain 1) | BlackRock Investment Management, LLC |  |  |  |
+| BlackRock, Inc. (Chain 2) | BlackRock Saturn Subco, LLC |  |  |  |
+| BlackRock, Inc. (Chain 2) | BlackRock Finance, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 2) | BlackRock Holdco 2, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 2) | BlackRock Financial Management, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 2) | BlackRock International Holdings, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 2) | BR Jersey International Holdings L.P. |  |  |  |
+| BlackRock, Inc. (Chain 2) | BlackRock Holdco 3, LLC |  |  |  |
+| BlackRock, Inc. (Chain 2) | BlackRock Cayman 1 LP |  |  |  |
+| BlackRock, Inc. (Chain 2) | BlackRock Cayman West Bay Finco Limited |  |  |  |
+| BlackRock, Inc. (Chain 2) | BlackRock Cayman West Bay IV Limited |  |  |  |
+| BlackRock, Inc. (Chain 2) | BlackRock Group Limited |  |  |  |
+| BlackRock, Inc. (Chain 2) | BlackRock Investment Management (UK) Limited |  |  |  |
+| BlackRock, Inc. (Chain 3) | BlackRock Saturn Subco, LLC |  |  |  |
+| BlackRock, Inc. (Chain 3) | BlackRock Finance, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 3) | BlackRock Holdco 2, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 3) | BlackRock Financial Management, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 3) | BlackRock International Holdings, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 3) | BR Jersey International Holdings L.P. |  |  |  |
+| BlackRock, Inc. (Chain 3) | BlackRock Australia Holdco Pty. Ltd. |  |  |  |
+| BlackRock, Inc. (Chain 3) | BlackRock Investment Management (Australia) Limited |  |  |  |
+| BlackRock, Inc. (Chain 4) | BlackRock Saturn Subco, LLC |  |  |  |
+| BlackRock, Inc. (Chain 4) | BlackRock Finance, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 4) | BlackRock Holdco 2, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 4) | BlackRock Financial Management, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 4) | BlackRock Holdco 4, LLC |  |  |  |
+| BlackRock, Inc. (Chain 4) | BlackRock Holdco 6, LLC |  |  |  |
+| BlackRock, Inc. (Chain 4) | BlackRock Delaware Holdings Inc. |  |  |  |
+| BlackRock, Inc. (Chain 4) | BlackRock Institutional Trust Company, National Association |  |  |  |
+| BlackRock, Inc. (Chain 5) | BlackRock Saturn Subco, LLC |  |  |  |
+| BlackRock, Inc. (Chain 5) | BlackRock Finance, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 5) | BlackRock Holdco 2, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 5) | BlackRock Financial Management, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 5) | BlackRock Holdco 4, LLC |  |  |  |
+| BlackRock, Inc. (Chain 5) | BlackRock Holdco 6, LLC |  |  |  |
+| BlackRock, Inc. (Chain 5) | BlackRock Delaware Holdings Inc. |  |  |  |
+| BlackRock, Inc. (Chain 5) | BlackRock Fund Advisors |  |  |  |
+| BlackRock, Inc. (Chain 6) | BlackRock Saturn Subco, LLC |  |  |  |
+| BlackRock, Inc. (Chain 6) | BlackRock Finance, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 6) | BlackRock Holdco 2, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 6) | BlackRock Financial Management, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 7) | BlackRock Saturn Subco, LLC |  |  |  |
+| BlackRock, Inc. (Chain 7) | BlackRock Finance, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 7) | BlackRock Holdco 2, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 7) | BlackRock Financial Management, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 7) | BlackRock International Holdings, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 7) | BR Jersey International Holdings L.P. |  |  |  |
+| BlackRock, Inc. (Chain 7) | BlackRock (Singapore) Holdco Pte. Ltd. |  |  |  |
+| BlackRock, Inc. (Chain 7) | BlackRock HK Holdco Limited |  |  |  |
+| BlackRock, Inc. (Chain 7) | BlackRock Asset Management North Asia Limited |  |  |  |
+| BlackRock, Inc. (Chain 8) | BlackRock Saturn Subco, LLC |  |  |  |
+| BlackRock, Inc. (Chain 8) | BlackRock Finance, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 8) | BlackRock Holdco 2, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 8) | BlackRock Financial Management, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 8) | BlackRock International Holdings, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 8) | BR Jersey International Holdings L.P. |  |  |  |
+| BlackRock, Inc. (Chain 8) | BlackRock Holdco 3, LLC |  |  |  |
+| BlackRock, Inc. (Chain 8) | BlackRock Cayman 1 LP |  |  |  |
+| BlackRock, Inc. (Chain 8) | BlackRock Cayman West Bay Finco Limited |  |  |  |
+| BlackRock, Inc. (Chain 8) | BlackRock Cayman West Bay IV Limited |  |  |  |
+| BlackRock, Inc. (Chain 8) | BlackRock Group Limited |  |  |  |
+| BlackRock, Inc. (Chain 8) | BlackRock (Netherlands) B.V. |  |  |  |
+| BlackRock, Inc. (Chain 8) | BlackRock Asset Management Deutschland AG |  |  |  |
+| BlackRock, Inc. (Chain 9) | BlackRock Saturn Subco, LLC |  |  |  |
+| BlackRock, Inc. (Chain 9) | BlackRock Finance, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 9) | BlackRock Holdco 2, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 9) | BlackRock Financial Management, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 9) | BlackRock International Holdings, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 9) | BlackRock Canada Holdings ULC |  |  |  |
+| BlackRock, Inc. (Chain 9) | BlackRock Asset Management Canada Limited |  |  |  |
+| BlackRock, Inc. (Chain 10) | BlackRock Saturn Subco, LLC |  |  |  |
+| BlackRock, Inc. (Chain 10) | BlackRock Finance, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 10) | BlackRock Holdco 2, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 10) | BlackRock Financial Management, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 10) | BlackRock Capital Holdings, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 10) | BlackRock Advisors, LLC |  |  |  |
+| BlackRock, Inc. (Chain 11) | BlackRock Saturn Subco, LLC |  |  |  |
+| BlackRock, Inc. (Chain 11) | BlackRock Finance, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 11) | BlackRock Holdco 2, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 11) | BlackRock Financial Management, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 11) | BlackRock International Holdings, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 11) | BR Jersey International Holdings L.P. |  |  |  |
+| BlackRock, Inc. (Chain 11) | BlackRock Holdco 3, LLC |  |  |  |
+| BlackRock, Inc. (Chain 11) | BlackRock Cayman 1 LP |  |  |  |
+| BlackRock, Inc. (Chain 11) | BlackRock Cayman West Bay Finco Limited |  |  |  |
+| BlackRock, Inc. (Chain 11) | BlackRock Cayman West Bay IV Limited |  |  |  |
+| BlackRock, Inc. (Chain 11) | BlackRock Group Limited |  |  |  |
+| BlackRock, Inc. (Chain 11) | BlackRock Advisors (UK) Limited |  |  |  |
+| BlackRock, Inc. (Chain 12) | BlackRock Saturn Subco, LLC |  |  |  |
+| BlackRock, Inc. (Chain 12) | BlackRock Finance, Inc. |  |  |  |
+| BlackRock, Inc. (Chain 12) | Trident Merger, LLC |  |  |  |
+| BlackRock, Inc. (Chain 12) | BlackRock Investment Management, LLC |  |  |  |
+| BlackRock, Inc. (Chain 12) | Amethyst Intermediate, LLC |  |  |  |
+| BlackRock, Inc. (Chain 12) | Aperio Holdings, LLC |  |  |  |
+| BlackRock, Inc. (Chain 12) | Aperio Group, LLC |  |  |  |
+
+10. In case of proxy voting
+
+Name of the proxy holder
+
+The number and % of voting rights held
+
+The date until which the voting rights will be held
+
+If date does not apply, explain below
+
+11. Additional Information
+
+BlackRock Regulatory Threshold Reporting Team  
+  
+Jana Blumenstein  
+  
+020 7743 3650
+
+12. Date of Completion
+
+28th August 2026
+
+13. Place Of Completion
+
+12 Throgmorton Avenue, London, EC2N 2DL, U.K.
+
+This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use and distribution of this information may apply. For further information, please contact [rns@lseg.com](mailto:rns@lseg.com) or visit [www.rns.com](http://www.rns.com/).  
+  
+RNS may use your IP address to confirm compliance with the terms and conditions, to analyse how you engage with the information contained in this communication, and to share such analysis on an anonymised basis with others as part of our commercial services. For further information about how RNS and the London Stock Exchange use the personal data you provide us, please see our [Privacy Policy](https://www.lseg.com/privacy-and-cookie-policy).
+
+END
+
+HOLEASPPAANKEFA",402040,Personal Goods
+17762499,2026-08-28 15:03:37,Director/PDMR Shareholding,Marks and Spencer Group PLC,MKS,DSH,RNS,6845S,https://www.londonstockexchange.com/news-article/MKS/directorpdmr-shareholding/17762499,"/\*<![CDATA[\*/
+/\*\*/
+/\*\*/
+/\*\*/
+.g{size:595.3pt 841.9pt;margin:72.0pt 72.0pt 72.0pt 72.0pt;}div.g{}p.an{margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:11.0pt;font-family:""Calibri"",""sans-serif"";text-align:center}.al{text-decoration: underline}p.a,li.a,div.a{margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:11.0pt;font-family:""Calibri"",""sans-serif"";}table.ao{margin-left:auto;margin-right:auto;width:349.95pt;border-collapse:collapse;border:none}tr.ae{height:15.0pt}td.ai{width:102.35pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt}p.ap{margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:11.0pt;font-family:""Calibri"",""sans-serif"";margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal}td.ag{width:110.2pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt}
+p.aq{margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:11.0pt;font-family:""Calibri"",""sans-serif"";margin-bottom:0cm;margin-bottom:.0001pt; text-align:center;line-height:normal}td.af{width:105.0pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt}td.ad{width:102.35pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt}td.ac{width:110.2pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt}td.ab{width:105.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt}td.aa{width:105.0pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt}table.ar{width:451.3pt;margin-left:-3.75pt;border-collapse:collapse;border:none}td.y{border:solid black 1.0pt;padding:1.5pt 1.5pt 1.5pt 3.75pt}td.x{border:solid black 1.0pt;border-left:none; padding:1.5pt 1.5pt 1.5pt 3.75pt}td.w{border:solid black 1.0pt;border-top:none;padding:1.5pt 1.5pt 1.5pt 3.75pt}
+td.v{border-top:none;border-left:none;border-bottom:solid black 1.0pt; border-right:solid black 1.0pt;padding:1.5pt 1.5pt 1.5pt 3.75pt}td.u{border-top:none;border-left:none;border-bottom: solid black 1.0pt;border-right:solid black 1.0pt;padding: 1.5pt 1.5pt 1.5pt 3.75pt}span.t{background:white}p.as{margin:0cm;margin-bottom:.0001pt;font-size:11.0pt;font-family:""Calibri"",""sans-serif"";line-height:106%}table.at{width:100.0%;border-collapse:collapse;border:none}tr.p{height:19.8pt}td.r{border:solid black 1.0pt;padding: 1.5pt 1.5pt 1.5pt 3.75pt;height:19.8pt}td.q{border:solid black 1.0pt;border-left:none;padding:1.5pt 1.5pt 1.5pt 3.75pt;height:19.8pt}p.au{margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:106%;font-size:11.0pt;font-family:""Calibri"",""sans-serif"";margin-bottom:0cm;margin-bottom:.0001pt}td.m{border:solid white 1.0pt;padding: 1.5pt 1.5pt 1.5pt 3.75pt}
+td.l{border:solid white 1.0pt;border-left:none;padding:1.5pt 1.5pt 1.5pt 3.75pt}span.k{display:none}td.i{width:55.62%;border:solid black 1.0pt; border-left:none;padding:1.5pt 1.5pt 1.5pt 3.75pt; height:19.8pt}td.h{width:55.62%;border-top:none;border-left: none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt; padding:1.5pt 1.5pt 1.5pt 3.75pt} .fr-view-element{font-family: sans-serif;font-size: 12pt;line-height: 140%;padding: 20px;box-sizing: border-box;overflow-x: auto;min-height: 60px;text-align: left;margin-bottom: 10px;width: 837px;} .fr-view-element img{padding: 0 1px;} .fr-view-element .g{margin: 63.8pt 1.6cm 62.35pt 1.6cm;} .fr-view-element p{font-size: 10pt;}
+/\*\*/
+/\*\*/
+/\*\*/
+/\*]]>\*/
+
+RNS Number : 6845S
+
+Marks and Spencer Group PLC
+
+28 August 2026
+
+Director/PDMR Shareholding
+
+Marks and Spencer Group plc (the 'Company') announces that it has been notified of the following transactions in the Company's Ordinary 1p shares undertaken by directors / persons discharging managerial responsibility ('PDMRs').
+
+On 27 August 2026, the following directors/PDMRs acquired a further interest in the Company's shares as a result of their participation in the Company's all-employee Share Incentive Plan.
+
+|  |  |  |
+| --- | --- | --- |
+| Name | Number of Partnership Shares Acquired | Partnership Share Price (£) |
+| S Berendji | 39 | £3.894 |
+| A Freudmann | 38 | £3.894 |
+
+The relevant notifications set out below are provided in accordance with the requirements of Article 19 of the UK Market Abuse Regulation.
+
+|  |  |  |
+| --- | --- | --- |
+| 1 | Details of the person discharging managerial responsibilities/person closely associated | |
+| a) | Name | S Berendji |
+| 2 | Reason for the notification | |
+| a) | Position/status | PDMR (Operations Director) |
+| b) | Initial notification/Amendment | Initial notification |
+| 3 | Details of the issuer, emission allowance market participant, auction platform, auctioneer or auction monitor | |
+| a) | Name | Marks and Spencer Group plc |
+| b) | LEI | 213800EJP14A79ZG1X44 |
+| 4 | Details of the transaction(s): section to be repeated for (i) each type of instrument; (ii) each type of transaction; (iii) each date; and (iv) each place where transactions have been conducted | |
+| a) | Description of the financial instrument, type of instrument  Identification code | Ordinary 1p shares     ISIN: GB0031274896 |
+| b) | Nature of the transaction | Acquisition of Partnership Shares through the Company's Share Incentive Plan |
+| c) | Price(s) and volume(s) | |  |  | | --- | --- | | Price(s) | Volume(s) | | £3.894 | 39 | |
+| d) | Aggregated information   |  |  | | --- | --- | | - | Aggregated volume |      |  |  | | --- | --- | | - | Price | | n/a (single transaction) |
+| e) | Date of the transaction | 2026-08-27 |
+| f) | Place of the transaction | London Stock Exchange, Main Market (XLON) |
+
+ 
+
+ 
+
+|  |  |  |
+| --- | --- | --- |
+| 1 | Details of the person discharging managerial responsibilities/person closely associated | |
+| a) | Name | A Freudmann |
+| 2 | Reason for the notification | |
+| a) | Position/status | PDMR (Managing Director, Food) |
+| b) | Initial notification/Amendment | Initial notification |
+| 3 | Details of the issuer, emission allowance market participant, auction platform, auctioneer or auction monitor | |
+| a) | Name | Marks and Spencer Group plc |
+| b) | LEI | 213800EJP14A79ZG1X44 |
+| 4 | Details of the transaction(s): section to be repeated for (i) each type of instrument; (ii) each type of transaction; (iii) each date; and (iv) each place where transactions have been conducted | |
+| a) | Description of the financial instrument, type of instrument  Identification code | Ordinary 1p shares     ISIN: GB0031274896 |
+| b) | Nature of the transaction | Acquisition of Partnership Shares through the Company's Share Incentive Plan |
+| c) | Price(s) and volume(s) | |  |  | | --- | --- | | Price(s) | Volume(s) | | £3.894 | 38 | |
+| d) | Aggregated information   |  |  | | --- | --- | | - | Aggregated volume |      |  |  | | --- | --- | | - | Price | | n/a (single transaction) |
+| e) | Date of the transaction | 2026-08-27 |
+| f) | Place of the transaction | London Stock Exchange, Main Market (XLON) |
+
+This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use and distribution of this information may apply. For further information, please contact [rns@lseg.com](mailto:rns@lseg.com) or visit [www.rns.com](http://www.rns.com/).  
+  
+RNS may use your IP address to confirm compliance with the terms and conditions, to analyse how you engage with the information contained in this communication, and to share such analysis on an anonymised basis with others as part of our commercial services. For further information about how RNS and the London Stock Exchange use the personal data you provide us, please see our [Privacy Policy](https://www.lseg.com/privacy-and-cookie-policy).
+
+END
+
+DSHBUGDIBGDDGLI",452010,"Personal Care, Drug and Grocery Stores "
+17762488,2026-08-28 14:40:01,Director/PDMR Shareholding,Reckitt Benckiser Group PLC,RKT,DSH,RNS,6824S,https://www.londonstockexchange.com/news-article/RKT/directorpdmr-shareholding/17762488,"/\*<![CDATA[\*/
+/\*\*/
+/\*\*/
+/\*\*/
+h1{margin-top:18.0pt;margin-right:0cm;margin-bottom:4.0pt;margin-left:0cm;font-size:20.0pt;font-family:""Aptos Display"",""serif"";color:#0F4761;font-weight:normal;}h2{margin-top:8.0pt;margin-right:0cm;margin-bottom:4.0pt;margin-left:0cm;font-size:16.0pt;font-family:""Aptos Display"",""serif"";color:#0F4761;font-weight:normal;}h3{margin-top:8.0pt;margin-right:0cm;margin-bottom:4.0pt;margin-left:0cm;font-size:14.0pt;font-family:""Arial"",""sans-serif"";color:#0F4761;font-weight:normal;}h4{margin-top:4.0pt;margin-right:0cm;margin-bottom:2.0pt;margin-left:0cm;font-size:12.0pt;font-family:""Arial"",""sans-serif"";color:#0F4761;font-weight:normal;font-style:italic;}h5{margin-top:4.0pt;margin-right:0cm;margin-bottom:2.0pt;margin-left:0cm;font-size:12.0pt;font-family:""Arial"",""sans-serif"";color:#0F4761;font-weight:normal;}h6{margin-top:2.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Arial"",""sans-serif"";color:#595959;font-weight:normal;font-style:italic;}ol{margin-bottom:0cm;}ul{margin-bottom:0cm;}
+.ar{size:595.3pt 841.9pt;margin:39.7pt 89.85pt 65.2pt 89.85pt;}div.ar{}p.cq{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Arial"",""sans-serif"";text-align:right}span.co{font-size:10.0pt}p.cr{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Arial"",""sans-serif"";text-align:center}p.cs{margin-right:0cm;margin-left:0cm;font-size:12.0pt;font-family:""Times New Roman"",""serif"";margin:0cm;margin-bottom:.0001pt;text-align: center}span.ct{color: black; font-family: ""Arial"",""sans-serif""; font-size: 10.0pt; font-weight: bold}p.cu{margin-right:0cm;margin-left:0cm;font-size:12.0pt;font-family:""Times New Roman"",""serif"";margin:0cm;margin-bottom:.0001pt;text-align: center}span.cv{font-size:10.0pt;font-family: ""Arial"",""sans-serif"";color:black}p.cw{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Arial"",""sans-serif"";margin-right:-16.75pt;text-align:justify}
+p.cx{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Arial"",""sans-serif"";text-align:justify}table.cy{margin-left:auto;margin-right:auto;border-collapse:collapse}td.cg{width:415.3pt;padding:0cm 5.4pt 0cm 5.4pt}p.a,li.a,div.a{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Arial"",""sans-serif"";}table.cz{width:415.65pt;margin-left:-5.4pt;border-collapse:collapse;border:none}td.cd{width:5.58%;border:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt}p.da{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Arial"",""sans-serif"";margin-top:3.0pt;margin-right:0cm;margin-bottom: 3.0pt;margin-left:0cm}td.cc{width:94.42%;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt}td.cb{width:5.58%;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt}td.ca{width:28.96%;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}
+td.bz{width:65.46%;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}td.by{width:94.42%;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}p.db{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Arial"",""sans-serif"";margin-top:3.0pt;margin-right:0cm;margin-bottom: 3.0pt;margin-left:0cm;text-autospace:none}span.bx{font-size: 10.0pt}span.bv{font-size: 10.0pt;color:black}span.bu{font-size:10.0pt;color:black}table.dc{margin-left:13.45pt;border-collapse:collapse;border:none}tr.br{height:21.75pt}td.bt{width:99.65pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.75pt}td.bs{width:89.2pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:21.75pt}
+tr.bo{height:24.75pt}td.bq{width:99.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:24.75pt}td.bp{width:89.2pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.75pt}span.bm{font-size:10.0pt;font-family: ""Times New Roman"",""serif""}table.dd{width:267.9pt;border-collapse:collapse;border:none}td.bl{width:78.35pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}td.bk{width:78.35pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt}td.bj{width:78.8pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt}tr.bf{height:7.1pt}td.bi{width:78.35pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:7.1pt}
+td.bh{width:78.35pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:7.1pt}td.bg{border:none;padding:0cm 0cm 0cm 0cm}p.de{margin:0cm;margin-bottom:.0001pt;text-autospace:none;font-size:12.0pt;font-family:""Times New Roman"",""serif"";color:black;margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt; margin-left:0cm}span.bd{font-size:10.0pt;font-family:""Arial"",""sans-serif""}p.df{margin-right:0cm;margin-left:0cm;font-size:12.0pt;font-family:""Times New Roman"",""serif"";margin:0cm;margin-bottom:.0001pt}span.dg{color: black; font-family: ""Arial"",""sans-serif""; font-size: 10.0pt; font-weight: bold}span.dh{color: black; font-family: ""Arial"",""sans-serif""; font-weight: bold}td.ay{width:4.74%;border:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt}td.ax{width:95.26%;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt}td.aw{width:4.74%;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt}
+td.av{width:28.02%;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}td.au{width:67.24%;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}td.at{width:95.26%;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}span.cj{font-size:10.0pt;font-family: ""Arial"",""sans-serif"";color:black}span.an{}span.di{font-size:10.0pt;font-family:""Arial"",""sans-serif"";color:black} .fr-view-element{font-family: sans-serif;font-size: 12pt;line-height: 140%;padding: 20px;box-sizing: border-box;overflow-x: auto;min-height: 60px;text-align: left;margin-bottom: 10px;width: 837px;} .fr-view-element img{padding: 0 1px;} .fr-view-element .ar{margin: 63.8pt 1.6cm 62.35pt 1.6cm;} .fr-view-element p{font-size: 10pt;}
+/\*\*/
+/\*\*/
+/\*\*/
+/\*]]>\*/
+
+RNS Number : 6824S
+
+Reckitt Benckiser Group PLC
+
+28 August 2026
+
+28 August 2026
+
+ 
+
+RECKITT BENCKISER GROUP PLC
+
+ DIRECTOR/PDMR SHAREHOLDINGS
+
+ 
+
+The following notification is made in accordance with DTR 3.1.2-A, incorporating article 19(1) of the Market Abuse Regulation.
+
+ 
+
+|  |
+| --- |
+| NOTIFICATION AND PUBLIC DISCLOSURE OF TRANSACTIONS BY PERSONS DISCHARGING MANAGERIAL RESPONSIBILITIES AND PERSONS CLOSELY ASSOCIATED WITH THEM |
+
+ 
+
+|  |  |  |
+| --- | --- | --- |
+| 1 | Details of the person discharging managerial responsibilities / person closely associated | |
+| a) | Name | Gavin Patterson |
+| 2 | Reason for the notification | |
+| a) | Position/status | Non-Executive Director |
+| b) | Initial notification/  Amendment | Initial notification |
+| 3 | Details of the issuer, emission allowance market participant, auction platform, auctioneer or auction monitor | |
+| a) | Name | Reckitt Benckiser Group plc |
+| b) | LEI | 5493003JFSMOJG48V108 |
+| 4 | Details of the transaction(s): section to be repeated for (i) each type of instrument; (ii) each type of transaction; (iii) each date; and (iv) each place where transactions have been conducted | |
+| a) | Description of the financial instrument, type of instrument  Identification code | Ordinary shares of 10 5/12 pence each in Reckitt Benckiser Group plc       GB00BSZBP530 |
+| b) | Nature of the transaction | Purchase of shares |
+| c) | Price(s) and volume(s) | |  |  | | --- | --- | | Price(s) | Volume(s) | | £51.83 | 191 | |
+| d) | Aggregated information  -               Aggregated     volume  -               Price | |  |  |  |  | | --- | --- | --- | --- | | Aggregate Price | Aggregate Volume | Aggregate Total | | | £51.83 | 191 | £9,899.53 |  | |
+| e) | Date of the transaction | 2026-08-26 |
+| f) | Place of the transaction | London Stock Exchange, Main Market - XLON |
+
+ 
+
+ 
+
+ 
+
+ 
+
+|  |  |  |
+| --- | --- | --- |
+| 1 | Details of the person discharging managerial responsibilities / person closely associated | |
+| a) | Name | Deborah Waterhouse |
+| 2 | Reason for the notification | |
+| a) | Position/status | Non-Executive Director |
+| b) | Initial notification/  Amendment | Initial notification |
+| 3 | Details of the issuer, emission allowance market participant, auction platform, auctioneer or auction monitor | |
+| a) | Name | Reckitt Benckiser Group plc |
+| b) | LEI | 5493003JFSMOJG48V108 |
+| 4 | Details of the transaction(s): section to be repeated for (i) each type of instrument; (ii) each type of transaction; (iii) each date; and (iv) each place where transactions have been conducted | |
+| a) | Description of the financial instrument, type of instrument  Identification code | Ordinary shares of 10 5/12 pence each in Reckitt Benckiser Group plc      GB00BSZBP530 |
+| b) | Nature of the transaction | Purchase of shares |
+| c) | Price(s) and volume(s) | |  |  | | --- | --- | | Price(s) | Volume(s) | | £51.89 | 152 | |
+| d) | Aggregated information  -               Aggregated volume  -               Price | |  |  |  |  | | --- | --- | --- | --- | | Aggregate Price | Aggregate Volume | Aggregate Total | | | £51.89 | 152 | £7,887.28 |  | |
+| e) | Date of the transaction | 2026-08-26 |
+| f) | Place of the transaction | London Stock Exchange, Main Market - XLON |
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+For further Information:  
+Catheryn O'Rourke
+
+Company Secretary
+
+Tel +44 (0) 1753 217 800
+
+ 
+
+Reckitt Benckiser Group plc's LEI code is 5493003JFSMOJG48V108
+
+This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use and distribution of this information may apply. For further information, please contact [rns@lseg.com](mailto:rns@lseg.com) or visit [www.rns.com](http://www.rns.com/).  
+  
+RNS may use your IP address to confirm compliance with the terms and conditions, to analyse how you engage with the information contained in this communication, and to share such analysis on an anonymised basis with others as part of our commercial services. For further information about how RNS and the London Stock Exchange use the personal data you provide us, please see our [Privacy Policy](https://www.lseg.com/privacy-and-cookie-policy).
+
+END
+
+DSHBSGDIBXDDGLI",452010,"Personal Care, Drug and Grocery Stores "
+17762281,2026-08-28 13:24:31,Total Voting Rights,AO World plc,AO.,TVR,RNS,6701S,https://www.londonstockexchange.com/news-article/AO./total-voting-rights/17762281,"/\*<![CDATA[\*/
+/\*\*/
+/\*\*/
+/\*\*/
+ol{margin-bottom:0cm;}ul{margin-bottom:0cm;}link{ color: #0563C1 }visited{ color: #954F72 }
+.ad{size:595.3pt 841.9pt;margin:72.0pt 72.0pt 72.0pt 72.0pt;}div.ad{}p.aj{margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:11.0pt;font-family:""Calibri"",""sans-serif"";margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal;text-autospace:none}p.ak{margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:11.0pt;font-family:""Calibri"",""sans-serif"";text-align:center}p.al{margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:107%;font-size:11.0pt;font-family:""Calibri"",""sans-serif"";text-align:justify}span.w{}span.y{}span.aa{}span.am{font-weight: bold} .fr-view-element{font-family: sans-serif;font-size: 12pt;line-height: 140%;padding: 20px;box-sizing: border-box;overflow-x: auto;min-height: 60px;text-align: left;margin-bottom: 10px;width: 837px;} .fr-view-element img{padding: 0 1px;} .fr-view-element .ad{margin: 63.8pt 1.6cm 62.35pt 1.6cm;} .fr-view-element p{font-size: 10pt;}
+/\*\*/
+/\*\*/
+/\*\*/
+/\*]]>\*/
+
+RNS Number : 6701S
+
+AO World plc
+
+28 August 2026
+
+AO World PLC (the ""Company"")
+
+Total Voting Rights
+
+ 
+
+In accordance with DTR 5.6.1 the Company announces that, as at 28 August 2026, the Company's issued share capital consisted of 567,036,925 ordinary shares of 0.25p each (""Ordinary Shares"").  No Ordinary Shares are held in treasury.
+
+Therefore, the total number of voting rights in AO World PLC as at 28 August 2026 is 567,036,925 and this figure may be used by shareholders as the denominator for the calculations by which they determine if they are required to notify their interest in, or a change to their interest in, the Company under the FCA's Disclosure and Transparency Rules.
+
+Enquiries:
+
+AO World PLC
+
+Company Secretary
+
+cosec@ao.com 
+
+ 
+
+About AO
+
+AO World PLC, headquartered in Bolton and listed on the London Stock Exchange, is the UK's most trusted major electricals retailer, with a mission to be the destination for electricals. Our strategy is to create value by offering our customers brilliant customer service and making AO the destination for everything they need, in the simplest and easiest way, when buying electricals.  We offer major and small domestic appliances and a growing range of mobile phones, AV, consumer electricals and laptops. We also provide ancillary services such as the installation of new and collection of old products and offer product protection plans and customer finance. AO Business serves the B2B market in the UK, providing electricals and installation services at scale. AO also has a WEEE processing facility, ensuring customers' electronic waste is dealt with responsibly.
+
+This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use and distribution of this information may apply. For further information, please contact [rns@lseg.com](mailto:rns@lseg.com) or visit [www.rns.com](http://www.rns.com/).  
+  
+RNS may use your IP address to confirm compliance with the terms and conditions, to analyse how you engage with the information contained in this communication, and to share such analysis on an anonymised basis with others as part of our commercial services. For further information about how RNS and the London Stock Exchange use the personal data you provide us, please see our [Privacy Policy](https://www.lseg.com/privacy-and-cookie-policy).
+
+END
+
+TVRUWUORNOUWUAR",404010,Retailers 
+17762261,2026-08-28 13:00:00,Director/PDMR Shareholding,Sainsbury(J) PLC,SBRY,DSH,RNS,6606S,https://www.londonstockexchange.com/news-article/SBRY/directorpdmr-shareholding/17762261,"/\*<![CDATA[\*/
+/\*\*/
+/\*\*/
+/\*\*/
+sup{font-size:80%}sub{font-size:80%}p{margin-right:0cm;margin-left:0cm;font-size:12.0pt;font-family:""Times New Roman"",""serif"";}ol{margin-bottom:0cm;}ul{margin-bottom:0cm;}
+.w{size:595.3pt 841.9pt;margin:72.0pt 28.3pt 63.8pt 63.8pt;}div.w{}p.cm{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";margin-right:21.25pt}span.ck{font-size:10.0pt;font-family:""Arial"",""sans-serif""}p.a,li.a,div.a{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";}span.ci{font-size:10.0pt;font-family: ""Arial"",""sans-serif""}p.cn{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";text-align:center}p.co{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";margin-top:0cm;margin-right:14.15pt; margin-bottom:0cm;margin-left:-14.2pt;margin-bottom:.0001pt;text-align:center; text-indent:-7.1pt;line-height:106%}span.cg{font-size:10.0pt; line-height:106%;font-family:""Arial"",""sans-serif""}span.cf{font-family: ""Arial"",""sans-serif""; font-size: 10.0pt; font-weight: bold; line-height: 106%}
+p.cp{margin:0cm;margin-bottom:.0001pt;text-autospace:none;font-size:12.0pt;font-family:""Times New Roman"",""serif"";color:black;margin-right:14.15pt}span.v{}span.cd{font-size:10.0pt;font-family: ""Arial"",""sans-serif"";color:windowtext}table.cq{margin-left:auto;margin-right:auto;border-collapse:collapse;border:none}td.cb{width:141.85pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}td.ca{width:213.95pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt}tr.bw{height:2.5pt}td.bz{width:141.85pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:2.5pt}td.bx{width:213.95pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:2.5pt}p.ch{text-align:center}
+span.by{font-size: 10.0pt;font-family:""Arial"",""sans-serif""}p.cr{margin-top:14.0pt;margin-right:0cm;margin-bottom:7.0pt;margin-left:0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;font-size:11.5pt;font-family:""Arial"",""sans-serif"";font-weight:bold;text-align:center}table.cs{margin-left:-5.4pt;border-collapse:collapse;border:none}tr.br{height:14.85pt}td.bt{width:15.9pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:14.85pt}p.p,li.p,div.p{margin:0cm;margin-bottom:.0001pt;text-autospace:none;font-size:12.0pt;font-family:""Times New Roman"",""serif"";color:black;}span.bu{font-size:11.0pt;font-family: ""Arial"",""sans-serif""}td.bs{width:444.2pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:14.85pt}tr.bm{height:17.4pt}td.bp{width:15.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:17.4pt}
+span.bq{font-size:11.0pt;font-family:""Arial"",""sans-serif""}td.bo{width:160.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:17.4pt}td.bn{width:272.7pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:17.4pt}tr.bj{height:7.95pt}td.bl{width:15.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:7.95pt}td.bk{width:444.2pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:7.95pt}tr.bf{height:15.65pt}td.bi{width:15.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:15.65pt}td.bh{width:160.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:15.65pt}td.bg{width:272.7pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:15.65pt}
+tr.bb{height:23.85pt}td.be{width:15.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:23.85pt}td.bd{width:160.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:23.85pt}td.bc{width:272.7pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:23.85pt}td.ba{width:15.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:14.85pt}td.az{width:444.2pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:14.85pt}tr.av{height:9.4pt}td.ay{width:15.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:9.4pt}td.ax{width:160.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:9.4pt}td.aw{width:272.7pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:9.4pt}
+tr.ar{height:15.9pt}td.au{width:15.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:15.9pt}td.at{width:160.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:15.9pt}td.as{width:272.7pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:15.9pt}tr.ao{height:21.75pt}td.aq{width:15.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:21.75pt}td.ap{width:444.2pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.75pt}td.an{width:160.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.75pt}td.ak{width:272.7pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.75pt}span.q{}
+span.am{font-size: 11.0pt;font-family:""Arial"",""sans-serif""}span.ct{font-size:11.0pt;font-family:""Arial"",""sans-serif""}span.cu{font-size:11.0pt; font-family:""Arial"",""sans-serif""}td.aj{width:160.7pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.75pt}td.ai{width:141.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.75pt}td.ah{width:120.3pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.75pt}span.ag{font-size:11.0pt;font-family:""Arial"",""sans-serif""; color:windowtext}tr.ab{height:21.1pt}td.af{width:15.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:21.1pt}td.ae{width:160.7pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.1pt}
+td.ad{width:141.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.1pt}td.ac{width:120.3pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.1pt}tr.y{height:20.7pt}td.aa{width:141.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:20.7pt}td.z{width:120.3pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:20.7pt} .fr-view-element{font-family: sans-serif;font-size: 12pt;line-height: 140%;padding: 20px;box-sizing: border-box;overflow-x: auto;min-height: 60px;text-align: left;margin-bottom: 10px;width: 837px;} .fr-view-element img{padding: 0 1px;} .fr-view-element .w{margin: 63.8pt 1.6cm 62.35pt 1.6cm;} .fr-view-element p{font-size: 10pt;}
+/\*\*/
+/\*\*/
+/\*\*/
+/\*]]>\*/
+
+RNS Number : 6606S
+
+Sainsbury(J) PLC
+
+28 August 2026
+
+28 August 2026
+
+ 
+
+J Sainsbury plc
+
+(the 'Company')
+
+ 
+
+Notification of transactions by Persons Discharging Managerial Responsibilities ('PDMRs')
+
+ 
+
+The Company was notified that, on 27 August 2026, the following PDMR acquired ordinary shares of 284/7 pence each in the Company ('Shares') through participation in the Company's Share Incentive Plan (also known as SSPP). The Shares were purchased at £3.321 each.
+
+ 
+
+|  |  |
+| --- | --- |
+| PDMR | Number of Shares acquired under the SSPP |
+| Mark Given | 41 |
+
+ 
+
+The Notification of Dealing Form can be found below.
+
+ 
+
+This notification is made in accordance with the requirements of the UK Market Abuse Regulation.
+
+ 
+
+For further information, please contact:
+
+ 
+
+Helen Porter
+
+Assistant Company Secretary
+
+01908 081272
+
+ 
+
+Notification of dealing form
+
+ 
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| 1 | Details of the person discharging managerial responsibilities / person closely associated | | |
+| a) | Name | Mark Given | |
+| 2 | Reason for the notification | | |
+| a) | Position/status | Chief Technology, Marketing and Data Officer | |
+| b) | Initial notification /Amendment | Initial notification | |
+| 3 | Details of the issuer, emission allowance market participant, auction platform, auctioneer or auction monitor | | |
+| a) | Name | J Sainsbury plc | |
+| b) | LEI | 213800VGZAAJIKJ9Y484 | |
+| 4 | Details of the transaction(s): section to be repeated for (i) each type of instrument; (ii) each type of transaction; (iii) each date; and (iv) each place where transactions have been conducted | | |
+| a) | Description of the financial instrument, type of instrument | Ordinary shares of 284/7 pence each | |
+| Identification code | ISIN: GB00B019KW72 | |
+| b) | Nature of the transaction | Purchase of Shares under the J Sainsbury plc Share Incentive Plan | |
+| c) | Price(s) and volume(s) | Price(s) | Volume(s) |
+| £3.321 | 41 |
+| d) | Aggregated information | Aggregated price | Aggregated volume |
+| £3.321 | 41 |
+| e) | Date of the transaction | 27 August 2026 | |
+| f) | Place of the transaction | London Stock Exchange (XLON) | |
+
+This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use and distribution of this information may apply. For further information, please contact [rns@lseg.com](mailto:rns@lseg.com) or visit [www.rns.com](http://www.rns.com/).  
+  
+RNS may use your IP address to confirm compliance with the terms and conditions, to analyse how you engage with the information contained in this communication, and to share such analysis on an anonymised basis with others as part of our commercial services. For further information about how RNS and the London Stock Exchange use the personal data you provide us, please see our [Privacy Policy](https://www.lseg.com/privacy-and-cookie-policy).
+
+END
+
+DSHAKFBQDBKDAFB",452010,"Personal Care, Drug and Grocery Stores "
+17761888,2026-08-28 10:06:18,Holding(s) in Company,JD Sports Fashion PLC,JD.,HOL,RNS,6362S,https://www.londonstockexchange.com/news-article/JD./holdings-in-company/17761888,"/\*<![CDATA[\*/
+/\*\*/
+/\*\*/
+/\*\*/
+p{margin-right:0cm;margin-left:0cm;font-size:12.0pt;font-family:""Times New Roman"",""serif"";}
+div.ap{size:595.3pt 841.9pt;margin:70.85pt 3.0cm 70.85pt 3.0cm;margin-left:22.5pt;margin-right:22.5pt}p.am{text-align:center}span.an{font-size:11.0pt; font-family:""Verdana"",""sans-serif""}div.ak{margin-top:7.5pt;margin-bottom:7.5pt}p.aq{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";background:#7C173A}div.ai{margin-left:7.5pt}p.a,li.a,div.a{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";}span.aj{font-size:11.0pt;font-family:""Verdana"",""sans-serif""}div.ah{border:solid #666666 1.0pt;padding:0cm 0cm 0cm 0cm;margin-left: 9.75pt;margin-top:3.75pt;margin-bottom:7.5pt}table.ar{width:361.4pt;margin-left:-6.0pt;border-collapse:collapse;border:none}
+td.af{border:solid #666666 1.0pt;padding:.75pt .75pt .75pt 6.0pt}span.ag{font-size:7.5pt;font-family:""Verdana"",""sans-serif""}td.ae{border:solid #666666 1.0pt;border-left:none; padding:.75pt .75pt .75pt 6.0pt}td.ab{border:solid #666666 1.0pt;border-top:none;padding:.75pt .75pt .75pt .75pt}p.as{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";margin-top:3.75pt;margin-right:0cm;margin-bottom: 7.5pt;margin-left:9.75pt}span.ad{font-size:11.0pt;font-family: ""Verdana"",""sans-serif""}td.aa{border-top:none;border-left:none;border-bottom:solid #666666 1.0pt; border-right:solid #666666 1.0pt;padding:.75pt .75pt .75pt .75pt}table.at{width:382.65pt;margin-left:-.75pt;border-collapse:collapse;border:none}td.x{border-top:solid #666666 1.0pt;border-left:solid #666666 1.0pt; border-bottom:none;border-right:none;padding:.75pt .75pt .75pt .75pt}p.au{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";text-align:center}
+span.y{color:white}td.w{border:solid #666666 1.0pt;padding:.75pt .75pt .75pt .75pt}span.v{font-size:10.0pt}table.av{width:382.65pt;margin-left:-1.5pt;border-collapse:collapse;border:none}td.t{width:20.0%;border:solid #666666 1.0pt;padding:.75pt .75pt .75pt 1.5pt}td.s{border:solid #666666 1.0pt;border-left:none; padding:.75pt .75pt .75pt 1.5pt}td.p{width:20.0%;border:solid #666666 1.0pt;border-top: none;padding:.75pt .75pt .75pt .75pt}p.aw{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";margin-top:3.75pt;margin-right:0cm;margin-bottom: 7.5pt;margin-left:2.25pt}span.r{font-size:10.0pt;font-family: ""Verdana"",""sans-serif""}td.o{border:solid #666666 1.0pt;border-top:none; padding:.75pt .75pt .75pt 1.5pt}
+td.n{border-top:none;border-left:none;border-bottom:solid #666666 1.0pt; border-right:solid #666666 1.0pt;padding:.75pt .75pt .75pt .75pt}p.ax{margin:0cm;margin-bottom:.0001pt;font-size:12.0pt;font-family:""Times New Roman"",""serif"";margin-top:3.75pt;margin-right:0cm; margin-bottom:7.5pt;margin-left:9.75pt;text-align:center}td.k{width:15.0%;border:solid #666666 1.0pt;padding:.75pt .75pt .75pt 1.5pt}td.j{width:15.0%;border:solid #666666 1.0pt;border-top: none;padding:.75pt .75pt .75pt .75pt}div.i{border:solid #666666 1.0pt;padding:0cm 0cm 0cm 0cm;margin-left: 1.5pt;margin-top:3.75pt;margin-bottom:7.5pt} .fr-view-element{font-family: sans-serif;font-size: 12pt;line-height: 140%;padding: 20px;box-sizing: border-box;overflow-x: auto;min-height: 60px;text-align: left;margin-bottom: 10px;width: 837px;} .fr-view-element img{padding: 0 1px;} .fr-view-element .WordSection1\_tidyNotWord-33{margin: 63.8pt 1.6cm 62.35pt 1.6cm;} .fr-view-element p{font-size: 10pt;}
+/\*\*/
+/\*\*/
+/\*\*/
+/\*]]>\*/
+
+RNS Number : 6362S
+
+JD Sports Fashion PLC
+
+28 August 2026
+
+TR-1: Standard form for notification of major holdings
+
+1. Issuer Details
+
+ISIN
+
+GB00BM8Q5M07
+
+Issuer Name
+
+JD SPORTS FASHION PLC
+
+UK or Non-UK Issuer
+
+UK
+
+2. Reason for Notification
+
+An acquisition or disposal of voting rights
+
+3. Details of person subject to the notification obligation
+
+Name
+
+Cobas Asset Management, SGIIC, S.A.
+
+City of registered office (if applicable)
+
+Madrid
+
+Country of registered office (if applicable)
+
+Spain
+
+4. Details of the shareholder
+
+|  |  |  |
+| --- | --- | --- |
+| Name | City of registered office | Country of registered office |
+| COBAS EMPLEO, F.P. | Madrid | Spain |
+| COBAS VALUE, SICAV | Madrid | Spain |
+| ALTERNATIVE FUND SICAV-SIF-COBAS CONCENTRATED VALUE FUND | Madrid | Spain |
+| COBAS CONCENTRADOS, F.I.L. | Madrid | Spain |
+| AZ Multi Asset. Subfund: AZ Multi Asset - Bestvalue | Luxembourg | Luxembourg |
+| COBAS GLOBAL, F.P. | Madrid | Spain |
+| COBAS MIXTO GLOBAL, F.P. | Madrid | Spain |
+| COBAS LUX SICAV. Subfund Cobas Large Cap Fund | Luxembourg | Luxembourg |
+| COBAS LUX SICAV. Subfund Cobas International Fund | Luxembourg | Luxembourg |
+| COBAS LUX SICAV. Subfund Cobas Selection Fund | Luxembourg | Luxembourg |
+| COBAS GRANDES COMPAÑÍAS, F.I. | Madrid | Spain |
+| COBAS RENTA, F.I. | Madrid | Spain |
+| COBAS INTERNACIONAL, F.I. | Madrid | Spain |
+| COBAS SELECCIÓN, F.I. | Madrid | Spain |
+
+5. Date on which the threshold was crossed or reached
+
+26-Aug-2026
+
+6. Date on which Issuer notified
+
+27-Aug-2026
+
+7. Total positions of person(s) subject to the notification obligation
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+|  | % of voting rights attached to shares (total of 8.A) | % of voting rights through financial instruments (total of 8.B 1 + 8.B 2) | Total of both in % (8.A + 8.B) | Total number of voting rights held in issuer |
+| Resulting situation on the date on which threshold was crossed or reached | 3.035499 | 0.000000 | 3.035499 | 145474866 |
+| Position of previous notification (if applicable) |  |  |  |  |
+
+8. Notified details of the resulting situation on the date on which the threshold was crossed or reached
+
+8A. Voting rights attached to shares
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| Class/Type of shares ISIN code(if possible) | Number of direct voting rights (DTR5.1) | Number of indirect voting rights (DTR5.2.1) | % of direct voting rights (DTR5.1) | % of indirect voting rights (DTR5.2.1) |
+| GB00BM8Q5M07 |  | 145474866 |  | 3.035499 |
+| Sub Total 8.A | 145474866 | | 3.035499% | |
+
+8B1. Financial Instruments according to (DTR5.3.1R.(1) (a))
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| Type of financial instrument | Expiration date | Exercise/conversion period | Number of voting rights that may be acquired if the instrument is exercised/converted | % of voting rights |
+|  |  |  |  |  |
+| Sub Total 8.B1 |  | |  |  |
+
+8B2. Financial Instruments with similar economic effect according to (DTR5.3.1R.(1) (b))
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| Type of financial instrument | Expiration date | Exercise/conversion period | Physical or cash settlement | Number of voting rights | % of voting rights |
+|  |  |  |  |  |  |
+| Sub Total 8.B2 |  | | |  |  |
+
+9. Information in relation to the person subject to the notification obligation
+
+2. Full chain of controlled undertakings through which the voting rights and/or the financial instruments are effectively held starting with the ultimate controlling natural person or legal entities (please add additional rows as necessary)
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| Ultimate controlling person | Name of controlled undertaking | % of voting rights if it equals or is higher than the notifiable threshold | % of voting rights through financial instruments if it equals or is higher than the notifiable threshold | Total of both if it equals or is higher than the notifiable threshold |
+| Santa Comba Gestión, S.L. | Cobas Asset Management, SGIIC, S.A. | 3.035499 | 0.000000 | 3.035499% |
+
+10. In case of proxy voting
+
+Name of the proxy holder
+
+The number and % of voting rights held
+
+The date until which the voting rights will be held
+
+If date does not apply, explain below
+
+11. Additional Information
+
+In reference to section 9, the shares detailed are managed by the named investment management entity (Cobas Asset Management, SGIIC, S.A.) within multiples portfolios on behalf of underlying clients, based on investment managements agreements whereby the client has delegated the exercise of voting rights to the investment manager.
+
+12. Date of Completion
+
+27-Aug-2026
+
+13. Place Of Completion
+
+Madrid, Spain
+
+This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use and distribution of this information may apply. For further information, please contact [rns@lseg.com](mailto:rns@lseg.com) or visit [www.rns.com](http://www.rns.com/).  
+  
+RNS may use your IP address to confirm compliance with the terms and conditions, to analyse how you engage with the information contained in this communication, and to share such analysis on an anonymised basis with others as part of our commercial services. For further information about how RNS and the London Stock Exchange use the personal data you provide us, please see our [Privacy Policy](https://www.lseg.com/privacy-and-cookie-policy).
+
+END
+
+HOLPPUAURUPQGUR",404010,Retailers 
+17761803,2026-08-28 09:30:05,Halfords Group PLC: Holding in Company,Halfords Group PLC,HFD,HOL,EQS,2390012_en,https://www.londonstockexchange.com/news-article/HFD/halfords-group-plc-holding-in-company/17761803,"|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Halfords Group PLC (HFD)   Halfords Group PLC: Holding in Company   28-Aug-2026 / 10:30 GMT/BST   ---   TR-1: Standard form for notification of major holdings      |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | | NOTIFICATION OF MAJOR HOLDINGS | | | | | | | |  | | | | | | | | 1a. Identity of the issuer or the underlying issuer of existing shares to which voting rights are attached ii: | | | GB00B012TP20 | | | | | 1b. Please indicate if the issuer is a non-UK issuer (please mark with an “X” if appropriate) | | | | | | | | UK | | | | | |  | | 2. Reason for the notification (please mark the appropriate box or boxes with an “X”) | | | | | | | | An acquisition or disposal of voting rights | | | | | | X | | An acquisition or disposal of financial instruments | | | | | |  | | An event changing the breakdown of voting rights | | | | | |  | | Other (please specify) iii: | | | | | |  | | 3. Details of person subject to the notification obligation iv | | | | | | | | Name | | | JPMorgan Chase & Co. | | | | | City and country of registered office (if applicable) | | | US | | | | | 4. Full name of shareholder(s) (if different from 3.) v | | | | | | | | Name | | | J.P. Morgan Securities PLC | | | | | City and country of registered office (if applicable) | | |  | | | | | 5. Date on which the threshold was crossed or reached vi: | | | 25-Aug-2026 | | | | | 6. Date on which issuer notified (DD/MM/YYYY): | | | 27-Aug-2026 | | | | | 7. Total positions of person(s) subject to the notification obligation | | | | | | | |  | % of voting rights attached to shares (total of 8. A) | % of voting rights through financial instruments  (total of 8.B 1 + 8.B 2) | | Total of both in % (8.A + 8.B) | Total number of voting rights held in issuer (8.A + 8.B) vii | | | Resulting situation on the date on which threshold was crossed or reached | 1.767240 | 3.238707 | | 5.0054947 | 10959456 | | | Position of previous notification (if  applicable) | 2.590611 | 2.426440 | | 5.017051 |  | | |  |  |  |  |  |  |  |      |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | 8. Notified details of the resulting situation on the date on which the threshold was crossed or reached viii | | | | | | | | | | | A: Voting rights attached to shares | | | | | | | | | | | Class/type of shares  ISIN code (if possible) | | Number of voting rights ix | | | | | % of voting rights | | | | Direct  (DTR5.1) | | Indirect   (DTR5.2.1) | | | Direct  (DTR5.1) | | Indirect  (DTR5.2.1) | | GB00B012TP20 | |  | | 3868997 | | |  | | 1.767240 | | SUBTOTAL 8. A | | 3868997 | | | | | 1.767240% | | | |  | | | | | | | | | | | B 1: Financial Instruments according to DTR5.3.1R (1) (a) | | | | | | | | | | | Type of financial instrument | | Expiration date x | Exercise/  Conversion Period xi | | | Number of voting rights that may be acquired if the instrument is  exercised/converted. | | | % of voting rights | |  | |  |  | | |  | | |  | |  | |  | SUBTOTAL 8. B 1 | | |  | | |  | |  | | | | | | | | | | | B 2: Financial Instruments with similar economic effect according to DTR5.3.1R (1) (b) | | | | | | | | | | | Type of financial instrument | Expiration date x | | Exercise/  Conversion Period xi | | Physical or cash  Settlement xii | | | Number of voting rights | % of voting rights | | Cash-settled Equity  Swap | 15/10/2026 | | 15/10/2026 | | Cash | | | 19594 | 0.008950 | | Cash-settled Equity  Swap | 11/12/2026 | | 11/12/2026 | | Cash | | | 4419831 | 2.018845 | | Cash-settled Equity  Swap | 03/08/2027 | | 03/08/2027 | | Cash | | | 3900 | 0.001781 | | Cash-settled Equity  Swap | 25/08/2027 | | 25/08/2027 | | Cash | | | 36438 | 0.01664 | | Cash-settled Equity  Swap | 22/09/2027 | | 22/09/2027 | | Cash | | | 3244 | 0.001482 | | Cash-settled Equity  Swap | 24/02/2027 | | 24/02/2027 | | Cash | | | 2607452 | 1.191005 | |  |  | |  | | SUBTOTAL 8.B.2 | | | 7090459 | 3.238707% | |  | | | | | | | | | | |  |  |  |  |  |  |  |  |  |  |      |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | | 9. Information in relation to the person subject to the notification obligation (please mark the  applicable box with an “X”) | | | | | | | Person subject to the notification obligation is not controlled by any natural person or legal entity and does not control any other undertaking(s) holding directly or indirectly an interest in the (underlying) issuer xiii | | | | |  | | Full chain of controlled undertakings through which the voting rights and/or the financial instruments are effectively held starting with the ultimate controlling natural person or legal entity (please add additional rows as necessary) xiv | | | | | X | | Ultimate controlling person | Name of controlled undertaking | % of voting rights if it equals or is higher than the notifiable threshold | % of voting rights through financial instruments if it equals or is higher than the notifiable threshold | Total of both if it equals or is higher than the notifiable threshold | | | JPMorgan Chase & Co. | J.P. Morgan Securities PLC |  | 3.238707 | 5.005947% | | |  | | | | | | | 10. In case of proxy voting, please identify: | | | | | | | Name of the proxy holder | | |  | | | | The number and % of voting rights held | | |  | | | | The date until which the voting rights will be held | | |  | | | |  | | | | | | | 11. Additional information xvi | | | | | | | Chain of controlled undertaking:  JPMorgan Chase & Co. JPMorgan Chase Bank, National Association (100%) J.P. Morgan International Finance Limited (100%) J.P. Morgan Capital Holdings Limited (100%) J.P. Morgan Securities PLC (100%) | | | | | | |  |  |  |  |  |  |       |  |  | | --- | --- | | Place of completion | 27-Aug-2026 | | Date of completion | London |   ---    Dissemination of a Regulatory Announcement, transmitted by [EQS Group](https://nwr.eqs-cockpit.com/fncls2.ssx?fn=redirect&url=f5d50dc7e8798b6eb177f7955e598e60&application_id=2390012&site_id=acquiremedia~~~46b1ef00-8625-4c39-92ac-77327581d2ba&application_name=news).  The issuer is solely responsible for the content of this announcement.   View original content: [EQS News](https://nwr.eqs-cockpit.com/fncls2.ssx?fn=redirect&url=793da7110cbb956efb73e15fc1c3f3f2&application_id=2390012&site_id=acquiremedia~~~46b1ef00-8625-4c39-92ac-77327581d2ba&application_name=news)  --- |
+
+|  |  |
+| --- | --- |
+|  |  |
+| ISIN: | GB00B012TP20 |
+| Category Code: | HOL |
+| TIDM: | HFD |
+| LEI Code: | 54930086FKBWWJIOBI79 |
+| Sequence No.: | 441272 |
+| EQS News ID: | 2390012 |
+
+  
+
+|  |  |
+| --- | --- |
+|  | |
+
+|  |  |
+| --- | --- |
+|  | |
+| End of Announcement | EQS News Service |
+
+|  |
+| --- |
+| --- |",404010,Retailers 
+17760490,2026-08-28 06:00:03,Holding(s) in Company,IG Design Group PLC,IGR,HOL,RNS,5049S,https://www.londonstockexchange.com/news-article/IGR/holdings-in-company/17760490,"/\*<![CDATA[\*/
+/\*\*/
+/\*\*/
+/\*\*/
+/\*\*/
+/\*\*/
+sup{font-size:80%}h1{margin-top:12.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;font-size:16.0pt;font-family:""Arial"",""sans-serif"";font-weight:bold;}h2{margin-top:12.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;font-size:14.0pt;font-family:""Arial"",""sans-serif"";font-weight:bold;font-style:italic;}h3{margin-top:12.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-indent:-14.15pt;font-size:13.0pt;font-family:""Arial"",""sans-serif"";font-weight:bold;}h4{margin-top:12.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:14.85pt;text-indent:-43.2pt;font-size:14.0pt;font-family:""Times New Roman"",""serif"";font-weight:bold;}h5{margin-top:12.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:22.05pt;text-indent:-50.4pt;font-size:13.0pt;font-family:""Georgia"",""serif"";font-weight:bold;font-style:italic;}h6{margin-top:12.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:29.25pt;text-indent:-57.6pt;font-size:11.0pt;font-family:""Times New Roman"",""serif"";font-weight:bold;}strong{font-family:""Times New Roman"",""serif"";}p{margin-right:0cm;margin-left:0cm;font-size:12.0pt;font-family:""Times New Roman"",""serif"";}ol{margin-bottom:0cm;}ul{margin-bottom:0cm;}
+link{ color: blue }visited{ color: purple }
+.bx{size:595.3pt 841.9pt;margin:127.6pt 62.35pt 68.05pt 62.35pt;}div.bx{}p.jx{margin:0cm;margin-bottom:.0001pt;font-size:11.0pt;font-family:""Georgia"",""serif"";margin-left:-35.45pt}span.jv{font-size:14.0pt;font-family:""Arial"",""sans-serif""}table.jy{margin-left:-36.0pt;border-collapse:collapse;border:none}tr.jq{height:21.1pt}td.jr{width:520.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.1pt}p.jz{margin:0cm;margin-bottom:.0001pt;font-size:11.0pt;font-family:""Georgia"",""serif"";text-autospace:none}span.jt{font-family:""Arial"",""sans-serif""}tr.jm{height:12.1pt}
+td.jn{width:520.2pt;border:none;border-bottom:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:12.1pt}p.ka{margin:0cm;margin-bottom:.0001pt;font-size:11.0pt;font-family:""Georgia"",""serif"";text-align:right}span.jp{font-size:10.0pt;font-family:""Arial"",""sans-serif""}tr.jh{height:43.85pt}td.jk{width:259.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:43.85pt}p.a,li.a,div.a{margin:0cm;margin-bottom:.0001pt;font-size:11.0pt;font-family:""Georgia"",""serif"";}span.jl{font-size: 8.0pt;font-family:""Arial"",""sans-serif""}td.ji{width:250.3pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:43.85pt}p.kb{margin:0cm;margin-bottom:.0001pt;font-size:11.0pt;font-family:""Georgia"",""serif"";text-align:center}tr.jd{height:21.65pt}
+td.je{width:520.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:21.65pt}span.jg{font-family:""Arial"",""sans-serif""; color:black}span.jf{font-family:""Arial"",""sans-serif"";color:black}tr.iz{height:19.85pt}td.jb{width:485.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:19.85pt}span.jc{font-size:10.5pt;font-family:""Arial"",""sans-serif""; color:black}td.ja{width:23.5pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt; height:19.85pt}tr.iw{height:28.9pt}td.ix{width:520.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:28.9pt}span.iy{font-family: ""Arial"",""sans-serif""}
+tr.is{height:22.0pt}td.iu{width:485.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:22.0pt}span.iv{font-size:10.5pt;font-family:""Arial"",""sans-serif""}td.it{width:23.5pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt; height:22.0pt}tr.ip{height:23.4pt}td.iq{width:520.2pt;border-top:none;border-left: solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:23.4pt}span.ir{font-size:8.0pt;font-family:""Arial"",""sans-serif""}tr.im{height:19.5pt}td.io{width:259.1pt;border:solid windowtext 1.0pt; border-bottom:none;padding:0cm 5.4pt 0cm 5.4pt;height:19.5pt}td.in{width:250.3pt;border-top:solid windowtext 1.0pt; border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:19.5pt}
+tr.ik{height:24.45pt}td.il{width:520.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.45pt}tr.ih{height:24.15pt}td.ij{width:259.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:24.15pt}td.ii{width:250.3pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.15pt}tr.ie{height:26.85pt}td.ig{width:259.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:26.85pt}td.if{width:250.3pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:26.85pt}tr.ib{height:33.45pt}td.id{width:259.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:33.45pt}
+td.ic{width:250.3pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:33.45pt}tr.hx{height:26.75pt}td.hz{width:259.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:26.75pt}span.ia{color:black}td.hy{width:250.3pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:26.75pt}tr.hv{height:27.75pt}td.hw{width:520.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:27.75pt}td.hu{width:95.4pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt;height:27.75pt}td.ht{width:95.4pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:27.75pt}td.hr{width:104.85pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:27.75pt}
+span.hs{font-size:10.0pt;font-family: ""Arial"",""sans-serif""}td.hq{width:95.5pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:27.75pt}td.hp{width:85.85pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:27.75pt}tr.hj{height:42.4pt}td.ho{width:95.4pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt;height:42.4pt}td.hn{width:95.4pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:42.4pt}td.hm{width:104.85pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:42.4pt}td.hl{width:95.5pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:42.4pt}td.hk{width:85.85pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:42.4pt}td.hi{border:none}
+table.kc{margin-left:auto;margin-right:auto;border-collapse:collapse;border:none}tr.hf{height:16.3pt}td.hg{width:520.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:16.3pt}tr.hd{height:22.9pt}td.he{width:520.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:22.9pt}tr.gz{height:19.3pt}td.hc{width:99.65pt;border: solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt; height:19.3pt}td.hb{width:191.95pt;border:none;padding:0cm 5.4pt 0cm 5.4pt; height:19.3pt}td.ha{width:207.0pt;border-top:none;border-left: solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:19.3pt}tr.gu{height:18.7pt}
+td.gy{width:90.35pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:18.7pt}td.gx{width:90.8pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:18.7pt}td.gw{width:105.8pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:18.7pt}td.gv{width:90.4pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:18.7pt}tr.go{height:23.5pt}td.gt{width:99.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:23.5pt}td.gs{width:90.35pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:23.5pt}td.gr{width:90.8pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:23.5pt}td.gq{width:105.8pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:23.5pt}td.gp{width:90.4pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:23.5pt}
+td.gn{width:191.95pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:23.5pt}td.gm{width:207.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:23.5pt}tr.gk{height:10.9pt}td.gl{width:520.2pt;border:none; padding:0cm 5.4pt 0cm 5.4pt;height:10.9pt}tr.gi{height:26.5pt}td.gj{width:520.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:26.5pt}td.gh{width:99.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt}td.gg{width:51.1pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt}td.ge{width:117.1pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}span.gf{font-size:8.0pt; font-family:TimesNewRomanPSMT}
+td.gd{width:118.75pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}td.gc{width:90.4pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}tr.fw{height:24.05pt}td.gb{width:99.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.ga{width:51.1pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt; height:24.05pt}td.fz{width:117.1pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.fy{width:118.75pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.fx{width:90.4pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.fv{width:99.65pt;border:none; padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.fu{width:51.1pt;border:none;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}
+tr.fs{height:20.4pt}td.ft{width:520.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:20.4pt}td.fr{width:79.1pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt}td.fq{width:71.65pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}td.fo{width:78.5pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}span.fp{font-size:8.0pt; font-family:""Arial"",""sans-serif""}td.fn{width:77.75pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}td.fm{width:68.8pt;border:none;border-bottom:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt}td.fl{width:90.4pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt}td.fk{width:79.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}
+td.fj{width:71.65pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.fi{width:78.5pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.fh{width:77.75pt;border-top:none; border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.fg{width:68.8pt;border:none;border-bottom:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.ff{width:90.4pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.fe{width:79.1pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.fd{width:71.65pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.fc{width:78.5pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.fb{width:77.75pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.fa{width:90.4pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}
+td.ez{width:79.1pt;border:none;padding:0cm 5.4pt 0cm 5.4pt; height:24.05pt}td.ey{width:71.65pt;border:none; padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}td.ex{width:78.5pt;border:none; border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:24.05pt}tr.eu{height:20.8pt}td.ev{width:517.05pt;border:solid windowtext 1.0pt; border-bottom:none;padding:0cm 5.4pt 0cm 5.4pt;height:20.8pt}tr.er{height:31.7pt}td.et{width:482.75pt;border:solid windowtext 1.0pt; border-bottom:none;padding:0cm 5.4pt 0cm 5.4pt;height:31.7pt}td.es{width:23.5pt;border-top:solid windowtext 1.0pt; border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:31.7pt}tr.el{height:38.5pt}td.en{width:482.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:38.5pt}
+span.eq{font-family: ""Arial"",""sans-serif""; font-size: 10.0pt; text-decoration: underline}span.ep{font-size:10.0pt; font-family:""Arial"",""sans-serif""}span.eo{font-size:10.0pt;font-family:""Arial"",""sans-serif""; color:black}td.em{width:23.5pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:38.5pt}tr.ef{height:57.45pt}td.ek{width:271.25pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt;height:57.45pt}td.ej{width:60.1pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt; height:57.45pt}td.ei{width:74.25pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:57.45pt}td.eh{width:78.75pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:57.45pt}td.eg{border:none;padding:0cm 0cm 0cm 0cm}
+tr.ea{height:22.35pt}td.ee{width:271.25pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt;height:22.35pt}td.ed{width:60.1pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt; height:22.35pt}td.ec{width:74.25pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:22.35pt}td.eb{width:78.75pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:22.35pt}tr.dv{height:20.5pt}td.dz{width:271.25pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt;height:20.5pt}td.dy{width:60.1pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt; height:20.5pt}td.dx{width:74.25pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:20.5pt}td.dw{width:78.75pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:20.5pt}
+tr.dq{height:21.45pt}td.du{width:271.25pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt;height:21.45pt}td.dt{width:60.1pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt; height:21.45pt}td.ds{width:74.25pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.45pt}td.dr{width:78.75pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.45pt}tr.dl{height:28.0pt}td.dp{width:271.25pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt;height:28.0pt}td.do{width:60.1pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt; height:28.0pt}td.dn{width:74.25pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:28.0pt}td.dm{width:78.75pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:28.0pt}
+tr.dg{height:19.75pt}td.dk{width:271.25pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt;height:19.75pt}td.dj{width:60.1pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt; height:19.75pt}td.di{width:74.25pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:19.75pt}td.dh{width:78.75pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:19.75pt}tr.db{height:20.6pt}td.df{width:271.25pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt;height:20.6pt}td.de{width:60.1pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt; height:20.6pt}td.dd{width:74.25pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:20.6pt}td.dc{width:78.75pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:20.6pt}
+td.da{width:271.25pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt;height:24.45pt}td.cz{width:60.1pt;border-top:none;border-left:none;border-bottom: solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt; height:24.45pt}td.cy{width:74.25pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.45pt}td.cx{width:78.75pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:24.45pt}td.cw{border:none;border-bottom:solid windowtext 1.0pt}tr.cu{height:14.05pt}td.cv{width:517.05pt;border:none; border-bottom:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:14.05pt}tr.cr{height:15.85pt}td.cs{width:517.05pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:15.85pt}span.ct{font-family:TimesNewRomanPSMT}
+tr.co{height:13.95pt}td.cq{width:342.45pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:13.95pt}td.cp{width:163.8pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:13.95pt}tr.cl{height:16.45pt}td.cn{width:342.45pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:16.45pt}td.cm{width:163.8pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:16.45pt}tr.ci{height:16.85pt}td.ck{width:342.45pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:16.85pt}td.cj{width:163.8pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:16.85pt}td.ch{width:520.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:20.8pt}
+tr.cf{height:45.3pt}td.cg{width:520.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:45.3pt}table.kd{width:531.6pt;margin-left:-35.45pt;border-collapse:collapse;border: none}tr.cc{height:23.75pt}td.ce{width:109.7pt;border:solid windowtext 1.0pt;padding: 0cm 5.4pt 0cm 5.4pt;height:23.75pt}td.cd{width:400.3pt;border:solid windowtext 1.0pt;border-left: none;padding:0cm 5.4pt 0cm 5.4pt;height:23.75pt}tr.bz{height:21.25pt}td.cb{width:109.7pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt;height:21.25pt}td.ca{width:400.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:21.25pt} .fr-view-element{font-family: sans-serif;font-size: 12pt;line-height: 140%;padding: 20px;box-sizing: border-box;overflow-x: auto;min-height: 60px;text-align: left;margin-bottom: 10px;width: 837px;} .fr-view-element img{padding: 0 1px;} .fr-view-element .bx{margin: 63.8pt 1.6cm 62.35pt 1.6cm;} .fr-view-element p{font-size: 10pt;}
+/\*\*/
+/\*\*/
+/\*\*/
+/\*\*/
+/\*\*/
+/\*]]>\*/
+
+RNS Number : 5049S
+
+IG Design Group PLC
+
+28 August 2026
+
+TR-1: Standard form for notification of major holdings
+
+ 
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| NOTIFICATION OF MAJOR HOLDINGS | | | | | | |
+|  | | | | | | |
+| 1a. Identity of the issuer or the underlying issuer of existing shares to which voting rights are attachedii: | | | IG DESIGN GROUP PLC | | | |
+| 1b. Please indicate if the issuer is a non-UK issuer  (please mark with an ""X"" if appropriate) | | | | | | |
+| Non-UK issuer | | | | | |  |
+| 2. Reason for the notification (please mark the appropriate box or boxes with an ""X"") | | | | | | |
+| An acquisition or disposal of voting rights | | | | | | X |
+| An acquisition or disposal of financial instruments | | | | | |  |
+| An event changing the breakdown of voting rights | | | | | |  |
+| Other (please specify)iii: | | | | | |  |
+| 3. Details of person subject to the notification obligationiv | | | | | | |
+| Name | | | CANACCORD GENUITY GROUP INC | | | |
+| City and country of registered office (if applicable) | | | VANCOUVER, CANADA | | | |
+| 4. Full name of shareholder(s) (if different from 3.)v | | | | | | |
+| Name | | | DISCRETIONARY CLIENTS | | | |
+| City and country of registered office (if applicable) | | | As above | | | |
+| 5. Date on which the threshold was crossed or reachedvi: | | | 26 AUGUST 2026 | | | |
+| 6. Date on which issuer notified (DD/MM/YYYY): | | | 27 AUGUST 2026 | | | |
+| 7. Total positions of person(s) subject to the notification obligation | | | | | | |
+|  | % of voting rights attached to shares (total of 8. A) | % of voting rights through financial instruments  (total of 8.B 1 + 8.B 2) | | Total of both in % (8.A + 8.B) | Total number of voting rights held in issuer (8.A + 8.B) vii | |
+| Resulting situation on the date on which threshold was crossed or reached | 9.9473 |  | | 9.9473 | 9,359,447 | |
+| Position of previous notification (if  applicable) | 10.0100 |  | | 10.0100 |  | |
+|  |  |  |  |  |  |  |
+
+ 
+
+|  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 8. Notified details of the resulting situation on the date on which the threshold was crossed or reachedviii | | | | | | | | | |
+| A: Voting rights attached to shares | | | | | | | | | |
+| Class/type of  shares  ISIN code (if possible) | | Number of voting rightsix | | | | | % of voting rights | | |
+| Direct  (DTR5.1) | | Indirect   (DTR5.2.1) | | | Direct  (DTR5.1) | | Indirect  (DTR5.2.1) |
+| GB0004526900 | |  | | 9,359,447 | | |  | | 9.9473 |
+|  | |  | |  | | |  | |  |
+|  | |  | |  | | |  | |  |
+| SUBTOTAL 8. A | | 9,359,447 | | | | | 9.9473 | | |
+|  | | | | | | | | | |
+| B 1: Financial Instruments according to DTR5.3.1R (1) (a) | | | | | | | | | |
+| Type of financial instrument | | Expiration  datex | Exercise/  Conversion Periodxi | | | Number of voting rights that may be acquired if the instrument is  exercised/converted. | | | % of voting rights |
+|  | |  |  | | |  | | |  |
+|  | |  |  | | |  | | |  |
+|  | |  |  | | |  | | |  |
+|  | |  | SUBTOTAL 8. B 1 | | |  | | |  |
+|  | | | | | | | | | |
+| B 2: Financial Instruments with similar economic effect according to DTR5.3.1R (1) (b) | | | | | | | | | |
+| Type of financial instrument | Expiration  datex | | Exercise/  Conversion Period xi | | Physical or cash  settlementxii | | | Number of voting rights | % of voting rights |
+|  |  | |  | |  | | |  |  |
+|  |  | |  | |  | | |  |  |
+|  |  | |  | |  | | |  |  |
+|  |  | |  | | SUBTOTAL 8.B.2 | | |  |  |
+|  | | | | | | | | | |
+|  |  |  |  |  |  |  |  |  |  |
+
+ 
+
+|  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| 9. Information in relation to the person subject to the notification obligation (please mark the  applicable box with an ""X"") | | | | | | |
+| Person subject to the notification obligation is not controlled by any natural person or legal entity and does not control any other undertaking(s) holding directly or indirectly an interest in the (underlying) issuerxiii | | | | |  | |
+| Full chain of controlled undertakings through which the voting rights and/or the  financial instruments are effectively held starting with the ultimate controlling natural person or legal entityxiv (please add additional rows as necessary) | | | | | X | |
+| Namexv | % of voting rights if it equals or is higher than the notifiable threshold | % of voting rights through financial instruments if it equals or is higher than the notifiable threshold | | Total of both if it equals or is higher than the notifiable threshold | |  |
+| Canaccord Genuity Group Inc. | 9.9473 |  | | 9.9473 | |  |
+| Canaccord Genuity Ltd | 0.0233 |  | | 0.0233 | |  |
+| Canaccord Genuity Wealth Group Holdings Limited | 9.9240 |  | | 9.9240 | |  |
+| Canaccord Genuity Wealth Group Holdings (Jersey) Limited | 9.9240 |  | | 9.9240 | |  |
+| Canaccord Genuity Wealth Group Limited | 9.9240 |  | | 9.9240 | |  |
+| Canaccord Genuity Wealth Limited | 0.0133 |  | | 0.0133 | |  |
+| Canaccord Genuity Asset Management Limited | 9.9107 |  | | 9.9107 | |  |
+|  | | | | | | |
+| 10. In case of proxy voting, please identify: | | | | | | |
+| Name of the proxy holder | | |  | | | |
+| The number and % of voting rights held | | |  | | | |
+| The date until which the voting rights will be held | | |  | | | |
+|  |  |  |  |  |  |  |
+
+ 
+
+|  |
+| --- |
+| 11. Additional informationxvi |
+|  |
+
+ 
+
+|  |  |
+| --- | --- |
+| Place of completion | BLACKPOOL, ENGLAND |
+| Date of completion | 27 AUGUST 2026 |
+
+This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use and distribution of this information may apply. For further information, please contact [rns@lseg.com](mailto:rns@lseg.com) or visit [www.rns.com](http://www.rns.com/).  
+  
+RNS may use your IP address to confirm compliance with the terms and conditions, to analyse how you engage with the information contained in this communication, and to share such analysis on an anonymised basis with others as part of our commercial services. For further information about how RNS and the London Stock Exchange use the personal data you provide us, please see our [Privacy Policy](https://www.lseg.com/privacy-and-cookie-policy).
+
+END
+
+HOLPRMRTMTATBLF",452010,"Personal Care, Drug and Grocery Stores "
+17760452,2026-08-28 06:00:02,Transaction in Own Shares,Venture Life Group PLC,VLG,POS,RNS,4989S,https://www.londonstockexchange.com/news-article/VLG/transaction-in-own-shares/17760452,"@page Section\_1 { size: 595.3pt 841.9pt margin-top: 72pt margin-right: 72pt margin-bottom: 72pt margin-left: 72pt -aw-footer-distance: 35.4pt -aw-header-distance: 35.4pt }
+.aspose-root div.Section\_1 { margin: 72pt; page: Section\_1 }
+.aspose-root { line-height: 108%; font-family: Aptos; font-size: 11pt; max-width: 600.3pt; width: 600.3pt; margin: 1pt auto; position: relative; display: block }
+.aspose-root h1, .aspose-root h2, .aspose-root h3, .aspose-root h4, .aspose-root h5, .aspose-root h6, .aspose-root p { margin: 0 0 8pt }
+.aspose-root table { margin-top: 0; margin-bottom: 8pt }
+.aspose-root h1 { margin-top: 18pt; margin-bottom: 4pt; page-break-inside: avoid; page-break-after: avoid; line-height: 116%; font-family: ""Aptos Display""; font-size: 20pt; font-weight: normal; color: rgba(15, 71, 97, 1) }
+.aspose-root h2 { margin-top: 8pt; margin-bottom: 4pt; page-break-inside: avoid; page-break-after: avoid; line-height: 116%; font-family: ""Aptos Display""; font-size: 16pt; font-weight: normal; color: rgba(15, 71, 97, 1) }
+.aspose-root h3 { margin-top: 8pt; margin-bottom: 4pt; page-break-inside: avoid; page-break-after: avoid; line-height: 116%; font-family: Aptos; font-size: 14pt; font-weight: normal; color: rgba(15, 71, 97, 1) }
+.aspose-root h4 { margin-top: 4pt; margin-bottom: 2pt; page-break-inside: avoid; page-break-after: avoid; line-height: 116%; font-family: Aptos; font-size: 12pt; font-weight: normal; font-style: italic; color: rgba(15, 71, 97, 1) }
+.aspose-root h5 { margin-top: 4pt; margin-bottom: 2pt; page-break-inside: avoid; page-break-after: avoid; line-height: 116%; font-family: Aptos; font-size: 12pt; font-weight: normal; color: rgba(15, 71, 97, 1) }
+.aspose-root h6 { margin-top: 2pt; margin-bottom: 0; page-break-inside: avoid; page-break-after: avoid; line-height: 116%; font-family: Aptos; font-size: 12pt; font-weight: normal; font-style: italic; color: rgba(89, 89, 89, 1) }
+.aspose-root .Heading7 { margin-top: 2pt; margin-bottom: 0; page-break-inside: avoid; page-break-after: avoid; line-height: 116%; font-family: Aptos; font-size: 12pt; font-weight: normal; font-style: normal; color: rgba(89, 89, 89, 1); -aw-style-name: heading7 }
+.aspose-root .Heading8 { margin-bottom: 0; page-break-inside: avoid; page-break-after: avoid; line-height: 116%; font-family: Aptos; font-size: 12pt; font-weight: normal; font-style: italic; color: rgba(39, 39, 39, 1); -aw-style-name: heading8 }
+.aspose-root .Heading9 { margin-bottom: 0; page-break-inside: avoid; page-break-after: avoid; line-height: 116%; font-family: Aptos; font-size: 12pt; font-weight: normal; font-style: normal; color: rgba(39, 39, 39, 1); -aw-style-name: heading9 }
+.aspose-root .Default { margin-bottom: 0; line-height: normal; font-family: Arial; font-size: 12pt; color: rgba(0, 0, 0, 1) }
+.aspose-root .IntenseQuote { margin: 18pt 43.2pt; text-align: center; line-height: 116%; border-top: 0.75pt solid rgba(15, 71, 97, 1); border-bottom: 0.75pt solid rgba(15, 71, 97, 1); padding-top: 10pt; padding-bottom: 10pt; font-size: 12pt; font-style: italic; color: rgba(15, 71, 97, 1); -aw-border-bottom: 0.5pt single #0f4761; -aw-border-top: 0.5pt single #0f4761; -aw-style-name: intense-quote }
+.aspose-root .ListParagraph { margin-left: 36pt; margin-bottom: 8pt; line-height: 116%; font-size: 12pt; -aw-style-name: list-paragraph }
+.aspose-root .NoSpacing { margin-bottom: 0; line-height: normal; font-size: 11pt; -aw-style-name: no-spacing }
+.aspose-root .Quote { margin-top: 8pt; margin-bottom: 8pt; text-align: center; line-height: 116%; font-size: 12pt; font-style: italic; color: rgba(64, 64, 64, 1); -aw-style-name: quote }
+.aspose-root .Subtitle { margin-bottom: 8pt; line-height: 116%; font-size: 14pt; letter-spacing: 0.75pt; color: rgba(89, 89, 89, 1); -aw-style-name: subtitle }
+.aspose-root .Title { margin-bottom: 4pt; line-height: normal; font-family: ""Aptos Display""; font-size: 28pt; letter-spacing: -0.5pt; -aw-style-name: title }
+.aspose-root .bk { margin-top: 5pt; margin-bottom: 5pt; line-height: normal; font-family: ""Times New Roman""; font-size: 12pt }
+.aspose-root span.Heading1Char { font-family: ""Aptos Display""; font-size: 20pt; color: rgba(15, 71, 97, 1) }
+.aspose-root span.Heading2Char { font-family: ""Aptos Display""; font-size: 16pt; color: rgba(15, 71, 97, 1) }
+.aspose-root span.Heading3Char { font-size: 14pt; color: rgba(15, 71, 97, 1) }
+.aspose-root span.Heading4Char { font-style: italic; color: rgba(15, 71, 97, 1) }
+.aspose-root span.Heading5Char { color: rgba(15, 71, 97, 1) }
+.aspose-root span.Heading6Char { font-style: italic; color: rgba(89, 89, 89, 1) }
+.aspose-root span.Heading7Char { color: rgba(89, 89, 89, 1) }
+.aspose-root span.Heading8Char { font-style: italic; color: rgba(39, 39, 39, 1) }
+.aspose-root span.Heading9Char { color: rgba(39, 39, 39, 1) }
+.aspose-root span.Hyperlink { text-decoration: underline; color: rgba(0, 0, 255, 1); -aw-style-name: hyperlink }
+.aspose-root span.IntenseEmphasis { font-style: italic; color: rgba(15, 71, 97, 1); -aw-style-name: intense-emphasis }
+.aspose-root span.IntenseQuoteChar { font-style: italic; color: rgba(15, 71, 97, 1) }
+.aspose-root span.IntenseReference { font-weight: bold; font-variant: small-caps; letter-spacing: 0.25pt; color: rgba(15, 71, 97, 1); -aw-style-name: intense-reference }
+.aspose-root span.QuoteChar { font-style: italic; color: rgba(64, 64, 64, 1) }
+.aspose-root span.SubtitleChar { font-size: 14pt; letter-spacing: 0.75pt; color: rgba(89, 89, 89, 1) }
+.aspose-root span.TitleChar { font-family: ""Aptos Display""; font-size: 28pt; letter-spacing: -0.5pt }
+.aspose-root .TableGrid { }
+
+.aspose-root .rn-1 { margin-bottom: 0; line-height: normal; font-size: 9pt }
+.aspose-root .rn-2 { font-family: Arial }
+.aspose-root .rn-3.bw { font-family: Arial }
+.aspose-root .rn-4 { font-family: Arial; -aw-import: ignore }
+.aspose-root .rn-5.bw { font-family: Arial; -aw-import: ignore }
+.aspose-root .rn-6 { margin-bottom: 0; text-align: center; line-height: normal; font-size: 9pt }
+.aspose-root .rn-7 { font-family: Arial; font-weight: bold }
+.aspose-root .rn-8.bw { font-family: Arial; font-weight: bold }
+.aspose-root .rn-9 { font-family: Arial; font-weight: bold; -aw-import: ignore }
+.aspose-root .rn-10.bk { margin-top: 0; margin-bottom: 0; text-align: justify; font-size: 9pt }
+.aspose-root .rn-11 { margin-bottom: 0; text-align: justify; line-height: 10.7pt; background-color: rgba(241, 241, 250, 1) }
+.aspose-root .rn-12 { font-family: Arial; font-size: 9pt; font-weight: bold }
+.aspose-root .rn-13 { height: 15.75pt }
+.aspose-root .rn-14 { width: 349.4pt; padding-right: 2.65pt; padding-left: 2.65pt; vertical-align: bottom; -aw-border-style: nil }
+.aspose-root .rn-15 { margin-top: 2.65pt; margin-bottom: 1.5pt; line-height: normal; font-size: 9pt }
+.aspose-root .rn-16 { width: 93pt; vertical-align: top; -aw-border-style: nil }
+.aspose-root .rn-17 { margin-top: 2.65pt; margin-bottom: 1.5pt; text-align: center; line-height: normal; font-size: 9pt }
+.aspose-root .rn-18.NoSpacing { text-align: justify; font-size: 9pt }
+.aspose-root .rn-19 { text-align: justify; line-height: 108%; font-size: 9pt }
+.aspose-root .rn-20 { margin-bottom: 0; text-align: center; line-height: 107%; font-size: 9pt }
+.aspose-root .rn-21 { width: 101.9pt; border: 0.75pt solid rgba(0, 0, 0, 1); padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: middle; -aw-border: 0.5pt single #000000 }
+.aspose-root .rn-22 { margin-bottom: 0; text-align: center; line-height: 108%; font-size: 10pt }
+.aspose-root .rn-23 { width: 101.9pt; border-top: 0.75pt solid rgba(0, 0, 0, 1); border-right: 0.75pt solid rgba(0, 0, 0, 1); border-left: 0.75pt solid rgba(0, 0, 0, 1); padding-right: 5.03pt; padding-left: 5.03pt; vertical-align: top; -aw-border-left: 0.5pt single #000000; -aw-border-right: 0.5pt single #000000; -aw-border-top: 0.5pt single #000000 }
+.aspose-root .rn-24 { margin-bottom: 0; text-align: justify; line-height: 108%; font-size: 9pt }
+.aspose-root .rn-25 { font-family: Arial; -aw-import: spaces }
+
+RNS Number : 4989S
+
+Venture Life Group PLC
+
+28 August 2026
+
+28 August 2026
+
+ 
+
+VENTURE LIFE GROUP PLC
+
+ 
+
+(""Venture Life"", ""VLG"" or the ""Group"")
+
+ 
+
+Transaction in Own Shares
+
+ 
+
+Venture Life Group plc (AIM: VLG), a leader in product innovation, development and commercialisation within the global consumer healthcare sector, announces that, in accordance with the terms of its share buyback programme announced on 20 August 2026, the Company has purchased 85,750 ordinary shares of 0.3 pence each in the capital of the Company (“Ordinary Shares”) in the market at a volume weighted average price of 65.29 pence per Ordinary Share through Cavendish Capital Markets Limited (""Cavendish"").
+
+ 
+
+The Ordinary Shares acquired will be held as treasury shares.
+
+ 
+
+ 
+
+Aggregated Information
+
+ 
+
+|  |  |
+| --- | --- |
+| Date of Purchase: | 27/08/2026 |
+| Aggregate Number of Ordinary Shares Purchased: | 85,750 |
+| Lowest Price Paid per Ordinary Share (pence): | 65.29 |
+| Highest Price Paid per Ordinary Share (pence): | 65.29 |
+| Volume-Weighted Average Price Paid per Ordinary Share (pence): | 65.29 |
+
+ 
+
+ 
+
+Following the repurchase of the Ordinary Shares, Venture Life will have 128,860,145 Ordinary Shares in issue, including 8,726,795 Ordinary Shares held in treasury.
+
+The total number of voting rights in the Company is therefore 120,133,350. This figure may be used by shareholders as the denominator for the calculations by which they will determine if they are required to notify their interest in, or a change to their interest in, the Company under the FCA's Disclosure Guidance and Transparency Rules.
+
+ 
+
+ 
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+| Individual Transactions | | | |
+| Number of Ordinary Shares purchased | Transaction price (pence per Ordinary Share) | Time of transaction | Venue |
+| 85,750 | 65.29 | 16:38 | AIMX |
+
+ 
+
+ 
+
+For further information, please contact:
+
+Venture Life Group PLC                                                                                                    +44 (0) 1344 578004
+
+Jerry Randall, Chief Executive Officer
+
+Daniel Wells, Chief Financial Officer 
+
+Cavendish Capital Markets Limited (Nomad and Broker)                                             +44 (0) 20 7720 0500 
+
+Stephen Keys/George Lawson (Corporate Finance)
+
+Michael Johnson (Sales) 
+
+ 
+
+About Venture Life ([www.venture-life.com](http://www.venture-life.com/))
+
+Venture Life is an international consumer self-care company focused on commercialising products for the global self-care market. Headquartered in the UK, the Group's product portfolio includes Balance Activ in the area of women's intimate healthcare, Earol® supporting ENT care, Lift and Glucogel product ranges for energy and glucose management and hypoglycaemia, plus the Health & Her product range supporting the hormonal lifecycle.
+
+The products, which are typically recommended by pharmacists or healthcare practitioners, are available primarily through health & beauty stores, pharmacies, grocery multiples and e-commerce channels and are sold globally. In the UK,  Ireland and the USA these are supplied direct by the company to retailers, elsewhere they are supplied by the Group's international distribution partners.
+
+This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use and distribution of this information may apply. For further information, please contact [rns@lseg.com](mailto:rns@lseg.com) or visit [www.rns.com](http://www.rns.com/).  
+  
+RNS may use your IP address to confirm compliance with the terms and conditions, to analyse how you engage with the information contained in this communication, and to share such analysis on an anonymised basis with others as part of our commercial services. For further information about how RNS and the London Stock Exchange use the personal data you provide us, please see our [Privacy Policy](https://www.lseg.com/privacy-and-cookie-policy).
+
+END
+
+POSSELFMWEMSESA",452010,"Personal Care, Drug and Grocery Stores "
+17760454,2026-08-28 06:00:02,Transaction in Own Shares ,Shoe Zone PLC,SHOE,POS,RNS,4981S,https://www.londonstockexchange.com/news-article/SHOE/transaction-in-own-shares/17760454,"/\*<![CDATA[\*/
+/\*\*/
+/\*\*/
+/\*\*/
+h1{margin-top:18.0pt;margin-right:0cm;margin-bottom:4.0pt;margin-left:0cm;line-height:115%;font-size:20.0pt;font-family:""Aptos Display"",""sans-serif"";color:#0F4761;font-weight:normal;}h2{margin-top:8.0pt;margin-right:0cm;margin-bottom:4.0pt;margin-left:0cm;line-height:115%;font-size:16.0pt;font-family:""Aptos Display"",""sans-serif"";color:#0F4761;font-weight:normal;}h3{margin-top:8.0pt;margin-right:0cm;margin-bottom:4.0pt;margin-left:0cm;line-height:115%;font-size:14.0pt;font-family:""Aptos"",""sans-serif"";color:#0F4761;font-weight:normal;}h4{margin-top:4.0pt;margin-right:0cm;margin-bottom:2.0pt;margin-left:0cm;line-height:115%;font-size:12.0pt;font-family:""Aptos"",""sans-serif"";color:#0F4761;font-weight:normal;font-style:italic;}h5{margin-top:4.0pt;margin-right:0cm;margin-bottom:2.0pt;margin-left:0cm;line-height:115%;font-size:12.0pt;font-family:""Aptos"",""sans-serif"";color:#0F4761;font-weight:normal;}h6{margin-top:2.0pt;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;line-height:115%;font-size:12.0pt;font-family:""Aptos"",""sans-serif"";color:#595959;font-weight:normal;font-style:italic;}
+.ai{size:595.3pt 841.9pt;margin:72.0pt 72.0pt 72.0pt 72.0pt;}div.ai{}table.cm{border-collapse:collapse}tr.cf{height:14.25pt}td.ck{width:45.0%;padding:0cm 0cm 0cm 0cm; height:14.25pt}p.a,li.a,div.a{margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:115%;font-size:12.0pt;font-family:""Aptos"",""sans-serif"";}td.ci{width:19.76%;padding:0cm 0cm 0cm 0cm; height:14.25pt}span.cj{font-size:10.0pt;line-height:115%}td.ch{width:22.86%;padding:0cm 0cm 0cm 0cm; height:14.25pt}td.cg{width:12.38%;padding:0cm 0cm 0cm 0cm; height:14.25pt}
+span.ce{font-size:10.0pt;line-height:115%; font-family:""Arial"",""sans-serif"";color:black}td.cb{width:100.0%; padding:0cm 0cm 0cm 0cm;height:14.25pt}p.cn{margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:115%;font-size:12.0pt;font-family:""Aptos"",""sans-serif"";text-align:center}span.cd{font-size:10.0pt;line-height:115%;font-family:""Arial"",""sans-serif""; color:black}tr.by{height:51.6pt}td.bz{width:100.0%;padding:0cm 0cm 0cm 0cm; height:51.6pt}p.co{margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:115%;font-size:12.0pt;font-family:""Aptos"",""sans-serif"";text-align:justify}td.bx{width:35.24%; padding:0cm 0cm 0cm 0cm;height:14.25pt}td.bw{width:64.76%; padding:0cm 0cm 0cm 0cm;height:14.25pt}span.bv{font-size:10.0pt;line-height: 115%;font-family:""Arial"",""sans-serif"";color:black}
+tr.bt{height:76.5pt}td.bu{width:100.0%;padding:0cm 0cm 0cm 0cm; height:76.5pt}tr.br{height:29.25pt}td.bs{width:100.0%;padding:0cm 0cm 0cm 0cm; height:29.25pt}tr.bp{height:41.25pt}td.bq{width:100.0%;padding:0cm 0cm 0cm 0cm; height:41.25pt}td.bo{width:55.0%;padding: 0cm 0cm 0cm 0cm;height:14.25pt}td.bn{width:42.62%;padding:0cm 0cm 0cm 0cm; height:14.25pt}tr.bi{height:42.0pt}td.bm{width:45.0%;padding:0cm 0cm 0cm 0cm; height:42.0pt}
+td.bl{width:19.76%;padding:0cm 0cm 0cm 0cm; height:42.0pt}td.bk{width:22.86%;padding:0cm 0cm 0cm 0cm; height:42.0pt}td.bj{width:12.38%;padding:0cm 0cm 0cm 0cm; height:42.0pt}tr.bd{height:15.0pt}td.bh{width:45.0%;padding:0cm 0cm 0cm 0cm; height:15.0pt}td.bg{width:19.76%;padding:0cm 0cm 0cm 0cm; height:15.0pt}td.bf{width:22.86%;padding:0cm 0cm 0cm 0cm; height:15.0pt}td.be{width:12.38%;padding:0cm 0cm 0cm 0cm; height:15.0pt}td.bc{width:45.0%;padding:0cm 0cm 0cm 0cm;height: 15.0pt}td.bb{width:64.76%; padding:0cm 0cm 0cm 0cm;height:15.0pt}
+td.az{width:35.24%;padding:0cm 0cm 0cm 0cm; height:15.0pt}p.cp{margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;line-height:115%;font-size:12.0pt;font-family:""Aptos"",""sans-serif"";text-align:right}tr.aw{height:42.95pt}td.ay{width:64.76%;padding:0cm 0cm 0cm 0cm; height:42.95pt}td.ax{width:35.24%;padding:0cm 0cm 0cm 0cm; height:42.95pt}td.av{width:45.0%;padding:0cm 0cm 0cm 0cm;height: 14.25pt}td.au{width:64.76%;padding:0cm 0cm 0cm 0cm; height:14.25pt}td.at{width:35.24%;padding:0cm 0cm 0cm 0cm; height:14.25pt}td.ar{width:45.0%;padding:0cm 0cm 0cm 0cm; height:14.25pt}span.as{font-size:10.0pt;line-height:115%; font-family:""Calibri"",""sans-serif"";color:#212721}
+td.ap{width:19.76%; padding:0cm 0cm 0cm 0cm;height:14.25pt}span.aq{font-size:11.0pt;line-height:115%; font-family:""Arial"",""sans-serif"";color:black}span.ao{font-size:10.0pt;line-height: 115%;font-family:""Calibri"",""sans-serif"";color:#212721}tr.al{height:156.6pt}td.am{width:100.0%;padding:0cm 0cm 0cm 0cm; height:156.6pt}span.an{font-size:10.0pt;line-height:115%; font-family:""Calibri"",""sans-serif"";color:black}td.ak{width:45.0%;padding:0cm 0cm 0cm 0cm;height:14.25pt} .fr-view-element{font-family: sans-serif;font-size: 12pt;line-height: 140%;padding: 20px;box-sizing: border-box;overflow-x: auto;min-height: 60px;text-align: left;margin-bottom: 10px;width: 837px;} .fr-view-element img{padding: 0 1px;} .fr-view-element .ai{margin: 63.8pt 1.6cm 62.35pt 1.6cm;} .fr-view-element p{font-size: 10pt;}
+/\*\*/
+/\*\*/
+/\*\*/
+/\*]]>\*/
+
+RNS Number : 4981S
+
+Shoe Zone PLC
+
+28 August 2026
+
+|  |  |  |  |
+| --- | --- | --- | --- |
+|  |  |  |  |
+| 28 August 2026 |  |  |  |
+| Shoe Zone plc | | | |
+|  |  |  |  |
+| (""Shoe Zone"" or the ""Company"") | | | |
+|  |  |  |  |
+| Transaction in Own Shares | | | |
+|  |  |  |  |
+|  |  |  |  |
+| Shoe Zone plc (AIM: SHOE) announces that on 27 August 2026 it purchased 40,388 ordinary shares of £0.01 each in the Company (the ""Repurchased Shares""), pursuant to the share buyback programme (the ""Buyback Programme"") that was announced on 11 August 2026, as follows (together the ""Transaction""): | | | |
+|  |  |  |  |
+| Date of purchase |  | 27 August 2026 |  |
+| Number of ordinary shares purchased |  | 40,388 | |
+| Highest price paid per ordinary share |  | 72.5 pence |  |
+| Lowest price paid per ordinary share | | 72.5 pence |  |
+| Volume weighted average price paid per ordinary share | | 72.5 pence |  |
+|  |  |  |  |
+| Total Voting Rights |  |  |  |
+|  |  |  |  |
+| Following the Transaction, the issued share capital of the Company remains unchanged at 46,250,000 and the Company now holds 113,558 shares in treasury. The total voting rights in the Company is now 46,136,442 which may be used by shareholders as the denominator for the calculations by which they will determine if they are required to notify their interest in, or a change to their interest in, Shoe Zone under the FCA's Disclosure Guidance and Transparency Rules. | | | |
+|  |  |  |  |
+| The Company will make further announcements in due course following the completion of any further purchases pursuant to the Buyback Programme. | | | |
+|  |  |  |  |
+| In accordance with Article 5(1)(b) of the Market Abuse Regulation (EU) No 596/2014 details of the purchase of its own ordinary shares by the Company, which were all executed through the Company's broker, Zeus Capital Limited, are set out below: | | | |
+|  |  |  |  |
+| Schedule of Purchases: | |  |  |
+| Shares purchased: | Shoe Zone plc  (ISIN: GB00BLTVCF91) | | |
+| Date of purchases: | 27 August 2026 | |  |
+|  |  |  |  |
+| Aggregate information: | |  |  |
+|  |  |  |  |
+| Aggregated Volume | Volume-weighted average price (pence) | Venue |  |
+| 40,388 | 72.5000 | London Stock Exchange | |
+|  |  |  |  |
+| Individual transactions: | |  |  |
+|  |  |  |  |
+| Volume | Price | Time |  |
+| 40,388 | 72.5000 pence | 09:08 UK |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+| Shoe Zone plc | | +44 (0) 116 222 3001 | |
+| Charles Smith (Chairman)  Terry Boot (Finance Director) | |  | |
+|  |  |  |  |
+| Zeus (Nominated Adviser and Broker) | | +44 (0) 20 3829 5000 | |
+| James Hornigold, Ed Beddows (Investment Banking) | |  | |
+| Dominic King (Corporate Broking) | |  | |
+|  |  |  |  |
+|  |  |  |  |
+| About ShoeZone |  |  |  |
+|  |  |  |  |
+| Shoezone is a Town Centre, Retail Park and Digital footwear retailer, offering, low price, high quality footwear for the whole family.    Shoezone operates from a portfolio of 253 stores and has approximately 2,050 employees across the UK.    The store portfolio consists of 44 original high street store and 209 larger format stores. The new format stores sell additional brands such as Skechers, Hush Puppies, Rieker and Lilley & Skinner.    shoezone.com combined with the store network, ensures a full multi-channel offering for great customer service.    During an average year Shoe Zone sells 13.3 million pairs of shoes per annum at an average retail price of c.£13.00. | | | |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+This information is provided by RNS, the news service of the London Stock Exchange. RNS is approved by the Financial Conduct Authority to act as a Primary Information Provider in the United Kingdom. Terms and conditions relating to the use and distribution of this information may apply. For further information, please contact [rns@lseg.com](mailto:rns@lseg.com) or visit [www.rns.com](http://www.rns.com/).  
+  
+RNS may use your IP address to confirm compliance with the terms and conditions, to analyse how you engage with the information contained in this communication, and to share such analysis on an anonymised basis with others as part of our commercial services. For further information about how RNS and the London Stock Exchange use the personal data you provide us, please see our [Privacy Policy](https://www.lseg.com/privacy-and-cookie-policy).
+
+END
+
+POSEAKPXAEEKEFA",404010,Retailers 
