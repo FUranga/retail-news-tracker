@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T23:23:58",
+  "generated_at": "2026-08-29T00:22:04",
   "items": [
     {
       "source_id": "jdsports",
@@ -929,6 +929,24 @@
       "paywall": false,
       "title": "High street hit by fresh wave of closures as River Island, Halifax and TGJones shut sites - Daily Express",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNUEwejJCc0JSdkI3djVSYVUxbmgzWnRuSGhoVV9zOUhydVlGcWFwbjEwUnFUNC1leEh3SWZNRUtrc2F1WlExTzdydy0wS1dHTXhxazBpQW5qVy1jWDJJMEJSNU9DSjJULWdhTnZiZElEYUpmel9uajVaVVZYMnZOc0FuRDJacWxsc0dXVTlUejNQZ9IBlwFBVV95cUxPVEdOSVlxYW1scFEwbEZFSFdtMV9OZkVIblJPYjNrXzZ0bVVjc3FDX0I4bWpwNmRGSGRnQ1hxRlp5c3J2alM3Ymw4Z1JFbjBtNEM1TzZPa21jTzVhMXRhcHNzUjk3aVFmWEZlUU5Zdm0wUXpWOW15R1VINXNfSVZrRGtPWWVqTjBJMUV5N2RqakU4bEtZc3RB?oc=5",
+      "summary": "High street hit by fresh wave of closures as River Island, Halifax and TGJones shut sites &nbsp;&nbsp; Daily Express",
+      "datetime": "2026-08-22T23:13:00",
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:River Island",
+      "body": null
+    },
+    {
+      "source_id": "river_island",
+      "source_name": "River Island",
+      "companyname": "River Island",
+      "retail_sector": "fashion",
+      "listed": "private",
+      "tier": 2,
+      "paywall": false,
+      "title": "High street hit by fresh wave of closures as River Island, Halifax and TGJones shut sites - Daily Express",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNUEwejJCc0JSdkI3djVSYVUxbmgzWnRuSGhoVV9zOUhydVlGcWFwbjEwUnFUNC1leEh3SWZNRUtrc2F1WlExTzdydy0wS1dHTXhxazBpQW5qVy1jWDJJMEJSNU9DSjJULWdhTnZiZElEYUpmel9uajVaVVZYMnZOc0FuRDJacWxsc0dXVTlUejNQZw?oc=5",
       "summary": "High street hit by fresh wave of closures as River Island, Halifax and TGJones shut sites &nbsp;&nbsp; Daily Express",
       "datetime": "2026-08-22T23:13:00",
       "stream": "company",
