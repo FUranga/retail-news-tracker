@@ -658,12 +658,29 @@ function countForStream(key) {
   return DATA.items.filter(it => inWindow(it) && (key === "all" || it.stream === key)).length;
 }
 
-function agendaEventsInWindow() {
-  const start = new Date();
-  start.setHours(0,0,0,0);
-  start.setDate(start.getDate() + agendaState.windowOffset * agendaState.windowSizeDays);
+// Lunes de la semana actual (00:00) — así "esta semana + la que viene" es
+// siempre el mismo bloque hasta que cambia la semana natural, en vez de
+// recalcularse día a día desde "ahora".
+function agendaMondayOfCurrentWeek() {
+  const d = new Date();
+  d.setHours(0, 0, 0, 0);
+  const day = d.getDay(); // 0=domingo .. 6=sábado
+  const diffToMonday = (day === 0 ? -6 : 1) - day;
+  d.setDate(d.getDate() + diffToMonday);
+  return d;
+}
+
+function agendaWindowRange() {
+  const monday = agendaMondayOfCurrentWeek();
+  const start = new Date(monday);
+  start.setDate(monday.getDate() + agendaState.windowOffset * agendaState.windowSizeDays);
   const end = new Date(start);
-  end.setDate(end.getDate() + agendaState.windowSizeDays);
+  end.setDate(start.getDate() + agendaState.windowSizeDays);
+  return { start, end };
+}
+
+function agendaEventsInWindow() {
+  const { start, end } = agendaWindowRange();
   const startStr = start.toISOString().slice(0,10);
   const endStr = end.toISOString().slice(0,10);
   let evs = AGENDA_DATA.filter(e => e.date >= startStr && e.date < endStr);
@@ -933,10 +950,9 @@ function renderAgenda() {
   const box = document.getElementById("stories");
   const events = agendaEventsInWindow();
 
-  const start = new Date();
-  start.setDate(start.getDate() + agendaState.windowOffset * agendaState.windowSizeDays);
-  const end = new Date(start);
-  end.setDate(end.getDate() + agendaState.windowSizeDays - 1);
+  const { start, end: endExclusive } = agendaWindowRange();
+  const end = new Date(endExclusive);
+  end.setDate(end.getDate() - 1); // mostrar el último día inclusive, no el exclusivo
   const fmt = d => d.toLocaleDateString("es-AR", { day: "numeric", month: "short" });
   document.getElementById("agenda-range-label").textContent = `${fmt(start)} — ${fmt(end)}`;
   document.getElementById("result-count").textContent =
