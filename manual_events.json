@@ -1,0 +1,26 @@
+[
+  {
+    "id": "manual-mte9z7w0",
+    "source": "manual",
+    "manual": true,
+    "to_cover": true,
+    "category": "evento-sectorial",
+    "title": "aaa",
+    "date": "2026-08-05",
+    "time": "11:59",
+    "location": "aa",
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "summary": null,
+    "research_summary": null,
+    "detail_url": null
+  }
+]
