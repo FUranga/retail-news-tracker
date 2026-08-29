@@ -1,0 +1,82 @@
+{
+  "granular_window_days": 14,
+  "broad_window_days": 90,
+  "output_file": "../agenda_data.json",
+  "manual_file": "manual_events.json",
+  "retention_days_past": 60,
+  "keywords_retail": [
+    "retail",
+    "consumer",
+    "high street",
+    "shop",
+    "store",
+    "grocery",
+    "footfall",
+    "business rates",
+    "shopping",
+    "spending"
+  ],
+  "sources": [
+    {
+      "id": "ons",
+      "label": "ONS release calendar",
+      "category": "estadistica",
+      "enabled": true,
+      "notes": "RSS + iCal públicos, sin API key. Filtrar por keywords_retail sobre query param.",
+      "endpoints": {
+        "rss_search": "https://www.ons.gov.uk/releasecalendar?rss=&highlight=true&limit=40&page=1&release-type=type-upcoming&sort=date-oldest&query={keyword}",
+        "ical_full": "https://www.ons.gov.uk/calendar/releasecalendar"
+      }
+    },
+    {
+      "id": "lse_earnings",
+      "label": "LSE RNS — próximas fechas de resultados",
+      "category": "earnings",
+      "enabled": true,
+      "notes": "Reusa el feed RNS del Módulo 1 (mismos sectores ICB). Extrae 'next results date' del cuerpo de anuncios de resultados/trading updates ya capturados en dashboard_data.json, no requiere scraping nuevo — es un post-proceso sobre datos que ya tenés.",
+      "source_data": "dashboard_data.json",
+      "trigger_headline_patterns": [
+        "trading (statement|update)",
+        "preliminary results",
+        "interim results",
+        "full[- ]year results",
+        "annual results",
+        "half[- ]year results",
+        "AGM|annual general meeting"
+      ]
+    },
+    {
+      "id": "company_ir",
+      "label": "Empresas privadas — anuncios de fecha (IR / prensa)",
+      "category": "earnings",
+      "enabled": true,
+      "notes": "Para privadas sin RNS (Aldi UK, Lidl GB, Iceland, JLP, Home Bargains, Poundland, etc.). Vía Google News, igual patrón que company_config.json, pero buscando anuncio de FECHA futura, no la noticia del resultado en sí.",
+      "companies_file": "../company_config.json",
+      "query_template": "\"{company}\" (\"trading update\" OR \"annual results\" OR \"full year results\" OR \"results for the year\") announced OR scheduled OR \"will report\" OR \"will publish\""
+    },
+    {
+      "id": "parliament_committees",
+      "label": "UK Parliament — comités relevantes",
+      "category": "reunion-publica",
+      "enabled": true,
+      "notes": "Committees API pública, sin key. Filtrar por comités relevantes y por keywords_retail en el título/resumen del evento.",
+      "endpoints": {
+        "committees_api_base": "https://committees-api.parliament.uk",
+        "events_search": "https://committees-api.parliament.uk/api/Events?CommitteeId={committee_id}&FromDate={from_date}&ToDate={to_date}"
+      },
+      "committee_ids": {
+        "business_and_trade": 365,
+        "treasury": 158,
+        "levelling_up_housing_communities": 17
+      }
+    },
+    {
+      "id": "brc",
+      "label": "BRC — informes recurrentes (fecha calculada)",
+      "category": "evento-sectorial",
+      "enabled": true,
+      "notes": "Sin scraping HTML. Calcula fechas estimadas de informes recurrentes (Retail Sales Monitor) por cronograma conocido. Eventos puntuales de BRC quedan para carga manual."
+    }
+  ],
+  "ics_output": "../agenda_to_cover.ics"
+}

@@ -258,71 +258,6 @@
     .masthead-meta { text-align: left; }
   }
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
-
-  /* ---------- Agenda (Module 7) ---------- */
-  .agenda-toolbar {
-    display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
-    padding: 10px 0 16px;
-  }
-  .agenda-nav { display: flex; align-items: center; gap: 8px; }
-  .agenda-nav button {
-    border: 1px solid var(--rule-strong); background: var(--paper); color: var(--ink-soft);
-    border-radius: 6px; width: 26px; height: 26px; cursor: pointer; font-size: 12px;
-  }
-  .agenda-nav button:hover { background: var(--panel); color: var(--ink); }
-  .agenda-range-label {
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-    font-size: 12px; color: var(--ink-soft);
-  }
-  .agenda-add-btn { margin-left: auto; }
-
-  .agenda-manual-form {
-    display: none; gap: 8px; flex-wrap: wrap; align-items: center;
-    padding: 12px; margin-bottom: 12px; border: 1px solid var(--rule-strong); border-radius: 8px;
-    background: var(--panel);
-  }
-  .agenda-manual-form.open { display: flex; }
-  .agenda-manual-form input, .agenda-manual-form select {
-    font-size: 12.5px; padding: 6px 9px; border: 1px solid var(--rule-strong);
-    border-radius: 6px; background: var(--paper); color: var(--ink);
-  }
-  .agenda-manual-form label { font-size: 12px; color: var(--ink-soft); display: flex; align-items: center; gap: 4px; }
-
-  .agenda-day-header {
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-    font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em;
-    color: var(--ink-faint); padding: 14px 4px 6px; border-bottom: 1px solid var(--rule);
-  }
-  .agenda-day-header:first-child { padding-top: 0; }
-
-  .agenda-card { padding: 12px 4px; border-bottom: 1px solid var(--rule); }
-  .agenda-card-header { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 5px; }
-  .agenda-cat {
-    font-family: ui-monospace, monospace; font-size: 10px; text-transform: uppercase;
-    letter-spacing: 0.05em; padding: 2px 7px; border-radius: 4px; font-weight: 600;
-    background: var(--accent-soft); color: var(--accent);
-  }
-  .agenda-time { font-family: ui-monospace, monospace; font-size: 11px; color: var(--ink-faint); }
-  .agenda-badge-unconfirmed { font-size: 10px; padding: 2px 7px; border-radius: 4px; background: var(--flag-soft); color: var(--flag); }
-  .agenda-manual-badge { font-size: 10px; padding: 2px 7px; border-radius: 4px; background: #f5f0ff; color: #6d28d9; }
-  .agenda-cover-toggle { margin-left: auto; font-size: 12px; color: var(--ink-soft); display: flex; align-items: center; gap: 5px; cursor: pointer; }
-  .agenda-title { font-size: 15.5px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 3px; color: var(--ink); }
-  .agenda-company, .agenda-location {
-    font-size: 12.5px; color: var(--ink-soft);
-    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-  }
-  .agenda-summary { font-size: 13px; color: var(--ink-soft); line-height: 1.5; margin: 6px 0 2px; }
-  .agenda-meta-row { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; margin-top: 6px; }
-  .agenda-meta-row a { color: var(--accent); text-decoration: none; }
-  .agenda-meta-row a:hover { text-decoration: underline; }
-  .agenda-research {
-    margin-top: 10px; padding: 12px 14px; border-radius: 8px;
-    background: var(--panel); font-size: 13.5px; line-height: 1.6; color: var(--ink-soft);
-  }
-  .agenda-research-label {
-    font-family: ui-monospace, monospace; font-size: 10px; text-transform: uppercase;
-    letter-spacing: 0.06em; color: var(--ink-faint); margin-bottom: 6px;
-  }
 </style>
 </head>
 <body>
@@ -360,57 +295,13 @@
 
   <div class="company-tags" id="company-tags"></div>
 
-  <div class="agenda-toolbar" id="agenda-toolbar" style="display:none">
-    <div class="agenda-nav">
-      <button id="agenda-prev" title="Ventana anterior">◀</button>
-      <span class="agenda-range-label" id="agenda-range-label"></span>
-      <button id="agenda-next" title="Próxima ventana">▶</button>
-    </div>
-    <div class="seg">
-      <button id="agenda-filter-todos" class="active">Todos</button>
-      <button id="agenda-filter-cubrir">A cubrir</button>
-    </div>
-    <button class="btn agenda-add-btn" id="agenda-add-toggle">+ Agregar evento</button>
-    <button class="btn" id="agenda-settings-toggle" title="Configurar guardado en GitHub">⚙</button>
-  </div>
-
-  <form class="agenda-manual-form" id="agenda-settings-form">
-    <label style="flex:1 1 100%; font-size:11px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.05em;">
-      Guardado en GitHub — se usa para que los eventos manuales persistan de verdad (commit directo a manual_events.json)
-    </label>
-    <input name="gh_owner" placeholder="usuario u organización (ej: FUranga)" style="flex:1 1 180px">
-    <input name="gh_repo" placeholder="nombre del repo (ej: retail-news-tracker)" style="flex:1 1 200px">
-    <input name="gh_path" placeholder="ruta al archivo (ej: manual_events.json)" style="flex:1 1 200px">
-    <input name="gh_token" type="password" placeholder="token (fine-grained, solo este repo)" style="flex:1 1 220px">
-    <button type="submit" class="btn btn-primary">Guardar config</button>
-    <span class="copy-feedback" id="agenda-settings-feedback">Guardado</span>
-  </form>
-
-  <form class="agenda-manual-form" id="agenda-manual-form">
-    <input name="title" placeholder="Título" required style="flex:2 1 200px">
-    <input name="date" type="date" required>
-    <input name="time" type="time">
-    <input name="location" placeholder="Lugar" style="flex:1 1 140px">
-    <select name="category">
-      <option value="evento-sectorial">Evento sectorial</option>
-      <option value="estadistica">Estadística</option>
-      <option value="earnings">Earnings/AGM</option>
-      <option value="informe">Informe</option>
-      <option value="reunion-publica">Reunión pública</option>
-    </select>
-    <label><input type="checkbox" name="registration_required"> inscripción</label>
-    <input name="registration_link" placeholder="Link inscripción (opcional)" style="flex:1 1 160px">
-    <textarea name="summary" placeholder="Descripción (opcional) — de qué trata, contexto, lo que tengas" style="flex:1 1 100%; min-height:50px; font-family:inherit; font-size:12.5px; padding:6px 9px; border:1px solid var(--rule-strong); border-radius:6px; background:var(--paper); color:var(--ink); resize:vertical;"></textarea>
-    <button type="submit" class="btn btn-primary">Guardar</button>
-    <span class="copy-feedback" id="agenda-manual-feedback">Guardado</span>
-  </form>
-
   <div class="stories" id="stories"></div>
 
   <footer>
-    Retail Wire · Modules live: <b>LSE press releases</b>, <b>News</b>, <b>Government</b>, <b>Companies</b>, <b>Agenda</b>. Every story always links to its original source.
+    Retail Wire · Module 1 live: <b>LSE press releases</b>. Every story always links to its original source.
     <div class="roadmap">
-      Upcoming: <b>Suppliers</b> · Email capture.
+      Upcoming modules (buttons already visible, disabled): <b>News</b> (UK media) ·
+      <b>Government</b> (ONS / GOV.UK) · <b>Companies</b> · <b>Suppliers</b> · weekly agenda.
     </div>
   </footer>
 
@@ -425,105 +316,11 @@ const STREAMS = [
   { key: "government",    label: "Government",     enabled: true  },
   { key: "company",       label: "Companies",      enabled: true  },
   { key: "supplier",      label: "Suppliers",      enabled: false },
-  { key: "agenda",        label: "Agenda",         enabled: true  },
 ];
 
 let DATA = { items: [], generated_at: null };
 let SECTOR_CONFIG = { categories: [], retailer_categories: {} };
 let state = { stream: "all", window: "today", type: "", company: "", sector: "", search: "", hideNoise: false, expanded: new Set() };
-
-// ---------- Agenda (Module 7) ----------
-let AGENDA_DATA = [];
-const AGENDA_SOURCES = ["agenda_data.json"];
-const AGENDA_OVERRIDES_KEY = "agenda_to_cover_overrides"; // to_cover marcado en el cliente, antes del próximo scrape
-let agendaState = { windowOffset: 0, windowSizeDays: 14, filter: "todos" };
-
-const AGENDA_CATEGORY_LABELS = {
-  "estadistica": "Estadística", "earnings": "Earnings/AGM", "informe": "Informe",
-  "reunion-publica": "Reunión pública", "evento-sectorial": "Evento sectorial",
-};
-
-function getAgendaOverrides() {
-  try { return JSON.parse(localStorage.getItem(AGENDA_OVERRIDES_KEY) || "{}"); }
-  catch(e) { return {}; }
-}
-function setAgendaOverride(id, val) {
-  const o = getAgendaOverrides(); o[id] = val;
-  localStorage.setItem(AGENDA_OVERRIDES_KEY, JSON.stringify(o));
-}
-function agendaToCover(ev) {
-  const o = getAgendaOverrides();
-  return ev.id in o ? o[ev.id] : ev.to_cover;
-}
-
-// ---------- Persistencia real de eventos manuales (GitHub Contents API) ----------
-// No hay backend: el dashboard es estático (GitHub Pages). Para que el
-// form de alta manual persista de verdad (y no se pierda al refrescar),
-// commiteamos directo a manual_events.json en el repo usando un token
-// guardado SOLO en localStorage de tu navegador — nunca sale de ahí salvo
-// para pegar en las requests a api.github.com.
-const GH_CONFIG_KEY = "agenda_gh_config";
-
-function getGhConfig() {
-  try { return JSON.parse(localStorage.getItem(GH_CONFIG_KEY) || "{}"); }
-  catch(e) { return {}; }
-}
-function setGhConfig(cfg) {
-  localStorage.setItem(GH_CONFIG_KEY, JSON.stringify(cfg));
-}
-function ghConfigured() {
-  const c = getGhConfig();
-  return !!(c.gh_owner && c.gh_repo && c.gh_path && c.gh_token);
-}
-
-function b64EncodeUnicode(str) {
-  return btoa(unescape(encodeURIComponent(str)));
-}
-function b64DecodeUnicode(str) {
-  return decodeURIComponent(escape(atob(str)));
-}
-
-async function githubGetManualEvents() {
-  const c = getGhConfig();
-  const url = `https://api.github.com/repos/${c.gh_owner}/${c.gh_repo}/contents/${c.gh_path}`;
-  const res = await fetch(url, {
-    headers: { Authorization: `Bearer ${c.gh_token}`, Accept: "application/vnd.github+json" },
-  });
-  if (res.status === 404) return { sha: null, events: [] }; // el archivo todavía no existe en el repo
-  if (!res.ok) throw new Error(`GitHub GET ${res.status}: ${await res.text()}`);
-  const data = await res.json();
-  const events = JSON.parse(b64DecodeUnicode(data.content) || "[]");
-  return { sha: data.sha, events };
-}
-
-async function githubPutManualEvents(events, sha, message) {
-  const c = getGhConfig();
-  const url = `https://api.github.com/repos/${c.gh_owner}/${c.gh_repo}/contents/${c.gh_path}`;
-  const body = {
-    message,
-    content: b64EncodeUnicode(JSON.stringify(events, null, 2)),
-    ...(sha ? { sha } : {}),
-  };
-  const res = await fetch(url, {
-    method: "PUT",
-    headers: { Authorization: `Bearer ${c.gh_token}`, Accept: "application/vnd.github+json" },
-    body: JSON.stringify(body),
-  });
-  if (!res.ok) throw new Error(`GitHub PUT ${res.status}: ${await res.text()}`);
-  return res.json();
-}
-
-async function saveManualEvent(ev) {
-  const { sha, events } = await githubGetManualEvents();
-  events.push(ev);
-  await githubPutManualEvents(events, sha, `agenda: agregar "${ev.title}"`);
-}
-
-async function deleteManualEvent(id) {
-  const { sha, events } = await githubGetManualEvents();
-  const filtered = events.filter(e => e.id !== id);
-  await githubPutManualEvents(filtered, sha, `agenda: borrar evento ${id}`);
-}
 
 // Read/unread state — persists in localStorage, never uploaded to GitHub
 const READ_KEY = "retail_wire_read";
@@ -597,16 +394,6 @@ async function loadData() {
     } catch (e) { /* company data no disponible todavía */ }
   }
 
-  // Cargar agenda data (no se mergea con DATA.items — vive aparte, otro modelo)
-  for (const src of AGENDA_SOURCES) {
-    try {
-      const res = await fetch(src);
-      if (!res.ok) continue;
-      AGENDA_DATA = await res.json();
-      break;
-    } catch (e) { /* agenda data no disponible todavía */ }
-  }
-
   renderMeta();
   renderStreams();
   buildFilterOptions();
@@ -654,21 +441,7 @@ function renderStreams() {
 }
 
 function countForStream(key) {
-  if (key === "agenda") return agendaEventsInWindow().length;
   return DATA.items.filter(it => inWindow(it) && (key === "all" || it.stream === key)).length;
-}
-
-function agendaEventsInWindow() {
-  const start = new Date();
-  start.setHours(0,0,0,0);
-  start.setDate(start.getDate() + agendaState.windowOffset * agendaState.windowSizeDays);
-  const end = new Date(start);
-  end.setDate(end.getDate() + agendaState.windowSizeDays);
-  const startStr = start.toISOString().slice(0,10);
-  const endStr = end.toISOString().slice(0,10);
-  let evs = AGENDA_DATA.filter(e => e.date >= startStr && e.date < endStr);
-  if (agendaState.filter === "cubrir") evs = evs.filter(agendaToCover);
-  return evs.sort((a,b) => (a.date + (a.time||"99:99")).localeCompare(b.date + (b.time||"99:99")));
 }
 
 // ---------- Filters ----------
@@ -805,19 +578,6 @@ function currentItems() {
 }
 
 function render() {
-  // ---- toggle visibilidad de controles según stream activo ----
-  const isAgenda = state.stream === "agenda";
-  document.querySelector(".controls").style.display = isAgenda ? "none" : "flex";
-  document.getElementById("sector-filters").style.display = isAgenda ? "none" : "";
-  document.getElementById("company-tags").style.display = isAgenda ? "none" : "";
-  document.getElementById("agenda-toolbar").style.display = isAgenda ? "flex" : "none";
-  if (!isAgenda) {
-    document.getElementById("agenda-manual-form").classList.remove("open");
-    document.getElementById("agenda-settings-form").classList.remove("open");
-  }
-
-  if (isAgenda) { renderAgenda(); return; }
-
   const items = currentItems();
   const box = document.getElementById("stories");
   document.getElementById("result-count").textContent =
@@ -927,244 +687,6 @@ function escapeHtml(str) {
   div.textContent = str;
   return div.innerHTML;
 }
-
-// ---------- Agenda render ----------
-function renderAgenda() {
-  const box = document.getElementById("stories");
-  const events = agendaEventsInWindow();
-
-  const start = new Date();
-  start.setDate(start.getDate() + agendaState.windowOffset * agendaState.windowSizeDays);
-  const end = new Date(start);
-  end.setDate(end.getDate() + agendaState.windowSizeDays - 1);
-  const fmt = d => d.toLocaleDateString("es-AR", { day: "numeric", month: "short" });
-  document.getElementById("agenda-range-label").textContent = `${fmt(start)} — ${fmt(end)}`;
-  document.getElementById("result-count").textContent =
-    `${events.length} ${events.length === 1 ? "evento" : "eventos"}`;
-
-  if (!events.length) {
-    box.innerHTML = `<div class="empty-state">No hay eventos ${agendaState.filter === "cubrir" ? "marcados para cubrir " : ""}en este período.</div>`;
-    return;
-  }
-
-  const grouped = {};
-  events.forEach(e => (grouped[e.date] = grouped[e.date] || []).push(e));
-
-  box.innerHTML = Object.keys(grouped).sort().map(date => {
-    const dayLabel = new Date(date + "T00:00:00").toLocaleDateString("es-AR", { weekday: "long", day: "numeric", month: "long" });
-    const cards = grouped[date].map(agendaCardHtml).join("");
-    return `<div class="agenda-day-header">${dayLabel}</div>${cards}`;
-  }).join("");
-
-  // wire per-card handlers
-  box.querySelectorAll("[data-agenda-cover]").forEach(cb => {
-    cb.addEventListener("change", () => {
-      setAgendaOverride(cb.dataset.agendaCover, cb.checked);
-      render();
-    });
-  });
-  box.querySelectorAll("[data-agenda-research]").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const id = btn.dataset.agendaResearch;
-      const fb = box.querySelector(`[data-agenda-feedback="${id}"]`);
-      copyToClipboard(`/agenda-research ${id}`, fb);
-    });
-  });
-  box.querySelectorAll("[data-agenda-delete]").forEach(link => {
-    link.addEventListener("click", async (e) => {
-      e.preventDefault();
-      const id = link.dataset.agendaDelete;
-      if (!confirm("¿Borrar este evento manual?")) return;
-      if (!ghConfigured()) {
-        alert("No hay guardado en GitHub configurado (⚙) — borrando solo de esta sesión.");
-        AGENDA_DATA = AGENDA_DATA.filter(e2 => e2.id !== id);
-        render();
-        return;
-      }
-      try {
-        await deleteManualEvent(id);
-        AGENDA_DATA = AGENDA_DATA.filter(e2 => e2.id !== id);
-        render();
-      } catch (err) {
-        alert("Error borrando en GitHub: " + err.message);
-      }
-    });
-  });
-}
-
-function gcalUrl(ev) {
-  const title = encodeURIComponent(ev.title);
-  const details = encodeURIComponent(
-    [ev.summary, ev.detail_url ? `Fuente: ${ev.detail_url}` : ""].filter(Boolean).join("\n\n")
-  );
-  const location = encodeURIComponent(ev.location || "");
-  let dates;
-  if (ev.time) {
-    const [hh, mm] = ev.time.split(":");
-    const startD = new Date(`${ev.date}T${hh}:${mm}:00`);
-    const endD = new Date(startD.getTime() + 60 * 60 * 1000); // 1h por defecto
-    const fmt = d => d.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
-    dates = `${fmt(startD)}/${fmt(endD)}`;
-  } else {
-    const d0 = ev.date.replace(/-/g, "");
-    const d1 = new Date(ev.date + "T00:00:00");
-    d1.setDate(d1.getDate() + 1);
-    const d1str = d1.toISOString().slice(0,10).replace(/-/g, "");
-    dates = `${d0}/${d1str}`;
-  }
-  return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${dates}&details=${details}&location=${location}`;
-}
-
-function agendaCardHtml(ev) {
-  const toCover = agendaToCover(ev);
-  const catLabel = AGENDA_CATEGORY_LABELS[ev.category] || ev.category;
-  const badges = [
-    ev.needs_confirmation ? `<span class="agenda-badge-unconfirmed">sin confirmar</span>` : "",
-    ev.manual ? `<span class="agenda-manual-badge">manual</span>` : "",
-  ].filter(Boolean).join("");
-
-  const metaLinks = [
-    ev.registration?.required ? `<span>📝 Inscripción${ev.registration.cost ? " · " + ev.registration.cost : ""}</span>` : "",
-    ev.registration?.link ? `<a href="${ev.registration.link}" target="_blank" rel="noopener">Inscribirse ↗</a>` : "",
-    ev.materials?.agenda_link ? `<a href="${ev.materials.agenda_link}" target="_blank" rel="noopener">Agenda/material ↗</a>` : "",
-    ev.detail_url ? `<a href="${ev.detail_url}" target="_blank" rel="noopener">Fuente ↗</a>` : "",
-    toCover ? `<a href="${gcalUrl(ev)}" target="_blank" rel="noopener">+ Google Calendar ↗</a>` : "",
-    ev.manual ? `<a href="#" data-agenda-delete="${ev.id}" style="color:var(--flag)">Borrar</a>` : "",
-  ].filter(Boolean).join("");
-
-  const research = toCover ? (
-    ev.research_summary
-      ? `<div class="agenda-research"><div class="agenda-research-label">Research</div>${typeof marked !== 'undefined' ? marked.parse(ev.research_summary) : escapeHtml(ev.research_summary)}</div>`
-      : `<div class="agenda-research">
-           <button class="btn" data-agenda-research="${ev.id}">Pedir research a Claude</button>
-           <span class="copy-feedback" data-agenda-feedback="${ev.id}">Copiado — pegalo en Claude Code</span>
-         </div>`
-  ) : "";
-
-  return `
-    <div class="agenda-card" data-uid="${ev.id}">
-      <div class="agenda-card-header">
-        <span class="agenda-cat">${catLabel}</span>
-        ${ev.time ? `<span class="agenda-time">${ev.time}</span>` : ""}
-        ${badges}
-        <label class="agenda-cover-toggle">
-          <input type="checkbox" data-agenda-cover="${ev.id}" ${toCover ? "checked" : ""}> a cubrir
-        </label>
-      </div>
-      <div class="agenda-title">${ev.title}</div>
-      ${ev.company ? `<div class="agenda-company">${ev.company}</div>` : ""}
-      ${ev.location ? `<div class="agenda-location">📍 ${ev.location}</div>` : ""}
-      ${ev.summary ? `<div class="agenda-summary">${escapeHtml(ev.summary)}</div>` : ""}
-      ${metaLinks ? `<div class="agenda-meta-row">${metaLinks}</div>` : ""}
-      ${research}
-    </div>`;
-}
-
-// ---------- Agenda events ----------
-document.getElementById("agenda-prev").addEventListener("click", () => {
-  agendaState.windowOffset -= 1;
-  render();
-});
-document.getElementById("agenda-next").addEventListener("click", () => {
-  agendaState.windowOffset += 1;
-  render();
-});
-document.getElementById("agenda-filter-todos").addEventListener("click", () => {
-  agendaState.filter = "todos";
-  document.getElementById("agenda-filter-todos").classList.add("active");
-  document.getElementById("agenda-filter-cubrir").classList.remove("active");
-  render();
-});
-document.getElementById("agenda-filter-cubrir").addEventListener("click", () => {
-  agendaState.filter = "cubrir";
-  document.getElementById("agenda-filter-cubrir").classList.add("active");
-  document.getElementById("agenda-filter-todos").classList.remove("active");
-  render();
-});
-document.getElementById("agenda-add-toggle").addEventListener("click", () => {
-  document.getElementById("agenda-manual-form").classList.toggle("open");
-  document.getElementById("agenda-settings-form").classList.remove("open");
-});
-document.getElementById("agenda-settings-toggle").addEventListener("click", () => {
-  document.getElementById("agenda-settings-form").classList.toggle("open");
-  document.getElementById("agenda-manual-form").classList.remove("open");
-  const c = getGhConfig();
-  const f = document.getElementById("agenda-settings-form");
-  f.gh_owner.value = c.gh_owner || "";
-  f.gh_repo.value = c.gh_repo || "";
-  f.gh_path.value = c.gh_path || "manual_events.json";
-  f.gh_token.value = c.gh_token || "";
-});
-document.getElementById("agenda-settings-form").addEventListener("submit", (e) => {
-  e.preventDefault();
-  const f = e.target;
-  setGhConfig({
-    gh_owner: f.gh_owner.value.trim(),
-    gh_repo: f.gh_repo.value.trim(),
-    gh_path: f.gh_path.value.trim() || "manual_events.json",
-    gh_token: f.gh_token.value.trim(),
-  });
-  const fb = document.getElementById("agenda-settings-feedback");
-  fb.classList.add("show");
-  setTimeout(() => fb.classList.remove("show"), 1400);
-  f.classList.remove("open");
-});
-document.getElementById("agenda-manual-form").addEventListener("submit", async (e) => {
-  e.preventDefault();
-  const f = e.target;
-  const ev = {
-    id: "manual-" + Date.now().toString(36),
-    source: "manual", manual: true, to_cover: true,
-    category: f.category.value,
-    title: f.title.value,
-    date: f.date.value,
-    time: f.time.value || null,
-    location: f.location.value || null,
-    company: null,
-    registration: {
-      required: f.registration_required.checked,
-      cost: null,
-      link: f.registration_link.value || null,
-    },
-    materials: { agenda_link: null, prior_report_link: null },
-    summary: f.summary.value.trim() || null,
-    research_summary: null,
-    detail_url: null,
-  };
-
-  const submitBtn = f.querySelector("button[type=submit]");
-  const fb = document.getElementById("agenda-manual-feedback");
-
-  if (ghConfigured()) {
-    submitBtn.disabled = true;
-    submitBtn.textContent = "Guardando…";
-    try {
-      await saveManualEvent(ev);
-      AGENDA_DATA.push(ev);
-      fb.textContent = "Guardado en GitHub ✓";
-      fb.classList.add("show");
-      setTimeout(() => fb.classList.remove("show"), 2000);
-      f.reset();
-      document.getElementById("agenda-manual-form").classList.remove("open");
-      render();
-    } catch (err) {
-      alert("No se pudo guardar en GitHub: " + err.message + "\n\nRevisá el token/permisos en ⚙, o el evento se puede perder al refrescar.");
-    } finally {
-      submitBtn.disabled = false;
-      submitBtn.textContent = "Guardar";
-    }
-  } else {
-    // Sin config de GitHub: fallback — queda solo en esta sesión, pero te
-    // doy el JSON para pegar a mano en manual_events.json.
-    AGENDA_DATA.push(ev);
-    copyToClipboard(JSON.stringify(ev, null, 2), fb);
-    fb.textContent = "Copiado (sin guardado en GitHub — pegalo en manual_events.json)";
-    alert("No configuraste guardado en GitHub (⚙). Copié el JSON del evento al portapapeles para que lo pegues a mano en manual_events.json del repo — si no, se pierde al refrescar.");
-    f.reset();
-    document.getElementById("agenda-manual-form").classList.remove("open");
-    render();
-  }
-});
 
 // ---------- Events ----------
 document.getElementById("window-seg").addEventListener("click", e => {
