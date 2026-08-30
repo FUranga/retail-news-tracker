@@ -106,12 +106,21 @@ def build_retailer_sets(retailers_data, min_tier=2):
     return clear, ambiguous
 
 
-def is_relevant(title, summary, clear_names, ambiguous_names, keywords, context_keywords):
+def is_relevant(title, summary, clear_names, ambiguous_names, keywords, context_keywords, require_retailer_name=False):
     """Devuelve (relevant, reason).
     - Nombres claros: match directo con word boundary.
     - Nombres ambiguos: solo matchean si el texto también contiene
       al menos una context_keyword (señal de que es contexto retail).
-    - Keywords: match directo.
+    - Keywords genéricas ("retailer", "ecommerce", "consumer confidence"...):
+      match directo — PERO solo si require_retailer_name es False. Esas
+      keywords describen "esto es sobre retail en general", no "esto es
+      sobre UK": para fuentes sin alcance UK propio (prensa/trade de EEUU
+      u otros países) alcanzan para colar contenido 100% extranjero (ver
+      2026-08-30: Retail Dive coló historias de Target/Ulta/Bath & Body
+      Works, Finextra coló una de un retailer de instrumentos musicales de
+      EEUU — ninguna mención de UK, solo vocabulario retail genérico).
+      Para esas fuentes, exigimos coincidencia de nombre de retailer real
+      (clear o ambiguous+context) — no alcanza con "suena a retail".
     """
     text = (title + " " + (summary or "")).lower()
 
@@ -127,7 +136,10 @@ def is_relevant(title, summary, clear_names, ambiguous_names, keywords, context_
             if re.search(r'\b' + re.escape(name), text):
                 return True, f"retailer:{name} (context)"
 
-    # Keywords específicas
+    if require_retailer_name:
+        return False, None
+
+    # Keywords específicas — solo para fuentes con alcance UK propio
     for kw in keywords:
         if kw.lower() in text:
             return True, f"keyword:{kw}"
@@ -279,7 +291,8 @@ def run():
             relevant, match = is_relevant(
                 a["title"], a["summary"],
                 clear_names, ambiguous_names,
-                keywords, context_keywords
+                keywords, context_keywords,
+                require_retailer_name=source.get("require_retailer_name", False)
             )
             if not relevant:
                 continue

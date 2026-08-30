@@ -137,6 +137,25 @@ A manual `workflow_dispatch` run always executes regardless of time (via the
   to major UK retailer names AND several outlet domains together (see
   `international_press_uk_retail` in `media_config.json`) — expand the
   retailer list there rather than adding more single-outlet sources.
+- `media_scraper.py`'s generic `keywords` list (retailers.json) matches
+  on retail *vocabulary* ("ecommerce", "consumer confidence", "same-store
+  sales"...), not UK-ness — it says nothing about geography. That's fine
+  for sources whose whole audience/domain is already UK (any UK national,
+  regional, or trade title): a "consumer confidence" story from BBC
+  Business is a UK consumer confidence story by construction. It is NOT
+  fine for sources with a non-UK or global content pool: confirmed
+  2026-08-30 that Retail Dive (US) and Finextra (global fintech) both
+  leaked zero-UK-relevance stories (Target/Ulta/Bath & Body Works;
+  a US musical-instrument retailer) purely off generic keyword matches.
+  Fix: `require_retailer_name: true` on the source in `media_config.json`
+  — forces a real clear/ambiguous retailer-name match, skips the generic
+  keyword fallback entirely. Set this on any source that isn't a UK
+  national/regional/trade title by nature (currently: retail_dive,
+  chain_store_age, international_press_uk_retail, finextra,
+  computer_weekly, uktech_news, campaign_uk, just_style, the_caterer).
+  When adding a new source with a content pool broader than "UK retail",
+  default to `require_retailer_name: true` and only drop it if you've
+  verified live that the generic keyword match isn't leaking.
 - Never invent a date for an agenda event. `agenda_boe.py` and
   `agenda_tradeshows.py` parse a real page for the date and return
   nothing if the expected pattern isn't found (see their docstrings).

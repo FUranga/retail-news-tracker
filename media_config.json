@@ -384,7 +384,8 @@
       "method": "rss",
       "paywall": false,
       "category": "tech_other_sector",
-      "note": "Agregado 2026-08-30 (categoría 3 — trade de otro sector que puede referir a retail). RSS nativo. Tech UK en general, no solo retail — filtro de relevancia hace el recorte."
+      "require_retailer_name": true,
+      "note": "Agregado 2026-08-30 (categoría 3 — trade de otro sector que puede referir a retail). RSS nativo. Tech UK en general, no solo retail — require_retailer_name exige que mencione un retailer real (no alcanza con vocabulario retail genérico, que dejaría pasar contenido tech sin relación con retail)."
     },
     {
       "id": "uktech_news",
@@ -394,7 +395,8 @@
       "method": "rss",
       "paywall": false,
       "category": "tech_other_sector",
-      "note": "Agregado 2026-08-30 (categoría 3). RSS nativo. Funding/startups tech UK — puede traer rondas de inversión de startups retail-tech/IA."
+      "require_retailer_name": true,
+      "note": "Agregado 2026-08-30 (categoría 3). RSS nativo. Funding/startups tech UK — puede traer rondas de inversión de startups retail-tech/IA. require_retailer_name evita colar funding rounds sin relación con retail."
     },
     {
       "id": "campaign_uk",
@@ -404,7 +406,8 @@
       "method": "rss",
       "paywall": true,
       "category": "tech_other_sector",
-      "note": "Agregado 2026-08-30 (categoría 3). Trade de publicidad/marketing — cubre campañas y retail media de los retailers UK."
+      "require_retailer_name": true,
+      "note": "Agregado 2026-08-30 (categoría 3). Trade de publicidad/marketing — cubre campañas y retail media de los retailers UK. require_retailer_name evita colar campañas publicitarias sin relación con retail."
     },
     {
       "id": "finextra",
@@ -414,7 +417,8 @@
       "method": "rss",
       "paywall": false,
       "category": "tech_other_sector",
-      "note": "Agregado 2026-08-30 (categoría 3). Trade de fintech/pagos — canal 'retail' propio. Complementa a los vendors de pagos en supplier_config.json."
+      "require_retailer_name": true,
+      "note": "Agregado 2026-08-30 (categoría 3). Trade de fintech/pagos — canal 'retail' propio. Complementa a los vendors de pagos en supplier_config.json. require_retailer_name confirmado necesario en vivo: sin esto colaba noticias de retailers de EEUU sin relación con UK (ej. 'Sweetwater goes live with Gr4vy')."
     },
     {
       "id": "the_caterer",
@@ -424,7 +428,8 @@
       "method": "rss",
       "paywall": false,
       "category": "tech_other_sector",
-      "note": "Agregado 2026-08-30 (categoría 3). Trade de hostelería/foodservice — solapa con grocery/food retail (ej. F&B en tiendas, como John Lewis)."
+      "require_retailer_name": true,
+      "note": "Agregado 2026-08-30 (categoría 3). Trade de hostelería/foodservice — solapa con grocery/food retail (ej. F&B en tiendas, como John Lewis). require_retailer_name evita colar noticias de hostelería/salud pública sin relación con retail (ej. brotes de salmonela)."
     },
     {
       "id": "just_style",
@@ -434,7 +439,8 @@
       "method": "rss",
       "paywall": false,
       "category": "tech_other_sector",
-      "note": "Agregado 2026-08-30 (categoría 3). Trade de supply chain de moda/apparel — complementa just_food (su hermana editorial para alimentos)."
+      "require_retailer_name": true,
+      "note": "Agregado 2026-08-30 (categoría 3). Trade de supply chain de moda/apparel — complementa just_food (su hermana editorial para alimentos). require_retailer_name evita colar historias de supply chain global sin relación con UK."
     },
     {
       "id": "international_press_uk_retail",
@@ -444,7 +450,8 @@
       "method": "rss",
       "paywall": false,
       "category": "international",
-      "note": "Agregado 2026-08-30 (categoría 4 — medios extranjeros sobre retailers británicos). Consolida varios medios internacionales en una sola query anclada a nombres de retailers UK grandes — probado en vivo: queries site:wsj.com/nytimes.com/etc. sueltas devuelven mayormente contenido de sus propios mercados (EEUU), esta combinación sí trae cobertura real de Tesco/Sainsbury's/M&S/Next en WSJ/Reuters. Ampliar la lista de retailers si hace falta más cobertura."
+      "require_retailer_name": true,
+      "note": "Agregado 2026-08-30 (categoría 4 — medios extranjeros sobre retailers británicos). Consolida varios medios internacionales en una sola query anclada a nombres de retailers UK grandes — probado en vivo: queries site:wsj.com/nytimes.com/etc. sueltas devuelven mayormente contenido de sus propios mercados (EEUU), esta combinación sí trae cobertura real de Tesco/Sainsbury's/M&S/Next en WSJ/Reuters. Ampliar la lista de retailers si hace falta más cobertura. require_retailer_name como defensa adicional, aunque la query ya está anclada."
     },
     {
       "id": "chain_store_age",
@@ -454,7 +461,8 @@
       "method": "rss",
       "paywall": false,
       "category": "international",
-      "note": "Agregado 2026-08-30 (categoría 4). Trade press retail de EEUU — con ancla +UK+ trae cobertura genuina de expansión/tech en UK (ej. Morrisons, Whole Foods UK)."
+      "require_retailer_name": true,
+      "note": "Agregado 2026-08-30 (categoría 4). Trade press retail de EEUU — con ancla +UK+ trae cobertura genuina de expansión/tech en UK (ej. Morrisons, Whole Foods UK). require_retailer_name como defensa adicional — el ancla +UK+ en la query es un ranking, no un filtro estricto."
     },
     {
       "id": "retail_dive",
@@ -464,7 +472,8 @@
       "method": "rss",
       "paywall": false,
       "category": "international",
-      "note": "Agregado 2026-08-30 (categoría 4). Trade press retail de EEUU de referencia — cobertura mayormente US, se incluye para contexto global/comparativo aunque la señal UK específica sea más baja que las otras fuentes de esta categoría."
+      "require_retailer_name": true,
+      "note": "Agregado 2026-08-30 (categoría 4). Trade press retail de EEUU de referencia — cobertura mayormente US, se incluye para contexto global/comparativo aunque la señal UK específica sea más baja que las otras fuentes de esta categoría. require_retailer_name confirmado necesario en vivo: sin esto colaba historias 100% EEUU (Ulta vs Target, Bath & Body Works) que matcheaban por vocabulario retail genérico ('ecommerce', 'consumer confidence') sin ninguna mención de UK."
     }
   ],
   "schedule": {
