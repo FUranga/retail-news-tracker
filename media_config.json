@@ -255,6 +255,216 @@
       "paywall": false,
       "category": "trade",
       "note": "Agregado 2026-08-30 (backlog): sin RSS nativo detectable (404), se usa Google News site:. Trade press de moda."
+    },
+    {
+      "id": "independent",
+      "name": "The Independent",
+      "url": "https://www.independent.co.uk",
+      "rss": "https://news.google.com/rss/search?q=site:independent.co.uk+retail+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "general",
+      "note": "Agregado 2026-08-30 (categoría 1 — nacional UK faltante). RSS propio (/business/rss) devuelve 0, se usa Google News site:."
+    },
+    {
+      "id": "the_sun",
+      "name": "The Sun — Money",
+      "url": "https://www.thesun.co.uk/money",
+      "rss": "https://news.google.com/rss/search?q=site:thesun.co.uk+retail+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "general",
+      "note": "Agregado 2026-08-30 (categoría 1). El tabloide de mayor circulación UK — trae cierres/aperturas de tiendas con buena rapidez aunque el resto de la fuente sea muy tabloide; el filtro de relevancia hace el recorte."
+    },
+    {
+      "id": "mirror",
+      "name": "Daily Mirror — Money",
+      "url": "https://www.mirror.co.uk/money",
+      "rss": "https://news.google.com/rss/search?q=site:mirror.co.uk+retail+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "general",
+      "note": "Agregado 2026-08-30 (categoría 1)."
+    },
+    {
+      "id": "metro",
+      "name": "Metro",
+      "url": "https://metro.co.uk/money",
+      "rss": "https://news.google.com/rss/search?q=site:metro.co.uk+retail+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "general",
+      "note": "Agregado 2026-08-30 (categoría 1). Diario gratuito de mayor lectoría UK."
+    },
+    {
+      "id": "the_i",
+      "name": "The i Paper",
+      "url": "https://inews.co.uk",
+      "rss": "https://news.google.com/rss/search?q=site:inews.co.uk+retail+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "general",
+      "note": "Agregado 2026-08-30 (categoría 1)."
+    },
+    {
+      "id": "evening_standard",
+      "name": "London Evening Standard",
+      "url": "https://www.standard.co.uk",
+      "rss": "https://news.google.com/rss/search?q=site:standard.co.uk+retail+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "general",
+      "note": "Agregado 2026-08-30 (categoría 1). Relevante por la concentración de flagships/HQs de retail en Londres."
+    },
+    {
+      "id": "moneysavingexpert",
+      "name": "MoneySavingExpert",
+      "url": "https://www.moneysavingexpert.com",
+      "rss": "https://news.google.com/rss/search?q=site:moneysavingexpert.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "general",
+      "note": "Agregado 2026-08-30 (categoría 1). Feed propio (/feeds/latestnews) devuelve 404. Buena señal para historias de precios/ofertas/consumer rights."
+    },
+    {
+      "id": "business_live",
+      "name": "Business Live (Reach plc — regional business)",
+      "url": "https://www.business-live.co.uk",
+      "rss": "https://news.google.com/rss/search?q=site:business-live.co.uk+retail&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "trade",
+      "note": "Agregado 2026-08-30 (categoría 2 — local/regional). Agrega cobertura de negocios regional (Midlands, Gales, Escocia, NE Inglaterra) de la red Reach plc bajo un solo dominio — mejor señal que perseguir cada diario regional individualmente (varios devuelven 202/vacío por bloqueo anti-scraping: Manchester Evening News, Birmingham Live, Liverpool Echo probados y descartados por eso)."
+    },
+    {
+      "id": "manchester_evening_news",
+      "name": "Manchester Evening News",
+      "url": "https://www.manchestereveningnews.co.uk",
+      "rss": "https://news.google.com/rss/search?q=site:manchestereveningnews.co.uk+retail+OR+shop&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "trade",
+      "note": "Agregado 2026-08-30 (categoría 2). RSS propio bloqueado (202 vacío), se usa Google News site:."
+    },
+    {
+      "id": "wales_online",
+      "name": "Wales Online",
+      "url": "https://www.walesonline.co.uk",
+      "rss": "https://news.google.com/rss/search?q=site:walesonline.co.uk+retail+OR+shop&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "trade",
+      "note": "Agregado 2026-08-30 (categoría 2). RSS propio bloqueado (202 vacío), se usa Google News site:."
+    },
+    {
+      "id": "belfast_telegraph",
+      "name": "Belfast Telegraph",
+      "url": "https://www.belfasttelegraph.co.uk",
+      "rss": "https://www.belfasttelegraph.co.uk/business/rss",
+      "method": "rss",
+      "paywall": false,
+      "category": "trade",
+      "note": "Agregado 2026-08-30 (categoría 2). RSS nativo funciona."
+    },
+    {
+      "id": "the_scotsman",
+      "name": "The Scotsman",
+      "url": "https://www.scotsman.com",
+      "rss": "https://news.google.com/rss/search?q=site:scotsman.com+retail+OR+shop&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "trade",
+      "note": "Agregado 2026-08-30 (categoría 2). RSS propio devuelve 0, se usa Google News site:."
+    },
+    {
+      "id": "computer_weekly",
+      "name": "Computer Weekly",
+      "url": "https://www.computerweekly.com",
+      "rss": "https://www.computerweekly.com/rss/All-Computer-Weekly-content.xml",
+      "method": "rss",
+      "paywall": false,
+      "category": "tech_other_sector",
+      "note": "Agregado 2026-08-30 (categoría 3 — trade de otro sector que puede referir a retail). RSS nativo. Tech UK en general, no solo retail — filtro de relevancia hace el recorte."
+    },
+    {
+      "id": "uktech_news",
+      "name": "UKTN (UK Tech News)",
+      "url": "https://www.uktech.news",
+      "rss": "https://www.uktech.news/feed",
+      "method": "rss",
+      "paywall": false,
+      "category": "tech_other_sector",
+      "note": "Agregado 2026-08-30 (categoría 3). RSS nativo. Funding/startups tech UK — puede traer rondas de inversión de startups retail-tech/IA."
+    },
+    {
+      "id": "campaign_uk",
+      "name": "Campaign",
+      "url": "https://www.campaignlive.co.uk",
+      "rss": "https://news.google.com/rss/search?q=site:campaignlive.co.uk+retail&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": true,
+      "category": "tech_other_sector",
+      "note": "Agregado 2026-08-30 (categoría 3). Trade de publicidad/marketing — cubre campañas y retail media de los retailers UK."
+    },
+    {
+      "id": "finextra",
+      "name": "Finextra — Retail",
+      "url": "https://www.finextra.com",
+      "rss": "https://www.finextra.com/rss/channel.aspx?channel=retail",
+      "method": "rss",
+      "paywall": false,
+      "category": "tech_other_sector",
+      "note": "Agregado 2026-08-30 (categoría 3). Trade de fintech/pagos — canal 'retail' propio. Complementa a los vendors de pagos en supplier_config.json."
+    },
+    {
+      "id": "the_caterer",
+      "name": "The Caterer",
+      "url": "https://www.thecaterer.com",
+      "rss": "https://news.google.com/rss/search?q=site:thecaterer.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "tech_other_sector",
+      "note": "Agregado 2026-08-30 (categoría 3). Trade de hostelería/foodservice — solapa con grocery/food retail (ej. F&B en tiendas, como John Lewis)."
+    },
+    {
+      "id": "just_style",
+      "name": "Just Style",
+      "url": "https://www.just-style.com",
+      "rss": "https://news.google.com/rss/search?q=site:just-style.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "tech_other_sector",
+      "note": "Agregado 2026-08-30 (categoría 3). Trade de supply chain de moda/apparel — complementa just_food (su hermana editorial para alimentos)."
+    },
+    {
+      "id": "international_press_uk_retail",
+      "name": "International press — UK retailers",
+      "url": "https://news.google.com",
+      "rss": "https://news.google.com/rss/search?q=(%22Marks+%26+Spencer%22+OR+%22Tesco%22+OR+%22Sainsbury%27s%22+OR+%22Next+plc%22+OR+%22Ocado%22+OR+%22ASOS%22)+(wsj.com+OR+nytimes.com+OR+cnbc.com+OR+bloomberg.com+OR+reuters.com)&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "international",
+      "note": "Agregado 2026-08-30 (categoría 4 — medios extranjeros sobre retailers británicos). Consolida varios medios internacionales en una sola query anclada a nombres de retailers UK grandes — probado en vivo: queries site:wsj.com/nytimes.com/etc. sueltas devuelven mayormente contenido de sus propios mercados (EEUU), esta combinación sí trae cobertura real de Tesco/Sainsbury's/M&S/Next en WSJ/Reuters. Ampliar la lista de retailers si hace falta más cobertura."
+    },
+    {
+      "id": "chain_store_age",
+      "name": "Chain Store Age (US trade press, cobertura UK)",
+      "url": "https://chainstoreage.com",
+      "rss": "https://news.google.com/rss/search?q=site:chainstoreage.com+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "international",
+      "note": "Agregado 2026-08-30 (categoría 4). Trade press retail de EEUU — con ancla +UK+ trae cobertura genuina de expansión/tech en UK (ej. Morrisons, Whole Foods UK)."
+    },
+    {
+      "id": "retail_dive",
+      "name": "Retail Dive (US trade press)",
+      "url": "https://www.retaildive.com",
+      "rss": "https://www.retaildive.com/feeds/news/",
+      "method": "rss",
+      "paywall": false,
+      "category": "international",
+      "note": "Agregado 2026-08-30 (categoría 4). Trade press retail de EEUU de referencia — cobertura mayormente US, se incluye para contexto global/comparativo aunque la señal UK específica sea más baja que las otras fuentes de esta categoría."
     }
   ],
   "schedule": {
@@ -280,5 +490,23 @@
   },
   "retention": {
     "keep_days": 7
-  }
+  },
+  "noise_title_signals": [
+    "sales advisor",
+    "sales assistant",
+    "store colleague",
+    "store manager vacancy",
+    "job details",
+    "job opportunity",
+    "part-time,",
+    "full-time,",
+    "hours,",
+    "apply now",
+    "vacancy",
+    "careers.",
+    "- login",
+    "cookie policy",
+    "privacy notice"
+  ],
+  "_noise_note": "Agregado 2026-08-30. Diagnóstico en vivo mostró que fuentes tabloide de alto volumen (The Sun) indexan listados de empleo bajo su propio dominio ('Retail Sales Advisor, Bristol') mezclados con noticias reales — antes media_scraper.py no tenía ningún filtro de ruido por título, a diferencia de company_scraper.py/supplier_scraper.py."
 }

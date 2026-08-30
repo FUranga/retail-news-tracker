@@ -185,8 +185,9 @@ def detect_tech_signal(title, summary, sector_config):
     return has_partnership and has_tech
 
 
-def fetch_rss(source):
+def fetch_rss(source, noise_signals=None):
     """Parsea un feed RSS y devuelve lista de artículos."""
+    noise_signals = noise_signals or []
     try:
         resp = requests.get(source["rss"], headers=HEADERS, timeout=15)
         resp.raise_for_status()
@@ -199,12 +200,18 @@ def fetch_rss(source):
             else:
                 dt = datetime.now().isoformat()
 
+            title = entry.get("title", "").strip()
+            title_lower = title.lower()
+            url_lower = entry.get("link", "").lower()
+            if any(sig in title_lower or sig in url_lower for sig in noise_signals):
+                continue
+
             articles.append({
                 "source_id":    source["id"],
                 "source_name":  source["name"],
                 "source_cat":   source["category"],
                 "paywall":      source.get("paywall", False),
-                "title":        entry.get("title", "").strip(),
+                "title":        title,
                 "url":          entry.get("link", ""),
                 "summary":      clean_html(entry.get("summary", "")),
                 "datetime":     dt,
@@ -215,11 +222,11 @@ def fetch_rss(source):
         return []
 
 
-def fetch_source(source):
+def fetch_source(source, noise_signals=None):
     """Despacha al método correcto según source['method']."""
     method = source.get("method", "rss")
     if method == "rss" and source.get("rss"):
-        return fetch_rss(source)
+        return fetch_rss(source, noise_signals)
     elif method == "scrape":
         print(f"  [SKIP] {source['name']}: scraping no implementado todavía")
         return []
@@ -245,6 +252,7 @@ def run():
     min_tier = config.get("filtering", {}).get("min_tier", 2)
     use_kw   = config.get("filtering", {}).get("use_keywords", True)
     max_per_source = config.get("filtering", {}).get("max_per_source", 50)
+    noise_signals = [s.lower() for s in config.get("noise_title_signals", [])]
 
     clear_names, ambiguous_names = build_retailer_sets(retailers, min_tier)
     keywords        = retailers.get("keywords", []) if use_kw else []
@@ -260,7 +268,7 @@ def run():
             continue
 
         print(f"  Fetching: {source['name']}...")
-        articles = fetch_source(source)
+        articles = fetch_source(source, noise_signals)
         total_fetched += len(articles)
 
         source_new = 0

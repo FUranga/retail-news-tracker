@@ -113,7 +113,11 @@ End of day — teach Claude your edits
 | Retail tech trade press (Retail Technology Innovation Hub, Retail Systems) | ✅ Live (2026-08-30) |
 | Events agenda (earnings, releases, committees) | ✅ Live |
 | Judiciary (caselaw.nationalarchives.gov.uk, Competition Appeal Tribunal, employment tribunal coverage) | ✅ Live (2026-08-30) — gov_config.json, priority: medium |
-| Media scan expansion (Talking Retail, Convenience Store, Insider Media, This Is Money, Marketing Week, FashionUnited UK) | ✅ Live (2026-08-30) — Essential Retail dropped, site unreachable |
+| Media scan — trade press expansion (Talking Retail, Convenience Store, Insider Media, This Is Money, Marketing Week, FashionUnited UK) | ✅ Live (2026-08-30) — Essential Retail dropped, site unreachable |
+| Media scan — major UK nationals missing (Independent, Sun, Mirror, Metro, i Paper, Evening Standard, MoneySavingExpert) | ✅ Live (2026-08-30) |
+| Media scan — local/regional UK (Business Live, Manchester Evening News, Wales Online, Belfast Telegraph, The Scotsman) | ✅ Live (2026-08-30) — individual Reach plc regional titles beyond these mostly block RSS (202/empty); Business Live aggregates the gap |
+| Media scan — other-sector trade referencing retail (Computer Weekly, UKTN, Campaign, Finextra, The Caterer, Just Style) | ✅ Live (2026-08-30) |
+| Media scan — foreign press covering UK retailers (consolidated WSJ/NYT/CNBC/Bloomberg/Reuters query anchored to major UK retailer names, Chain Store Age, Retail Dive) | ✅ Live (2026-08-30) — single-outlet foreign queries mostly surfaced that outlet's own domestic retail news, not UK; the consolidated query was the fix |
 | Other trade bodies (Usdaw, IGD, Local Data Company, Springboard, HSE, The Pensions Regulator) | ✅ Live (2026-08-30) — gov_config.json, priority: medium |
 | Agenda expansion — BoE MPC dates, sector trade shows (Spring/Autumn Fair), National Living Wage effective date | ✅ Live (2026-08-30) |
 | Agenda expansion — Budget/Autumn Statement date, business rates revaluation | ❌ Not automatable — HMT doesn't announce Budget dates on a fixed schedule/feed, and the current business rates revaluation cycle wasn't verified live. Add manually via the dashboard's manual-event form when announced. |

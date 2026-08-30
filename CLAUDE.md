@@ -121,6 +121,22 @@ A manual `workflow_dispatch` run always executes regardless of time (via the
   relevance. If you add a new scraper that filters by retailer name
   against a "medium"/"low" priority firehose-style source, port this
   same clear/ambiguous split — don't just flatten all names into one set.
+- `media_config.json` now spans 48 sources across trade press, UK
+  nationals, regional/local UK press, other-sector trade (tech,
+  marketing, fintech, hospitality, fashion supply chain) that
+  occasionally covers retail, and foreign press covering UK retailers.
+  `media_scraper.py` has a `noise_title_signals` filter (added
+  2026-08-30, same pattern as company/supplier) because a high-volume
+  tabloid source (The Sun) indexes job-board listings under its own
+  domain, mixed in with real news — without it, "Retail Sales Advisor,
+  Bristol" reads as a story. If you add a new high-volume/generic media
+  source, check its raw output for this before trusting it.
+- For foreign press specifically: querying `site:wsj.com` (or any single
+  foreign outlet) mostly returns that outlet's own domestic retail news,
+  not UK coverage. The fix that worked: one consolidated query anchored
+  to major UK retailer names AND several outlet domains together (see
+  `international_press_uk_retail` in `media_config.json`) — expand the
+  retailer list there rather than adding more single-outlet sources.
 - Never invent a date for an agenda event. `agenda_boe.py` and
   `agenda_tradeshows.py` parse a real page for the date and return
   nothing if the expected pattern isn't found (see their docstrings).
