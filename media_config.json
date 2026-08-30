@@ -195,6 +195,66 @@
       "paywall": false,
       "category": "retail_tech",
       "note": "Agregado 2026-08-30: no tiene RSS nativo detectable, se usa Google News site: (funciona bien porque es prensa pura, no catálogo de e-commerce)."
+    },
+    {
+      "id": "talking_retail",
+      "name": "Talking Retail",
+      "url": "https://www.talkingretail.com",
+      "rss": "https://www.talkingretail.com/feed/",
+      "method": "rss",
+      "paywall": false,
+      "category": "trade",
+      "note": "Agregado 2026-08-30 (backlog): RSS nativo. Foco en convenience/independent retail."
+    },
+    {
+      "id": "convenience_store",
+      "name": "Convenience Store",
+      "url": "https://www.conveniencestore.co.uk",
+      "rss": "https://news.google.com/rss/search?q=site:conveniencestore.co.uk&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "trade",
+      "note": "Agregado 2026-08-30 (backlog): sin RSS nativo detectable (404), se usa Google News site:."
+    },
+    {
+      "id": "insider_media",
+      "name": "Insider Media",
+      "url": "https://www.insidermedia.com",
+      "rss": "https://news.google.com/rss/search?q=site:insidermedia.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "general",
+      "note": "Agregado 2026-08-30 (backlog): RSS nativo devuelve 0 (roto), se usa Google News site:. Cubre negocios regionales UK en general, no solo retail — igual que bbc_business/city_am, el filtro de relevancia (is_relevant contra retailers.json) hace el recorte, no hace falta que la fuente sea 100% retail."
+    },
+    {
+      "id": "this_is_money",
+      "name": "This is Money",
+      "url": "https://www.thisismoney.co.uk",
+      "rss": "https://www.dailymail.co.uk/money/index.rss",
+      "method": "rss",
+      "paywall": false,
+      "category": "general",
+      "note": "Agregado 2026-08-30 (backlog): This is Money es la sección financiera del Daily Mail, publica bajo el feed money de dailymail.co.uk. Feed propio de thisismoney.co.uk devuelve 403."
+    },
+    {
+      "id": "marketing_week",
+      "name": "Marketing Week",
+      "url": "https://www.marketingweek.com",
+      "rss": "https://www.marketingweek.com/feed/",
+      "method": "rss",
+      "paywall": false,
+      "category": "general",
+      "note": "Agregado 2026-08-30 (backlog): RSS nativo. Cobertura de marketing en general, no solo retail — filtro de relevancia hace el recorte."
+    },
+    {
+      "id": "fashionunited_uk",
+      "name": "FashionUnited UK",
+      "url": "https://fashionunited.uk",
+      "rss": "https://news.google.com/rss/search?q=site:fashionunited.uk&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "trade",
+      "note": "Agregado 2026-08-30 (backlog): sin RSS nativo detectable (404), se usa Google News site:. Trade press de moda."
     }
   ],
   "schedule": {

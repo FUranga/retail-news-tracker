@@ -1,6 +1,52 @@
 {
-  "generated_at": "2026-08-29T00:40:08",
+  "generated_at": "2026-08-30T23:12:03",
   "items": [
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Nicola Ball - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zU3pJcEJhNzNyTGR4ZFM3X09XMlJXSnNfbFBXc3FEV21BNDFDcW1sdGZqLVlmN01ZM1NxYXppamtPX3VUS3kxbVVXWkttdlk?oc=5",
+      "summary": "Nicola Ball &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-30T00:37:14",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "brc_reports",
+      "source_name": "British Retail Consortium",
+      "source_cat": "research",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Retailers call for reform as packaging charges double in one year - British Retail Consortium",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTU5tcUNBSXFNSjEzUHRaMmpZQTdwaVBEREtscmFOcWRvdEhmRGs3ZVdUV0RsY2dmZVRRcEpQZDNxNTZaTTdYdjJjVFEyV3B0WUdLVnotdXQxWUtPbmdacVBHQkg0UGxmRmdSckN6VXRXOWstQWFiOGVQdE0tbi01NUdzV0ZpMTRNcGo1blZyZWI3NWU5TTNqaUxpdEFkMkFJeTdhb1RuYk4yc2hFdVliUHlpdUN2RXhwUW9XR2dqZjlpdUpQZkVOTFVYMmxaYzJYVDkw?oc=5",
+      "summary": "Retailers call for reform as packaging charges double in one year &nbsp;&nbsp; British Retail Consortium",
+      "datetime": "2026-08-29T11:52:18",
+      "match_reason": "priority:high (brc_reports)",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "BRC",
+        "retail sales",
+        "crime",
+        "sustainability",
+        "employment"
+      ],
+      "body": null
+    },
     {
       "source_id": "cma",
       "source_name": "CMA — Competition and Markets Authority",
@@ -45,6 +91,52 @@
         "business rates",
         "VAT",
         "fiscal policy"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Hyper-connected retail: the supplier opportunity - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYVZ1UXhpZFd2elUyLV8teGlsOXM4c29EcFBxZVB6SUFNQTNJRklWOVFDekNWNEl2cFFuYktVZ1A0WlR6a2h0T3hpdFE3eFdzSGFUNWFoNlRZZWRONDBNT1JpeGJ5UnJJRC12QmpueW1oS0hDaFhIT0JQOV96LVNqeVRMMXNtVFoy?oc=5",
+      "summary": "Hyper-connected retail: the supplier opportunity &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-28T14:25:16",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "hse",
+      "source_name": "HSE — Health and Safety Executive",
+      "source_cat": "regulation",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Six-figure fine for fish processing company after supervisor suffered life-threatening injuries",
+      "url": "https://press.hse.gov.uk/2026/08/28/six-figure-fine-for-fish-processing-company-after-supervisor-suffered-life-threatening-injuries/",
+      "summary": "Pelagia Shetland Limited fined after man was injured in machinery 41-year-old was clearing a blockage when the machine restarted He was airlifted to hospital after suffering multiple broken bones A fish processing company has been fined £451,500 after a supervisor suffered multiple fractures and two collapsed lungs when he became entangled in a palletiser machine [&#8230;]",
+      "datetime": "2026-08-28T13:31:29",
+      "match_reason": "tag:fine",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "warehouse",
+        "workplace safety",
+        "fine",
+        "prosecution",
+        "injury"
       ],
       "body": null
     },
@@ -163,6 +255,28 @@
       "body": null
     },
     {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Highlights - The hyper-connected store: from vision to reality - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU204NUFYZTRXTXRoRV93NGxqVFotZDYzYmdsZVU5T0ZhaFUzdHQ3eFhUNF9UMnpLYzRzak9tUzNkcmhnelRSY0hJMm1KdmI2WkRiek5MOTd0bHJERWltUFdxeFBJZ2dTVjJadkRGUnA2TjZxR0NScEkzS1FZVXhnc2V4UmtCZFdFMGNNb1JQTk1ORVJtendqVEVScVE4QldRUTlXeEpEeHhiQkhGSTZMYmhLMmp0WEJXLWRNcVRXM3NwQWxRbzk5dHJoLS1VMk05T3c?oc=5",
+      "summary": "Highlights - The hyper-connected store: from vision to reality &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-27T10:26:28",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
       "source_id": "ons_calendar",
       "source_name": "ONS — Release Calendar",
       "source_cat": "statistics",
@@ -226,6 +340,28 @@
         "trade policy",
         "business rates",
         "high street"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "The hyper-connected store: from vision to reality - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdGNPSzJxbG9RMGRXSTRnRVJIYlNMcVF4RGZjS1hrNFFheDlaYUFRTGEwV3NFZVdhZzRCX2xqQzc5eFFGUkJYRDE1aGFORldYY1dpNjBKcy1vMGkya2ZQUFZ0MkpiUU55dDVXQnF6ZEMxbzZCWWZvbWxQaW9ESEtOOWw5bjJpTEJ5Y0t4RjJjVFl2am9oVDZSTS1taURwTzg2ZWJ2eER4S1E1T1RWWVFLbVQ4a3c0Yk82bGNtTGpRMHJxbDA?oc=5",
+      "summary": "The hyper-connected store: from vision to reality &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-27T00:48:40",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
       ],
       "body": null
     },
@@ -4957,6 +5093,28 @@
       ]
     },
     {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "UK roundup: Restructuring, value and retail jobs - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcUtKNzNRanQzaS1tb3JDRUF4Y1N2eTlOdnFHRXdUbHJtd2RhbGdzaGswcEVqRHduRlRyWFdHNEJXQm5iTlpsUnBuRnhhQ0IzLXZKR1hyTHUxLWxBbkdMQkszT21tM2U1c1ZZdG1FOXNjMnZjeEJqMzREakVGMzMxeEtYT3N5VFZ0ck1TNDU2dVdPXzR5OC1Oam5XYlVnOW1NcWU3ZzRsUDhKN3NGRjRCejU3R2FXYlIwa0NUdkN0TE1BQThGWXlZS0lpTWxrWWY2R2NhcXd3?oc=5",
+      "summary": "UK roundup: Restructuring, value and retail jobs &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-26T21:05:11",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
       "source_id": "brc_reports",
       "source_name": "British Retail Consortium",
       "source_cat": "research",
@@ -5001,6 +5159,164 @@
         "sustainability",
         "employment"
       ]
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Europe roundup: value, consolidation, convenience and resilience - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVmptcmVZN2NKUnhWcWlHQ01QZUJzSnBJQjJadGE2VVJXYmJZMEhBZUFmUGdEbjVzTHd2ZXFsaG1hZDV6azFzR285cDZmR0FlTER0Yy1Ed1kwUnpNVGtINFR4SzdaeHZ4aEtZUHpyTlBSVmp6Z3RZWWxidnJKdnJQRW5DdzR6NXBSZWRMbEl1a0dWWlpVMi1fYXdzdHlraDVpTHpQTFAwRGZyUHRJcFRPSVpWNkdHc3JERHNzMmZWYlNSaTZtT25GOEtaRUhJR0hEV0VvZXBQNVJYX1JvU0ZV?oc=5",
+      "summary": "Europe roundup: value, consolidation, convenience and resilience &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-26T14:56:30",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Heatwaves and confidence shifts reshape grocery market - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ2tmTHlaMWpuU3BiVXctR1FBeXJ5d3hLZUpOd2l4ckM0eTBZQy1FNVhUUTAzalZjOEFSVnNVN0VaN2M5RWxjVlRteDVKOXFQY1FiUkVQWF8yYVJfWjlzV0JaWW9MaE1ObzJCTUxGMDV6ZG5FNkxYQTVkSXhfN245aWh0YmstVVk1enBTejE3WWRiZTVDblJXREswM2RIOWlrRDFrNHcweUs1OXRsWE9XZU1EbG9IRzNFX0M5Z2diVHlGQQ?oc=5",
+      "summary": "Heatwaves and confidence shifts reshape grocery market &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-26T13:53:35",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "How extreme weather is reshaping European retail - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbGZ1bkVrTVZOazBMMlgxSzlzTEtTYU9yU2RIVlZyeG5MNVBMWTVUUG83VERLZV8yZDZqbGIyVFlVOFI2M214QXAtQk1GclZVLWlZeHgtVXpaQ0lZLWRuY3J6cHFXM0c5ZjZ3VjJ6T29xN0JLQUw2NTNRcl9xdWZUZkprR01SQzFpVDFJdGVpSElKU0NQS3RrVmc5bXhRUkh1ME51ZHpEZDhRa1pzWWUyN0taLXNnYkdEaWc?oc=5",
+      "summary": "How extreme weather is reshaping European retail &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-26T13:29:27",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "hse",
+      "source_name": "HSE — Health and Safety Executive",
+      "source_cat": "regulation",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Manufacturing company fined after worker fractures twelve ribs in pillar drill incident",
+      "url": "https://press.hse.gov.uk/2026/08/26/manufacturing-company-fined-after-worker-fractures-twelve-ribs-in-pillar-drill-incident/",
+      "summary": "36-year-old worker seriously injured by falling pillar drill weighing 500kg Health and Safety Executive inspectors found lifting operation involving a forklift was not properly planned or risk-assessed Redditch-based firm handed £40,000 fine following HSE prosecution A spring and stampings manufacturing company has been fined £40,000 after an employee fractured twelve ribs during a lifting operation [&#8230;]",
+      "datetime": "2026-08-26T12:37:27",
+      "match_reason": "tag:fine",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "warehouse",
+        "workplace safety",
+        "fine",
+        "prosecution",
+        "injury"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "hse",
+      "source_name": "HSE — Health and Safety Executive",
+      "source_cat": "regulation",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Six-figure fine for ExxonMobil after five leaks of extremely flammable hydrocarbons at Fife chemical plant",
+      "url": "https://press.hse.gov.uk/2026/08/26/six-figure-fine-for-exxonmobil-after-five-leaks-of-extremely-flammable-hydrocarbons-at-fife-chemical-plant/",
+      "summary": "Five leaks of extremely flammable hydrocarbons occurred at Fife Ethylene Plant between February 2018 and September 2019 – including one which lasted four months The leaks were discovered after Health &#38; Safety Executive inspectors detected strong smell of flammable gas on a routine inspection – all five leaks were attributed to Corrosion Under Insulation (CUI) [&#8230;]",
+      "datetime": "2026-08-26T11:50:02",
+      "match_reason": "tag:fine",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "warehouse",
+        "workplace safety",
+        "fine",
+        "prosecution",
+        "injury"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Category Leadership Blueprint for Category Growth | IGD Retail Consulting - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM2xvXy1ITDcxNzh5bWpMajlVMlVlX3pPZ0lXNUp2VEg0cEVpOVg0aDVPZ0JoRG9QT2x3Q0NSM09uNGZmZlQxUnVCa3pDMUZFdFFfc296bm1NUmdjMzZuTUdCczJpUV9iSWdvUWJZRkxHelZLXzdGSFoxQzhadW95YlBfQ1dSMlhtMFQ1QlQ2TnJIcUdtekI0QWtfdDFmbDVhVFdTSlFnTQ?oc=5",
+      "summary": "Category Leadership Blueprint for Category Growth | IGD Retail Consulting &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-26T11:28:42",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "How generations discover new out of home experiences - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeHFpWU53bTZmZUMxUkFPeVp0Sk5hV1o5MnYxbV90WkwwZzVPajdxMzVYazVNOGxtUm9OelM1Q0R5YmhfNjdwRmRRRW10MXphaWxUdFFRZGJLRlNobEZBUTk2aU1iZTBncUxfQjJlZzVIZDBXX0xuMk1qRUZlQTRzR0tkN3ZpYXNCS09GSXczU08?oc=5",
+      "summary": "How generations discover new out of home experiences &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-26T09:13:42",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
     },
     {
       "source_id": "ons_calendar",
@@ -5087,6 +5403,51 @@
       ]
     },
     {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Mark Walker - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tZk9FdWlOR04xNVphQWphdERCd2p6STZGaFYwQ3JtYW5TZnNzeFpoUllnSGQzU0MxeHl6VTlWWXR4MXNhaTJHajBoeDVmcEE?oc=5",
+      "summary": "Mark Walker &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-26T07:00:00",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "asa",
+      "source_name": "ASA — Advertising Standards Authority",
+      "source_cat": "regulation",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "ASA Ruling on Vir Health Ltd t/a Numan - ASA | CAP",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yalA1YlZtVlNYbnlnODd1Q0NrcmQyS2ZOd1Z6WGVHWUhVNktDbUxJc1FYeTJQOE9zRkdLQVpueGV6NHJDWlVqTnpQUkxEemNfQkhLYkVHbWJyb0EwU09F?oc=5",
+      "summary": "ASA Ruling on Vir Health Ltd t/a Numan &nbsp;&nbsp; ASA | CAP",
+      "datetime": "2026-08-25T23:32:58",
+      "match_reason": "tag:asa ruling",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "advertising",
+        "greenwashing",
+        "ASA ruling",
+        "misleading"
+      ],
+      "body": null
+    },
+    {
       "source_id": "brc_reports",
       "source_name": "British Retail Consortium",
       "source_cat": "research",
@@ -5110,6 +5471,72 @@
       ]
     },
     {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Intelligent Store Through connectivity, Online and AI | IGD Retail Analysis - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMkxrODBVUks1NFprSEt2clUzeWx2WDF5ZlpvcGJ5clZWb2lVZklOZEswTXlnUDR0REpCYk1TdzRkY0xiWkRoSWhIcjdNMWFMTXBpLTBzX1p3ZmRXeWVqbVRyeU1wUmxXMU9nMGVrOVBucWh1ZlY4TWFkUXV5OGhFN3RMVWFVcDd4M3R5OWlOTHBtdElEOW9yeFRUeTNPZWFVYWlnZUJTWFZZQXhlYTJGTnU4ajRWSE1nZHpTaVB1ZVlKcTUwYm1PTzFwb1NrOU5XTTltZTlwN210ZWxh?oc=5",
+      "summary": "Intelligent Store Through connectivity, Online and AI | IGD Retail Analysis &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-25T10:22:35",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Millennial mindset: how needs shift with life stage - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ01ucXREMTlfNF9RUHNSc1ZFbWVWNkpBMmlpX1k2NVRWQjNUR2NPaVdiTjdlR0RkSFhpaVNLdVlKVlQycWF5TUFQekdkN0w5TTRkTlJyV1RGbFFud3REeGtLb0NCWEpkYTBqX3NrZWtwZjFwNHRFVjFKalVHS0dSRGthaGNjenlMa296eHRR?oc=5",
+      "summary": "Millennial mindset: how needs shift with life stage &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-25T09:57:10",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Highlights: meeting generational needs out of home - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYlhFZmkwVl90R19nQy1RYVVFTktjT3k5OUZkNEhvSmM0OVNyVGZyWlJRLVYwa3RXZVJ6b1ZOWGc5WUNHWWhSZkxxZUFlODZFZC01eHg3N2k4ZVNmQkpzT3hDOGM1VnRzQWh3LTRhTGdEVXM3N2xIVHdFckM4b2FVOXZKOGIxVk5wZEww?oc=5",
+      "summary": "Highlights: meeting generational needs out of home &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-25T09:07:10",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
       "source_id": "ons_calendar",
       "source_name": "ONS — Release Calendar",
       "source_cat": "statistics",
@@ -5129,6 +5556,28 @@
         "statistics",
         "release"
       ]
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Laura Ryan - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1rR1dCSjhKQmVlb05iOWtzMG5qV1R0OWQ2Ny14QnBNYjA0RW5YSjR0bHdSWXhhODJuNnlITzRtZ2dwUXlMWlczeXBOLXFuUQ?oc=5",
+      "summary": "Laura Ryan &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-25T07:00:00",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
     },
     {
       "source_id": "brc_reports",
@@ -5175,6 +5624,28 @@
         "sustainability",
         "employment"
       ]
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "What the Lotte X Ocado partnership means for Korean grocery - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUE5nWWZra1NDMkhSamNDRjFVLWwxUUUtSWk3MFFZVklGQ0NhUnc3UDhDYWg2Q2tvZzdoT3F3UGN6S3duRFluSjlpTjFWVV9CaElGQnZIUU9XNGdJMEtkTGMtVTl5TmlSQm5wZlMwUUZDR2VuSl84M1FBUU9GWUNXOE1Ka2NHd2tjN1o5Z0hmalp3RXU5cjBYODln?oc=5",
+      "summary": "What the Lotte X Ocado partnership means for Korean grocery &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-24T13:04:59",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
     },
     {
       "source_id": "bank_of_england",
@@ -5349,6 +5820,50 @@
       ]
     },
     {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "How Asda is evolving the in-store experience - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcU5kaWtzT1hKZ1NOSVZjNHVXUENwc0wwM2lIX0VlUmtESVkwcDdvZERrVlZRbHdOSHpILXMySlROYWlCemRaejA5cV9heDktanRaYUpJa05LcXEwdFJ5Y2ozWW9pZ3NINnp4X29TUUJTSUtNZU9PSVpCTU1aN3Q5bWJXWHlROEVFUkppVjFVMEgwYjYxcXJ3TkpkRHRnSVdLN19iV2xqTXZEQi1XSXlselJ0V3JSTVJJRktydVJXVU5oT1JnS2gw?oc=5",
+      "summary": "How Asda is evolving the in-store experience &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-21T14:05:46",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "The category leadership blueprint - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5RjBnS3pKTGdTcEhZSU51ZXkzTndMSmliaHg3aUR1N0hoVk04aEMtTnRuM05NZTNTNHNqYzhzRzFsQU55X3hBNnpxdmR1QnF1LVlLTmM1bHBscmtIMVNtaGdyV0l3dUxsaW9nNUdybUZpeGhsZnc?oc=5",
+      "summary": "The category leadership blueprint &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-21T12:11:38",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
       "source_id": "brc_reports",
       "source_name": "British Retail Consortium",
       "source_cat": "research",
@@ -5432,6 +5947,30 @@
         "retail sales",
         "ONS"
       ]
+    },
+    {
+      "source_id": "hse",
+      "source_name": "HSE — Health and Safety Executive",
+      "source_cat": "regulation",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Cornwall sawmill and company director fined after failing to act on health and safety notices",
+      "url": "https://press.hse.gov.uk/2026/08/21/cornwall-sawmill-and-company-director-fined-after-failing-to-act-on-health-and-safety-notices/",
+      "summary": "Health and Safety Executive inspectors issued Truro Sawmills Ltd with Improvement Notices after finding it failed to protect workers from health risks of wood dust and safety risks from lift trucks. Inspectors found employees were not trained to use rider-operated lift trucks, and protective equipment wasn’t properly fitted, and employees weren’t screened for health risks [&#8230;]",
+      "datetime": "2026-08-21T08:21:08",
+      "match_reason": "tag:fine",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "warehouse",
+        "workplace safety",
+        "fine",
+        "prosecution",
+        "injury"
+      ],
+      "body": null
     },
     {
       "source_id": "ons_retail",
@@ -5673,6 +6212,30 @@
       ]
     },
     {
+      "source_id": "hse",
+      "source_name": "HSE — Health and Safety Executive",
+      "source_cat": "regulation",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Surgeons spend six hours saving worker’s arm after it was severed below elbow in machinery incident",
+      "url": "https://press.hse.gov.uk/2026/08/19/surgeons-spend-six-hours-saving-workers-arm-after-it-was-severed-below-elbow-in-machinery-incident/",
+      "summary": "Company fined £300,000 after health and safety inspectors find failings when investigating incident Nightshift worker had been attempting to unblock machine when his arm was severed below elbow Victim had three major surgeries to restore the use of his hand but still suffers constant pain A clinical waste disposal company has been fined £300,000 after [&#8230;]",
+      "datetime": "2026-08-19T13:25:48",
+      "match_reason": "tag:fine",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "warehouse",
+        "workplace safety",
+        "fine",
+        "prosecution",
+        "injury"
+      ],
+      "body": null
+    },
+    {
       "source_id": "brc_reports",
       "source_name": "British Retail Consortium",
       "source_cat": "research",
@@ -5787,6 +6350,28 @@
       "body": null
     },
     {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "The Rise of Health-Focused Retail Across Europe | IGD Retail Analysis - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOWRXYzVONmJRMEN5ZE81dTZPN0VYaXBHblBUMmloNjBOZjJ4TkJCY25BYWt4M2Y1VzBVQUExcGZwM3FQcUJjall0UmdvR1hLcFRUX0xORlF3OFFaRGN5TFQxT1hVNEN3em5iMi1waEFtc0M2dzBhY2t2end6V3g3T2FrOW9lNy1ZMWJrc05R?oc=5",
+      "summary": "The Rise of Health-Focused Retail Across Europe | IGD Retail Analysis &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-19T07:00:00",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
       "source_id": "bank_of_england",
       "source_name": "Bank of England",
       "source_cat": "macro",
@@ -5807,6 +6392,78 @@
         "inflation",
         "consumer credit",
         "mortgage"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "hse",
+      "source_name": "HSE — Health and Safety Executive",
+      "source_cat": "regulation",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Waste and recycling company fined £400,000 after woman crushed",
+      "url": "https://press.hse.gov.uk/2026/08/18/waste-and-recycling-company-fined-400000-after-woman-crushed/",
+      "summary": "Clearaway Recycling Limited failed to properly manage the movement of pedestrians and vehicles at its site in Basildon A 22-year-old woman suffered life-changing crush injuries after being struck by a mobile shredder HSE statistics show that fatal incidents in the waste and recycling sector are ten times more likely than the all-industry average An Essex-based [&#8230;]",
+      "datetime": "2026-08-18T13:19:30",
+      "match_reason": "tag:fine",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "warehouse",
+        "workplace safety",
+        "fine",
+        "prosecution",
+        "injury"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "hse",
+      "source_name": "HSE — Health and Safety Executive",
+      "source_cat": "regulation",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "SENTENCED: Construction company and director fined for risking lives with unsafe roof work",
+      "url": "https://press.hse.gov.uk/2026/08/18/sentenced-construction-company-and-director-fined-for-risking-lives-with-unsafe-roof-work/",
+      "summary": "Concerns raised by the public during extension work in Kings Cross area of London. Despite repeated warnings by HSE, unsafe work continued. Falls from height remain leading cause of workplace death and injury. A construction company and a director have been fined after workers lives were put at risk with unsafe roof work in central [&#8230;]",
+      "datetime": "2026-08-18T12:37:38",
+      "match_reason": "tag:fine",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "warehouse",
+        "workplace safety",
+        "fine",
+        "prosecution",
+        "injury"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "hse",
+      "source_name": "HSE — Health and Safety Executive",
+      "source_cat": "regulation",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Bricklayer hospitalised for a month after fall through collapsing roof",
+      "url": "https://press.hse.gov.uk/2026/08/18/bricklayer-hospitalised-for-a-month-after-fall-through-collapsing-roof/",
+      "summary": "Bricklayer hospitalised for a month after fall through collapsing roof Oldham-based company fined £30,000 after Health &#38; Safety Executive investigation found multiple failings 25-year-old bricklayer sustained serious injuries including fractures to his right leg, hip and left hand Latest HSE statistics show falls from height remain the leading cause of fatal injuries in the workplace [&#8230;]",
+      "datetime": "2026-08-18T09:27:28",
+      "match_reason": "tag:fine",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "warehouse",
+        "workplace safety",
+        "fine",
+        "prosecution",
+        "injury"
       ],
       "body": null
     },
@@ -5898,6 +6555,73 @@
       ]
     },
     {
+      "source_id": "ons_employment",
+      "source_name": "ONS — Employment",
+      "source_cat": "statistics",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "UK pay growth slows as job vacancies hit five-year low | UK unemployment and employment statistics - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYjJqbGk2MUcyZ3FSWEZEcXRORE44VnFWQzhTR3pwS19oS0FaLVdtWkJqdUtKV0UzQV9WX0R2VjRyZGpROEswdHU5R21UbS1WLWMxTlloSkhQalZ2SU5JcXdFUERkNWVHZUdQUUFQZ2tHM0VuejBUREtwa0YtXzdVekNXdGE1dFRmX0hHR0tOUGpvQTB1VXVLVS1uNGFKQnBiX28tZUlzbHNNS3Fa?oc=5",
+      "summary": "UK pay growth slows as job vacancies hit five-year low | UK unemployment and employment statistics &nbsp;&nbsp; The Guardian",
+      "datetime": "2026-08-18T07:00:00",
+      "match_reason": "tag:employment",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "employment",
+        "wages",
+        "ASHE",
+        "retail jobs"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "IGD Healthy and Sustainable Diets Network November 2026 - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSjhEckJ5bVl2Q0RmVnhjbG43S0ZuaDFzTElaTEM0UzBvTlJFNkJLdFpraHlLUG9FblNZVHhpY1lXY0l5Y2F1MGxlemdjelB6RG1DeGkzWnRBWmM5NVJmZzMzcVgwREZtQ3ppOEViOVhyc3FMbjFCZUJCNGExZGRpMWluU3dyLWRseHcwTXRaRF9iQQ?oc=5",
+      "summary": "IGD Healthy and Sustainable Diets Network November 2026 &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-18T07:00:00",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "European heatwave: driving impulse spending in Budapest - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeURoaTFsTW9nWVNRM2xTN3FJdk8teVdIYXM2MmVwRHBidGFjS2xqM25FaWM4Ui1RNEF2clk4MGpHVzNRM2NWNXhmRi05Y0pWQlpydlg4VEtLb29UR1pzRlU0R25ZMmVCRC0zN2FjcmpWOFBYaTVXcW90NkZvOHh5Zy0xNlI4TlBBYXhhMWZRVDVLYnJTMld3UkJpbW9QbTdnSTVxRHhiYVd2ZDZ2dERfYVdRYVNPU1ZHcmpLdGV6Y3oxdVJXLTJTMndWcFN0Wm5NSFRFTWdxWQ?oc=5",
+      "summary": "European heatwave: driving impulse spending in Budapest &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-17T14:03:38",
+      "match_reason": "tag:grocery",
+      "stream": "government",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
       "source_id": "brc_reports",
       "source_name": "British Retail Consortium",
       "source_cat": "research",
@@ -5919,6 +6643,30 @@
         "sustainability",
         "employment"
       ]
+    },
+    {
+      "source_id": "hse",
+      "source_name": "HSE — Health and Safety Executive",
+      "source_cat": "regulation",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Building company and director fined after botched extension put family’s lives at risk",
+      "url": "https://press.hse.gov.uk/2026/08/17/building-company-and-director-fined-after-botched-extension-put-familys-lives-at-risk/",
+      "summary": "Adam&#8217;s Building Construction Ltd built an extension over gas pipework and a boiler flue without relocating them, despite repeated warnings The gas installation was found to be immediately dangerous, forcing Northern Gas Networks to cut off the property&#8217;s gas supply The company failed to comply with an HSE Improvement Notice, and its director failed to [&#8230;]",
+      "datetime": "2026-08-17T10:32:54",
+      "match_reason": "tag:fine",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "warehouse",
+        "workplace safety",
+        "fine",
+        "prosecution",
+        "injury"
+      ],
+      "body": null
     },
     {
       "source_id": "ons_internet_sales",

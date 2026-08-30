@@ -48,7 +48,7 @@ touching anything.
 | `gov_config.json` / `gov_scraper.py` | Government/statistics/parliament sources, filtered by priority + retailer/keyword match | No |
 | `company_config.json` / `company_scraper.py` | Retailer corporate press pages via Google News RSS — everything from these sources is relevant by definition | No |
 | `supplier_config.json` / `supplier_scraper.py` | FMCG/fresh-food/wholesale suppliers to retailers (not retailers themselves) via Google News RSS — same "everything is relevant" pattern as company | No |
-| `agenda/agenda_config.json` / `agenda/agenda_scraper.py` + `agenda/scrapers/*.py` | Forward-looking events calendar (ONS releases, earnings dates, parliamentary committees, BRC reports) + manual events | No |
+| `agenda/agenda_config.json` / `agenda/agenda_scraper.py` + `agenda/scrapers/*.py` | Forward-looking events calendar (ONS releases, earnings dates, parliamentary committees, BRC reports, BoE MPC dates, sector trade shows, National Living Wage effective date) + manual events | No |
 | `retailers.json` / `sector_config.json` | Shared retailer name lists (with ambiguous-name/context-keyword handling), sector/category keyword maps, and `tech_signal` keyword pairs (partnership + tech/AI) used by media/company/supplier scrapers | No |
 | `dashboard.html` | Static dashboard, no build step, deploys via GitHub Pages, reads all six data files | No |
 | `.github/workflows/*.yml` | One workflow per module, each schedules both BST and GMT UTC times (see below) and commits its own data file | No |
@@ -110,6 +110,26 @@ A manual `workflow_dispatch` run always executes regardless of time (via the
   as any other Google News source: a strong signal, not a guarantee, and
   the source_name on every item makes an obviously-irrelevant one easy
   for a human to skip.
+- `gov_scraper.py` and `media_scraper.py` both split retailer names into
+  "clear" vs. `retailers.json`'s `ambiguous: true` set, and require an
+  `ambiguous_context_keywords` hit before an ambiguous name counts as a
+  match (e.g. "Next" only counts with retail context nearby). This
+  matters more than it looks: confirmed 2026-08-30 that without it, a
+  high-volume generic source (the caselaw.nationalarchives.gov.uk
+  firehose, added that day) produced a false positive — "Next Friend" (a
+  legal term) matched the retailer "Next" in a case with zero UK retail
+  relevance. If you add a new scraper that filters by retailer name
+  against a "medium"/"low" priority firehose-style source, port this
+  same clear/ambiguous split — don't just flatten all names into one set.
+- Never invent a date for an agenda event. `agenda_boe.py` and
+  `agenda_tradeshows.py` parse a real page for the date and return
+  nothing if the expected pattern isn't found (see their docstrings).
+  `agenda_nlw.py` calculates a fixed statutory date (1 April) but
+  deliberately omits the wage rate, since that's announced separately
+  with no fixed date. The Budget/Autumn Statement date and the business
+  rates revaluation cycle were left out of the agenda module entirely
+  for the same reason — no reliable live source was found; don't add a
+  guessed date for either without verifying a real source first.
 - `tech_signal` (on company/media/supplier items) is a deterministic tag —
   title/summary matches a partnership keyword AND a tech/AI keyword
   (`sector_config.json` -> `tech_signal`), both lists. It exists to surface

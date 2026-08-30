@@ -83,20 +83,33 @@ def clean_html(raw):
     return text[:1500]
 
 
-def build_retailer_names(retailers_data):
-    """Set de nombres de retailers (todos los tiers)."""
-    names = set()
+def build_retailer_sets(retailers_data):
+    """Dos sets: nombres claros (match directo) y ambiguos (requieren
+    contexto adicional) — mismo criterio que media_scraper.py. Sin esta
+    separación, nombres de retailer que son también palabras comunes del
+    inglés (Next, Very, Iceland, Lush...) generan falsos positivos masivos
+    contra fuentes de alto volumen y bajo enfoque retail, como el firehose
+    de sentencias judiciales (ver caso real 2026-08-30: 'Next' matcheó
+    contra 'Next Friend', un término legal, en un fallo sobre Trinidad y
+    Tobago sin ninguna relación con el retailer)."""
+    clear, ambiguous = set(), set()
     for tier in ["tier1", "tier2", "tier3"]:
         for r in retailers_data.get(tier, []):
-            name = r.get("name", "")
-            if name:
-                names.add(name.lower())
-    return names
+            name = r.get("name", "").lower()
+            if not name:
+                continue
+            if r.get("ambiguous"):
+                ambiguous.add(name)
+            else:
+                clear.add(name)
+    return clear, ambiguous
 
 
-def is_relevant_gov(title, summary, source, retailer_names, keywords):
+def is_relevant_gov(title, summary, source, clear_names, ambiguous_names, keywords, context_keywords):
     """Para fuentes high priority: siempre relevante.
-    Para medium/low: filtra por keywords de la fuente o menciones de retailers."""
+    Para medium/low: filtra por keywords de la fuente, menciones de
+    retailers claros, retailers ambiguos (solo con contexto retail
+    adicional), o keywords globales."""
     priority = source.get("priority", "medium")
 
     if priority == "high":
@@ -110,10 +123,17 @@ def is_relevant_gov(title, summary, source, retailer_names, keywords):
         if tag in text:
             return True, f"tag:{tag}"
 
-    # Chequear retailers
-    for name in retailer_names:
+    # Retailers con nombre claro — match directo
+    for name in clear_names:
         if re.search(r'\b' + re.escape(name), text):
             return True, f"retailer:{name}"
+
+    # Retailers ambiguos — solo si además hay una señal de contexto retail
+    has_context = any(ck in text for ck in context_keywords)
+    if has_context:
+        for name in ambiguous_names:
+            if re.search(r'\b' + re.escape(name), text):
+                return True, f"retailer:{name} (context)"
 
     # Chequear keywords globales de retail
     for kw in keywords:
@@ -174,8 +194,9 @@ def run():
     sector_config = load_json(SECTOR_CONFIG_PATH)
     existing     = load_json(GOV_DATA_PATH, {"items": [], "generated_at": None})
 
-    retailer_names = build_retailer_names(retailers)
-    keywords       = retailers.get("keywords", [])
+    clear_names, ambiguous_names = build_retailer_sets(retailers)
+    keywords         = retailers.get("keywords", [])
+    context_keywords = retailers.get("ambiguous_context_keywords", [])
 
     existing_ids = {item["url"] for item in existing.get("items", []) if item.get("url")}
     new_items    = []
@@ -203,7 +224,7 @@ def run():
                 continue
 
             relevant, match = is_relevant_gov(
-                a["title"], a["summary"], source, retailer_names, keywords
+                a["title"], a["summary"], source, clear_names, ambiguous_names, keywords, context_keywords
             )
             if not relevant:
                 continue

@@ -28,7 +28,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from schedule_guard import should_run  # noqa: E402 — vive en la raíz del repo, no en agenda/
 
-from scrapers import agenda_ons, agenda_parliament, agenda_lse_earnings, agenda_company_ir, agenda_brc
+from scrapers import (
+    agenda_ons, agenda_parliament, agenda_lse_earnings, agenda_company_ir,
+    agenda_brc, agenda_boe, agenda_tradeshows, agenda_nlw,
+)
 from agenda_ics import generate_ics
 
 CONFIG_PATH = Path("agenda_config.json")
@@ -39,6 +42,9 @@ SCRAPERS = {
     "lse_earnings": agenda_lse_earnings,
     "company_ir": agenda_company_ir,
     "brc": agenda_brc,
+    "boe": agenda_boe,
+    "tradeshows": agenda_tradeshows,
+    "nlw": agenda_nlw,
 }
 
 

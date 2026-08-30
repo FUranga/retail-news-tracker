@@ -1,10 +1,10 @@
 [
   {
-    "id": "0d7c068cae15",
-    "source": "lse_earnings",
-    "category": "earnings",
-    "title": "None — próximos resultados",
-    "date": "2026-06-30",
+    "id": "1b1f34516cb0",
+    "source": "tradeshows",
+    "category": "evento-sectorial",
+    "title": "Autumn Fair (NEC Birmingham)",
+    "date": "2026-09-06",
     "time": null,
     "location": null,
     "company": null,
@@ -18,12 +18,12 @@
       "prior_report_link": null
     },
     "relevance_sectors": [],
-    "summary": "Notice of Interim Results",
-    "detail_url": "https://www.londonstockexchange.com/news-article/TBTG/notice-of-interim-results/17751823",
+    "summary": "Edición de otoño de la feria de compras mayoristas de gran consumo/regalos en NEC Birmingham.",
+    "detail_url": "https://www.autumnfair.com/",
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:35.917553+00:00"
+    "scraped_at": "2026-08-30T22:06:40.799518+00:00"
   },
   {
     "id": "b5727804998e",
@@ -49,7 +49,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:44.658295+00:00",
+    "scraped_at": "2026-08-30T22:06:38.946634+00:00",
     "needs_confirmation": true
   },
   {
@@ -76,7 +76,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.175842+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215227+00:00"
   },
   {
     "id": "4de6dab4a6d3",
@@ -102,7 +102,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.175895+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215246+00:00"
   },
   {
     "id": "a00e4aa4efb1",
@@ -128,7 +128,33 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.175903+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215257+00:00"
+  },
+  {
+    "id": "e5d51d48a061",
+    "source": "boe",
+    "category": "macro",
+    "title": "Bank of England — MPC rate decision",
+    "date": "2026-09-17",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "El Comité de Política Monetaria del Banco de Inglaterra anuncia su decisión de tasa de interés — impacto directo en gasto de consumo, crédito e hipotecas.",
+    "detail_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-08-30T22:06:39.551800+00:00"
   },
   {
     "id": "db303dfd4e77",
@@ -154,7 +180,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.175936+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215286+00:00"
   },
   {
     "id": "8995567834fb",
@@ -180,7 +206,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.175941+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215294+00:00"
   },
   {
     "id": "909cec980265",
@@ -206,7 +232,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.176029+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215385+00:00"
   },
   {
     "id": "4203e9ffa2f1",
@@ -232,7 +258,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:44.658327+00:00",
+    "scraped_at": "2026-08-30T22:06:38.946667+00:00",
     "needs_confirmation": true
   },
   {
@@ -259,7 +285,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.176099+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215450+00:00"
   },
   {
     "id": "ee1131b15965",
@@ -285,7 +311,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.176144+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215487+00:00"
   },
   {
     "id": "30284d4e04b8",
@@ -311,7 +337,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.176159+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215500+00:00"
   },
   {
     "id": "5b7dd3d37dc6",
@@ -337,7 +363,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.176194+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215524+00:00"
   },
   {
     "id": "53b3de0ad390",
@@ -363,7 +389,33 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.176199+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215527+00:00"
+  },
+  {
+    "id": "209ca152cb34",
+    "source": "boe",
+    "category": "macro",
+    "title": "Bank of England — MPC rate decision",
+    "date": "2026-11-05",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "El Comité de Política Monetaria del Banco de Inglaterra anuncia su decisión de tasa de interés — impacto directo en gasto de consumo, crédito e hipotecas.",
+    "detail_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-08-30T22:06:39.551819+00:00"
   },
   {
     "id": "ea7af3f7316a",
@@ -389,7 +441,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:44.658345+00:00",
+    "scraped_at": "2026-08-30T22:06:38.946686+00:00",
     "needs_confirmation": true
   },
   {
@@ -416,7 +468,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.176314+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215625+00:00"
   },
   {
     "id": "36deeef709ee",
@@ -442,7 +494,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.176325+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215636+00:00"
   },
   {
     "id": "352a74ef742e",
@@ -468,7 +520,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.176345+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215653+00:00"
   },
   {
     "id": "61f472ca6763",
@@ -494,7 +546,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.176349+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215656+00:00"
   },
   {
     "id": "eac26f819baf",
@@ -520,7 +572,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.176390+00:00"
+    "scraped_at": "2026-08-30T22:06:37.215686+00:00"
   },
   {
     "id": "c9cada08a1c9",
@@ -546,7 +598,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:44.658360+00:00",
+    "scraped_at": "2026-08-30T22:06:38.946702+00:00",
     "needs_confirmation": true
   },
   {
@@ -573,7 +625,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527452+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330143+00:00"
   },
   {
     "id": "8a309c06bf7b",
@@ -599,7 +651,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527461+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330150+00:00"
   },
   {
     "id": "3933b6a6dffe",
@@ -625,7 +677,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527436+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330131+00:00"
   },
   {
     "id": "57c02723f905",
@@ -651,7 +703,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527444+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330137+00:00"
   },
   {
     "id": "d693d69eae9f",
@@ -677,7 +729,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527417+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330120+00:00"
   },
   {
     "id": "d9829cc2036b",
@@ -703,7 +755,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527426+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330126+00:00"
   },
   {
     "id": "530b2be3a0d6",
@@ -729,7 +781,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527386+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330096+00:00"
   },
   {
     "id": "868c70b311f2",
@@ -755,7 +807,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527393+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330101+00:00"
   },
   {
     "id": "9f06a7f720f4",
@@ -781,7 +833,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527401+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330107+00:00"
   },
   {
     "id": "272036ce23da",
@@ -807,7 +859,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527409+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330113+00:00"
   },
   {
     "id": "21c0ec3492f8",
@@ -833,7 +885,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527370+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330084+00:00"
   },
   {
     "id": "93cd44ed9293",
@@ -859,7 +911,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527378+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330090+00:00"
   },
   {
     "id": "11386a324fb5",
@@ -885,7 +937,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527354+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330073+00:00"
   },
   {
     "id": "668a27f5bf90",
@@ -911,7 +963,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527362+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330079+00:00"
   },
   {
     "id": "ae82000e43c6",
@@ -937,7 +989,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527317+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330048+00:00"
   },
   {
     "id": "3c3a1287e602",
@@ -963,7 +1015,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527328+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330055+00:00"
   },
   {
     "id": "73628db1d86a",
@@ -989,7 +1041,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527336+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330061+00:00"
   },
   {
     "id": "d972fd44cde0",
@@ -1015,7 +1067,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527344+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330067+00:00"
   },
   {
     "id": "5f70ee7a5d10",
@@ -1041,7 +1093,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527302+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330036+00:00"
   },
   {
     "id": "99fe5fee9d33",
@@ -1067,7 +1119,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527309+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330042+00:00"
   },
   {
     "id": "688b08ae5767",
@@ -1093,7 +1145,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527270+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330013+00:00"
   },
   {
     "id": "dcb72500b4dc",
@@ -1119,7 +1171,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527278+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330019+00:00"
   },
   {
     "id": "3885e2a721a3",
@@ -1145,7 +1197,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527286+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330025+00:00"
   },
   {
     "id": "944cbecd3ab6",
@@ -1171,7 +1223,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527294+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330031+00:00"
   },
   {
     "id": "8c2ccdd705b1",
@@ -1197,7 +1249,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527252+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329995+00:00"
   },
   {
     "id": "aff17b8b4ab9",
@@ -1223,7 +1275,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527260+00:00"
+    "scraped_at": "2026-08-30T22:06:37.330003+00:00"
   },
   {
     "id": "c9b794fab171",
@@ -1249,7 +1301,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527220+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329969+00:00"
   },
   {
     "id": "289a24e3474e",
@@ -1275,7 +1327,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527228+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329976+00:00"
   },
   {
     "id": "16ba790342c5",
@@ -1301,7 +1353,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527236+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329983+00:00"
   },
   {
     "id": "63be066624d6",
@@ -1327,7 +1379,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527244+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329989+00:00"
   },
   {
     "id": "95004d0d853a",
@@ -1353,7 +1405,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527204+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329957+00:00"
   },
   {
     "id": "4859bc0aa5c3",
@@ -1379,7 +1431,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527213+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329963+00:00"
   },
   {
     "id": "a23d4a94dad4",
@@ -1405,7 +1457,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527167+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329931+00:00"
   },
   {
     "id": "99fdb8ce6e6e",
@@ -1431,7 +1483,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527176+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329937+00:00"
   },
   {
     "id": "3fc38ae47df8",
@@ -1457,7 +1509,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527188+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329944+00:00"
   },
   {
     "id": "cd17bbd9d650",
@@ -1483,7 +1535,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527196+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329950+00:00"
   },
   {
     "id": "8c1b8305eb96",
@@ -1509,7 +1561,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527149+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329917+00:00"
   },
   {
     "id": "77a544e75967",
@@ -1535,7 +1587,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527158+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329924+00:00"
   },
   {
     "id": "2a100eb212a1",
@@ -1561,7 +1613,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527119+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329889+00:00"
   },
   {
     "id": "c5836a7ffcd8",
@@ -1587,6 +1639,6 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-29T09:39:34.527138+00:00"
+    "scraped_at": "2026-08-30T22:06:37.329904+00:00"
   }
 ]

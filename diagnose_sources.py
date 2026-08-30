@@ -115,11 +115,8 @@ def check_agenda():
     cwd = os.getcwd()
     os.chdir(agenda_dir)
     try:
-        from scrapers import agenda_ons, agenda_parliament, agenda_lse_earnings, agenda_company_ir, agenda_brc
-        scrapers = {
-            "ons": agenda_ons, "parliament_committees": agenda_parliament,
-            "lse_earnings": agenda_lse_earnings, "company_ir": agenda_company_ir, "brc": agenda_brc,
-        }
+        import agenda_scraper
+        scrapers = agenda_scraper.SCRAPERS  # única fuente de verdad — no duplicar esta lista acá
         config = json.loads(Path("agenda_config.json").read_text(encoding="utf-8"))
         results = []
         for source_cfg in config["sources"]:

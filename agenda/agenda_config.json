@@ -80,6 +80,27 @@
       "category": "evento-sectorial",
       "enabled": true,
       "notes": "Sin scraping HTML. Calcula fechas estimadas de informes recurrentes (Retail Sales Monitor) por cronograma conocido. Eventos puntuales de BRC quedan para carga manual."
+    },
+    {
+      "id": "boe",
+      "label": "Bank of England — fechas MPC",
+      "category": "macro",
+      "enabled": true,
+      "notes": "Agregado 2026-08-30 (backlog). Parsea la tabla HTML pública de fechas confirmadas/provisionales del BoE — sin RSS/API disponible."
+    },
+    {
+      "id": "tradeshows",
+      "label": "Ferias sectoriales (Spring Fair, Autumn Fair)",
+      "category": "evento-sectorial",
+      "enabled": true,
+      "notes": "Agregado 2026-08-30 (backlog). Extrae el rango de fechas publicado en la home de cada sitio oficial (regex) — si no encuentra el patrón, no genera evento (nunca inventa una fecha)."
+    },
+    {
+      "id": "nlw",
+      "label": "National Living Wage — fecha de vigencia",
+      "category": "macro",
+      "enabled": true,
+      "notes": "Agregado 2026-08-30 (backlog). Fecha fija por ley (1 de abril), calculada sin scraping. Deliberadamente sin la tasa/porcentaje — eso se anuncia en el Budget, sin fecha fija (no automatizado, ver README)."
     }
   ],
   "ics_output": "../agenda_to_cover.ics"

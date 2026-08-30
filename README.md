@@ -109,8 +109,11 @@ End of day — teach Claude your edits
 | Government data (ONS / GOV.UK / Parliament) | ✅ Live |
 | Retailer corporate press | ✅ Live |
 | Supplier / FMCG press | ✅ Live (2026-08-30) |
+| Supplier / tech & AI vendors (payments, supply chain software, POS, last-mile) | ✅ Live (2026-08-30) |
+| Retail tech trade press (Retail Technology Innovation Hub, Retail Systems) | ✅ Live (2026-08-30) |
 | Events agenda (earnings, releases, committees) | ✅ Live |
-| Judiciary (caselaw.nationalarchives.gov.uk, Competition Appeal Tribunal, employment tribunals) | 🔜 Proposed 2026-08-30 — not built |
-| Media scan expansion (Talking Retail, Convenience Store, Essential Retail, Insider Media, This Is Money, Marketing Week, FashionUnited) | 🔜 Proposed 2026-08-30 — not built |
-| Other trade bodies (Usdaw, IGD, Local Data Company, Springboard, HSE, The Pensions Regulator) | 🔜 Proposed 2026-08-30 — not built |
-| Agenda expansion (BoE MPC dates, Budget/Autumn Statement, business rates/minimum wage dates, sector trade shows) | 🔜 Proposed 2026-08-30 — not built |
+| Judiciary (caselaw.nationalarchives.gov.uk, Competition Appeal Tribunal, employment tribunal coverage) | ✅ Live (2026-08-30) — gov_config.json, priority: medium |
+| Media scan expansion (Talking Retail, Convenience Store, Insider Media, This Is Money, Marketing Week, FashionUnited UK) | ✅ Live (2026-08-30) — Essential Retail dropped, site unreachable |
+| Other trade bodies (Usdaw, IGD, Local Data Company, Springboard, HSE, The Pensions Regulator) | ✅ Live (2026-08-30) — gov_config.json, priority: medium |
+| Agenda expansion — BoE MPC dates, sector trade shows (Spring/Autumn Fair), National Living Wage effective date | ✅ Live (2026-08-30) |
+| Agenda expansion — Budget/Autumn Statement date, business rates revaluation | ❌ Not automatable — HMT doesn't announce Budget dates on a fixed schedule/feed, and the current business rates revaluation cycle wasn't verified live. Add manually via the dashboard's manual-event form when announced. |
