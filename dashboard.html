@@ -424,7 +424,7 @@ const STREAMS = [
   { key: "news",          label: "News",           enabled: true  },
   { key: "government",    label: "Government",     enabled: true  },
   { key: "company",       label: "Companies",      enabled: true  },
-  { key: "supplier",      label: "Suppliers",      enabled: false },
+  { key: "supplier",      label: "Suppliers",      enabled: true  },
   { key: "agenda",        label: "Agenda",         enabled: true  },
 ];
 
@@ -540,6 +540,7 @@ const DATA_SOURCES = ["dashboard_data.json", "sample_data.json"];
 const MEDIA_SOURCES   = ["media_data.json"];
 const GOV_SOURCES     = ["gov_data.json"];
 const COMPANY_SOURCES = ["company_data.json"];
+const SUPPLIER_SOURCES = ["supplier_data.json"];
 
 async function loadData() {
   // Cargar sector config
@@ -595,6 +596,19 @@ async function loadData() {
       DATA.items = [...DATA.items, ...newItems];
       break;
     } catch (e) { /* company data no disponible todavía */ }
+  }
+
+  // Cargar supplier data y mergear
+  for (const src of SUPPLIER_SOURCES) {
+    try {
+      const res = await fetch(src);
+      if (!res.ok) continue;
+      const supplierData = await res.json();
+      const existingKeys = new Set(DATA.items.map(i => `${i.stream}:${i.url}`).filter(Boolean));
+      const newItems = (supplierData.items || []).filter(i => !existingKeys.has(`${i.stream}:${i.url}`));
+      DATA.items = [...DATA.items, ...newItems];
+      break;
+    } catch (e) { /* supplier data no disponible todavía */ }
   }
 
   // Cargar agenda data (no se mergea con DATA.items — vive aparte, otro modelo)

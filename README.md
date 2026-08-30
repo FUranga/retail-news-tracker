@@ -1,6 +1,6 @@
 # Retail Wire — UK retail news tracker
 
-Editorial tool for tracking UK retail news, built for a Retail Week journalist. Five modules are live: LSE press releases, UK media scan, government/statistics data, retailer corporate press, and a forward-looking events agenda.
+Editorial tool for tracking UK retail news, built for a Retail Week journalist. Six modules are live: LSE press releases, UK media scan, government/statistics data, retailer corporate press, supplier/FMCG press, and a forward-looking events agenda.
 
 ## How it works
 
@@ -16,6 +16,7 @@ Each module has its own GitHub Actions workflow, targeting fixed UK local times.
 | UK media scan | 06:15, 06:45, 07:30, 11:15, 14:15, 16:15 | Scrapes trade press + nationals, filters by `retailers.json` |
 | Government / statistics | 07:00, 09:45, 12:30, 14:30, 17:30 | ONS, GOV.UK, Parliament — filtered by priority + retailer/keyword match |
 | Company press | 07:00, 09:00, 12:00, 15:00, 17:00 | Retailer corporate press pages via Google News RSS |
+| Supplier press | 07:30, 10:00, 13:00, 16:00 | FMCG/fresh-food/wholesale suppliers to retailers via Google News RSS |
 | Events agenda | 07:00 | ONS release calendar, LSE earnings dates, parliamentary committees, BRC reports |
 
 Each scraper fails loudly if it fetches zero items from every one of its sources in a run — that's a broken feed, not a quiet day.
@@ -41,18 +42,20 @@ lse_scraper.py                LSE scraper — no AI
 media_scraper.py              UK media scan — no AI
 gov_scraper.py                Government/statistics scan — no AI
 company_scraper.py            Retailer corporate press scan — no AI
+supplier_scraper.py           FMCG/fresh-food/wholesale supplier press scan — no AI
 agenda/                       Events agenda module (own scraper + config) — no AI
+diagnose_sources.py           Manual smoke-test: runs every RSS/scraper source live, reports OK/EMPTY/ERROR
 transform_to_dashboard.py     LSE CSV → dashboard JSON, archives old items — no AI
 lse_config.json                Sectors, endpoint IDs, pagination, retention
-media_config.json / gov_config.json / company_config.json   Sources per module
+media_config.json / gov_config.json / company_config.json / supplier_config.json   Sources per module
 retailers.json / sector_config.json   Shared retailer names + sector keywords
 category_map.json             LSE category codes → story types
 article_overrides.json        Per-article editorial overrides (written by /recategorize)
 unmapped_categories.json      Queue of unclassified LSE articles (read by /recategorize)
 dashboard_data.json           Live (recent-window) LSE dataset
 data/archive/                 Older LSE items, moved out for dashboard performance — nothing deleted
-media_data.json / gov_data.json / company_data.json / agenda_data.json   Live datasets for the other modules
-dashboard.html                Static dashboard — deploys via GitHub Pages, reads all five data files
+media_data.json / gov_data.json / company_data.json / supplier_data.json / agenda_data.json   Live datasets for the other modules
+dashboard.html                Static dashboard — deploys via GitHub Pages, reads all six data files
 docs/
   retail_wire_drafting_reference.md   Bloomberg method + Retail Week style + learned preferences
 .claude/skills/
@@ -61,7 +64,7 @@ docs/
   feedback/     /feedback skill
   update/       /update skill
 .github/workflows/
-  lse_scraper.yml, media_scraper.yml, gov_scraper.yml, company_scraper.yml, agenda_scraper.yml
+  lse_scraper.yml, media_scraper.yml, gov_scraper.yml, company_scraper.yml, supplier_scraper.yml, agenda_scraper.yml
 ```
 
 ## Daily workflow
@@ -105,5 +108,9 @@ End of day — teach Claude your edits
 | UK media scan | ✅ Live |
 | Government data (ONS / GOV.UK / Parliament) | ✅ Live |
 | Retailer corporate press | ✅ Live |
+| Supplier / FMCG press | ✅ Live (2026-08-30) |
 | Events agenda (earnings, releases, committees) | ✅ Live |
-| Suppliers / FMCG brands | 🔜 Planned |
+| Judiciary (caselaw.nationalarchives.gov.uk, Competition Appeal Tribunal, employment tribunals) | 🔜 Proposed 2026-08-30 — not built |
+| Media scan expansion (Talking Retail, Convenience Store, Essential Retail, Insider Media, This Is Money, Marketing Week, FashionUnited) | 🔜 Proposed 2026-08-30 — not built |
+| Other trade bodies (Usdaw, IGD, Local Data Company, Springboard, HSE, The Pensions Regulator) | 🔜 Proposed 2026-08-30 — not built |
+| Agenda expansion (BoE MPC dates, Budget/Autumn Statement, business rates/minimum wage dates, sector trade shows) | 🔜 Proposed 2026-08-30 — not built |

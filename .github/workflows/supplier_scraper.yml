@@ -1,0 +1,53 @@
+name: Supplier scraper (FMCG / fresh food / wholesale)
+
+on:
+  schedule:
+    # Ver nota de DST en lse_scraper.yml: se schedulean ambos horarios UTC
+    # (BST y GMT) para cada hora local deseada; schedule_guard.py decide
+    # cuál corresponde en tiempo real. No hace falta tocar esto por DST.
+    - cron: "30 6 * * 1-5"    # 07:30 UK — BST
+    - cron: "0 9 * * 1-5"     # 10:00 UK — BST
+    - cron: "0 12 * * 1-5"    # 13:00 UK — BST
+    - cron: "0 15 * * 1-5"    # 16:00 UK — BST
+    - cron: "30 7 * * 1-5"    # 07:30 UK — GMT
+    - cron: "0 10 * * 1-5"    # 10:00 UK — GMT
+    - cron: "0 13 * * 1-5"    # 13:00 UK — GMT
+    - cron: "0 16 * * 1-5"    # 16:00 UK — GMT
+  workflow_dispatch: {}
+
+concurrency:
+  group: supplier-scraper
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install requests feedparser tzdata
+
+      - name: Correr supplier scraper
+        env:
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
+        run: python supplier_scraper.py
+
+      - name: Commitear cambios
+        run: |
+          git config user.name "supplier-scraper-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add supplier_data.json
+          git diff --staged --quiet && echo "Sin cambios nuevos" && exit 0
+          git commit -m "Supplier update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
+          git push

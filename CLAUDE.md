@@ -1,19 +1,20 @@
 # Retail Wire — UK retail news tracker
 
 Editorial tracking tool for UK retail news, built for a Retail Week journalist.
-Five modules are live and feed `dashboard.html`: LSE press releases, UK media
-scan, government/statistics data, company press pages, and an events agenda.
-Planned but not built yet: a suppliers/FMCG-brand module (see README "Modules"
-table for the full backlog).
+Six modules are live and feed `dashboard.html`: LSE press releases, UK media
+scan, government/statistics data, retailer corporate press, supplier/FMCG
+press, and an events agenda. See README "Modules" table for the full backlog
+of proposed-but-not-built modules (judiciary, expanded media, other trade
+bodies, more agenda event types).
 
 ## Hard rule: where AI is and isn't allowed
 
 This is the most important thing to know about this repo. Read it before
 touching anything.
 
-- **The automated pipeline never calls any AI/LLM.** That covers all five
+- **The automated pipeline never calls any AI/LLM.** That covers all six
   scrapers (`lse_scraper.py`, `media_scraper.py`, `gov_scraper.py`,
-  `company_scraper.py`, `agenda/agenda_scraper.py`) and
+  `company_scraper.py`, `supplier_scraper.py`, `agenda/agenda_scraper.py`) and
   `transform_to_dashboard.py` — every one of them, not just the LSE module.
   It is 100% deterministic: scraping, relevance filtering (via
   `icbsectorcode`, retailer-name/keyword matching, or RSS source
@@ -26,7 +27,7 @@ touching anything.
   or drafting "for free" as part of an unrelated task unless the user asks
   for it in that session.
 - The rationale: token cost and control. The scrapers run 10-20x/day across
-  all five modules combined; running AI on every item would be wasteful and
+  all six modules combined; running AI on every item would be wasteful and
   would remove human oversight from editorial judgement calls. The skills
   exist precisely so those calls stay opt-in.
 
@@ -46,16 +47,17 @@ touching anything.
 | `media_config.json` / `media_scraper.py` | UK media scan (trade press + nationals), filtered against `retailers.json` | No |
 | `gov_config.json` / `gov_scraper.py` | Government/statistics/parliament sources, filtered by priority + retailer/keyword match | No |
 | `company_config.json` / `company_scraper.py` | Retailer corporate press pages via Google News RSS — everything from these sources is relevant by definition | No |
+| `supplier_config.json` / `supplier_scraper.py` | FMCG/fresh-food/wholesale suppliers to retailers (not retailers themselves) via Google News RSS — same "everything is relevant" pattern as company | No |
 | `agenda/agenda_config.json` / `agenda/agenda_scraper.py` + `agenda/scrapers/*.py` | Forward-looking events calendar (ONS releases, earnings dates, parliamentary committees, BRC reports) + manual events | No |
-| `retailers.json` / `sector_config.json` | Shared retailer name lists (with ambiguous-name/context-keyword handling) and sector/category keyword maps, used by media/gov/company scrapers | No |
-| `dashboard.html` | Static dashboard, no build step, deploys via GitHub Pages, reads all five data files | No |
+| `retailers.json` / `sector_config.json` | Shared retailer name lists (with ambiguous-name/context-keyword handling) and sector/category keyword maps, used by media/gov/company/supplier scrapers | No |
+| `dashboard.html` | Static dashboard, no build step, deploys via GitHub Pages, reads all six data files | No |
 | `.github/workflows/*.yml` | One workflow per module, each schedules both BST and GMT UTC times (see below) and commits its own data file | No |
 | `docs/retail_wire_drafting_reference.md` | Bloomberg method + Retail Week house style — the drafting reference | Read by `/draft` |
 | `drafts/` | Where `/draft` saves output. Gitignored by default — personal scratch space | Written by `/draft` |
 
 ## Scheduling & DST
 
-All five workflows target fixed UK local times (e.g. LSE at 07:01/07:15).
+All six workflows target fixed UK local times (e.g. LSE at 07:01/07:15).
 GitHub Actions cron only understands UTC, so each `.yml` schedules **both**
 the BST-correct and the GMT-correct UTC time for every target. At the top of
 each scraper's `run()`, `schedule_guard.should_run(config["schedule"]["runs_uk"])`
@@ -87,6 +89,14 @@ A manual `workflow_dispatch` run always executes regardless of time (via the
   items across **every** configured source in a run — that's a signal the
   scraper broke (site/feed changed), not that there was no news. Don't
   swallow that exit code in a workflow edit.
+- For Google News RSS sources (company/supplier configs): use free-text
+  queries (`"Company Name" announces OR launches OR results`), not
+  `site:domain.com/path`. Confirmed by diagnosis on 2026-08-30 across 30+
+  sources: Google News' `site:` operator ignores subpaths entirely (always
+  0 results), and a bare domain returns generic site crawl (product/careers
+  pages) instead of press content. Run `diagnose_sources.py` after adding
+  a new source to confirm it actually returns on-topic results before
+  committing it.
 - `git pull` in the commit step of each workflow uses `--rebase` (not
   `--strategy=ours`). Each workflow only ever touches its own data file, so
   a plain rebase is safe and — unlike `--strategy=ours` — won't silently
@@ -100,8 +110,8 @@ A manual `workflow_dispatch` run always executes regardless of time (via the
   exist for the other modules). Read the full skill for the exact process.
 - `/draft` — drafts a story for an article, searchable across
   `dashboard_data.json` (LSE, by id), and `media_data.json` /
-  `gov_data.json` / `company_data.json` (by company/headline match, no
-  numeric id). Never runs automatically.
+  `gov_data.json` / `company_data.json` / `supplier_data.json` (by
+  company/headline match, no numeric id). Never runs automatically.
 - `/feedback` — compares edited drafts against originals to refine
   `docs/retail_wire_drafting_reference.md`.
 - `/update` — pulls latest data from GitHub mid-session.

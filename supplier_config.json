@@ -1,0 +1,206 @@
+{
+  "_note": "Módulo 6 — proveedores/fabricantes que venden A los retailers (FMCG, alimentos frescos, mayoristas), no retailers en sí. Mismo patrón que company_config.json: cualquier publicación de estas fuentes es relevante por definición. Todas las queries usan texto libre en vez de site: — el diagnóstico de 2026-08-30 mostró que site:dominio.com sobre estas webs corporativas devuelve empleos/carreras/páginas de producto, no prensa (mismo problema que se encontró y arregló en company_config.json).",
+  "schedule": {
+    "runs_uk": ["07:30", "10:00", "13:00", "16:00"],
+    "note": "Menos frecuente que company — los proveedores publican con menos frecuencia que los retailers. Hora local de Londres — schedule_guard.py resuelve BST/GMT."
+  },
+  "retention": {
+    "keep_days": 7
+  },
+  "filtering": {
+    "always_include": true,
+    "note": "Todas las publicaciones de estas fuentes son relevantes — no se filtra por keywords"
+  },
+  "sources": [
+    {
+      "id": "unilever_uk",
+      "name": "Unilever",
+      "tier": 1,
+      "listed": "LSE/Euronext",
+      "rss": "https://news.google.com/rss/search?q=%22Unilever%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fmcg"
+    },
+    {
+      "id": "pg_uk",
+      "name": "Procter & Gamble",
+      "tier": 1,
+      "listed": "NYSE",
+      "rss": "https://news.google.com/rss/search?q=%22Procter+%26+Gamble%22+UK+announces+OR+launches&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fmcg"
+    },
+    {
+      "id": "nestle_uk",
+      "name": "Nestlé UK",
+      "tier": 1,
+      "listed": "SIX",
+      "rss": "https://news.google.com/rss/search?q=%22Nestle%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fmcg",
+      "note": "site:nestle.co.uk también funciona (100 entries) y son mayormente prensa genuina (no catálogo) — si el texto libre trae poco volumen, considerar site:nestle.co.uk como alternativa."
+    },
+    {
+      "id": "pepsico_uk",
+      "name": "PepsiCo UK",
+      "tier": 1,
+      "listed": "NASDAQ",
+      "rss": "https://news.google.com/rss/search?q=%22PepsiCo%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fmcg"
+    },
+    {
+      "id": "mondelez_uk",
+      "name": "Mondelez UK",
+      "tier": 1,
+      "listed": "NASDAQ",
+      "rss": "https://news.google.com/rss/search?q=%22Mondelez%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fmcg"
+    },
+    {
+      "id": "diageo",
+      "name": "Diageo",
+      "tier": 1,
+      "listed": "FTSE100",
+      "rss": "https://news.google.com/rss/search?q=%22Diageo%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fmcg"
+    },
+    {
+      "id": "abinbev_uk",
+      "name": "AB InBev UK",
+      "tier": 1,
+      "listed": "Euronext",
+      "rss": "https://news.google.com/rss/search?q=%22AB+InBev%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fmcg"
+    },
+    {
+      "id": "britvic",
+      "name": "Britvic (Carlsberg Britvic)",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22Britvic%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fmcg",
+      "note": "Adquirida por Carlsberg en 2025 — ahora 'Carlsberg Britvic'. La query por 'Britvic' sigue trayendo cobertura relevante."
+    },
+    {
+      "id": "kraftheinz_uk",
+      "name": "Kraft Heinz UK",
+      "tier": 1,
+      "listed": "NASDAQ",
+      "rss": "https://news.google.com/rss/search?q=%22Kraft+Heinz%22+UK+announces+OR+launches&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fmcg"
+    },
+    {
+      "id": "reckitt",
+      "name": "Reckitt",
+      "tier": 1,
+      "listed": "FTSE100",
+      "rss": "https://news.google.com/rss/search?q=%22Reckitt%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "health",
+      "category": "fmcg"
+    },
+    {
+      "id": "ccep",
+      "name": "Coca-Cola Europacific Partners",
+      "tier": 1,
+      "listed": "Euronext/LSE/NASDAQ",
+      "rss": "https://news.google.com/rss/search?q=%22Coca-Cola+Europacific+Partners%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fmcg"
+    },
+    {
+      "id": "2sisters",
+      "name": "2 Sisters Food Group",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%222+Sisters+Food+Group%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fresh_food"
+    },
+    {
+      "id": "cranswick",
+      "name": "Cranswick",
+      "tier": 2,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=%22Cranswick%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fresh_food",
+      "note": "Diagnóstico 2026-08-30: site:cranswick.co.uk da 0 resultados (dominio no indexado). Texto libre sí funciona."
+    },
+    {
+      "id": "bakkavor",
+      "name": "Bakkavor",
+      "tier": 2,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=%22Bakkavor%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fresh_food",
+      "note": "Adquirida por Greencore en 2025/2026 (deal de £1.5bn) — puede quedar redundante con la fuente 'greencore' más adelante. Mantener las dos por ahora, revisar cuando la integración esté completa."
+    },
+    {
+      "id": "greencore",
+      "name": "Greencore",
+      "tier": 2,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=%22Greencore%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fresh_food"
+    },
+    {
+      "id": "muller_uk",
+      "name": "Müller UK & Ireland",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22Muller+UK%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "fresh_food"
+    },
+    {
+      "id": "bidfood",
+      "name": "Bidfood UK",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22Bidfood%22+UK+announces+OR+launches&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "wholesale"
+    },
+    {
+      "id": "booker",
+      "name": "Booker Group (Tesco)",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22Booker+Group%22+announces+OR+launches&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "wholesale"
+    },
+    {
+      "id": "costco_uk",
+      "name": "Costco UK",
+      "tier": 2,
+      "listed": "NASDAQ",
+      "rss": "https://news.google.com/rss/search?q=%22Costco%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "wholesale"
+    }
+  ],
+  "noise_title_signals": [
+    "careers",
+    "job details",
+    "job opportunity",
+    "vacancy",
+    "apply now",
+    "shopping cart",
+    "join the club",
+    "contact us",
+    "privacy notice",
+    "cookie policy",
+    "results, call & slides",
+    "- tipranks",
+    "earnings call transcript"
+  ]
+}

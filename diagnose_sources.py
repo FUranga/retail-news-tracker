@@ -159,7 +159,7 @@ def print_report(label, results):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--module", choices=["lse", "media", "gov", "company", "agenda"], default=None)
+    parser.add_argument("--module", choices=["lse", "media", "gov", "company", "supplier", "agenda"], default=None)
     args = parser.parse_args()
 
     all_reports = []
@@ -172,6 +172,8 @@ def main():
         all_reports.append(print_report("Módulo 3 — Gov (gov_config.json)", check_config_sources("gov_config.json", "gov")))
     if args.module in (None, "company"):
         all_reports.append(print_report("Módulo 4 — Company (company_config.json)", check_config_sources("company_config.json", "company")))
+    if args.module in (None, "supplier"):
+        all_reports.append(print_report("Módulo 6 — Supplier (supplier_config.json)", check_config_sources("supplier_config.json", "supplier")))
     if args.module in (None, "agenda"):
         all_reports.append(print_report("Módulo 7 — Agenda", check_agenda()))
 
