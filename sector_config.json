@@ -232,5 +232,23 @@
     "property":     ["retail park", "shopping centre", "landlord", "REIT", "business rates", "high street", "footfall"],
     "pets":         ["pet food", "pet care", "veterinary"],
     "macro":        ["inflation", "consumer spending", "retail sales", "ONS", "BRC", "National Living Wage", "CVA", "administration"]
+  },
+
+  "tech_signal": {
+    "_note": "Etiqueta determinística (sin IA) para detectar anuncios de partnerships/tecnología retail en cualquier stream (company/media/supplier). Regla: título o summary tiene que matchear un partnership_keyword Y un tech_keyword — evita falsos positivos tipo 'Tesco partners with charity' (partnership sin tech) o 'launches new store' (tech sin partnership). Usado por company_scraper.py, media_scraper.py y supplier_scraper.py.",
+    "partnership_keywords": [
+      "partners with", "partnership", "partners", "teams up", "team up",
+      "collaborat", "joint venture", "rolls out", "roll out", "rolling out",
+      "deploys", "deploy", "signs deal", "ties up with", "in partnership with",
+      "selects", "taps", "unveils"
+    ],
+    "tech_keywords": [
+      "AI", "artificial intelligence", "machine learning", "generative AI",
+      "robot", "robotics", "automation", "self-checkout", "computer vision",
+      "RFID", "cloud", "digital transformation", "e-commerce platform",
+      "chatbot", "algorithm", "supply chain software", "warehouse tech",
+      "forecasting software", "unified commerce", "point of sale", "POS system",
+      "payment platform", "checkout technology"
+    ]
   }
 }

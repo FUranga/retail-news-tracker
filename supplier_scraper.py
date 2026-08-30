@@ -30,6 +30,7 @@ except ImportError:
 
 SUPPLIER_CONFIG_PATH = Path("supplier_config.json")
 SUPPLIER_DATA_PATH   = Path("supplier_data.json")
+SECTOR_CONFIG_PATH   = Path("sector_config.json")
 SLEEP                = 1.5
 
 HEADERS = {
@@ -57,7 +58,22 @@ def clean_html(raw):
     return text[:1500]
 
 
-def fetch_rss(source, noise_signals=None):
+def detect_tech_signal(title, summary, sector_config):
+    """True si el título/summary combina un partnership_keyword con un
+    tech_keyword (sector_config.json -> tech_signal) — señal determinística
+    de partnership tecnológico/IA, sin AI real involucrada."""
+    cfg = (sector_config or {}).get("tech_signal", {})
+    partnership_kws = cfg.get("partnership_keywords", [])
+    tech_kws = cfg.get("tech_keywords", [])
+    if not partnership_kws or not tech_kws:
+        return False
+    text = ((title or "") + " " + (summary or "")).lower()
+    has_partnership = any(kw.lower() in text for kw in partnership_kws)
+    has_tech = any(kw.lower() in text for kw in tech_kws)
+    return has_partnership and has_tech
+
+
+def fetch_rss(source, noise_signals=None, sector_config=None):
     noise_signals = noise_signals or []
     try:
         resp = requests.get(source["rss"], headers=HEADERS, timeout=15)
@@ -77,6 +93,7 @@ def fetch_rss(source, noise_signals=None):
             if any(sig in title_lower or sig in url_lower for sig in noise_signals):
                 continue
 
+            summary = clean_html(entry.get("summary", ""))
             articles.append({
                 "source_id":     source["id"],
                 "source_name":   source["name"],
@@ -88,8 +105,9 @@ def fetch_rss(source, noise_signals=None):
                 "paywall":       False,
                 "title":         title,
                 "url":           entry.get("link", ""),
-                "summary":       clean_html(entry.get("summary", "")),
+                "summary":       summary,
                 "datetime":      dt,
+                "tech_signal":   detect_tech_signal(title, summary, sector_config),
             })
         return articles
     except Exception as e:
@@ -105,6 +123,7 @@ def run():
         return None
 
     existing = load_json(SUPPLIER_DATA_PATH, {"items": [], "generated_at": None})
+    sector_config = load_json(SECTOR_CONFIG_PATH, {})
 
     noise_signals = [s.lower() for s in config.get("noise_title_signals", [])]
 
@@ -117,7 +136,7 @@ def run():
             continue
 
         print(f"  Fetching: {source['name']} [tier {source.get('tier',2)}]...")
-        articles = fetch_rss(source, noise_signals)
+        articles = fetch_rss(source, noise_signals, sector_config)
         total_fetched += len(articles)
 
         for a in articles:

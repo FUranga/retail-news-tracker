@@ -1,5 +1,5 @@
 {
-  "_note": "Módulo 6 — proveedores/fabricantes que venden A los retailers (FMCG, alimentos frescos, mayoristas), no retailers en sí. Mismo patrón que company_config.json: cualquier publicación de estas fuentes es relevante por definición. Todas las queries usan texto libre en vez de site: — el diagnóstico de 2026-08-30 mostró que site:dominio.com sobre estas webs corporativas devuelve empleos/carreras/páginas de producto, no prensa (mismo problema que se encontró y arregló en company_config.json).",
+  "_note": "Módulo 6 — proveedores que le venden A los retailers, no retailers en sí. Dos familias: FMCG/alimentos frescos/mayoristas (category: fmcg|fresh_food|wholesale) y tecnología/IA para retail (category: tech — pagos, supply chain software, POS, última milla; agregado 2026-08-30 a pedido explícito, sin sacar la parte FMCG). Mismo patrón que company_config.json: cualquier publicación de estas fuentes es relevante por definición. Todas las queries usan texto libre en vez de site: — el diagnóstico de 2026-08-30 mostró que site:dominio.com sobre estas webs corporativas devuelve empleos/carreras/páginas de producto, no prensa. Para tech/IA, ver también media_config.json (retail_tech_innovation_hub, retail_systems) — esa prensa especializada capturó casi todos los anuncios de estos vendors mejor que perseguirlos uno por uno, así que la lista acá se mantiene deliberadamente corta (empresas con peso propio) en vez de intentar cubrir todo el ecosistema.",
   "schedule": {
     "runs_uk": ["07:30", "10:00", "13:00", "16:00"],
     "note": "Menos frecuente que company — los proveedores publican con menos frecuencia que los retailers. Hora local de Londres — schedule_guard.py resuelve BST/GMT."
@@ -186,6 +186,135 @@
       "rss": "https://news.google.com/rss/search?q=%22Costco%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "grocery",
       "category": "wholesale"
+    },
+    {
+      "id": "adyen",
+      "name": "Adyen",
+      "tier": 1,
+      "listed": "Euronext",
+      "rss": "https://news.google.com/rss/search?q=%22Adyen%22+UK+retail+announces+OR+launches+OR+partners&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "category": "tech",
+      "note": "Payments/tech vendor a retailers, no un retailer — agregado 2026-08-30 a pedido explícito (partnerships tecnológicos, no solo FMCG)."
+    },
+    {
+      "id": "worldpay",
+      "name": "Worldpay",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22Worldpay%22+UK+announces+OR+launches+OR+partners&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "category": "tech"
+    },
+    {
+      "id": "checkout_com",
+      "name": "Checkout.com",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22Checkout.com%22+UK+announces+OR+launches+OR+partners&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "category": "tech",
+      "note": "Fintech de pagos con base en Londres."
+    },
+    {
+      "id": "sumup",
+      "name": "SumUp",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22SumUp%22+UK+announces+OR+launches+OR+partners&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "category": "tech",
+      "note": "Fintech de pagos con base en Londres, foco pymes/independientes."
+    },
+    {
+      "id": "klarna",
+      "name": "Klarna",
+      "tier": 1,
+      "listed": "NYSE",
+      "rss": "https://news.google.com/rss/search?q=%22Klarna%22+UK+retail+announces+OR+launches+OR+partners&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "category": "tech",
+      "note": "BNPL — ángulo regulatorio/consumer credit además de tech, relevante para gov_scraper.py también."
+    },
+    {
+      "id": "manhattan_associates",
+      "name": "Manhattan Associates",
+      "tier": 1,
+      "listed": "NASDAQ",
+      "rss": "https://news.google.com/rss/search?q=%22Manhattan+Associates%22+UK+retail+announces+OR+launches&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "category": "tech",
+      "note": "Supply chain / warehouse management software."
+    },
+    {
+      "id": "blue_yonder",
+      "name": "Blue Yonder",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22Blue+Yonder%22+UK+retail+announces+OR+launches+OR+partners&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "category": "tech",
+      "note": "Supply chain / forecasting software — el ataque a Blue Yonder en 2024 tumbó sistemas de Morrisons/Sainsbury's, sigue siendo noticia de riesgo de cadena de suministro."
+    },
+    {
+      "id": "relex_solutions",
+      "name": "RELEX Solutions",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22RELEX+Solutions%22+retail+announces+OR+launches+OR+partners&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "category": "tech",
+      "note": "Forecasting/replenishment con IA."
+    },
+    {
+      "id": "ocado_solutions",
+      "name": "Ocado Solutions",
+      "tier": 1,
+      "listed": "FTSE100 (via Ocado Group)",
+      "rss": "https://news.google.com/rss/search?q=%22Ocado+Solutions%22+announces+OR+launches+OR+partners+OR+signs&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "category": "tech",
+      "note": "El brazo de licenciamiento tecnológico de Ocado — vende automatización de warehouse a otros retailers globales."
+    },
+    {
+      "id": "ncr_voyix",
+      "name": "NCR Voyix",
+      "tier": 1,
+      "listed": "NYSE",
+      "rss": "https://news.google.com/rss/search?q=%22NCR+Voyix%22+UK+announces+OR+launches+OR+partners&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "category": "tech",
+      "note": "POS / unified commerce."
+    },
+    {
+      "id": "zebra_technologies",
+      "name": "Zebra Technologies",
+      "tier": 1,
+      "listed": "NASDAQ",
+      "rss": "https://news.google.com/rss/search?q=%22Zebra+Technologies%22+UK+retail+announces+OR+launches&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "category": "tech",
+      "note": "Hardware de escaneo/RFID/mobile POS."
+    },
+    {
+      "id": "deliveroo_business",
+      "name": "Deliveroo for Business",
+      "tier": 2,
+      "listed": "FTSE250 (via Deliveroo)",
+      "rss": "https://news.google.com/rss/search?q=%22Deliveroo%22+UK+retail+partners+OR+announces&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "category": "tech",
+      "note": "Partnerships de última milla con retailers no-restaurante (ver ejemplos Robert Dyas, Ryman, Lookfantastic)."
+    },
+    {
+      "id": "justeat_business",
+      "name": "Just Eat for Business",
+      "tier": 2,
+      "listed": "private (Prosus)",
+      "rss": "https://news.google.com/rss/search?q=%22Just+Eat%22+UK+retail+partners+OR+announces&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "category": "tech",
+      "note": "Partnerships de última milla con retailers no-restaurante (ver ejemplo Nisbets, Superdrug)."
     }
   ],
   "noise_title_signals": [

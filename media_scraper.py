@@ -170,6 +170,21 @@ def clean_html(raw):
     return text[:1000]
 
 
+def detect_tech_signal(title, summary, sector_config):
+    """True si el título/summary combina un partnership_keyword con un
+    tech_keyword (sector_config.json -> tech_signal) — señal determinística
+    de partnership tecnológico/IA, sin AI real involucrada."""
+    cfg = (sector_config or {}).get("tech_signal", {})
+    partnership_kws = cfg.get("partnership_keywords", [])
+    tech_kws = cfg.get("tech_keywords", [])
+    if not partnership_kws or not tech_kws:
+        return False
+    text = ((title or "") + " " + (summary or "")).lower()
+    has_partnership = any(kw.lower() in text for kw in partnership_kws)
+    has_tech = any(kw.lower() in text for kw in tech_kws)
+    return has_partnership and has_tech
+
+
 def fetch_rss(source):
     """Parsea un feed RSS y devuelve lista de artículos."""
     try:
@@ -275,6 +290,7 @@ def run():
             a["story_type"]    = None
             a["is_noise"]      = False
             a["retail_sector"] = get_retail_sector(a["title"], a.get("summary",""), match, sector_config)
+            a["tech_signal"]   = detect_tech_signal(a["title"], a.get("summary", ""), sector_config)
             full_body = fetch_full_body(a.get("url"), paywall=source.get("paywall", False))
             a["body"] = full_body
             new_items.append(a)

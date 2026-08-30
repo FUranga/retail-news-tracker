@@ -181,6 +181,7 @@
   .tag-paywall { background: var(--flag-soft); color: var(--flag); }
   .tag-new { background: var(--live-soft); color: var(--live); }
   .tag-reviewed { background: #f5f0ff; color: #6d28d9; }
+  .tag-tech { background: #e6f7ff; color: #0369a1; }
   .story-title {
     font-size: 17px; line-height: 1.35; font-weight: 700; letter-spacing: -0.01em;
     margin-bottom: 4px; color: var(--ink);
@@ -353,6 +354,9 @@
       <label class="noise-toggle" id="noise-toggle-label">
         <input type="checkbox" id="noise-toggle"> Hide regulatory noise
       </label>
+      <label class="noise-toggle" id="tech-toggle-label">
+        <input type="checkbox" id="tech-toggle"> Tech/AI partnerships only
+      </label>
     </div>
     <div class="spacer"></div>
     <div class="result-count" id="result-count">—</div>
@@ -430,7 +434,7 @@ const STREAMS = [
 
 let DATA = { items: [], generated_at: null };
 let SECTOR_CONFIG = { categories: [], retailer_categories: {} };
-let state = { stream: "all", window: "today", type: "", company: "", sector: "", search: "", hideNoise: false, expanded: new Set() };
+let state = { stream: "all", window: "today", type: "", company: "", sector: "", search: "", hideNoise: false, techOnly: false, expanded: new Set() };
 
 // ---------- Agenda (Module 7) ----------
 let AGENDA_DATA = [];
@@ -745,7 +749,8 @@ function renderCompanyTags() {
     inWindow(it) &&
     (state.stream === "all" || it.stream === state.stream) &&
     (!state.sector || it.retail_sector === state.sector) &&
-    (!state.hideNoise || !it.is_noise)
+    (!state.hideNoise || !it.is_noise) &&
+    (!state.techOnly || it.tech_signal)
   );
 
   const companies = [...new Set(visible.map(i => i.companyname).filter(Boolean))].sort();
@@ -832,6 +837,7 @@ function currentItems() {
     .filter(it => !state.sector || it.retail_sector === state.sector)
     .filter(it => !state.search || it.title.toLowerCase().includes(state.search.toLowerCase()))
     .filter(it => !state.hideNoise || !it.is_noise)
+    .filter(it => !state.techOnly || it.tech_signal)
     .sort((a,b) => new Date(b.datetime) - new Date(a.datetime));
 }
 
@@ -881,6 +887,7 @@ function render() {
       sourceTag,
       it.story_type ? `<span class="tag tag-type">${it.story_type}</span>` : "",
       it.paywall ? `<span class="tag tag-paywall">Paywall</span>` : "",
+      it.tech_signal ? `<span class="tag tag-tech">Tech partnership</span>` : "",
       (isNew && state.window === "history") ? `<span class="tag tag-new">New</span>` : "",
       it.reviewed_by ? `<span class="tag tag-reviewed" title="${it.review_note ? it.review_note.replace(/"/g,'&quot;') : ''}">AI-reviewed</span>` : "",
     ].filter(Boolean).join("");
@@ -1207,6 +1214,7 @@ document.getElementById("window-seg").addEventListener("click", e => {
 document.getElementById("filter-type").addEventListener("change", e => { state.type = e.target.value; render(); });
 document.getElementById("search").addEventListener("input", e => { state.search = e.target.value; render(); });
 document.getElementById("noise-toggle").addEventListener("change", e => { state.hideNoise = e.target.checked; render(); });
+document.getElementById("tech-toggle").addEventListener("change", e => { state.techOnly = e.target.checked; render(); });
 
 loadData();
 </script>

@@ -175,6 +175,26 @@
       "method": "rss",
       "paywall": false,
       "category": "trade"
+    },
+    {
+      "id": "retail_tech_innovation_hub",
+      "name": "Retail Technology Innovation Hub",
+      "url": "https://retailtechinnovationhub.com",
+      "rss": "https://retailtechinnovationhub.com/home?format=rss",
+      "method": "rss",
+      "paywall": false,
+      "category": "retail_tech",
+      "note": "Agregado 2026-08-30: RSS nativo del sitio (patrón Squarespace). Prensa dedicada a retail tech/IA — apareció como la fuente más repetida al investigar vendors de tecnología retail uno por uno, mejor señal que perseguir empresas individuales."
+    },
+    {
+      "id": "retail_systems",
+      "name": "Retail Systems",
+      "url": "https://www.retail-systems.com",
+      "rss": "https://news.google.com/rss/search?q=site:retail-systems.com&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "paywall": false,
+      "category": "retail_tech",
+      "note": "Agregado 2026-08-30: no tiene RSS nativo detectable, se usa Google News site: (funciona bien porque es prensa pura, no catálogo de e-commerce)."
     }
   ],
   "schedule": {

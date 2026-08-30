@@ -49,7 +49,7 @@ touching anything.
 | `company_config.json` / `company_scraper.py` | Retailer corporate press pages via Google News RSS — everything from these sources is relevant by definition | No |
 | `supplier_config.json` / `supplier_scraper.py` | FMCG/fresh-food/wholesale suppliers to retailers (not retailers themselves) via Google News RSS — same "everything is relevant" pattern as company | No |
 | `agenda/agenda_config.json` / `agenda/agenda_scraper.py` + `agenda/scrapers/*.py` | Forward-looking events calendar (ONS releases, earnings dates, parliamentary committees, BRC reports) + manual events | No |
-| `retailers.json` / `sector_config.json` | Shared retailer name lists (with ambiguous-name/context-keyword handling) and sector/category keyword maps, used by media/gov/company/supplier scrapers | No |
+| `retailers.json` / `sector_config.json` | Shared retailer name lists (with ambiguous-name/context-keyword handling), sector/category keyword maps, and `tech_signal` keyword pairs (partnership + tech/AI) used by media/company/supplier scrapers | No |
 | `dashboard.html` | Static dashboard, no build step, deploys via GitHub Pages, reads all six data files | No |
 | `.github/workflows/*.yml` | One workflow per module, each schedules both BST and GMT UTC times (see below) and commits its own data file | No |
 | `docs/retail_wire_drafting_reference.md` | Bloomberg method + Retail Week house style — the drafting reference | Read by `/draft` |
@@ -97,6 +97,12 @@ A manual `workflow_dispatch` run always executes regardless of time (via the
   pages) instead of press content. Run `diagnose_sources.py` after adding
   a new source to confirm it actually returns on-topic results before
   committing it.
+- `tech_signal` (on company/media/supplier items) is a deterministic tag —
+  title/summary matches a partnership keyword AND a tech/AI keyword
+  (`sector_config.json` -> `tech_signal`), both lists. It exists to surface
+  retailer tech vendor deals and AI rollouts without AI judgement in the
+  pipeline. If it's too noisy or misses real stories, tune the keyword
+  lists — don't replace it with an AI classification call.
 - `git pull` in the commit step of each workflow uses `--rebase` (not
   `--strategy=ours`). Each workflow only ever touches its own data file, so
   a plain rebase is safe and — unlike `--strategy=ours` — won't silently
