@@ -63,7 +63,7 @@
       "name": "Diageo",
       "tier": 1,
       "listed": "FTSE100",
-      "rss": "https://news.google.com/rss/search?q=%22Diageo%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "rss": "https://news.google.com/rss/search?q=%22Diageo%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "grocery",
       "category": "fmcg"
     },
@@ -81,7 +81,7 @@
       "name": "Britvic (Carlsberg Britvic)",
       "tier": 1,
       "listed": "private",
-      "rss": "https://news.google.com/rss/search?q=%22Britvic%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "rss": "https://news.google.com/rss/search?q=%22Britvic%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "grocery",
       "category": "fmcg",
       "note": "Adquirida por Carlsberg en 2025 — ahora 'Carlsberg Britvic'. La query por 'Britvic' sigue trayendo cobertura relevante."
@@ -100,7 +100,7 @@
       "name": "Reckitt",
       "tier": 1,
       "listed": "FTSE100",
-      "rss": "https://news.google.com/rss/search?q=%22Reckitt%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "rss": "https://news.google.com/rss/search?q=%22Reckitt%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "health",
       "category": "fmcg"
     },
@@ -109,16 +109,17 @@
       "name": "Coca-Cola Europacific Partners",
       "tier": 1,
       "listed": "Euronext/LSE/NASDAQ",
-      "rss": "https://news.google.com/rss/search?q=%22Coca-Cola+Europacific+Partners%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "rss": "https://news.google.com/rss/search?q=%22Coca-Cola+Europacific+Partners%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "grocery",
-      "category": "fmcg"
+      "category": "fmcg",
+      "note": "'Europacific' = Europa + Asia-Pacífico (incluye Australia, Indonesia, PNG) — sin +UK+ en la query traía ruido no relevante (ver nota de 2026-08-30 en el historial de commits). Ancla a UK agregada."
     },
     {
       "id": "2sisters",
       "name": "2 Sisters Food Group",
       "tier": 2,
       "listed": "private",
-      "rss": "https://news.google.com/rss/search?q=%222+Sisters+Food+Group%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "rss": "https://news.google.com/rss/search?q=%222+Sisters+Food+Group%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "grocery",
       "category": "fresh_food"
     },
@@ -127,7 +128,7 @@
       "name": "Cranswick",
       "tier": 2,
       "listed": "FTSE250",
-      "rss": "https://news.google.com/rss/search?q=%22Cranswick%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "rss": "https://news.google.com/rss/search?q=%22Cranswick%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "grocery",
       "category": "fresh_food",
       "note": "Diagnóstico 2026-08-30: site:cranswick.co.uk da 0 resultados (dominio no indexado). Texto libre sí funciona."
@@ -137,17 +138,17 @@
       "name": "Bakkavor",
       "tier": 2,
       "listed": "FTSE250",
-      "rss": "https://news.google.com/rss/search?q=%22Bakkavor%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "rss": "https://news.google.com/rss/search?q=%22Bakkavor%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "grocery",
       "category": "fresh_food",
-      "note": "Adquirida por Greencore en 2025/2026 (deal de £1.5bn) — puede quedar redundante con la fuente 'greencore' más adelante. Mantener las dos por ahora, revisar cuando la integración esté completa."
+      "note": "Adquirida por Greencore en 2025/2026 (deal de £1.5bn) — puede quedar redundante con la fuente 'greencore' más adelante. Mantener las dos por ahora, revisar cuando la integración esté completa. Bakkavor también opera en EEUU — ancla UK agregada para evitar ruido de esa operación."
     },
     {
       "id": "greencore",
       "name": "Greencore",
       "tier": 2,
       "listed": "FTSE250",
-      "rss": "https://news.google.com/rss/search?q=%22Greencore%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "rss": "https://news.google.com/rss/search?q=%22Greencore%22+UK+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "grocery",
       "category": "fresh_food"
     },
@@ -174,7 +175,7 @@
       "name": "Booker Group (Tesco)",
       "tier": 2,
       "listed": "private",
-      "rss": "https://news.google.com/rss/search?q=%22Booker+Group%22+announces+OR+launches&hl=en-GB&gl=GB&ceid=GB:en",
+      "rss": "https://news.google.com/rss/search?q=%22Booker+Group%22+UK+announces+OR+launches&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "grocery",
       "category": "wholesale"
     },
@@ -261,10 +262,10 @@
       "name": "RELEX Solutions",
       "tier": 1,
       "listed": "private",
-      "rss": "https://news.google.com/rss/search?q=%22RELEX+Solutions%22+retail+announces+OR+launches+OR+partners&hl=en-GB&gl=GB&ceid=GB:en",
+      "rss": "https://news.google.com/rss/search?q=%22RELEX+Solutions%22+UK+retail+announces+OR+launches+OR+partners&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "pureplay",
       "category": "tech",
-      "note": "Forecasting/replenishment con IA."
+      "note": "Forecasting/replenishment con IA. Sin +UK+ traía casos como el deal con Dollar General (EEUU) — ancla UK agregada 2026-08-30."
     },
     {
       "id": "ocado_solutions",
@@ -274,7 +275,7 @@
       "rss": "https://news.google.com/rss/search?q=%22Ocado+Solutions%22+announces+OR+launches+OR+partners+OR+signs&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "grocery",
       "category": "tech",
-      "note": "El brazo de licenciamiento tecnológico de Ocado — vende automatización de warehouse a otros retailers globales."
+      "note": "El brazo de licenciamiento tecnológico de Ocado — vende automatización de warehouse a otros retailers globales. Deliberadamente SIN ancla +UK+: es una empresa británica (Ocado Group, FTSE) y sus deals internacionales (Kroger, Sobeys, etc.) son igual noticia editorial relevante para UK — no ruido a filtrar como en los otros casos multinacionales."
     },
     {
       "id": "ncr_voyix",

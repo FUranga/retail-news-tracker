@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T22:38:25",
+  "generated_at": "2026-08-30T22:48:59",
   "items": [
     {
       "source_id": "cranswick",
@@ -132,6 +132,26 @@
       "summary": "Dollar General will deploy AI planning across more than 21,000 stores &nbsp;&nbsp; Stock Titan",
       "datetime": "2026-08-27T12:00:00",
       "tech_signal": true,
+      "stream": "supplier",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "supplier:RELEX Solutions",
+      "body": null
+    },
+    {
+      "source_id": "relex_solutions",
+      "source_name": "RELEX Solutions",
+      "companyname": "RELEX Solutions",
+      "retail_sector": "pureplay",
+      "supply_category": "tech",
+      "listed": "private",
+      "tier": 1,
+      "paywall": false,
+      "title": "RELEX Solutions Announces Partnership with Dollar General for Forecasting and Replenishment - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOemNkUDMzeExfMzM4ZE5SV1V1Q3Ewdmd3bzlXSnI0dTM5UnN2RnF3ekVVb0pVLWotOTdwS2dfamNFdHB1SHFWRUQxMWtfR3JOcDZRcUFsSmVSZVRGMVByc2RVa1Bsbnhua0Z4ZXlvZ1VyU3lnVklPSi1LTk5hVkhTaVZNa1VpWlZHTzlEQ252bnVFemg3WEhtYVQ4U1BRMzU0R2x5VmRlR2x0QW9qU2x5RlBlMU9YVVZMQjBWTjY2UzRUbmJoWXEtS09aTVhVTDJPQVczMm1SWVRXY3JsMFhPRA?oc=5",
+      "summary": "RELEX Solutions Announces Partnership with Dollar General for Forecasting and Replenishment &nbsp;&nbsp; PR Newswire",
+      "datetime": "2026-08-27T12:00:00",
+      "tech_signal": false,
       "stream": "supplier",
       "story_type": null,
       "is_noise": false,
@@ -288,6 +308,26 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "supplier:Britvic (Carlsberg Britvic)",
+      "body": null
+    },
+    {
+      "source_id": "sumup",
+      "source_name": "SumUp",
+      "companyname": "SumUp",
+      "retail_sector": "pureplay",
+      "supply_category": "tech",
+      "listed": "private",
+      "tier": 2,
+      "paywall": false,
+      "title": "SumUp partners with Newcastle United - IBS Intelligence",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNanU4dGdqX3FiVkpDUjk2TWVhNnJySFZDcmZXMWdoYURSV2tnQ1Q4TmkzaGlEcjR4SExLY0VYVHBPYWJFOWNWRVNxYjZ5Q2dNc0wxbHQ2NFhQWVNkVEhodzg3M1BiNjhOV3MwNGxYNnFHX3g3VXAyZzBFN1dzR2xHUw?oc=5",
+      "summary": "SumUp partners with Newcastle United &nbsp;&nbsp; IBS Intelligence",
+      "datetime": "2026-08-24T03:34:53",
+      "tech_signal": false,
+      "stream": "supplier",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "supplier:SumUp",
       "body": null
     },
     {

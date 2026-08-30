@@ -97,6 +97,19 @@ A manual `workflow_dispatch` run always executes regardless of time (via the
   pages) instead of press content. Run `diagnose_sources.py` after adding
   a new source to confirm it actually returns on-topic results before
   committing it.
+- For any multinational supplier/vendor (not UK-headquartered, or with
+  major non-UK operations — Diageo, Reckitt, Coca-Cola Europacific
+  Partners, RELEX Solutions, etc.), add `+UK+` to the query. This is
+  necessary but **not sufficient**: Google News RSS does relevance
+  ranking, not strict boolean AND — confirmed 2026-08-30 that even with
+  `+UK+` in the query, an occasional clearly-non-UK item (a US "Dollar
+  General" deal, for RELEX Solutions) still surfaces. Don't try to
+  post-filter this away with a stricter keyword rule — it trades false
+  negatives (dropping real UK stories that don't happen to say "UK") for
+  a small reduction in already-rare false positives. Treat it the same
+  as any other Google News source: a strong signal, not a guarantee, and
+  the source_name on every item makes an obviously-irrelevant one easy
+  for a human to skip.
 - `tech_signal` (on company/media/supplier items) is a deterministic tag —
   title/summary matches a partnership keyword AND a tech/AI keyword
   (`sector_config.json` -> `tech_signal`), both lists. It exists to surface
