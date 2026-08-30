@@ -230,7 +230,11 @@ def run():
                 continue
 
             a["match_reason"]  = match
-            a["stream"]        = "government"
+            # BRC/Which?/Usdaw/IGD/LDC/Springboard etc. no son organismos de
+            # estado — org_type: "trade_body" en gov_config.json los separa
+            # del stream "government" (ver nota 2026-08-31: estaban mal
+            # etiquetados, BRC aparecía como si fuera gobierno).
+            a["stream"]        = "trade_body" if source.get("org_type") == "trade_body" else "government"
             a["story_type"]    = source.get("category", "policy")
             a["is_noise"]      = False
             a["retail_sector"] = get_retail_sector(

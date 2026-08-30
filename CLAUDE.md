@@ -45,7 +45,7 @@ touching anything.
 | `dashboard_data.json` | Live (recent-window) LSE dataset the dashboard reads | No |
 | `data/archive/dashboard_data_archive.json` | Older LSE items moved out of the live file — nothing is deleted, just split for dashboard performance | No |
 | `media_config.json` / `media_scraper.py` | UK media scan (trade press + nationals), filtered against `retailers.json` | No |
-| `gov_config.json` / `gov_scraper.py` | Government/statistics/parliament sources, filtered by priority + retailer/keyword match | No |
+| `gov_config.json` / `gov_scraper.py` | Government/statistics/parliament sources AND independent trade bodies (BRC, Which?, Usdaw, IGD, LDC, Springboard — `org_type: "trade_body"`), filtered by priority + retailer/keyword match. Same file/scraper for both since the fetch/filter mechanics are identical; the `org_type` field is what routes each item to the `government` or `trade_body` dashboard stream — see "Government vs. trade body" below | No |
 | `company_config.json` / `company_scraper.py` | Retailer corporate press pages via Google News RSS — everything from these sources is relevant by definition | No |
 | `supplier_config.json` / `supplier_scraper.py` | FMCG/fresh-food/wholesale suppliers to retailers (not retailers themselves) via Google News RSS — same "everything is relevant" pattern as company | No |
 | `agenda/agenda_config.json` / `agenda/agenda_scraper.py` + `agenda/scrapers/*.py` | Forward-looking events calendar (ONS releases, earnings dates, parliamentary committees, BRC reports, BoE MPC dates, sector trade shows, National Living Wage effective date) + manual events | No |
@@ -156,6 +156,21 @@ A manual `workflow_dispatch` run always executes regardless of time (via the
   When adding a new source with a content pool broader than "UK retail",
   default to `require_retailer_name: true` and only drop it if you've
   verified live that the generic keyword match isn't leaking.
+- **Government vs. trade body**: `gov_config.json` mixes true state bodies
+  (ONS, GOV.UK depts, CMA, FCA, BoE, HSE...) with independent trade
+  associations, unions, and research/analytics orgs (BRC, Which?, Usdaw,
+  IGD, Local Data Company, Springboard). User caught this 2026-08-31 — a
+  BRC packaging-policy story was showing up under the "Government" stream
+  in the dashboard, which is wrong: the BRC is a trade association, not
+  the state. Fix: those 6 sources carry `"org_type": "trade_body"` in
+  `gov_config.json`; `gov_scraper.py` reads that field to set
+  `stream: "trade_body"` instead of `"government"` (default, when the
+  field is absent, is still `"government"`). When adding a new gov_config
+  source, ask "is this actually part of the state?" — if not, set
+  `org_type: "trade_body"`. Judiciary sources (caselaw, CAT, employment
+  tribunal) were deliberately left under `"government"` — courts are
+  state institutions, not industry — the distinction there is `category:
+  "judicial"`, not a separate stream.
 - Never invent a date for an agenda event. `agenda_boe.py` and
   `agenda_tradeshows.py` parse a real page for the date and return
   nothing if the expected pattern isn't found (see their docstrings).
