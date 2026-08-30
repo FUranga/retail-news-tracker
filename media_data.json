@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T23:40:08",
+  "generated_at": "2026-08-30T23:45:55",
   "items": [
     {
       "source_id": "evening_standard",
@@ -321,6 +321,23 @@
       "story_type": null,
       "is_noise": false,
       "retail_sector": "sport",
+      "tech_signal": false,
+      "body": null
+    },
+    {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "John Lewis launches Christmas range early as demand surges - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNVdlemplMWJGcWh0SzFla1o3aFlnU19FVllzLWN2VWdrNmRXcWxhbGI3ODlSc1lzSFNJaXNfTV9pMExZNGZqWll5dzR0X202RzdnaWJyaVdhS1I3UklvQ3VIMHFwVzByMVZxQzlLOWV2VTNjMGk3cG1JdlczcHc4N3VKSkJrWnhUN3hGX2xnOElfazliYjc0bFJNUmdJQQ?oc=5",
+      "summary": "John Lewis launches Christmas range early as demand surges &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-28T19:40:28",
+      "match_reason": "retailer:john lewis",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": null,
       "tech_signal": false,
       "body": null
     },
@@ -729,6 +746,23 @@
       "story_type": null,
       "is_noise": false,
       "retail_sector": "property",
+      "tech_signal": false,
+      "body": null
+    },
+    {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Clothing & Shoes News - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pNUlHTVhkWm90UU5GOGc2cmtYNGsxcU5RNFFfTHJGOVJPU2NwQmlSQUd1aWFPczBISGh1cXZXT3NpVXJyblZ0bnAtNkFJengyeFFQaW52alFOQlVBWVE2UU5jSW05dWlkR0VDUWNmMmFzWnItblplaQ?oc=5",
+      "summary": "Clothing & Shoes News &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-28T10:29:02",
+      "match_reason": "keyword:retail sector",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "fashion",
       "tech_signal": false,
       "body": null
     },
@@ -1566,6 +1600,23 @@
       "body": null
     },
     {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Sainsbury’s launches 10,000 work experience opportunities for young people - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM1RRSXhhTGlMdmZuOUJ5REtRanJtQkU2Q29EbDdNWC1sb0NCX2U1S2hWR0x4c0I3aVZySE9nOGhxRnltc3lEOFZHdmt2bU1xV0k0Y3hDY005U3pSNlo0UWNHaG1GdnljM1p6ajAwZlZFZ19VOE9iUXNlSGpkLUVobXN5WExSRWY1eTFwMGIzaFVZNFVDNWtFdGw0bW43d2JYcUhEQUtCbHo2V2Ffak5vbg?oc=5",
+      "summary": "Sainsbury’s launches 10,000 work experience opportunities for young people &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-26T17:21:42",
+      "match_reason": "keyword:retail sector",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": null,
+      "tech_signal": false,
+      "body": null
+    },
+    {
       "source_id": "this_is_money",
       "source_name": "This is Money",
       "source_cat": "general",
@@ -1995,6 +2046,23 @@
       "source_name": "Retail Sector",
       "source_cat": "trade",
       "paywall": false,
+      "title": "Alibaba raises £7.8bn in share placement to boost AI growth - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLUFwZ29CREo1bWVrQmhuZG11ejU1MDJDdDYzeHVkWG43SUN2SmJaSTd2TlFDZnpZbDQwbFZTMW0yeDY3ZXBsVlZpNTJQZW41dHpLdm0yY2x2ekF5RHUtY0VubUlWaW53QlQ1VWNpcTNpQ2hKWUtwMUFzZGpBNTRCbVM5cmNycjlOSndfbTBvNFl5NmJJdGt6eEYwblNTZw?oc=5",
+      "summary": "Alibaba raises £7.8bn in share placement to boost AI growth &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-24T10:08:14",
+      "match_reason": "keyword:retail sector",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": null,
+      "tech_signal": false,
+      "body": null
+    },
+    {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
       "title": "Poundland overstated revenues by £60m prior to £1 sale - Retail Sector",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUUZTbTNlSlRXMEN2WVFDZlI1Y1U2MmlNTmlrcktPVG5FcUZaN1hqSU5lZ0Q3eEc4T01tamNWOVZBaHpGZ2lIQ3ZUUzZKQkxkLWpZQmRwOGZwenZ5R3ZSeVRWX2JWZ2FWZjN0TmhKcDNyWVhQQjdxa00zUVhlRHNYTC00T1lEVTVRcXY0MHRFbWlnamJvQWc?oc=5",
       "summary": "Poundland overstated revenues by £60m prior to £1 sale &nbsp;&nbsp; Retail Sector",
@@ -2022,6 +2090,23 @@
       "is_noise": false,
       "retail_sector": "health",
       "tech_signal": false,
+      "body": null
+    },
+    {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Morrisons unveils 1,000 new apprenticeships to tackle retail skills shortages - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeW9Mc0NTeHhTNC1uajBZSG9MZjUzdHpsTGRENWJCNS1jcXV0OHVQc3k0VG15bVZidmVFNFZ0QjRhcDduRGtBNkZkWFNoOWNlSjI5MzJCUFEzWDJYMlJRSE1jQ1hUamtxMmxrQ0x3LWpVRTNZbmxGdDlGRzdNS2dxaFJyVVdOWkx3cG1IeGt5WlRQSlJvclJnS2V4SWJWMHgwcmdlS1VYX29CLVg0azQyeklqR253UQ?oc=5",
+      "summary": "Morrisons unveils 1,000 new apprenticeships to tackle retail skills shortages &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-08-24T09:33:14",
+      "match_reason": "retailer:morrisons",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tech_signal": true,
       "body": null
     },
     {

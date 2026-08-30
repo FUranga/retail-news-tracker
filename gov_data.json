@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T23:12:03",
+  "generated_at": "2026-08-30T23:47:23",
   "items": [
     {
       "source_id": "igd",
@@ -5713,6 +5713,29 @@
       ]
     },
     {
+      "source_id": "psr",
+      "source_name": "PSR — Payment Systems Regulator",
+      "source_cat": "regulation",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "United Kingdom Digital Payments Market Size, Top Share, Demand And Report by 2034 - Straits Research",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3OHpOTGN6TVBMaVl6S2hTUTZMeDZJMUpSb3hReEJvaXhUMHQyT0xfWndnczJxVUtTX3psMGJUS0VjQVdNQjlxSENDNUxYQmJoZlBPSlM4NldqeFZFN25WOWFWckJBQ1B4MjBfb1NCWDBwQVNvTzJNSWJuTWE3QQ?oc=5",
+      "summary": "United Kingdom Digital Payments Market Size, Top Share, Demand And Report by 2034 &nbsp;&nbsp; Straits Research",
+      "datetime": "2026-08-24T07:00:00",
+      "match_reason": "tag:payment",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "card fees",
+        "interchange",
+        "payment",
+        "merchant fees"
+      ],
+      "body": null
+    },
+    {
       "source_id": "bank_of_england",
       "source_name": "Bank of England",
       "source_cat": "macro",
@@ -5969,6 +5992,27 @@
         "fine",
         "prosecution",
         "injury"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "ons_retail",
+      "source_name": "ONS — Retail Sales",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "UK Retail Sales Dip 0.5% in July, Matching Expectations - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0c0p5dmRlXzlyeFBjcXk2UXhlajd2MjktSG5VVC0xWmFTNGhiQW9TNUJEWWpxdUFKU1Bqa1lMQzY4cW5MX3FaT1h4NkhoWkotUzhvcG9zTWYyakFtY3VnWWRmSm93M1B6T0Q5SFFyOW9wY1pk?oc=5",
+      "summary": "UK Retail Sales Dip 0.5% in July, Matching Expectations &nbsp;&nbsp; CryptoRank",
+      "datetime": "2026-08-21T08:02:29",
+      "match_reason": "priority:high (ons_retail)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "retail sales",
+        "ONS"
       ],
       "body": null
     },

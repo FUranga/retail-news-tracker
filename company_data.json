@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T22:40:05",
+  "generated_at": "2026-08-30T23:49:06",
   "items": [
     {
       "source_id": "jdsports",
@@ -70,6 +70,25 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VUHFCR0QybG1KXzcwV0FpQ0hKUG1KZlFIRk5rRTdUaFZNSDVYV3BKbnlIVWotd2xxbUtiNnB4d0Y0QVROeF9lRFJyVVJmNk5yNDR6Wjg1dmxnd3M?oc=5",
       "summary": "&nbsp;&nbsp; JD Sports Fashion – Investor Relations",
       "datetime": "2026-08-29T17:28:12",
+      "tech_signal": false,
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:JD Sports",
+      "body": null
+    },
+    {
+      "source_id": "jdsports",
+      "source_name": "JD Sports",
+      "companyname": "JD Sports",
+      "retail_sector": "sport",
+      "listed": "FTSE100",
+      "tier": 1,
+      "paywall": false,
+      "title": "- JD Sports Fashion – Investor Relations",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5ERGtmVC16U3hfQ0xUVHFsX2RTNFRVQmxNMWRzQjVNUExzNUI5R2ZndzZ0UXNhMVFsMHZseHB6M2puSzdCTzlz?oc=5",
+      "summary": "&nbsp;&nbsp; JD Sports Fashion – Investor Relations",
+      "datetime": "2026-08-29T16:46:39",
       "tech_signal": false,
       "stream": "company",
       "story_type": null,
@@ -740,6 +759,25 @@
       "body": null
     },
     {
+      "source_id": "pets_at_home",
+      "source_name": "Pets at Home",
+      "companyname": "Pets at Home",
+      "retail_sector": "pets",
+      "listed": "FTSE250",
+      "tier": 1,
+      "paywall": false,
+      "title": "Pets at Home stock steadies as new insurance service expands customer offer - AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSHBRRFBWSHhaZk9mWXVReEJWOFpCaFJUaGZxQ2ZrR0N4Qk1UZ0ZmUk9ORXk1VDU2MWU5VVYyVHRkTGxiRVFBMW5QZ1dyRFRMMHpHcFEyZmdKMkF0UDl0SEg0aERLaFdjU2I0Um5PUGxNTHRRRFowYW9SbGJqNjBtdEJkRTk0N3hLdnY2SF94eW1GVnhMR1JBd3JBd1NMU1BkblJUcjRwcnlrZG5WT283Qi1WYWpvR2tsUUFsckgzQk0xMF9LRE5yQnFfb2o?oc=5",
+      "summary": "Pets at Home stock steadies as new insurance service expands customer offer &nbsp;&nbsp; AD HOC NEWS",
+      "datetime": "2026-08-27T10:37:21",
+      "tech_signal": false,
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:Pets at Home",
+      "body": null
+    },
+    {
       "source_id": "ms",
       "source_name": "Marks & Spencer",
       "companyname": "Marks & Spencer",
@@ -904,6 +942,25 @@
       "body": null
     },
     {
+      "source_id": "pets_at_home",
+      "source_name": "Pets at Home",
+      "companyname": "Pets at Home",
+      "retail_sector": "pets",
+      "listed": "FTSE250",
+      "tier": 1,
+      "paywall": false,
+      "title": "Pets at Home Ava Weight Management - View vrjIzoSzS - Villa de la Orotava",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaVZNWmt1UV83M1FvaVhicklHWW9KLXdJZ2NvSzRLWXBTQURXWUpyVHNSYmpyWDZ4QnJOV2o2amtJX0ZQbkFsX1pXMl9Na0RoMWpmNTF3ajU5VWVRallJdk5XdG9FVDFfMGhlWTd1aE5RZXpVa0dtVnIybk9jMmxEVjlyZU4zeDNRYWV5TWN2ZFo3RTRHZi1ybmlVcURRSUJWMFdPRnJWVFBwWlRLSUd0UGhHdXNfNnFYUUxjaWY2d3JFV015YmhUTjRhSXZZWHV0SjF1eEFxd1V0czFiMGR0dWpnbw?oc=5",
+      "summary": "Pets at Home Ava Weight Management - View vrjIzoSzS &nbsp;&nbsp; Villa de la Orotava",
+      "datetime": "2026-08-26T09:01:15",
+      "tech_signal": false,
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:Pets at Home",
+      "body": null
+    },
+    {
       "source_id": "frasers",
       "source_name": "Frasers Group",
       "companyname": "Frasers Group",
@@ -1010,6 +1067,25 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "company:ASOS",
+      "body": null
+    },
+    {
+      "source_id": "pets_at_home",
+      "source_name": "Pets at Home",
+      "companyname": "Pets at Home",
+      "retail_sector": "pets",
+      "listed": "FTSE250",
+      "tier": 1,
+      "paywall": false,
+      "title": "Pets at Home Ava Weight Management - View UQ5gCAvmC - SECOVI-SP",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORlBVWjlpZGkyQ0t5WV8wckpuZTJrNDBLcG9pMlZWOWpWUDNDaTR4d1pYRVVHbzZWbm5yVGVFd3kyYXFVZXRVaGRMRjl6dmZrLUlTLWhxUGlGSzhFNGVXcFF3aE9XOEhFbnp0dXd2aVJyX0c2ZjNXZHlCdnZzQmVVdHhRcHdfQ1V0R00xMzFYbjJUSjBMR0ZhdHZFZDBxczRxNnc1ZmdhQXRMTEFCeWxXNEdUZWRIMmptdjdTRmI3ODU4dUZ6cjhkVnctVFZZTnZRS3NhbkRlYUtfTUkwQzBZQmVFcmNqYWdpWHpiMTVTMHY?oc=5",
+      "summary": "Pets at Home Ava Weight Management - View UQ5gCAvmC &nbsp;&nbsp; SECOVI-SP",
+      "datetime": "2026-08-25T10:08:43",
+      "tech_signal": false,
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:Pets at Home",
       "body": null
     },
     {
