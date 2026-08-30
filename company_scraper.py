@@ -8,11 +8,14 @@ Toda publicación de estas fuentes es relevante por definición.
 
 import json
 import re
+import sys
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
 import requests
+
+from schedule_guard import should_run
 
 try:
     import feedparser
@@ -117,6 +120,11 @@ def fetch_rss(source, noise_signals=None):
 
 def run():
     config   = load_json(COMPANY_CONFIG_PATH)
+
+    if not should_run(config.get("schedule", {}).get("runs_uk", [])):
+        print("[company_scraper] fuera de ventana horaria UK, no corro esta vez")
+        return None
+
     existing = load_json(COMPANY_DATA_PATH, {"items": [], "generated_at": None})
 
     # Señales de ruido configurables
@@ -152,6 +160,13 @@ def run():
             existing_ids.add(a["url"])
 
         time.sleep(SLEEP)
+
+    n_sources = len([s for s in config.get("sources", []) if s.get("rss")])
+    if n_sources and total_fetched == 0:
+        print(f"[HEALTH] 0 artículos fetcheados de {n_sources} fuentes con RSS "
+              f"configurado — probablemente varios/todos los feeds están rotos, "
+              f"no que no haya novedades. Revisar company_config.json.")
+        sys.exit(1)
 
     # Acumular y purgar
     all_items = existing.get("items", []) + new_items

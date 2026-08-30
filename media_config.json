@@ -79,10 +79,11 @@
       "id": "property_week",
       "name": "Property Week",
       "url": "https://www.propertyweek.com",
-      "rss": "https://www.propertyweek.com/rss",
+      "rss": "https://www.propertyweek.com/news/rss",
       "method": "rss",
       "paywall": true,
-      "category": "property"
+      "category": "property",
+      "note": "Diagnóstico 2026-08-30: /rss ya no existe (devuelve la home en HTML, no XML — feed roto). /news/rss sí es un feed RSS válido."
     },
     {
       "id": "retail_times",
@@ -177,13 +178,15 @@
     }
   ],
   "schedule": {
-    "runs": [
-      "06:30",
-      "07:05",
-      "11:00",
-      "14:00",
-      "16:00"
+    "runs_uk": [
+      "06:15",
+      "06:45",
+      "07:30",
+      "11:15",
+      "14:15",
+      "16:15"
     ],
+    "note": "Corregido para reflejar los horarios reales del .yml (antes este campo no se leía y había quedado desincronizado del cron real). Hora local de Londres — schedule_guard.py resuelve BST/GMT, no hace falta tocar esto por el cambio de horario.",
     "timezone": "Europe/London",
     "window_hours": "since last run",
     "today_window_start": "yesterday 16:00"

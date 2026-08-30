@@ -1,7 +1,7 @@
 {
   "_note": "Config del Módulo 3 — fuentes gubernamentales, estadísticas y regulación UK. method = rss | api | scrape. priority = high/medium/low. Agregar/quitar fuentes sin tocar código.",
   "schedule": {
-    "runs_bst": [
+    "runs_uk": [
       "07:00",
       "09:45",
       "12:30",
@@ -9,7 +9,7 @@
       "17:30"
     ],
     "days": "weekdays",
-    "note": "09:45 captura publicaciones del ONS (casi siempre a las 9:30). 14:30 captura post-PMQs y committee hearings de la mañana. Ajustar +1h en UTC cuando termine BST (finales de octubre)."
+    "note": "09:45 captura publicaciones del ONS (casi siempre a las 9:30). 14:30 captura post-PMQs y committee hearings de la mañana. Hora local de Londres — schedule_guard.py resuelve BST/GMT, no hace falta ajustar esto por el cambio de horario."
   },
   "retention": {
     "keep_days": 14,

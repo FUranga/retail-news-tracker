@@ -1,4 +1,8 @@
 {
+  "schedule": {
+    "runs_uk": ["07:01", "07:15"],
+    "note": "Hora local de Londres. El workflow schedulea BST y GMT para cada horario; schedule_guard.py decide cuál corresponde en tiempo real — no hace falta tocar esto ni el .yml por el cambio de horario."
+  },
   "endpoint": {
     "base_url": "https://api.londonstockexchange.com/api/v1/components/refresh",
     "component_id": "block_content:431d02ac-09b8-40c9-aba6-04a72a4f2e49",
@@ -15,5 +19,10 @@
     "page_size": 50,
     "max_pages": 20,
     "sleep_seconds": 0.5
+  },
+  "retention": {
+    "keep_days_live": 180,
+    "archive_path": "data/archive/dashboard_data_archive.json",
+    "note": "dashboard_data.json es 'cumulative historical' por diseño (CLAUDE.md) — no se borra nada. Pero para que el dashboard no cargue cada vez más lento, los items con más de keep_days_live se mudan de dashboard_data.json a archive_path, dedupeados por id igual que el archivo vivo. Nada se pierde, solo se separa lo reciente (editorialmente activo) de lo histórico (consulta ocasional)."
   }
 }

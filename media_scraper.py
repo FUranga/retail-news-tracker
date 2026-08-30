@@ -9,11 +9,14 @@ Corre a las 6:30, 7:05, 11:00, 14:00 y 16:00 via GitHub Actions.
 
 import json
 import re
+import sys
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
 import requests
+
+from schedule_guard import should_run
 
 try:
     import feedparser
@@ -215,6 +218,11 @@ def fetch_source(source):
 
 def run():
     config   = load_json(MEDIA_CONFIG_PATH)
+
+    if not should_run(config.get("schedule", {}).get("runs_uk", [])):
+        print("[media_scraper] fuera de ventana horaria UK, no corro esta vez")
+        return None
+
     retailers = load_json(RETAILERS_PATH)
     existing  = load_json(MEDIA_DATA_PATH, {"items": [], "generated_at": None})
     sector_config = load_json(SECTOR_CONFIG_PATH, {})
@@ -274,6 +282,13 @@ def run():
             source_new += 1
 
         time.sleep(SLEEP)
+
+    n_sources = len([s for s in config.get("sources", []) if s.get("rss")])
+    if n_sources and total_fetched == 0:
+        print(f"[HEALTH] 0 artículos fetcheados de {n_sources} fuentes con RSS "
+              f"configurado — probablemente varios/todos los feeds están rotos, "
+              f"no que no haya novedades. Revisar media_config.json.")
+        sys.exit(1)
 
     # Acumular contra el histórico existente
     all_items = existing.get("items", []) + new_items

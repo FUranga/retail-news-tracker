@@ -28,12 +28,15 @@ Corre 100% con `requests` — sin browser/Playwright, sin AI, sin tokens.
 
 import json
 import re
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
 import requests
+
+from schedule_guard import should_run
 
 CONFIG_PATH = Path("lse_config.json")
 
@@ -239,12 +242,35 @@ def enrich_and_filter(df, config):
     return pd.DataFrame(kept_rows)
 
 
+def _set_github_output(key, value):
+    """Escribe una salida para que el workflow de Actions pueda condicionar
+    pasos siguientes (ej. saltear transform_to_dashboard.py si no hay CSV
+    nuevo). No-op fuera de Actions (uso local/manual)."""
+    path = __import__("os").environ.get("GITHUB_OUTPUT")
+    if not path:
+        return
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(f"{key}={value}\n")
+
+
 def run(config_path=CONFIG_PATH, save_csv=True):
     config = load_config(config_path)
+
+    if not should_run(config.get("schedule", {}).get("runs_uk", [])):
+        print("[lse_scraper] fuera de ventana horaria UK, no corro esta vez")
+        _set_github_output("did_work", "false")
+        return None
 
     articles = fetch_all_list(config)
     df_all = to_dataframe(articles)
     print(f"{len(df_all)} artículos en la ventana (sin filtrar todavía)")
+
+    if df_all.empty:
+        print("[HEALTH] El endpoint de listado del LSE no devolvió NINGÚN artículo "
+              "en la ventana — puede ser una ventana genuinamente vacía (fin de "
+              "semana/feriado) o el endpoint/API puede haber cambiado. Revisar.")
+        _set_github_output("did_work", "false")
+        sys.exit(1)
 
     df = enrich_and_filter(df_all, config)
     print(f"{len(df)} artículos retail/grocery confirmados (icbsectorcode + overrides)")
@@ -264,6 +290,11 @@ def run(config_path=CONFIG_PATH, save_csv=True):
         # (transform_to_dashboard.py) no tenga que adivinar el nombre.
         df.to_csv("lse_latest.csv", index=False)
         print("Guardado también en lse_latest.csv (puntero fijo)")
+        _set_github_output("did_work", "true")
+    else:
+        # Ventana real (no un salteo de horario) pero sin retail/grocery
+        # confirmado — no hay CSV nuevo, no tiene sentido correr el transform.
+        _set_github_output("did_work", "false")
 
     return df
 

@@ -21,8 +21,12 @@ Uso:
 """
 
 import json
+import sys
 from datetime import datetime, timedelta
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from schedule_guard import should_run  # noqa: E402 — vive en la raíz del repo, no en agenda/
 
 from scrapers import agenda_ons, agenda_parliament, agenda_lse_earnings, agenda_company_ir, agenda_brc
 from agenda_ics import generate_ics
@@ -71,11 +75,18 @@ def prune_past(events: list[dict], retention_days_past: int) -> list[dict]:
 
 def run():
     config = load_config()
+
+    if not should_run(config.get("schedule", {}).get("runs_uk", [])):
+        print("[agenda_scraper] fuera de ventana horaria UK, no corro esta vez")
+        return
+
     output_path = Path(config["output_file"])
     manual_path = Path(config["manual_file"])
 
     existing = load_existing(output_path)
     all_events = []
+    total_found = 0
+    sources_run = 0
 
     for source_cfg in config["sources"]:
         sid = source_cfg["id"]
@@ -85,6 +96,7 @@ def run():
         if not scraper:
             print(f"[agenda_scraper] no hay implementación para fuente '{sid}', salteando")
             continue
+        sources_run += 1
         print(f"[agenda_scraper] corriendo fuente: {sid}")
         try:
             found = scraper.scrape(config)
@@ -92,7 +104,13 @@ def run():
             print(f"[agenda_scraper] fuente '{sid}' falló: {e}")
             found = []
         print(f"  -> {len(found)} eventos")
+        total_found += len(found)
         all_events.extend(merge_event(ev, existing) for ev in found)
+
+    if sources_run and total_found == 0:
+        print(f"[HEALTH] 0 eventos encontrados en {sources_run} fuentes habilitadas "
+              f"— revisar si alguna dejó de responder (endpoints de Parlamento/ONS "
+              f"cambian con más frecuencia que un RSS estándar).")
 
     # eventos manuales siempre entran, sin pasar por merge (ya vienen con su
     # propio to_cover/research_summary si el usuario los seteó)

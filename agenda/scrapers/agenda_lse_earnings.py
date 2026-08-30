@@ -60,7 +60,7 @@ def scrape(config: dict) -> list[dict]:
     for item in items:
         headline = item.get("headline") or item.get("title") or ""
         body = item.get("body") or item.get("content") or ""
-        company = item.get("company") or item.get("company_name")
+        company = item.get("companyname") or item.get("company") or item.get("company_name")
 
         if not any(re.search(p, headline, re.IGNORECASE) for p in TRIGGER_PATTERNS):
             continue

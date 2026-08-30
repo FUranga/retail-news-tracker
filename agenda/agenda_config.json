@@ -1,4 +1,8 @@
 {
+  "schedule": {
+    "runs_uk": ["07:00"],
+    "note": "Hora local de Londres. El workflow schedulea BST y GMT; schedule_guard.py (en la raíz del repo) decide cuál corresponde — no hace falta tocar esto ni el .yml por el cambio de horario."
+  },
   "granular_window_days": 14,
   "broad_window_days": 90,
   "output_file": "../agenda_data.json",

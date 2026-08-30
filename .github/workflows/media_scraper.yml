@@ -2,12 +2,21 @@ name: Media scraper (UK retail news)
 
 on:
   schedule:
-    - cron: "15 5 * * 1-5"
-    - cron: "45 5 * * 1-5"
-    - cron: "30 6 * * 1-5"
-    - cron: "15 10 * * 1-5"
-    - cron: "15 13 * * 1-5"
-    - cron: "15 15 * * 1-5"
+    # Ver nota de DST en lse_scraper.yml: se schedulean ambos horarios UTC
+    # (BST y GMT) para cada hora local deseada; schedule_guard.py decide
+    # cuál corresponde en tiempo real. No hace falta tocar esto por DST.
+    - cron: "15 5 * * 1-5"    # 06:15 UK — BST
+    - cron: "45 5 * * 1-5"    # 06:45 UK — BST
+    - cron: "30 6 * * 1-5"    # 07:30 UK — BST
+    - cron: "15 10 * * 1-5"   # 11:15 UK — BST
+    - cron: "15 13 * * 1-5"   # 14:15 UK — BST
+    - cron: "15 15 * * 1-5"   # 16:15 UK — BST
+    - cron: "15 6 * * 1-5"    # 06:15 UK — GMT
+    - cron: "45 6 * * 1-5"    # 06:45 UK — GMT
+    - cron: "30 7 * * 1-5"    # 07:30 UK — GMT
+    - cron: "15 11 * * 1-5"   # 11:15 UK — GMT
+    - cron: "15 14 * * 1-5"   # 14:15 UK — GMT
+    - cron: "15 16 * * 1-5"   # 16:15 UK — GMT
   workflow_dispatch: {}
 
 concurrency:
@@ -30,9 +39,11 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependencias
-        run: pip install requests feedparser trafilatura
+        run: pip install requests feedparser trafilatura tzdata
 
       - name: Correr media scraper
+        env:
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: python media_scraper.py
 
       - name: Commitear cambios
@@ -42,5 +53,5 @@ jobs:
           git add media_data.json
           git diff --staged --quiet && echo "Sin cambios nuevos" && exit 0
           git commit -m "Media update $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git pull --rebase=false --strategy=ours origin main || git pull origin main
+          git pull --rebase origin main
           git push

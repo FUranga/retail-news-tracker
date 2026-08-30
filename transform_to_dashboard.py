@@ -36,7 +36,7 @@ next run.
 
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import pandas as pd
@@ -57,6 +57,7 @@ CATEGORY_MAP_PATH = Path("category_map.json")
 ARTICLE_OVERRIDES_PATH = Path("article_overrides.json")
 UNMAPPED_LOG_PATH = Path("unmapped_categories.json")
 SECTOR_CONFIG_PATH = Path("sector_config.json")
+LSE_CONFIG_PATH = Path("lse_config.json")
 
 
 def load_json(path, default):
@@ -169,7 +170,8 @@ def transform(csv_path, out_path="dashboard_data.json"):
         if item["id"] is not None:
             merged[item["id"]] = item
 
-    items = sorted(merged.values(), key=lambda x: x["datetime"], reverse=True)
+    items, archived_count, archive_path = archive_old_items(merged, LSE_CONFIG_PATH)
+    items = sorted(items, key=lambda x: x["datetime"], reverse=True)
 
     payload = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
@@ -178,13 +180,60 @@ def transform(csv_path, out_path="dashboard_data.json"):
     out_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     UNMAPPED_LOG_PATH.write_text(json.dumps(unmapped_log, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print(f"{len(new_items)} items nuevos procesados, {len(items)} items totales en {out_path}")
+    print(f"{len(new_items)} items nuevos procesados, {len(items)} items en {out_path} (ventana activa)")
+    if archived_count:
+        print(f"  {archived_count} items movidos a {archive_path} (más viejos que la ventana activa, nada se pierde)")
     noise = sum(1 for i in items if i["is_noise"])
     other = sum(1 for i in items if i["story_type"] == "Other")
     print(f"  {noise} flagged as regulatory noise, {len(items)-noise} as potential news")
     if other:
         print(f"  {other} item(s) still unclassified ('Other') — see {UNMAPPED_LOG_PATH} for the review queue")
     return payload
+
+
+def archive_old_items(merged_by_id, lse_config_path=LSE_CONFIG_PATH):
+    """Separa items más viejos que keep_days_live hacia un archivo aparte
+    (dedup por id contra lo que ya haya archivado), para que dashboard_data.json
+    no crezca sin límite. No borra nada — 'cumulative historical' sigue siendo
+    cierto, repartido entre el archivo vivo y el de archivo."""
+    config = load_json(lse_config_path, {})
+    retention = config.get("retention", {})
+    keep_days_live = retention.get("keep_days_live")
+    archive_path = Path(retention.get("archive_path", "data/archive/dashboard_data_archive.json"))
+
+    if not keep_days_live:
+        return list(merged_by_id.values()), 0, archive_path
+
+    cutoff = (datetime.now() - timedelta(days=keep_days_live)).isoformat()
+
+    live_items = []
+    to_archive = []
+    for item in merged_by_id.values():
+        dt = item.get("datetime") or ""
+        if dt < cutoff:
+            to_archive.append(item)
+        else:
+            live_items.append(item)
+
+    if not to_archive:
+        return live_items, 0, archive_path
+
+    archive_path.parent.mkdir(parents=True, exist_ok=True)
+    existing_archive = load_json(archive_path, {"items": []})
+    existing_archive_items = {
+        i["id"]: i for i in existing_archive.get("items", []) if i.get("id") is not None
+    }
+    newly_archived = sum(1 for i in to_archive if i["id"] not in existing_archive_items)
+    for item in to_archive:
+        existing_archive_items[item["id"]] = item
+
+    archive_payload = {
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "items": sorted(existing_archive_items.values(), key=lambda x: x["datetime"], reverse=True),
+    }
+    archive_path.write_text(json.dumps(archive_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    return live_items, newly_archived, archive_path
 
 
 if __name__ == "__main__":

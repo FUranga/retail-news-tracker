@@ -1,7 +1,7 @@
 {
   "_note": "Config del Módulo 4 — webs de prensa corporativa de retailers UK. Cualquier publicación de estas fuentes es relevante por definición — son las empresas hablando. method = google_news (via Google News RSS). Agregar/quitar empresas sin tocar código.",
   "schedule": {
-    "runs_bst": [
+    "runs_uk": [
       "07:00",
       "09:00",
       "12:00",
@@ -9,7 +9,7 @@
       "17:00"
     ],
     "days": "weekdays",
-    "note": "Más espaciado que medios — las empresas no publican con tanta frecuencia"
+    "note": "Más espaciado que medios — las empresas no publican con tanta frecuencia. Hora local de Londres — schedule_guard.py resuelve BST/GMT, no hace falta ajustar esto por el cambio de horario."
   },
   "retention": {
     "keep_days": 7
@@ -80,8 +80,9 @@
       "name": "Frasers Group",
       "tier": 1,
       "listed": "FTSE250",
-      "rss": "https://news.google.com/rss/search?q=site:frasers.com+OR+site:frasersgroupplc.com&hl=en-GB&gl=GB&ceid=GB:en",
-      "retail_sector": "sport"
+      "rss": "https://news.google.com/rss/search?q=%22Frasers+Group%22+announces+OR+launches+OR+acquires+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "sport",
+      "note": "Diagnóstico 2026-08-30: frasers.com/frasersgroupplc.com/frasersplc.com no están indexados por Google News (0 resultados con site:). Ningún dominio corporativo bare probado devolvió señal — se usa texto libre en su lugar."
     },
     {
       "id": "bm",
@@ -128,16 +129,18 @@
       "name": "Pets at Home",
       "tier": 1,
       "listed": "FTSE250",
-      "rss": "https://news.google.com/rss/search?q=site:petsathome.com/corporate&hl=en-GB&gl=GB&ceid=GB:en",
-      "retail_sector": "pets"
+      "rss": "https://news.google.com/rss/search?q=%22Pets+at+Home%22+announces+OR+launches+OR+opens+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pets",
+      "note": "Diagnóstico 2026-08-30: site:petsathome.com/corporate daba 0 resultados (Google News no respeta el subpath); site:petsathome.com a secas funciona pero devuelve catálogo de productos, no prensa. Texto libre evita ambos problemas."
     },
     {
       "id": "howdens",
       "name": "Howdens",
       "tier": 1,
       "listed": "FTSE250",
-      "rss": "https://news.google.com/rss/search?q=site:howdensjoinerygroup.com&hl=en-GB&gl=GB&ceid=GB:en",
-      "retail_sector": "home"
+      "rss": "https://news.google.com/rss/search?q=%22Howdens%22+OR+%22Howden+Joinery%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "home",
+      "note": "Diagnóstico 2026-08-30: howdensjoinerygroup.com no está indexado por Google News (0 resultados). howdens.com sí, pero devuelve catálogo de cocinas, no prensa. Texto libre evita ambos problemas."
     },
     {
       "id": "asda",
@@ -200,8 +203,9 @@
       "name": "Co-op",
       "tier": 1,
       "listed": "private",
-      "rss": "https://news.google.com/rss/search?q=site:coop.co.uk/media&hl=en-GB&gl=GB&ceid=GB:en",
-      "retail_sector": "grocery"
+      "rss": "https://news.google.com/rss/search?q=%22Co-op%22+OR+%22Co-operative+Group%22+announces+OR+launches+OR+opens+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "note": "Diagnóstico 2026-08-30: site:coop.co.uk/media daba 0 resultados (Google News no respeta el subpath). Texto libre con desambiguación ('Co-operative Group', +UK) evita traer resultados de otras cooperativas."
     },
     {
       "id": "home_bargains",
@@ -216,8 +220,9 @@
       "name": "Boots",
       "tier": 1,
       "listed": "private",
-      "rss": "https://news.google.com/rss/search?q=site:boots.com/media-centre+OR+site:walgreensbootsalliance.com&hl=en-GB&gl=GB&ceid=GB:en",
-      "retail_sector": "health"
+      "rss": "https://news.google.com/rss/search?q=%22Boots+UK%22+announces+OR+launches+OR+opens+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "health",
+      "note": "Diagnóstico 2026-08-30: boots.com/media-centre daba 0 (subpath ignorado); walgreensbootsalliance.com no existe (el dominio real es wba.com, pero site:wba.com trae ruido corporativo de todo el grupo, no específico de Boots). Texto libre con 'Boots UK' es más preciso."
     },
     {
       "id": "tkmaxx",
@@ -245,11 +250,12 @@
     },
     {
       "id": "boohoo",
-      "name": "Boohoo",
+      "name": "Boohoo (Debenhams Group)",
       "tier": 2,
       "listed": "AIM",
-      "rss": "https://news.google.com/rss/search?q=site:boohooplc.com&hl=en-GB&gl=GB&ceid=GB:en",
-      "retail_sector": "fashion"
+      "rss": "https://news.google.com/rss/search?q=%22Debenhams+Group%22+OR+%22Boohoo%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion",
+      "note": "Diagnóstico 2026-08-30: boohooplc.com da 0 resultados — el grupo se renombró a Debenhams Group (confirmado). debenhamsgroup.com sí está indexado por Google News."
     },
     {
       "id": "thg",
@@ -280,40 +286,45 @@
       "name": "Card Factory",
       "tier": 2,
       "listed": "FTSE250",
-      "rss": "https://news.google.com/rss/search?q=site:cardfactoryplc.com&hl=en-GB&gl=GB&ceid=GB:en",
-      "retail_sector": "pureplay"
+      "rss": "https://news.google.com/rss/search?q=%22Card+Factory%22+announces+OR+launches+OR+results+OR+buyback&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "note": "Diagnóstico 2026-08-30: cardfactoryplc.com no está indexado (0 resultados). cardfactory.co.uk sí, pero devuelve catálogo de tarjetas, no prensa. Texto libre evita ambos problemas."
     },
     {
       "id": "wh_smith",
       "name": "WH Smith",
       "tier": 2,
       "listed": "FTSE250",
-      "rss": "https://news.google.com/rss/search?q=site:whsmithplc.com&hl=en-GB&gl=GB&ceid=GB:en",
-      "retail_sector": "pureplay"
+      "rss": "https://news.google.com/rss/search?q=%22WH+Smith%22+announces+OR+launches+OR+results+OR+trading+update&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "note": "Diagnóstico 2026-08-30: whsmithplc.com no está indexado (0 resultados). whsmith.co.uk sí, pero devuelve catálogo de tienda, no prensa. Texto libre evita ambos problemas."
     },
     {
       "id": "mulberry",
       "name": "Mulberry",
       "tier": 2,
       "listed": "AIM",
-      "rss": "https://news.google.com/rss/search?q=site:mulberry.com/corporate&hl=en-GB&gl=GB&ceid=GB:en",
-      "retail_sector": "luxury"
+      "rss": "https://news.google.com/rss/search?q=%22Mulberry+Group%22+announces+OR+launches+OR+results+OR+trading+update&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "luxury",
+      "note": "Diagnóstico 2026-08-30: mulberry.com/corporate daba 0 (subpath ignorado); mulberry.com a secas trae catálogo de bolsos, no prensa. 'Mulberry Group' (nombre corporativo completo) en texto libre evita ambos problemas y desambigua del árbol/fruta."
     },
     {
       "id": "warpaint",
       "name": "Warpaint London",
       "tier": 2,
       "listed": "AIM",
-      "rss": "https://news.google.com/rss/search?q=site:warpaintlondon.com/investors&hl=en-GB&gl=GB&ceid=GB:en",
-      "retail_sector": "health"
+      "rss": "https://news.google.com/rss/search?q=%22Warpaint+London%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "health",
+      "note": "Diagnóstico 2026-08-30: ni warpaintlondon.com/investors ni warpaintlondon.com a secas están indexados por Google News (0 resultados con site:) — es una AIM pequeña con poca cobertura. Texto libre sí trae resultados."
     },
     {
       "id": "superdry",
       "name": "Superdry",
       "tier": 2,
       "listed": "LSE",
-      "rss": "https://news.google.com/rss/search?q=site:superdryglobal.com/investors&hl=en-GB&gl=GB&ceid=GB:en",
-      "retail_sector": "fashion"
+      "rss": "https://news.google.com/rss/search?q=%22Superdry%22+announces+OR+launches+OR+results+OR+trading+update&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion",
+      "note": "Diagnóstico 2026-08-30: superdryglobal.com/investors daba 0 (subpath ignorado); superdry.com a secas trae catálogo de ropa, no prensa. Texto libre evita ambos problemas."
     },
     {
       "id": "dfs",

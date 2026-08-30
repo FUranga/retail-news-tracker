@@ -2,11 +2,19 @@ name: Company scraper (UK retailers press)
 
 on:
   schedule:
-    - cron: "0 6 * * 1-5"    # 07:00 BST
-    - cron: "0 8 * * 1-5"    # 09:00 BST
-    - cron: "0 11 * * 1-5"   # 12:00 BST
-    - cron: "0 14 * * 1-5"   # 15:00 BST
-    - cron: "0 16 * * 1-5"   # 17:00 BST
+    # Ver nota de DST en lse_scraper.yml: se schedulean ambos horarios UTC
+    # (BST y GMT) para cada hora local deseada; schedule_guard.py decide
+    # cuál corresponde en tiempo real. No hace falta tocar esto por DST.
+    - cron: "0 6 * * 1-5"    # 07:00 UK — BST
+    - cron: "0 8 * * 1-5"    # 09:00 UK — BST
+    - cron: "0 11 * * 1-5"   # 12:00 UK — BST
+    - cron: "0 14 * * 1-5"   # 15:00 UK — BST
+    - cron: "0 16 * * 1-5"   # 17:00 UK — BST
+    - cron: "0 7 * * 1-5"    # 07:00 UK — GMT
+    - cron: "0 9 * * 1-5"    # 09:00 UK — GMT
+    - cron: "0 12 * * 1-5"   # 12:00 UK — GMT
+    - cron: "0 15 * * 1-5"   # 15:00 UK — GMT
+    - cron: "0 17 * * 1-5"   # 17:00 UK — GMT
   workflow_dispatch: {}
 
 concurrency:
@@ -29,9 +37,11 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependencias
-        run: pip install requests feedparser trafilatura
+        run: pip install requests feedparser trafilatura tzdata
 
       - name: Correr company scraper
+        env:
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: python company_scraper.py
 
       - name: Commitear cambios
@@ -41,5 +51,5 @@ jobs:
           git add company_data.json
           git diff --staged --quiet && echo "Sin cambios nuevos" && exit 0
           git commit -m "Company update $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git pull --rebase=false --strategy=ours origin main || git pull origin main
+          git pull --rebase origin main
           git push

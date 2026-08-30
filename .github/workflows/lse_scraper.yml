@@ -2,14 +2,17 @@ name: LSE scraper (Retailers + Grocery)
 
 on:
   schedule:
-    # GitHub Actions cron usa UTC siempre. Reino Unido está en BST (UTC+1)
-    # de fines de marzo a fines de octubre, y en GMT (UTC+0) el resto del
-    # año. Estos horarios están calculados para BST (verano UK, vigente
-    # ahora). Cuando termine el horario de verano (finales de octubre),
-    # hay que sumarles 1 hora en UTC para que sigan cayendo a las 07:01 y
-    # 07:15 hora de Londres. Lo marco acá para no olvidarlo.
-    - cron: "1 6 * * 1-5"   # 07:01 UK time (BST) — lunes a viernes
-    - cron: "15 6 * * 1-5"  # 07:15 UK time (BST) — re-chequeo
+    # GitHub Actions cron corre siempre en UTC. Para no tener que editar
+    # este archivo dos veces al año por el cambio BST/GMT, se schedulean
+    # AMBOS horarios UTC posibles para cada hora deseada en Londres
+    # (07:01 y 07:15). schedule_guard.py (corrido dentro de
+    # lse_scraper.py) decide en tiempo real cuál de las dos corridas
+    # corresponde a la hora real de Londres y sale sin hacer nada en la
+    # que no toca — no hay que tocar este archivo nunca más por DST.
+    - cron: "1 6 * * 1-5"    # 07:01 UK time — vigente en BST (verano)
+    - cron: "15 6 * * 1-5"   # 07:15 UK time — vigente en BST (verano)
+    - cron: "1 7 * * 1-5"    # 07:01 UK time — vigente en GMT (invierno)
+    - cron: "15 7 * * 1-5"   # 07:15 UK time — vigente en GMT (invierno)
   workflow_dispatch: {}      # permite correrlo a mano desde la pestaña Actions
 
 concurrency:
@@ -32,20 +35,27 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependencias
-        run: pip install requests pandas markdownify
+        run: pip install requests pandas markdownify tzdata
 
       - name: Correr scraper LSE
+        id: scrape
+        env:
+          # workflow_dispatch (corrida manual) siempre hace el trabajo,
+          # sin importar la hora — así sirve para probar/depurar.
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: python lse_scraper.py
 
       - name: Actualizar dashboard_data.json
+        if: steps.scrape.outputs.did_work == 'true'
         run: python transform_to_dashboard.py lse_latest.csv
 
       - name: Commitear cambios
+        if: steps.scrape.outputs.did_work == 'true'
         run: |
           git config user.name "lse-scraper-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/raw/*.csv dashboard_data.json unmapped_categories.json
           git diff --staged --quiet && echo "Sin cambios, nada que commitear" && exit 0
           git commit -m "Actualización automática LSE $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git pull --rebase=false --strategy=ours origin main || git pull origin main
+          git pull --rebase origin main
           git push

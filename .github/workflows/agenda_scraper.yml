@@ -2,11 +2,12 @@ name: Agenda scraper (retail UK — estadísticas, earnings, reuniones, eventos)
 
 on:
   schedule:
-    # GitHub Actions cron usa UTC. UK está en BST (UTC+1) hasta finales de
-    # octubre. Ajustar +1h en UTC cuando termine BST, igual que en los
-    # otros workflows del repo.
-    - cron: "0 6 * * 1-5"    # 07:00 BST — una vez por día alcanza acá
-  workflow_dispatch: {}       # permite correrlo a mano desde la pestaña Actions
+    # Ver nota de DST en lse_scraper.yml: se schedulean ambos horarios UTC
+    # (BST y GMT) para la hora local deseada; schedule_guard.py decide
+    # cuál corresponde en tiempo real. No hace falta tocar esto por DST.
+    - cron: "0 6 * * 1-5"   # 07:00 UK — BST
+    - cron: "0 7 * * 1-5"   # 07:00 UK — GMT
+  workflow_dispatch: {}      # permite correrlo a mano desde la pestaña Actions
 
 concurrency:
   group: agenda-scraper
@@ -28,10 +29,12 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependencias
-        run: pip install requests feedparser beautifulsoup4
+        run: pip install requests feedparser beautifulsoup4 tzdata
 
       - name: Correr agenda scraper
         working-directory: agenda
+        env:
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: python agenda_scraper.py
 
       - name: Commitear cambios
@@ -41,5 +44,5 @@ jobs:
           git add agenda_data.json agenda_to_cover.ics
           git diff --staged --quiet && echo "Sin cambios nuevos" && exit 0
           git commit -m "Agenda update $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git pull --rebase=false --strategy=ours origin main || git pull origin main
+          git pull --rebase origin main
           git push
