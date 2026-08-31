@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-08-31T10:54:48",
+  "generated_at": "2026-08-31T16:28:25",
   "items": [
+    {
+      "source_id": "brc_reports",
+      "source_name": "British Retail Consortium",
+      "source_cat": "research",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Business calls for Food Price Cap to be scrapped - British Retail Consortium",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbnhEZXJjdzh5TDV1bXVJa2ZSLTI5czlyZXc0dkZhZXFoR0dBYWtQNDRjanlWakttYXU1cjNmWmFwT0VhRVhEdkVobXVWUWlLZW42WUF3VE1DZXJ4VVd6ckpQcDJJcl9pM1ZabkMwZ01ESHRwbm1aNVhRQzlIU3FYbW9kcmNuNGh0VmhSV2dBQWdya3NSbHVWNC10VTY2N1VCRjRyb0tVaFlvUEJnMW1rQ2dIS1pERlJLWVRDUg?oc=5",
+      "summary": "Business calls for Food Price Cap to be scrapped &nbsp;&nbsp; British Retail Consortium",
+      "datetime": "2026-08-31T11:19:19",
+      "match_reason": "priority:high (brc_reports)",
+      "stream": "trade_body",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "BRC",
+        "retail sales",
+        "crime",
+        "sustainability",
+        "employment"
+      ],
+      "body": null
+    },
     {
       "source_id": "gov_treasury",
       "source_name": "GOV.UK — HM Treasury",
@@ -5214,6 +5238,30 @@
       "body": null
     },
     {
+      "source_id": "brc_reports",
+      "source_name": "British Retail Consortium",
+      "source_cat": "research",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "From Data to Decarbonisation: Leveraging supplier data to advance scope 3 performance - British Retail Consortium",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSDJGdFBDZXA1a3ROdU1RV193Umh6ajAyY0p0b0lQcWwxMmNPek5KN2xMaXU2UzVlbmlBemZVZFdVczVMY05TX05HbmpQcTJMZEdOZ0NJeGp5cnRtTEFWOHNNb0RpV19xSU4yV1l2XzVtYkFYRzc0bi1RN01uRGZnU0lVZDFjcjRwZzgyd2lidXRJTmowOXVra0htcHV5NGIxelhuWVpsdW5qWFlnNXNpc0hTdzh1UUtnZ19LM3h0VFhnY0F0RFE?oc=5",
+      "summary": "From Data to Decarbonisation: Leveraging supplier data to advance scope 3 performance &nbsp;&nbsp; British Retail Consortium",
+      "datetime": "2026-08-26T16:34:27",
+      "match_reason": "priority:high (brc_reports)",
+      "stream": "trade_body",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "BRC",
+        "retail sales",
+        "crime",
+        "sustainability",
+        "employment"
+      ],
+      "body": null
+    },
+    {
       "source_id": "igd",
       "source_name": "IGD — Institute of Grocery Distribution",
       "source_cat": "research",
@@ -5635,6 +5683,30 @@
         "grocery",
         "supply chain",
         "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "brc_reports",
+      "source_name": "British Retail Consortium",
+      "source_cat": "research",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "SRC seeks action as thefts from stores soar by 20% - British Retail Consortium",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONl9aUjRCbk9SQnRWdHIybHdTQUtMWXp0eWUzdFN0aGNnYmRVQ2lER2ZqTHIyRUJld2lraUNQNmF6Y3ZnTGtocmhZaUhLMGVXbUdXNTdVa2JfMllFUGNYaVAyRjJ5V3pPMGdMRXJMMkNvYUF1MkdzMWdxUEVobHprOENkNUY1T0hhQmJTSlFjS29QM2Y1Y3g5VUZIbmxJa2pGTVBNQXVfc2NvSXF3OFBEV2JRMVZfQ2F6RzBIalJR?oc=5",
+      "summary": "SRC seeks action as thefts from stores soar by 20% &nbsp;&nbsp; British Retail Consortium",
+      "datetime": "2026-08-25T07:00:00",
+      "match_reason": "priority:high (brc_reports)",
+      "stream": "trade_body",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "BRC",
+        "retail sales",
+        "crime",
+        "sustainability",
+        "employment"
       ],
       "body": null
     },
@@ -6507,28 +6579,6 @@
         "retail workers",
         "union",
         "shop worker"
-      ],
-      "body": null
-    },
-    {
-      "source_id": "igd",
-      "source_name": "IGD — Institute of Grocery Distribution",
-      "source_cat": "research",
-      "source_pri": "medium",
-      "paywall": false,
-      "title": "European heatwave: driving impulse spending in Budapest - IGD (Institute of Grocery Distribution)",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeURoaTFsTW9nWVNRM2xTN3FJdk8teVdIYXM2MmVwRHBidGFjS2xqM25FaWM4Ui1RNEF2clk4MGpHVzNRM2NWNXhmRi05Y0pWQlpydlg4VEtLb29UR1pzRlU0R25ZMmVCRC0zN2FjcmpWOFBYaTVXcW90NkZvOHh5Zy0xNlI4TlBBYXhhMWZRVDVLYnJTMld3UkJpbW9QbTdnSTVxRHhiYVd2ZDZ2dERfYVdRYVNPU1ZHcmpLdGV6Y3oxdVJXLTJTMndWcFN0Wm5NSFRFTWdxWQ?oc=5",
-      "summary": "European heatwave: driving impulse spending in Budapest &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
-      "datetime": "2026-08-17T14:03:38",
-      "match_reason": "tag:grocery",
-      "stream": "trade_body",
-      "story_type": "research",
-      "is_noise": false,
-      "retail_sector": "grocery",
-      "tags": [
-        "grocery",
-        "supply chain",
-        "supermarket"
       ],
       "body": null
     }
