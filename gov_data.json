@@ -1,6 +1,29 @@
 {
-  "generated_at": "2026-08-31T00:02:52",
+  "generated_at": "2026-08-31T10:54:48",
   "items": [
+    {
+      "source_id": "gov_treasury",
+      "source_name": "GOV.UK — HM Treasury",
+      "source_cat": "policy",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "100 million competition to back British AI companies to fix public services",
+      "url": "https://www.govwire.co.uk/news/hm-treasury/100-million-competition-to-back-british-ai-companies-to-fix-public-services-g2571254",
+      "summary": "100 million fund competition will help promising British AI start-ups start in the UK and tackle some of society's biggest challenges. | HM Treasury.",
+      "datetime": "2026-08-31T10:51:10.188534",
+      "match_reason": "priority:high (gov_treasury)",
+      "stream": "government",
+      "story_type": "policy",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "budget",
+        "business rates",
+        "VAT",
+        "fiscal policy"
+      ],
+      "body": null
+    },
     {
       "source_id": "companies_house",
       "source_name": "Companies House — Significant Filings",
@@ -4919,6 +4942,28 @@
       "body": null
     },
     {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Hyper-connected retail: the supplier opportunity - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSkxLNERYQkJxNkcxUFh3X0ZPeTBuTGs3SDRiQjg4WG9WNjhLX1BQZlJaN2dtQ2NMTzY4cGU0aWg2WXFjSXROMWhwVTNpZTVNY0drU2NZeUhwV3Z6QnByTDd4Z1Rmclg4ZHhMVDJUcjU5NVhCbWZPOHFLTmZJQzgtQkx0MjdtVWNOVzl3anJxUGlHcHQtcFM3U0RYdENwcnRiNk01TVZUOElnay1LR2RNSGZkTlJhQXFONkFMOXo1dFppcWZaMmk5T1g1ZEZSR1k?oc=5",
+      "summary": "Hyper-connected retail: the supplier opportunity &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-08-28T14:25:16",
+      "match_reason": "tag:grocery",
+      "stream": "trade_body",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
       "source_id": "hse",
       "source_name": "HSE — Health and Safety Executive",
       "source_cat": "regulation",
@@ -4939,6 +4984,30 @@
         "fine",
         "prosecution",
         "injury"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "bank_of_england",
+      "source_name": "Bank of England",
+      "source_cat": "macro",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Mortgage Rates Today: 28 August 2026 - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RNjQ3M0x3M1JqQ1BhbVFVRFlhWXpMMHhvVnBjWmdNY1RtdkhJeTBXSlpUOTUydnI2ZU5XMnd1d0RaM3FRX2lGaDV6NkxoX2FvMUtDUnFpRkhWNXFvUTkwSENQZnhxYUU2azFn?oc=5",
+      "summary": "Mortgage Rates Today: 28 August 2026 &nbsp;&nbsp; Forbes",
+      "datetime": "2026-08-28T10:57:00",
+      "match_reason": "priority:high (bank_of_england)",
+      "stream": "government",
+      "story_type": "macro",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "interest rates",
+        "MPC",
+        "inflation",
+        "consumer credit",
+        "mortgage"
       ],
       "body": null
     },
@@ -6418,6 +6487,30 @@
       "body": null
     },
     {
+      "source_id": "usdaw",
+      "source_name": "Usdaw (shopworkers' union)",
+      "source_cat": "labour",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Poundland sale speculation - USDAW",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KYVVKbkd4VlZxTEtXdGFfeEpIQjJWeENhNUhZeDZaRzFWU01uUTF5eVBpcERhMFZucVZGVEh4VS1EeDI0YlNLUEpZdDROYVI5c1lEOWhiUW5YVzBWbWRjdXI3SGhIY2Zlc2JfWndOMnhEQQ?oc=5",
+      "summary": "Poundland sale speculation &nbsp;&nbsp; USDAW",
+      "datetime": "2026-08-18T07:00:00",
+      "match_reason": "retailer:poundland",
+      "stream": "trade_body",
+      "story_type": "labour",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "strike",
+        "pay dispute",
+        "retail workers",
+        "union",
+        "shop worker"
+      ],
+      "body": null
+    },
+    {
       "source_id": "igd",
       "source_name": "IGD — Institute of Grocery Distribution",
       "source_cat": "research",
@@ -6436,74 +6529,6 @@
         "grocery",
         "supply chain",
         "supermarket"
-      ],
-      "body": null
-    },
-    {
-      "source_id": "hse",
-      "source_name": "HSE — Health and Safety Executive",
-      "source_cat": "regulation",
-      "source_pri": "medium",
-      "paywall": false,
-      "title": "Building company and director fined after botched extension put family’s lives at risk",
-      "url": "https://press.hse.gov.uk/2026/08/17/building-company-and-director-fined-after-botched-extension-put-familys-lives-at-risk/",
-      "summary": "Adam&#8217;s Building Construction Ltd built an extension over gas pipework and a boiler flue without relocating them, despite repeated warnings The gas installation was found to be immediately dangerous, forcing Northern Gas Networks to cut off the property&#8217;s gas supply The company failed to comply with an HSE Improvement Notice, and its director failed to [&#8230;]",
-      "datetime": "2026-08-17T10:32:54",
-      "match_reason": "tag:fine",
-      "stream": "government",
-      "story_type": "regulation",
-      "is_noise": false,
-      "retail_sector": "macro",
-      "tags": [
-        "warehouse",
-        "workplace safety",
-        "fine",
-        "prosecution",
-        "injury"
-      ],
-      "body": null
-    },
-    {
-      "source_id": "ons_internet_sales",
-      "source_name": "ONS — Internet Sales",
-      "source_cat": "statistics",
-      "source_pri": "medium",
-      "paywall": false,
-      "title": "The 5 Best Ecommerce Platforms for Small Businesses - Startups.co.uk",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1oTm8xbjRobFJYV3dWX00wM0VVMF9BelE1TmF0cU85U2FWN1o5cktUd00wcUxsZV9rSm53QUFsMjVxWjN2ZGk1RXZmV0ZyZ01aUHhMUExscktoZ3VnRWd3bDBKcnJYTWxmekh2eFJmYUQ2QnlvbDkyLW9n?oc=5",
-      "summary": "The 5 Best Ecommerce Platforms for Small Businesses &nbsp;&nbsp; Startups.co.uk",
-      "datetime": "2026-08-17T07:00:00",
-      "match_reason": "tag:ecommerce",
-      "stream": "government",
-      "story_type": "statistics",
-      "is_noise": false,
-      "retail_sector": "pureplay",
-      "tags": [
-        "internet sales",
-        "ecommerce",
-        "online retail"
-      ],
-      "body": null
-    },
-    {
-      "source_id": "ons_internet_sales",
-      "source_name": "ONS — Internet Sales",
-      "source_cat": "statistics",
-      "source_pri": "medium",
-      "paywall": false,
-      "title": "Free Ecommerce Website Builders for UK SMEs in 2026 - Startups.co.uk",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdVNnbkJPUFV3VFQxdURFaDJxeWpUeVdWREsyR2hvVmU3TTdhLUpDN01McGl4N2VvdDlZNUY1ZnVjQnFHUkVWSmlUT1EtQWgzQVhzSExoNnJYcVN5ajZXelJHeGtvT29LMXMtb3EtQkk0OG9pdVFWWDFmQzB2WFVsMlF0dWwtdw?oc=5",
-      "summary": "Free Ecommerce Website Builders for UK SMEs in 2026 &nbsp;&nbsp; Startups.co.uk",
-      "datetime": "2026-08-17T07:00:00",
-      "match_reason": "tag:ecommerce",
-      "stream": "government",
-      "story_type": "statistics",
-      "is_noise": false,
-      "retail_sector": "pureplay",
-      "tags": [
-        "internet sales",
-        "ecommerce",
-        "online retail"
       ],
       "body": null
     }
