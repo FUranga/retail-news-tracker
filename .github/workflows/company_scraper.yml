@@ -2,6 +2,7 @@ name: Company scraper (UK retailers press)
 
 on:
   schedule:
+    # Re-registrado 2026-08-31 (ver lse_scraper.yml) tras dejar de dispararse.
     # Ver nota de DST en lse_scraper.yml: se schedulean ambos horarios UTC
     # (BST y GMT) para cada hora local deseada; schedule_guard.py decide
     # cuál corresponde en tiempo real. No hace falta tocar esto por DST.

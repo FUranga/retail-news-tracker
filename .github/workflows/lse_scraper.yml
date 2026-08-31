@@ -2,6 +2,9 @@ name: LSE scraper (Retailers + Grocery)
 
 on:
   schedule:
+    # Re-registrado 2026-08-31: el cron dejó de dispararse solo desde el
+    # sábado 2026-08-29 (GitHub a veces "pierde" el schedule sin avisar;
+    # re-commitear el archivo fuerza a GitHub a re-registrarlo).
     # GitHub Actions cron corre siempre en UTC. Para no tener que editar
     # este archivo dos veces al año por el cambio BST/GMT, se schedulean
     # AMBOS horarios UTC posibles para cada hora deseada en Londres
