@@ -23,34 +23,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:39.505027+00:00"
-  },
-  {
-    "id": "b5727804998e",
-    "source": "brc",
-    "category": "informe",
-    "title": "BRC-KPMG Retail Sales Monitor — August 2026",
-    "date": "2026-09-09",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Informe mensual de ventas retail UK (BRC-KPMG), dato de referencia August 2026. Fecha ESTIMADA (~7 días hábiles tras cierre de mes) — confirmar contra brc.org.uk cerca de la fecha.",
-    "detail_url": "https://brc.org.uk/market-intelligence/publications/monitors/",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:37.518894+00:00",
-    "needs_confirmation": true
+    "scraped_at": "2026-09-01T08:22:27.775539+00:00"
   },
   {
     "id": "d7527cddda01",
@@ -76,7 +49,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.946686+00:00"
+    "scraped_at": "2026-09-01T08:22:17.566527+00:00"
   },
   {
     "id": "4de6dab4a6d3",
@@ -102,7 +75,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.946705+00:00"
+    "scraped_at": "2026-09-01T08:22:17.566552+00:00"
   },
   {
     "id": "a00e4aa4efb1",
@@ -128,7 +101,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.946713+00:00"
+    "scraped_at": "2026-09-01T08:22:17.566560+00:00"
   },
   {
     "id": "e5d51d48a061",
@@ -154,7 +127,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:38.131386+00:00"
+    "scraped_at": "2026-09-01T08:22:26.537148+00:00"
   },
   {
     "id": "db303dfd4e77",
@@ -180,7 +153,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.946740+00:00"
+    "scraped_at": "2026-09-01T08:22:17.566593+00:00"
   },
   {
     "id": "8995567834fb",
@@ -206,7 +179,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.947611+00:00"
+    "scraped_at": "2026-09-01T08:22:17.567558+00:00"
   },
   {
     "id": "909cec980265",
@@ -232,7 +205,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.947703+00:00"
+    "scraped_at": "2026-09-01T08:22:17.567654+00:00"
   },
   {
     "id": "4203e9ffa2f1",
@@ -258,7 +231,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:37.518923+00:00",
+    "scraped_at": "2026-09-01T08:22:25.850258+00:00",
     "needs_confirmation": true
   },
   {
@@ -285,7 +258,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.947766+00:00"
+    "scraped_at": "2026-09-01T08:22:17.567727+00:00"
   },
   {
     "id": "ee1131b15965",
@@ -311,7 +284,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.947806+00:00"
+    "scraped_at": "2026-09-01T08:22:17.567773+00:00"
   },
   {
     "id": "30284d4e04b8",
@@ -337,7 +310,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.947820+00:00"
+    "scraped_at": "2026-09-01T08:22:17.567789+00:00"
   },
   {
     "id": "5b7dd3d37dc6",
@@ -363,7 +336,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.947849+00:00"
+    "scraped_at": "2026-09-01T08:22:17.567824+00:00"
   },
   {
     "id": "53b3de0ad390",
@@ -389,7 +362,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.947854+00:00"
+    "scraped_at": "2026-09-01T08:22:17.567829+00:00"
   },
   {
     "id": "209ca152cb34",
@@ -415,7 +388,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:38.131402+00:00"
+    "scraped_at": "2026-09-01T08:22:26.537168+00:00"
   },
   {
     "id": "ea7af3f7316a",
@@ -441,7 +414,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:37.518937+00:00",
+    "scraped_at": "2026-09-01T08:22:25.850292+00:00",
     "needs_confirmation": true
   },
   {
@@ -468,7 +441,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.947952+00:00"
+    "scraped_at": "2026-09-01T08:22:17.567944+00:00"
   },
   {
     "id": "36deeef709ee",
@@ -494,7 +467,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.947963+00:00"
+    "scraped_at": "2026-09-01T08:22:17.567956+00:00"
   },
   {
     "id": "352a74ef742e",
@@ -520,7 +493,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.947984+00:00"
+    "scraped_at": "2026-09-01T08:22:17.567987+00:00"
   },
   {
     "id": "61f472ca6763",
@@ -546,7 +519,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.947987+00:00"
+    "scraped_at": "2026-09-01T08:22:17.567991+00:00"
   },
   {
     "id": "eac26f819baf",
@@ -572,7 +545,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:29.948022+00:00"
+    "scraped_at": "2026-09-01T08:22:17.568023+00:00"
   },
   {
     "id": "c9cada08a1c9",
@@ -598,7 +571,34 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:37.518949+00:00",
+    "scraped_at": "2026-09-01T08:22:25.850310+00:00",
+    "needs_confirmation": true
+  },
+  {
+    "id": "3f8f2a1858f8",
+    "source": "brc",
+    "category": "informe",
+    "title": "BRC-KPMG Retail Sales Monitor — December 2026",
+    "date": "2027-01-11",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Informe mensual de ventas retail UK (BRC-KPMG), dato de referencia December 2026. Fecha ESTIMADA (~7 días hábiles tras cierre de mes) — confirmar contra brc.org.uk cerca de la fecha.",
+    "detail_url": "https://brc.org.uk/market-intelligence/publications/monitors/",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-01T08:22:25.850326+00:00",
     "needs_confirmation": true
   },
   {
@@ -625,7 +625,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251147+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763210+00:00"
   },
   {
     "id": "8a309c06bf7b",
@@ -651,7 +651,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251152+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763218+00:00"
   },
   {
     "id": "3933b6a6dffe",
@@ -677,7 +677,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251135+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763195+00:00"
   },
   {
     "id": "57c02723f905",
@@ -703,7 +703,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251141+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763203+00:00"
   },
   {
     "id": "d693d69eae9f",
@@ -729,7 +729,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251124+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763177+00:00"
   },
   {
     "id": "d9829cc2036b",
@@ -755,7 +755,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251129+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763185+00:00"
   },
   {
     "id": "530b2be3a0d6",
@@ -781,7 +781,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251098+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763144+00:00"
   },
   {
     "id": "868c70b311f2",
@@ -807,7 +807,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251105+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763152+00:00"
   },
   {
     "id": "9f06a7f720f4",
@@ -833,7 +833,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251110+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763160+00:00"
   },
   {
     "id": "272036ce23da",
@@ -859,7 +859,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251117+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763169+00:00"
   },
   {
     "id": "21c0ec3492f8",
@@ -885,7 +885,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251087+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763129+00:00"
   },
   {
     "id": "93cd44ed9293",
@@ -911,7 +911,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251093+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763137+00:00"
   },
   {
     "id": "11386a324fb5",
@@ -937,7 +937,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251075+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763113+00:00"
   },
   {
     "id": "668a27f5bf90",
@@ -963,7 +963,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251081+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763121+00:00"
   },
   {
     "id": "ae82000e43c6",
@@ -989,7 +989,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251048+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763076+00:00"
   },
   {
     "id": "3c3a1287e602",
@@ -1015,7 +1015,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251056+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763087+00:00"
   },
   {
     "id": "73628db1d86a",
@@ -1041,7 +1041,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251062+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763095+00:00"
   },
   {
     "id": "d972fd44cde0",
@@ -1067,7 +1067,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251069+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763105+00:00"
   },
   {
     "id": "5f70ee7a5d10",
@@ -1093,7 +1093,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251036+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763061+00:00"
   },
   {
     "id": "99fe5fee9d33",
@@ -1119,7 +1119,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251043+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763068+00:00"
   },
   {
     "id": "688b08ae5767",
@@ -1145,7 +1145,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251014+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763030+00:00"
   },
   {
     "id": "dcb72500b4dc",
@@ -1171,7 +1171,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251020+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763038+00:00"
   },
   {
     "id": "3885e2a721a3",
@@ -1197,7 +1197,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251025+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763045+00:00"
   },
   {
     "id": "944cbecd3ab6",
@@ -1223,7 +1223,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251031+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763053+00:00"
   },
   {
     "id": "8c2ccdd705b1",
@@ -1249,7 +1249,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251001+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763014+00:00"
   },
   {
     "id": "aff17b8b4ab9",
@@ -1275,7 +1275,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.251008+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763022+00:00"
   },
   {
     "id": "c9b794fab171",
@@ -1301,7 +1301,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250976+00:00"
+    "scraped_at": "2026-09-01T08:22:17.762979+00:00"
   },
   {
     "id": "289a24e3474e",
@@ -1327,7 +1327,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250982+00:00"
+    "scraped_at": "2026-09-01T08:22:17.762988+00:00"
   },
   {
     "id": "16ba790342c5",
@@ -1353,7 +1353,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250988+00:00"
+    "scraped_at": "2026-09-01T08:22:17.762996+00:00"
   },
   {
     "id": "63be066624d6",
@@ -1379,7 +1379,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250995+00:00"
+    "scraped_at": "2026-09-01T08:22:17.763007+00:00"
   },
   {
     "id": "95004d0d853a",
@@ -1405,7 +1405,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250964+00:00"
+    "scraped_at": "2026-09-01T08:22:17.762948+00:00"
   },
   {
     "id": "4859bc0aa5c3",
@@ -1431,7 +1431,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250970+00:00"
+    "scraped_at": "2026-09-01T08:22:17.762956+00:00"
   },
   {
     "id": "a23d4a94dad4",
@@ -1457,7 +1457,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250940+00:00"
+    "scraped_at": "2026-09-01T08:22:17.762916+00:00"
   },
   {
     "id": "99fdb8ce6e6e",
@@ -1483,7 +1483,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250946+00:00"
+    "scraped_at": "2026-09-01T08:22:17.762924+00:00"
   },
   {
     "id": "3fc38ae47df8",
@@ -1509,7 +1509,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250952+00:00"
+    "scraped_at": "2026-09-01T08:22:17.762932+00:00"
   },
   {
     "id": "cd17bbd9d650",
@@ -1535,7 +1535,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250958+00:00"
+    "scraped_at": "2026-09-01T08:22:17.762940+00:00"
   },
   {
     "id": "8c1b8305eb96",
@@ -1561,7 +1561,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250923+00:00"
+    "scraped_at": "2026-09-01T08:22:17.762894+00:00"
   },
   {
     "id": "77a544e75967",
@@ -1587,7 +1587,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250933+00:00"
+    "scraped_at": "2026-09-01T08:22:17.762907+00:00"
   },
   {
     "id": "2a100eb212a1",
@@ -1613,7 +1613,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250898+00:00"
+    "scraped_at": "2026-09-01T08:22:17.762862+00:00"
   },
   {
     "id": "c5836a7ffcd8",
@@ -1639,6 +1639,6 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-08-31T10:51:30.250915+00:00"
+    "scraped_at": "2026-09-01T08:22:17.762882+00:00"
   }
 ]
