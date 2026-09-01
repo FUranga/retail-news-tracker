@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T10:51:59",
+  "generated_at": "2026-09-01T08:23:06",
   "items": [
     {
       "source_id": "relex_solutions",
@@ -217,6 +217,26 @@
       "body": null
     },
     {
+      "source_id": "ncr_voyix",
+      "source_name": "NCR Voyix",
+      "companyname": "NCR Voyix",
+      "retail_sector": "pureplay",
+      "supply_category": "tech",
+      "listed": "NYSE",
+      "tier": 1,
+      "paywall": false,
+      "title": "NCR Voyix (VYX) Institutional Ownership 2026 $VYX - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TRldjazh5blhlYTlhdkNpLTZGbVVoZ2J1QjVpRHRCZ0E1d2ZtR21WOTc1bmNTcnNaQ2dsMTJTTFNSWC14ajFveENqUUoxX25yYjVHT0FEVnNLMU0tT0dRdG10dFRXUnl3Z0V6Y2ZfZmRtZUlIRlE?oc=5",
+      "summary": "NCR Voyix (VYX) Institutional Ownership 2026 $VYX &nbsp;&nbsp; MarketBeat",
+      "datetime": "2026-08-27T07:00:00",
+      "tech_signal": false,
+      "stream": "supplier",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "supplier:NCR Voyix",
+      "body": null
+    },
+    {
       "source_id": "reckitt",
       "source_name": "Reckitt",
       "companyname": "Reckitt",
@@ -301,10 +321,11 @@
       "listed": "Euronext/LSE/NASDAQ",
       "tier": 1,
       "paywall": false,
-      "title": "Coca-Cola Europacific (CCEP) continues €1B share buyback - Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNLS1RY3M5dDVEU3dSUk15SENaXzJkd3Q2dUlTQnhnWHhBdHNxRFdVNldoWXhmSXg1cGVlWlhIdU9ZXy1lYlpHSnNJcFhJSFJKdlN4dW56TUtqaE1PQVRCbFMzZHh4SG9JNEJESmMteGZpbHF1dFdFMnhUM3BoR2FFcXBXRFZKRWxqWk9uOW85Z1ZqbGxQNmVlaEYzdlJNZXFGd0xFZUktNktsVkcwa0FNSkd3Q0xFN3ZNc0R4MDRqcEVKSTBVSEdaaGl3?oc=5",
-      "summary": "Coca-Cola Europacific (CCEP) continues €1B share buyback &nbsp;&nbsp; Stock Titan",
-      "datetime": "2026-08-24T12:43:31",
+      "title": "Special Olympics GB Deposit Return Scheme trial to help improve accessibility - cocacolaep.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU0VuMFlLNlZ1dlA1cHpNSTRzZDlpb1FmOXJqbFhBRHRMTWk5anh2aEtvLXF6cjJWX3JGUE1oNmVLY1dsLXRNSlRCR2xNRm83NHBtcTFicUNUS2dkMERrQVd6MExKZEpxVElDRFY3R1JrTEQxSUhqOERQMVdjbTVzTGx5M19UXzBNczRLRDhKRmZwLXRDOFBFaFJqa0F0OTVrc0tsMDB3bVBqMUZfM213UjFWcjc4QTZhTmY2LWQwUmRncUU?oc=5",
+      "summary": "Special Olympics GB Deposit Return Scheme trial to help improve accessibility &nbsp;&nbsp; cocacolaep.com",
+      "datetime": "2026-08-25T10:50:42",
+      "tech_signal": false,
       "stream": "supplier",
       "story_type": null,
       "is_noise": false,
