@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T08:23:06",
+  "generated_at": "2026-09-01T11:51:20",
   "items": [
     {
       "source_id": "relex_solutions",
@@ -283,6 +283,26 @@
       "listed": "Euronext/LSE/NASDAQ",
       "tier": 1,
       "paywall": false,
+      "title": "Coca-Cola Bottler Teams Up With Special Olympics GB On Accessibility Trial Ahead Of The UK's DRS Launch - kamcity.com",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOc0dYX2g3SWdtalM5V3ZDOWNNTmZsVmRLenJkeHAwNXhlNktzLUI1MkNIZlMyMGd3dkxPYWRVRWtuY01BNW1XSjJMcFphMVc0X1RFdmg3V211SzNMQ2lQMmlIRzdPYTluRTRNalhUcFlHSDlUWVZkZzdHWDhyMzdPWVhDcW5vNndLS00wMV9GeFhIUXBEWHFsM0JwV1FObEdfVlhyV0JxNlRpSTJvazBLYjUxbFZxbDAwTDFsQS1mX2N3Vi13WDZ3WjNaZmJOcXhvemtWUERXbE5YRklURW5YMEtIaUp0aUluTWVOdnM5OWRyZmp1cEVr?oc=5",
+      "summary": "Coca-Cola Bottler Teams Up With Special Olympics GB On Accessibility Trial Ahead Of The UK's DRS Launch &nbsp;&nbsp; kamcity.com",
+      "datetime": "2026-08-26T11:12:34",
+      "tech_signal": false,
+      "stream": "supplier",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "supplier:Coca-Cola Europacific Partners",
+      "body": null
+    },
+    {
+      "source_id": "ccep",
+      "source_name": "Coca-Cola Europacific Partners",
+      "companyname": "Coca-Cola Europacific Partners",
+      "retail_sector": "grocery",
+      "supply_category": "fmcg",
+      "listed": "Euronext/LSE/NASDAQ",
+      "tier": 1,
+      "paywall": false,
       "title": "Olympics DRS trial delivered by Coca-Cola Europacific Partners - The Manufacturer",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMDN5RG1iS3dzbVJjek5nOXVCZjNWYVhvTFZZSElDcGFockR0SnNJS1paaUk1TEZscEdkT3l6ay1ySHFmQVJPOXZ0ZWVMOHBMTjBEaVQ5NjBmMzhrUHZxaHp4RnRvYTVuY2lFOVhYUjhiLXpqXzk2MnMzWXE2bmYwTEhhWDNPamFhbzZCNGJ1NFJvNVRoa0J2NDlBcmdCZExlcFZ0LW5YWHVVR2RQYXVLTEduLWZjUjZON1hz?oc=5",
       "summary": "Olympics DRS trial delivered by Coca-Cola Europacific Partners &nbsp;&nbsp; The Manufacturer",
@@ -310,26 +330,6 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "supplier:Müller UK & Ireland",
-      "body": null
-    },
-    {
-      "source_id": "ccep",
-      "source_name": "Coca-Cola Europacific Partners",
-      "companyname": "Coca-Cola Europacific Partners",
-      "retail_sector": "grocery",
-      "supply_category": "fmcg",
-      "listed": "Euronext/LSE/NASDAQ",
-      "tier": 1,
-      "paywall": false,
-      "title": "Special Olympics GB Deposit Return Scheme trial to help improve accessibility - cocacolaep.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU0VuMFlLNlZ1dlA1cHpNSTRzZDlpb1FmOXJqbFhBRHRMTWk5anh2aEtvLXF6cjJWX3JGUE1oNmVLY1dsLXRNSlRCR2xNRm83NHBtcTFicUNUS2dkMERrQVd6MExKZEpxVElDRFY3R1JrTEQxSUhqOERQMVdjbTVzTGx5M19UXzBNczRLRDhKRmZwLXRDOFBFaFJqa0F0OTVrc0tsMDB3bVBqMUZfM213UjFWcjc4QTZhTmY2LWQwUmRncUU?oc=5",
-      "summary": "Special Olympics GB Deposit Return Scheme trial to help improve accessibility &nbsp;&nbsp; cocacolaep.com",
-      "datetime": "2026-08-25T10:50:42",
-      "tech_signal": false,
-      "stream": "supplier",
-      "story_type": null,
-      "is_noise": false,
-      "match_reason": "supplier:Coca-Cola Europacific Partners",
       "body": null
     }
   ]
