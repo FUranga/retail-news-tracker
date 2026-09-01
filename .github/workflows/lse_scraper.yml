@@ -60,5 +60,11 @@ jobs:
           git add data/raw/*.csv dashboard_data.json unmapped_categories.json data/archive/dashboard_data_archive.json
           git diff --staged --quiet && echo "Sin cambios, nada que commitear" && exit 0
           git commit -m "Actualización automática LSE $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # Cualquier cambio en un archivo trackeado que quede sin stagear a
+          # esta altura es ruido no intencional (ej. un archivo generado que
+          # se reescribió en disco sin ser parte del commit de arriba) — todo
+          # lo que había que guardar ya está commiteado. Descartarlo evita
+          # que "git pull --rebase" falle con "You have unstaged changes."
+          git checkout -- .
           git pull --rebase origin main
           git push
