@@ -57,7 +57,7 @@ jobs:
         run: |
           git config user.name "lse-scraper-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/raw/*.csv dashboard_data.json unmapped_categories.json
+          git add data/raw/*.csv dashboard_data.json unmapped_categories.json data/archive/dashboard_data_archive.json
           git diff --staged --quiet && echo "Sin cambios, nada que commitear" && exit 0
           git commit -m "Actualización automática LSE $(date -u +'%Y-%m-%d %H:%M UTC')"
           git pull --rebase origin main
