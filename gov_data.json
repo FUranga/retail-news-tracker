@@ -1,6 +1,141 @@
 {
-  "generated_at": "2026-09-01T13:46:41",
+  "generated_at": "2026-09-02T09:37:58",
   "items": [
+    {
+      "source_id": "cma",
+      "source_name": "CMA — Competition and Markets Authority",
+      "source_cat": "regulation",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "12 new experts to join the CMA's inquiry panel",
+      "url": "https://www.govwire.co.uk/news/competition-and-markets-authority/12-new-experts-to-join-the-cmas-inquiry-panel-g2578272",
+      "summary": "New members bring wide-ranging expertise to support the CMAs independent work. | Competition and Markets Authority.",
+      "datetime": "2026-09-02T09:33:36.880636",
+      "match_reason": "priority:high (cma)",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "merger",
+        "competition",
+        "investigation",
+        "consumer protection",
+        "CMA"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "gov_treasury",
+      "source_name": "GOV.UK — HM Treasury",
+      "source_cat": "policy",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Three Hundreds of Chiltern",
+      "url": "https://www.govwire.co.uk/news/hm-treasury/three-hundreds-of-chiltern-g2580048",
+      "summary": "The Chancellor of the Exchequer has this day appointed Sir Keir Starmer to be Steward and Bailiff of the Three Hundreds of Chiltern. | HM Treasury.",
+      "datetime": "2026-09-02T09:32:58.182675",
+      "match_reason": "priority:high (gov_treasury)",
+      "stream": "government",
+      "story_type": "policy",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "budget",
+        "business rates",
+        "VAT",
+        "fiscal policy"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "ons_calendar",
+      "source_name": "ONS — Release Calendar",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Geographical variation in the prevalence of young people not in education, employment or training (NEET), England: March 2021",
+      "url": "https://www.ons.gov.uk/releases/geographicalinequalitiesinyoungpeoplenotineducationemploymentortrainingneetenglandmarch2021",
+      "summary": "Characteristics of young people (aged 16 to 24 years) who were not in education, employment, or training (NEET) in England in 2021, adjusted for individual and geographical differences.",
+      "datetime": "2026-09-02T08:30:00",
+      "match_reason": "priority:high (ons_calendar)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "ONS",
+        "statistics",
+        "release"
+      ],
+      "body": "Geographical variation in the prevalence of young people not in education, employment or training (NEET), England: March 2021\n- Office for National Statistics\nCookies on ons.gov.uk\nCookies are small files stored on your device when you visit a website. We use some essential cookies to make this website work.\nWe would like to set additional cookies to remember your settings and understand how you use the site. This helps us to improve our services.\nGeographical variation in the prevalence of young people not in education, employment or training (NEET), England: March 2021\nReleased:2 September 2026 9:30am\nNext release:To be announced\nSummary\nCharacteristics of young people (aged 16 to 24 years) who were not in education, employment, or training (NEET) in England in 2021, adjusted for individual and geographical differences.\nCharacteristics of young people (aged 16 to 24 years) who were not in education, employment, or training (NEET) in England in 2021, adjusted for individual and geographical differences.\nCharacteristics of young people (aged 16 to 24 years) who were not in education, employment, or training (NEET) in England in 2021, adjusted for individual and geographical differences."
+    },
+    {
+      "source_id": "ons_calendar",
+      "source_name": "ONS — Release Calendar",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Children's perceptions of crime and online safety in England and Wales: year ending February 2026",
+      "url": "https://www.ons.gov.uk/releases/onlinechildrenscrimesurveyforenglandandwalesfirstfindingsfortheyearendingfebruary2026",
+      "summary": "Estimates of children’s experiences and perceptions of safety online and in their daily lives, using data from the redesigned Children’s Crime Survey for England and Wales, an online survey of children aged 10 to 15 years.",
+      "datetime": "2026-09-02T08:30:00",
+      "match_reason": "priority:high (ons_calendar)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "ONS",
+        "statistics",
+        "release"
+      ],
+      "body": "Children's perceptions of crime and online safety in England and Wales: year ending February 2026\nReleased:2 September 2026 9:30am\nNext release:To be announced\nSummary\nEstimates of children’s experiences and perceptions of safety online and in their daily lives, using data from the redesigned Children’s Crime Survey for England and Wales, an online survey of children aged 10 to 15 years.\nEstimates of children’s experiences and perceptions of safety online and in their daily lives, using data from the redesigned Children’s Crime Survey for England and Wales, an online survey of children aged 10 to 15 years. These are official statistics in development.\nEstimates of children's well-being, using data from the redesigned Children's Crime Survey for England and Wales. These are official statistics in development.\nEstimates of children's exposure to harmful content online and sending and receiving sexual messages, using data taken from the redesigned Children's Crime Survey for England and Wales. These are official statistics in development.\nEstimates of children's experiences and perceptions of safety, based on responses taken from the redesigned Children's Crime Survey for England and Wales. These are official statistics in development.\nResponses to questions from the redesigned Children's Crime Survey for England and Wales on children's online activity and security. These are official statistics in development.\nChildren’s Crime Survey for England and Wales design and implementation, including collection methods, sample design, response rates and coverage. Includes survey changes and quality information."
+    },
+    {
+      "source_id": "ons_calendar",
+      "source_name": "ONS — Release Calendar",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Characteristics of young people not in education, employment or training (NEET) who did not receive benefits, England: March 2021",
+      "url": "https://www.ons.gov.uk/releases/characteristicsofyoungpeoplenotineducationemploymentortrainingneetwhodonotclaimbenefitsenglandmarch2021",
+      "summary": "Sociodemographic, health and labour market characteristics of young people (aged 16 to 24 years) who were not in education, employment or training (NEET) on Census Day 2021 and were not recorded as receiving benefits in England in March 2021.",
+      "datetime": "2026-09-02T08:30:00",
+      "match_reason": "priority:high (ons_calendar)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "ONS",
+        "statistics",
+        "release"
+      ],
+      "body": "Characteristics of young people not in education, employment or training (NEET) who did not receive benefits, England: March 2021\n- Office for National Statistics\nCookies on ons.gov.uk\nCookies are small files stored on your device when you visit a website. We use some essential cookies to make this website work.\nWe would like to set additional cookies to remember your settings and understand how you use the site. This helps us to improve our services.\nCharacteristics of young people not in education, employment or training (NEET) who did not receive benefits, England: March 2021\nRelease date:2 September 2026 9:30am\nSummary\nSociodemographic, health and labour market characteristics of young people (aged 16 to 24 years) who were not in education, employment or training (NEET) on Census Day 2021 and were not recorded as receiving benefits in England in March 2021.\nSociodemographic, health and labour market characteristics of young people (aged 16 to 24 years) who were not in education, employment or training (NEET) on Census Day 2021 and were not recorded as receiving benefits in England in March 2021.\nSociodemographic, health and labour market characteristics of young people (aged 16 to 24 years) who were not in education, employment or training (NEET) on Census Day 2021 and were not recorded as receiving benefits in England in March 2021."
+    },
+    {
+      "source_id": "ons_calendar",
+      "source_name": "ONS — Release Calendar",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Working and workless households in the UK: April to June 2026",
+      "url": "https://www.ons.gov.uk/releases/workingandworklesshouseholdsintheukapriltojune2026",
+      "summary": "The economic status of households in the UK, and the people living in them, where at least one person is aged 16 to 64 years. Taken from the Labour Force Survey.",
+      "datetime": "2026-09-02T08:30:00",
+      "match_reason": "priority:high (ons_calendar)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "ONS",
+        "statistics",
+        "release"
+      ],
+      "body": "Working and workless households in the UK: April to June 2026\nSummary\nThe economic status of households in the UK, and the people living in them, where at least one person is aged 16 to 64 years. Taken from the Labour Force Survey.\nPublications\n- \n      Working and workless households in the UK: April to June 2026 The economic status of households in the UK and the people living in them, where at least one person is aged 16 to 64 years. Taken from the Labour Force Survey.\nData\n- \n      Employment rates of people by parental status: Table P Quarterly and historical data on employment rates of people in the UK by parental status.\n- \n      Employment rates for men and women living with and without dependent children in the UK: Table Q Quarterly and historical data on the employment rates of men and women living with and without dependent children in the UK.\n- \n      Households by housing tenure and combined economic activity status of household members: Table D Quarterly and historical data on UK households by housing tenure and combined economic activity status of household members.\n- \n      People in households by type of household and combined economic activity status of household members: Table G Quarterly and historical data on people living in UK households by type of household and combined economic activity status of household members.\n- \n      Households where all members have never worked: Table E Quarterly and historical data on UK households where all members have never worked.\n- \n      Children in households by combined economic activity status of household members: Table K Quarterly and historical data on children living in UK households by combined economic activity status of household members.\n- \n      Employment rate of parents living with dependent children by family type and age of the youngest child in the UK: Table R Employment rate of parents living with dependent children as a couple or lone parent by age of the youngest child in the UK.\n- \n      Working and workless households: quality measures The sampling variability and relative standard error for each UK estimate are provided by level (thousands) and rate (%).\n- \n      Parents living with dependent children in the UK by economic activity and by single year of age of youngest dependent child: Table T Percentage of parents living with dependent children in the UK by economic activity status and by single year of age of youngest dependent child.\n- \n      Households with and without dependent children by type of household and combined economic activity status of household members: Table B Quarterly and historical data on UK households with and without dependent children by type of household and combined economic activity status of household members.\n- \n      People in households by housing tenure and combined economic activity status of household members: Table I Quarterly and historical data on people living in UK households by housing tenure and combined economic activity status of household members.\n- \n      Economic activity and employment type for men and women by age of the youngest dependent child living with them in the UK: Table S Economic activity and employment type for men and women by age of the youngest dependent child living with them in the UK.\n- \n      People by age and combined economic activity status of household members: Table F Quarterly and historical data on people living in UK households by age and combined economic activity status of household members.\n- \n      Children in households by housing tenure and combined economic activity status of household members: Table N Quarterly and historical data on children living in UK households by housing tenure and combined economic activity status of household members.\n- \n      People by age and combined economic activity status of household members, excluding student households: Table F2 Quarterly and historical data on people living in UK households by age and combined economic activity status of household members, excluding student households.\n- \n      Households by region and combined economic activity status of household members: Table C Quarterly and historical data on UK households, excluding student households, by region and combined economic activity status of household members.\n- \n      People in households where all members have never worked: Table J Quarterly and historical data on people living in UK households where all members have never worked.\n- \n      Children in households by region and combined economic activity status of household members: Table M Quarterly and historical data on children living in UK households by region and combined economic activity status of household members.\n- \n      Households by combined economic activity status of household members: Table A Quarterly and historical data on UK households by combined economic activity status of household members.\n- \n      Children in households, excluding student households, by combined economic activity status of household members: Table K2 Quarterly and historical data on children living in UK households, excluding student households, by combined economic activity status of household members.\n- \n      People by region and combined economic activity status of household members: Table H Quarterly and historical data on people by UK region and combined economic activity status of household members.\n- \n      Children in households where all members have never worked: Table O Quarterly and historical data on children living in UK households where all members have never worked.\n- \n      Households, excluding student households, by combined economic activity status of household members: Table A2 Quarterly and historical data on UK households, excluding student households, by combined economic activity status of household members.\n- \n      Children in households by type of household and combined economic activity status of household members: Table L Quarterly and historical data on children living in UK households by type of household and combined economic activity status of household members."
+    },
     {
       "source_id": "gov_treasury",
       "source_name": "GOV.UK — HM Treasury",
@@ -5329,6 +5464,29 @@
       "body": null
     },
     {
+      "source_id": "gov_hmrc",
+      "source_name": "GOV.UK — HMRC",
+      "source_cat": "policy",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Mike Ashley ridicules 'delusional' Andy Burnham's 'disastrous' plan to save UK high street - Daily Express",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ1NLX3BoaVFFb0pUdGdMWWNsa2xBc09taWpjRFBNbzZENVZkOGdKWk0zdDJ4dHhMU2VRT1F3X1FaQzVBQ0pXczlFMTI1bUczcGxNdTdyS20xQ203Y2FBMHVDM2RMWXh5QmNYT0dfdVhoSUZITjVnVkduSEFNdjdZZTdzLTJSTXZNbTdxRktnUE42OXFXTVByZ9IBngFBVV95cUxOQ09Kcmd5dFRMZk5LT0oxMFNLSlk1QzBpcm1BeFF3VTNNZjNTNVkwSElSb0ZHU3V3dlV5aWFpMDg1bExIOEdvRlBveWpyUlVDUVJpRmtiSnRLM2hZN0FXb0FFaFBUSlVBRGhIVEhvNy1KNlF5S1JUOHFZLU9WejBiQ29xczVMNmRZZGJnR1d5dGxmZnZ0MDFTd3c1bEJiZw?oc=5",
+      "summary": "Mike Ashley ridicules 'delusional' Andy Burnham's 'disastrous' plan to save UK high street &nbsp;&nbsp; Daily Express",
+      "datetime": "2026-08-27T20:23:00",
+      "match_reason": "keyword:high street",
+      "stream": "government",
+      "story_type": "policy",
+      "is_noise": false,
+      "retail_sector": "property",
+      "tags": [
+        "VAT",
+        "Making Tax Digital",
+        "business rates",
+        "tax"
+      ],
+      "body": null
+    },
+    {
       "source_id": "brc_reports",
       "source_name": "British Retail Consortium",
       "source_cat": "research",
@@ -5824,6 +5982,29 @@
       "body": null
     },
     {
+      "source_id": "asa",
+      "source_name": "ASA — Advertising Standards Authority",
+      "source_cat": "regulation",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "ASA Ruling on BioIdentical Hormone Therapy Ltd t/a BioID Health - ASA | CAP",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41TXBlWjIwUXYwTXF4dVV5OEdBMkVTNDd6WFdVLWdxclJXSHVLM05oSWFWTHpZbUF3blY2WXhxN0VlQXphOFFwbDdjWnpyQlplZzFSNmIyN1FKWlktWHBfT3BzR0QyaTNPMFF6UVJObS1WWU9YeEEw?oc=5",
+      "summary": "ASA Ruling on BioIdentical Hormone Therapy Ltd t/a BioID Health &nbsp;&nbsp; ASA | CAP",
+      "datetime": "2026-08-25T23:29:46",
+      "match_reason": "tag:asa ruling",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "advertising",
+        "greenwashing",
+        "ASA ruling",
+        "misleading"
+      ],
+      "body": null
+    },
+    {
       "source_id": "brc_reports",
       "source_name": "British Retail Consortium",
       "source_cat": "research",
@@ -6097,6 +6278,30 @@
       "body": null
     },
     {
+      "source_id": "fca",
+      "source_name": "FCA — Financial Conduct Authority",
+      "source_cat": "regulation",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Furniture retailers urged to consider broader finance options - Big Furniture Group",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM1BfcTdsZHJyMFM4OUxvQ1B1STB2YmJ3WUNTenBZQW1QT2t4OE9Ja2RkZ2xUWnZjVE5wQVVFcWktWWluVllEU3lfQWpHVW9vTHluV2ZPWi1RdU9Ga1ZsaFhnR2NuQjJtMGx1YjFkcmdtRUtKTXkzSTNaZUtma3JRZThPVm04TGdpVWFuamZsQVZwaHU2SkJPRTVKanY?oc=5",
+      "summary": "Furniture retailers urged to consider broader finance options &nbsp;&nbsp; Big Furniture Group",
+      "datetime": "2026-08-24T04:55:57",
+      "match_reason": "keyword:retailer",
+      "stream": "government",
+      "story_type": "regulation",
+      "is_noise": false,
+      "retail_sector": "home",
+      "tags": [
+        "BNPL",
+        "buy now pay later",
+        "consumer credit",
+        "Klarna",
+        "Clearpay"
+      ],
+      "body": null
+    },
+    {
       "source_id": "brc_reports",
       "source_name": "British Retail Consortium",
       "source_cat": "research",
@@ -6185,6 +6390,48 @@
         "crime",
         "sustainability",
         "employment"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "ons_retail",
+      "source_name": "ONS — Retail Sales",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "UK retail sales fall as shoppers cut back on clothing and online spending - Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWjhVcEJSa1Q1SkJXWl9SR3ZBeHltc0JFTGgyVE1jUTVTYTNpZW5IcEQyWS0wSmlIRGtGenFhRF9ibzNzU25oR0NiTFU2anNTV3lMU2NaMGR2OUJMNXFzOGxObFZDc0Y2cW5zNWVtbE5nUWNpcHY2MXdCUWtlS0ZDbW5WMWJGTDg?oc=5",
+      "summary": "UK retail sales fall as shoppers cut back on clothing and online spending &nbsp;&nbsp; Yahoo Finance UK",
+      "datetime": "2026-08-21T08:27:23",
+      "match_reason": "priority:high (ons_retail)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "fashion",
+      "tags": [
+        "retail sales",
+        "ONS"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "ons_retail",
+      "source_name": "ONS — Retail Sales",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "UK retail sales fall as shoppers cut back on clothing and online spending - Newswav",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWTVwTHJCa3hiRW85RzZjZjVnVUJNdGR1VVFxb0NYWU5EODdFUjgtRE1Yc2RNSzk1eWNIR3o2NEZXWm1hRnJFU1JlXzRNWUJjMVRlMm9OcS1RbXgxalkyRENzVXR1NjRxNnc3LU9BQWp0WGtfczhpcF9vY0ZxQUF6Z3hkSnRJT1hkT2RLanBGMldfbUwxZnJWemJ1VEVNX3F6TFBNSUluQXNtZnE3U0VzY2VSRmI?oc=5",
+      "summary": "UK retail sales fall as shoppers cut back on clothing and online spending &nbsp;&nbsp; Newswav",
+      "datetime": "2026-08-21T08:27:23",
+      "match_reason": "priority:high (ons_retail)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "fashion",
+      "tags": [
+        "retail sales",
+        "ONS"
       ],
       "body": null
     },
@@ -6548,99 +6795,6 @@
         "CPI",
         "RPI",
         "shop prices"
-      ],
-      "body": null
-    },
-    {
-      "source_id": "ons_cpi",
-      "source_name": "ONS — Inflation (CPI/RPI)",
-      "source_cat": "statistics",
-      "source_pri": "high",
-      "paywall": false,
-      "title": "Inflation in the UK: Economic indicators - The House of Commons Library",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhenhHZFZuRHh1cmQ4a0VIT1JROW14dmpOd19QT29vc3RBbWZvOXJzLW4wNm8wLVJ0a1Jxa3c1OGdSa2ItSjMyYS1SMUdwb2ZNVzkwNDhZVUx3RDBMSVozVFFzYmd3V3htck9KbXJ3aDhsQQ?oc=5",
-      "summary": "Inflation in the UK: Economic indicators &nbsp;&nbsp; The House of Commons Library",
-      "datetime": "2026-08-19T07:00:00",
-      "match_reason": "priority:high (ons_cpi)",
-      "stream": "government",
-      "story_type": "statistics",
-      "is_noise": false,
-      "retail_sector": "macro",
-      "tags": [
-        "inflation",
-        "CPI",
-        "RPI",
-        "shop prices"
-      ],
-      "body": null
-    },
-    {
-      "source_id": "bank_of_england",
-      "source_name": "Bank of England",
-      "source_cat": "macro",
-      "source_pri": "high",
-      "paywall": false,
-      "title": "POLL Bank of England to hold rates for remainder of year despite inflation risks - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQzJRYVd3OEZsRm9qOF93SEZvN3RzTFpldTNxaWhlWW85MEVEbjZaTFExVnhLdHdSN3A3MWZvV0VFcktyd3ZTQ0Y1cnZNQW45N2cyZTNzMFZpdGJQcEpzazNJSFNZS1NDWXRwMnQ0OXhmNUNpUzVPeGdzZ0ZzOTJGUXdIdW05S3pLUmJjd3l3U2J4TWtaenJDQVI1R1l6ZG1Ob1JZdGlCUUJOY1U?oc=5",
-      "summary": "POLL Bank of England to hold rates for remainder of year despite inflation risks &nbsp;&nbsp; Reuters",
-      "datetime": "2026-08-19T07:00:00",
-      "match_reason": "priority:high (bank_of_england)",
-      "stream": "government",
-      "story_type": "macro",
-      "is_noise": false,
-      "retail_sector": "macro",
-      "tags": [
-        "interest rates",
-        "MPC",
-        "inflation",
-        "consumer credit",
-        "mortgage"
-      ],
-      "body": null
-    },
-    {
-      "source_id": "bank_of_england",
-      "source_name": "Bank of England",
-      "source_cat": "macro",
-      "source_pri": "high",
-      "paywall": false,
-      "title": "Fears Grow Over Likely Interest Rate Hike As Inflation Hits 2.9% - Forbes",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU2Vib0FIUXVTS2ZiZlBXbkxpdjNTVWRSaU5nQjE4ZktjOFlGTkdFWGFPeU1oQUhwSWViUWYybllXWHNOb1VwSzlMQXdscHd6eHlLX2NZbjVSRWIwRjhERGctOUVSMGRJUDFDYkhZcjM4a0dvUVhsYnVBdGtlYmlkRlU4WU81RmpyQjFYdg?oc=5",
-      "summary": "Fears Grow Over Likely Interest Rate Hike As Inflation Hits 2.9% &nbsp;&nbsp; Forbes",
-      "datetime": "2026-08-19T07:00:00",
-      "match_reason": "priority:high (bank_of_england)",
-      "stream": "government",
-      "story_type": "macro",
-      "is_noise": false,
-      "retail_sector": "macro",
-      "tags": [
-        "interest rates",
-        "MPC",
-        "inflation",
-        "consumer credit",
-        "mortgage"
-      ],
-      "body": null
-    },
-    {
-      "source_id": "igd",
-      "source_name": "IGD — Institute of Grocery Distribution",
-      "source_cat": "research",
-      "source_pri": "medium",
-      "paywall": false,
-      "title": "The Rise of Health-Focused Retail Across Europe | IGD Retail Analysis - IGD (Institute of Grocery Distribution)",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOWRXYzVONmJRMEN5ZE81dTZPN0VYaXBHblBUMmloNjBOZjJ4TkJCY25BYWt4M2Y1VzBVQUExcGZwM3FQcUJjall0UmdvR1hLcFRUX0xORlF3OFFaRGN5TFQxT1hVNEN3em5iMi1waEFtc0M2dzBhY2t2end6V3g3T2FrOW9lNy1ZMWJrc05R?oc=5",
-      "summary": "The Rise of Health-Focused Retail Across Europe | IGD Retail Analysis &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
-      "datetime": "2026-08-19T07:00:00",
-      "match_reason": "tag:grocery",
-      "stream": "trade_body",
-      "story_type": "research",
-      "is_noise": false,
-      "retail_sector": "grocery",
-      "tags": [
-        "grocery",
-        "supply chain",
-        "supermarket"
       ],
       "body": null
     }
