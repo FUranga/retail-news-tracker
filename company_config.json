@@ -14,6 +14,9 @@
   "retention": {
     "keep_days": 7
   },
+  "rejected_log": {
+    "keep_days": 30
+  },
   "filtering": {
     "always_include": true,
     "note": "Todas las publicaciones de estas fuentes son relevantes — no se filtra por keywords"
@@ -381,6 +384,195 @@
       "listed": "private",
       "rss": "https://news.google.com/rss/search?q=\"Specsavers\"+announces+OR+launches+OR+partnership+UK&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "health"
+    },
+    {
+      "id": "poundland",
+      "name": "Poundland",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"Poundland\"+announces+OR+opens+OR+launches+OR+results+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "note": "Agregado 2026-09-08. Ya estaba en retailers.json (media/gov lo detectaban por mención de terceros) pero no tenía fuente propia. Verificado 2026-09-08: texto libre trae cobertura muy activa (venta forzosa del dueño, sobrevaloración de ingresos, cierres)."
+    },
+    {
+      "id": "matalan",
+      "name": "Matalan",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"Matalan\"+announces+OR+opens+OR+results+OR+trading+update+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "fashion",
+      "note": "Agregado 2026-09-08. Ya estaba en retailers.json pero sin fuente propia. Verificado 2026-09-08: trae resultados trimestrales, financiamiento y cierres/reformas de tiendas reales."
+    },
+    {
+      "id": "wickes",
+      "name": "Wickes",
+      "tier": 1,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=\"Wickes\"+announces+OR+results+OR+trading+update+OR+opens+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "home",
+      "note": "Agregado 2026-09-08. Ya estaba en retailers.json pero sin fuente propia. Diagnóstico 2026-09-08: site:wickesplc.co.uk trae navegación genérica de IR ('Wickes - Home', 'Regulatory news', 'Annual Report') en vez de prensa — mismo problema documentado para otros dominios corporativos. Texto libre trae resultados/expansión reales."
+    },
+    {
+      "id": "very_group",
+      "name": "Very Group",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=\"Very+Group\"+announces+OR+launches+OR+results+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "note": "Agregado 2026-09-08. Nombre completo 'Very Group' en vez de 'Very' a secas para desambiguar del adverbio inglés (retailers.json ya lo marca como 'ambiguous: true' para el mismo motivo). Verificado 2026-09-08: cobertura activa (venta del grupo por Carlyle, resultados)."
+    },
+    {
+      "id": "greggs",
+      "name": "Greggs",
+      "tier": 1,
+      "listed": "FTSE250",
+      "rss": "https://news.google.com/rss/search?q=\"Greggs\"+announces+OR+results+OR+trading+update+OR+opens+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "note": "Agregado 2026-09-08. Faltaba por completo (ni siquiera estaba en retailers.json) pese a ser un nombre habitual en cobertura de Retail Week como termómetro de high street. Agregado también a retailers.json tier1."
+    },
+    {
+      "id": "superdrug",
+      "name": "Superdrug",
+      "tier": 1,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22Superdrug%22+announces+OR+launches+OR+opens+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "health",
+      "note": "Agregado 2026-09-13 (research de contactos de prensa). Mismo peso editorial que Boots en salud/belleza, no tenía fuente propia pese a estar en retailers.json tier1."
+    },
+    {
+      "id": "lush",
+      "name": "Lush",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22Lush%22+cosmetics+UK+announces+OR+launches+OR+opens&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "health",
+      "note": "Agregado 2026-09-13. retailers.json ya lo marca ambiguous:true (nombre común) — ancla 'cosmetics UK' para desambiguar."
+    },
+    {
+      "id": "body_shop",
+      "name": "The Body Shop",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22The+Body+Shop%22+UK+announces+OR+launches+OR+administration+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "health",
+      "note": "Agregado 2026-09-13. Entró en administration en 2024 — turbulencia societaria sigue siendo noticia recurrente."
+    },
+    {
+      "id": "timpson",
+      "name": "Timpson",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22Timpson%22+UK+announces+OR+launches+OR+opens&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "note": "Agregado 2026-09-13. No tenía fuente propia ni entrada en retailers.json — agregado ahí también. Alto valor editorial (family business, James Timpson ahora ministro) pese a no tener oficina de prensa pública."
+    },
+    {
+      "id": "waterstones",
+      "name": "Waterstones",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22Waterstones%22+announces+OR+launches+OR+opens+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "note": "Agregado 2026-09-13. Ya estaba en retailers.json tier2 pero sin fuente propia."
+    },
+    {
+      "id": "ao_world",
+      "name": "AO World",
+      "tier": 2,
+      "listed": "LSE",
+      "rss": "https://news.google.com/rss/search?q=%22AO+World%22+OR+%22AO.com%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "electronics",
+      "note": "Agregado 2026-09-13 (surgió del watchlist AlphaSense de energy-cost-AS). Ya estaba en retailers.json tier2 como 'AO.com' pero sin fuente propia."
+    },
+    {
+      "id": "the_works",
+      "name": "The Works",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=%22The+Works%22+stores+OR+retailer+announces+OR+results+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "note": "Agregado 2026-09-13 (watchlist AlphaSense). No tenía entrada en retailers.json — agregada también. Nombre genérico, ancla con 'stores OR retailer' para desambiguar."
+    },
+    {
+      "id": "topps_tiles",
+      "name": "Topps Tiles",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=%22Topps+Tiles%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "home",
+      "note": "Agregado 2026-09-13 (watchlist AlphaSense). Ya estaba en retailers.json tier2 pero sin fuente propia."
+    },
+    {
+      "id": "naked_wines",
+      "name": "Naked Wines",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=%22Naked+Wines%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "note": "Agregado 2026-09-13 (watchlist AlphaSense). Ya estaba en retailers.json tier3 pero sin fuente propia."
+    },
+    {
+      "id": "victorian_plumbing",
+      "name": "Victorian Plumbing",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=%22Victorian+Plumbing%22+announces+OR+launches+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "home",
+      "note": "Agregado 2026-09-13 (watchlist AlphaSense). Ya estaba en retailers.json tier2 pero sin fuente propia."
+    },
+    {
+      "id": "scs_group",
+      "name": "ScS",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=%22ScS%22+sofas+OR+carpets+announces+OR+results+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "home",
+      "note": "Agregado 2026-09-13 (surgió del reporte 'UK Full sector' de AlphaSense). Ya estaba en retailers.json tier2 pero sin fuente propia. Nombre corto/ambiguo — ancla con 'sofas OR carpets'."
+    },
+    {
+      "id": "watches_of_switzerland",
+      "name": "Watches of Switzerland",
+      "tier": 2,
+      "listed": "LSE",
+      "rss": "https://news.google.com/rss/search?q=%22Watches+of+Switzerland%22+announces+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "luxury",
+      "note": "Agregado 2026-09-13 (reporte 'UK Full sector' de AlphaSense). Ya estaba en retailers.json tier2 pero sin fuente propia."
+    },
+    {
+      "id": "angling_direct",
+      "name": "Angling Direct",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=%22Angling+Direct%22+announces+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "sport",
+      "note": "Agregado 2026-09-13 (reporte 'UK Full sector' de AlphaSense). No tenía entrada en retailers.json — agregada también."
+    },
+    {
+      "id": "marks_electrical",
+      "name": "Marks Electrical",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=%22Marks+Electrical%22+announces+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "electronics",
+      "note": "Agregado 2026-09-13 (reporte 'UK Full sector' de AlphaSense). No tenía entrada en retailers.json — agregada también."
+    },
+    {
+      "id": "pepco_group",
+      "name": "Pepco Group",
+      "tier": 2,
+      "listed": "Warsaw SE",
+      "rss": "https://news.google.com/rss/search?q=%22Pepco+Group%22+UK+OR+Poundland+announces+OR+results&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "note": "Agregado 2026-09-13 (reporte 'UK Full sector' de AlphaSense). Matriz de Poundland — cotiza en Varsovia, no en Londres, pero se agrega igual por decisión explícita. Ancla con Poundland para capturar noticias a nivel grupo que no siempre mencionan la marca."
+    },
+    {
+      "id": "virgin_wines",
+      "name": "Virgin Wines UK",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=%22Virgin+Wines%22+announces+OR+results+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "grocery",
+      "note": "Agregado 2026-09-13 (reporte 'UK Full sector' de AlphaSense). No tenía entrada en retailers.json — agregada también."
     }
   ],
   "noise_title_signals": [

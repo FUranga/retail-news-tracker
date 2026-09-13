@@ -235,6 +235,18 @@
       "listed": "private",
       "parent": "PDD Holdings",
       "note": "parent on NASDAQ"
+    },
+    {
+      "name": "Greggs",
+      "ticker": "GRG",
+      "listed": "FTSE250",
+      "exchange": "LSE",
+      "note": "Agregado 2026-09-08 — faltaba por completo de retailers.json, ningún módulo lo detectaba todavía."
+    },
+    {
+      "name": "Timpson",
+      "listed": "private",
+      "note": "Agregado 2026-09-13 — faltaba por completo de retailers.json. Fuente propia en company_config.json."
     }
   ],
   "tier2": [
@@ -874,6 +886,39 @@
       "listed": "private",
       "parent": "Marks & Spencer",
       "parent_ticker": "MKS"
+    },
+    {
+      "name": "The Works",
+      "ticker": "WRKS",
+      "listed": "AIM",
+      "exchange": "LSE",
+      "ambiguous": true,
+      "note": "Agregado 2026-09-13 — faltaba por completo de retailers.json. Fuente propia en company_config.json. Nombre genérico, requiere ambiguous_context_keywords."
+    },
+    {
+      "name": "Angling Direct",
+      "listed": "AIM",
+      "exchange": "LSE",
+      "note": "Agregado 2026-09-13 (reporte 'UK Full sector' de AlphaSense). Fuente propia en company_config.json."
+    },
+    {
+      "name": "Marks Electrical",
+      "listed": "AIM",
+      "exchange": "LSE",
+      "note": "Agregado 2026-09-13 (reporte 'UK Full sector' de AlphaSense). Fuente propia en company_config.json."
+    },
+    {
+      "name": "Pepco Group",
+      "listed": "private",
+      "note": "Agregado 2026-09-13 (reporte 'UK Full sector' de AlphaSense). Cotiza en Varsovia (Warsaw SE), matriz de Poundland. Fuente propia en company_config.json."
+    },
+    {
+      "name": "Virgin Wines",
+      "ticker": "VINO",
+      "listed": "AIM",
+      "exchange": "LSE",
+      "ambiguous": true,
+      "note": "Agregado 2026-09-13 (reporte 'UK Full sector' de AlphaSense). Fuente propia en company_config.json ('virgin_wines'). ambiguous:true por la marca Virgin en general (Virgin Media, Virgin Atlantic, etc.)."
     }
   ],
   "tier3": [

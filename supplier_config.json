@@ -7,6 +7,9 @@
   "retention": {
     "keep_days": 7
   },
+  "rejected_log": {
+    "keep_days": 30
+  },
   "filtering": {
     "always_include": true,
     "note": "Todas las publicaciones de estas fuentes son relevantes — no se filtra por keywords"
@@ -316,6 +319,16 @@
       "retail_sector": "pureplay",
       "category": "tech",
       "note": "Partnerships de última milla con retailers no-restaurante (ver ejemplo Nisbets, Superdrug)."
+    },
+    {
+      "id": "kitwave",
+      "name": "Kitwave Group",
+      "tier": 2,
+      "listed": "AIM",
+      "rss": "https://news.google.com/rss/search?q=%22Kitwave%22+announces+OR+results+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "pureplay",
+      "category": "wholesale",
+      "note": "Agregado 2026-09-13 (reporte 'UK Full sector' de AlphaSense). Delivered wholesale a comercios independientes (foodservice/convenience) — mismo patrón que Bidfood/Booker."
     }
   ],
   "noise_title_signals": [

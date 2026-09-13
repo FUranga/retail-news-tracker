@@ -15,6 +15,9 @@
     "keep_days": 14,
     "note": "Gov data se retiene más tiempo que noticias — un informe puede ser relevante días después de su publicación"
   },
+  "rejected_log": {
+    "keep_days": 30
+  },
   "sources": [
     {
       "id": "ons_calendar",
@@ -587,6 +590,104 @@
       "note": "Agregado 2026-08-30 (backlog) — módulo judicial. Apelaciones a decisiones de la CMA — relevante para bloqueos/aprobaciones de fusiones de supermercados y casos de fijación de precios."
     },
     {
+      "id": "groceries_code_adjudicator",
+      "name": "GCA — Groceries Code Adjudicator",
+      "url": "https://www.gov.uk/government/organisations/groceries-code-adjudicator",
+      "rss": "https://www.govwire.co.uk/rss/groceries-code-adjudicator",
+      "method": "rss",
+      "priority": "high",
+      "category": "regulation",
+      "tags": [
+        "GCA",
+        "groceries code",
+        "supplier",
+        "supermarket",
+        "GSCOP"
+      ],
+      "paywall": false,
+      "note": "Agregado 2026-09-08. Regula la relación supermercados-proveedores (GSCOP) — investiga y publica reportes de cumplimiento de los 14 grandes supermercados designados. Feed narrow, casi todo relevante por definición, igual que BRC/Low Pay Commission."
+    },
+    {
+      "id": "food_standards_agency",
+      "name": "FSA — Food Standards Agency",
+      "url": "https://www.gov.uk/government/organisations/food-standards-agency",
+      "rss": "https://www.govwire.co.uk/rss/food-standards-agency",
+      "method": "rss",
+      "priority": "medium",
+      "category": "regulation",
+      "tags": [
+        "food safety",
+        "food recall",
+        "allergen",
+        "food fraud",
+        "contamination",
+        "counterfeit"
+      ],
+      "paywall": false,
+      "note": "Agregado 2026-09-08. Feed mezcla noticias de fondo (board papers, reclutamiento) con recalls/fraude alimentario reales — priority medium + tags para filtrar solo lo segundo, no todo lo que publica la FSA."
+    },
+    {
+      "id": "opss",
+      "name": "OPSS — Office for Product Safety and Standards",
+      "url": "https://www.gov.uk/government/organisations/office-for-product-safety-and-standards",
+      "rss": "https://www.govwire.co.uk/rss/office-for-product-safety-and-standards",
+      "method": "rss",
+      "priority": "medium",
+      "category": "regulation",
+      "tags": [
+        "product recall",
+        "product safety",
+        "unsafe products",
+        "toy safety",
+        "electrical safety",
+        "cosmetic safety",
+        "vape",
+        "counterfeit"
+      ],
+      "paywall": false,
+      "note": "Agregado 2026-09-08. Recalls y alertas de seguridad de producto (no alimentario) — relevante para retailers generalistas/electrónica/juguetería."
+    },
+    {
+      "id": "environment_agency",
+      "name": "Environment Agency",
+      "url": "https://www.gov.uk/government/organisations/environment-agency",
+      "rss": "https://www.govwire.co.uk/rss/environment-agency",
+      "method": "rss",
+      "priority": "low",
+      "category": "regulation",
+      "tags": [
+        "packaging",
+        "EPR",
+        "extended producer responsibility",
+        "plastic waste",
+        "food waste",
+        "supermarket",
+        "retailer"
+      ],
+      "paywall": false,
+      "note": "Agregado 2026-09-08. Feed muy amplio (multas a cualquier empresa/sector, no solo retail) — priority low + tags acotados a packaging/EPR/retail para no meter ruido de sectores no relacionados (agua, agricultura, etc.)."
+    },
+    {
+      "id": "trading_standards",
+      "name": "Trading Standards — enforcement actions",
+      "url": "https://www.tradingstandards.uk",
+      "rss": "https://news.google.com/rss/search?q=%22Trading+Standards%22+UK+prosecution+OR+fine+OR+investigation+retailer&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "priority": "medium",
+      "category": "regulation",
+      "tags": [
+        "trading standards",
+        "prosecution",
+        "counterfeit",
+        "underage sale",
+        "vape",
+        "tobacco",
+        "consumer protection"
+      ],
+      "paywall": false,
+      "note": "Agregado 2026-09-08. Sin RSS nativo ni cobertura en GovWire (no es un solo departamento — son autoridades locales + National Trading Standards). site:tradingstandards.uk devolvía solo páginas de navegación genérica (recalls, training, homepage) — texto libre con 'prosecution OR fine OR investigation retailer' trae casos reales verificados (ventas a menores, falsificación, multas a comercios)."
+    },
+    {
       "id": "employment_tribunal_retail",
       "name": "Employment tribunal cases — retail",
       "url": "https://www.gov.uk/employment-tribunal-decisions",
@@ -597,6 +698,110 @@
       "tags": ["discrimination", "pay equality", "unfair dismissal", "tribunal"],
       "paywall": false,
       "note": "Agregado 2026-08-30 (backlog) — módulo judicial. No hay un feed oficial de decisiones de tribunales laborales filtrable por sector; esta query de texto libre captura cobertura periodística ya filtrada a casos de retailers (ej. disputas de igualdad salarial en Tesco), en la práctica más útil que el feed crudo del gobierno."
+    },
+    {
+      "id": "kantar_worldpanel",
+      "name": "Kantar Worldpanel",
+      "url": "https://www.kantar.com/uki",
+      "rss": "https://news.google.com/rss/search?q=%22Kantar%22+grocery+market+share+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "priority": "high",
+      "category": "research",
+      "org_type": "trade_body",
+      "tags": ["market share", "grocery", "Kantar", "till roll data"],
+      "paywall": false,
+      "note": "Agregado 2026-09-13 (research de contactos de prensa). La fuente de share de mercado grocery UK más citada en prensa — tiene además alta a mailing list propia (kantar.com/uki/press-centre)."
+    },
+    {
+      "id": "retail_economics",
+      "name": "Retail Economics",
+      "url": "https://www.retaileconomics.co.uk",
+      "rss": "https://news.google.com/rss/search?q=%22Retail+Economics%22+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "priority": "medium",
+      "category": "research",
+      "org_type": "trade_body",
+      "tags": ["consumer spending", "retail forecast", "footfall"],
+      "paywall": false,
+      "note": "Agregado 2026-09-13. Consultora UK especializada en retail, comentario editorial listo para citar. Press office: amy.yates@retaileconomics.co.uk."
+    },
+    {
+      "id": "begbies_traynor",
+      "name": "Begbies Traynor — Red Flag Alert",
+      "url": "https://www.begbies-traynorgroup.com",
+      "rss": "https://news.google.com/rss/search?q=%22Begbies+Traynor%22+OR+%22Red+Flag+Alert%22+UK+retail&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "priority": "medium",
+      "category": "insolvency",
+      "org_type": "trade_body",
+      "tags": ["Red Flag Alert", "insolvency", "administration", "CVA", "retail distress"],
+      "paywall": false,
+      "note": "Agregado 2026-09-13. Dato trimestral de distress corporativo — complementa a insolvency_service/companies_house con la lectura de un asesor privado. Media enquiries dedicada en begbies-traynorgroup.com/media-enquiries."
+    },
+    {
+      "id": "barclaycard_spending",
+      "name": "Barclaycard Consumer Spending",
+      "url": "https://www.barclaycard.co.uk",
+      "rss": "https://news.google.com/rss/search?q=%22Barclaycard%22+consumer+spending+UK&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "priority": "medium",
+      "category": "research",
+      "org_type": "trade_body",
+      "tags": ["consumer spending", "card spending", "Barclaycard"],
+      "paywall": false,
+      "note": "Agregado 2026-09-13. Índice mensual de gasto con tarjeta, muy citado en cobertura de consumo/retail."
+    },
+    {
+      "id": "kpmg_retail",
+      "name": "KPMG — Retail",
+      "url": "https://kpmg.com/uk/en/media.html",
+      "rss": "https://news.google.com/rss/search?q=%22KPMG%22+UK+retail+sales+OR+consumer&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "priority": "medium",
+      "category": "research",
+      "org_type": "trade_body",
+      "tags": ["Retail Sales Monitor", "KPMG", "consumer"],
+      "paywall": false,
+      "note": "Agregado 2026-09-13. Coautor del BRC-KPMG Retail Sales Monitor — feed genérico de KPMG UK, el filtro de tags/retailers.json hace el recorte."
+    },
+    {
+      "id": "bira",
+      "name": "British Independent Retailers Association (Bira)",
+      "url": "https://bira.co.uk",
+      "rss": "https://news.google.com/rss/search?q=site:bira.co.uk&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "priority": "medium",
+      "category": "research",
+      "org_type": "trade_body",
+      "tags": ["independent retailers", "high street", "Bira"],
+      "paywall": false,
+      "note": "Agregado 2026-09-13. Voz de los retailers independientes — complementa a BRC (más cadena grande). Sin mail de prensa público, solo formulario (PR & Comms Manager: Claire Fry)."
+    },
+    {
+      "id": "acs_convenience",
+      "name": "Association of Convenience Stores (ACS)",
+      "url": "https://www.acs.org.uk",
+      "rss": "https://news.google.com/rss/search?q=site:acs.org.uk&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "priority": "medium",
+      "category": "research",
+      "org_type": "trade_body",
+      "tags": ["convenience store", "symbol group", "ACS"],
+      "paywall": false,
+      "note": "Agregado 2026-09-13. Segmento convenience/symbol groups, sin voz propia hasta ahora. Contacto de medios: Chris Noice, 07812 144439."
+    },
+    {
+      "id": "ctsi",
+      "name": "CTSI — Chartered Trading Standards Institute",
+      "url": "https://www.tradingstandards.uk",
+      "rss": "https://news.google.com/rss/search?q=site:tradingstandards.uk+news-policy&hl=en-GB&gl=GB&ceid=GB:en",
+      "method": "rss",
+      "priority": "medium",
+      "category": "regulation",
+      "org_type": "trade_body",
+      "tags": ["trading standards", "consumer protection", "CTSI", "policy"],
+      "paywall": false,
+      "note": "Agregado 2026-09-13. Distinto del source 'trading_standards' ya existente (ese cubre casos de enforcement vía texto libre) — este cubre la política/comentario institucional de CTSI. Press office: pressoffice@tsi.org.uk."
     }
   ],
   "filtering": {
