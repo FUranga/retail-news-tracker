@@ -462,9 +462,9 @@
       "name": "Timpson",
       "tier": 2,
       "listed": "private",
-      "rss": "https://news.google.com/rss/search?q=%22Timpson%22+UK+announces+OR+launches+OR+opens&hl=en-GB&gl=GB&ceid=GB:en",
+      "rss": "https://news.google.com/rss/search?q=%22Timpson+Group%22+OR+%22Timpson+stores%22+OR+%22Timpson+shoe+repair%22&hl=en-GB&gl=GB&ceid=GB:en",
       "retail_sector": "pureplay",
-      "note": "Agregado 2026-09-13. No tenía fuente propia ni entrada en retailers.json — agregado ahí también. Alto valor editorial (family business, James Timpson ahora ministro) pese a no tener oficina de prensa pública."
+      "note": "Agregado 2026-09-13. No tenía fuente propia ni entrada en retailers.json — agregado ahí también. Diagnóstico 2026-09-13: la query original ('Timpson' UK announces OR launches OR opens) traía mayoría de falsos positivos por el apellido Timpson en artículos sin relación (ej. notas de pensiones citando a alguien apellidado Timpson). Ancla a frases de 2+ palabras ('Timpson Group', 'Timpson stores', 'Timpson shoe repair') — mejora drástica (45/46 resultados relevantes en prueba en vivo) aunque puede colar algún caso residual si alguien con ese apellido tiene un cargo tipo 'Group X' que forma la frase exacta por coincidencia. Mismo nivel de ruido tolerable que otros casos ya documentados acá (ver RELEX/Chain Store Age)."
     },
     {
       "id": "waterstones",
