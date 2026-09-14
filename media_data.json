@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T13:14:58",
+  "generated_at": "2026-09-14T13:24:44",
   "items": [
     {
       "source_id": "this_is_money",
@@ -51,6 +51,23 @@
       "retail_sector": "fashion",
       "tech_signal": false,
       "body": "M&S to sell bags of extra bakery items for under £4 in partnership with Too Good To Go\n- See more This is Money on Google - save us as a Preferred Source\nM&S Food will offer bags of food to customers for less than £4 as it rolls out its partnership with Too Good To Go across the country.\nShoppers will be able to buy the surprise bags, which contain three to four bakery items worth a minimum of £10.20, at the end of the day from across 350 M&S stores.\nThe bags, which cost £3.80, can be ordered through the Too Good To Go app from Monday to Saturday, one hour before the store closes.\nThe nationwide rollout follows a trial in a select number of M&S stores over the past few months.\nLucinda Langton, head of sustainability at M&S Food, said: 'Too Good To Go is a brilliant example of how we're turning our commitment to reducing food waste into practical action.\n'By giving customers access to surprise bags of surplus bakery products, we can help ensure more of our food is enjoyed. The response from our trial stores has been outstanding, and this partnership is another positive step towards our goal of halving food waste by 2030.'\nToo good to go: M&S will sell surprise bags for under £4 in a bid to cut food waste\nThe Too Good To Go app, founded in 2015, connects customers with shops and restaurants that have extra food available.\nBrands such as Greggs and Pret have already partnered with the app, as well as supermarkets Aldi and Morrison's.\nThe company claims to have helped save over 600million meals from going to waste, boasting 120million registered users and 200,000 partners across 20 countries.\nChelsea Kerr, managing director at Too Good To Go UK & Ireland, said: 'We're delighted to be partnering with M&S to help make their surplus food available to even more customers across the UK and Ireland.\n'Food waste is a huge challenge, but partnerships like this show how simple it can be for businesses and consumers to take action together.\n'By giving food that might otherwise go unsold another chance to be enjoyed, we're making it easier for people to save good food while also getting great value.\n'M&S is a much-loved brand across the UK, so we're excited to be working together to make saving food from going to waste a simple and accessible part of everyday life for even more people.'\nAvailability of the bags will be limited and will vary daily depending on the store.\nSAVE MONEY, MAKE MONEY\nUp to £250 cashback\nUp to £150 cashback\nAffiliate links: If you take out a product This is Money may earn a commission. These deals are chosen by our editorial team, as we think they are worth highlighting. This does not affect our editorial independence. Terms and conditions apply on all offers."
+    },
+    {
+      "source_id": "drapers",
+      "source_name": "Drapers",
+      "source_cat": "trade",
+      "paywall": true,
+      "title": "In pictures: George at Asda unveils menswear range with Micah Richards",
+      "url": "https://www.drapersonline.com/news/in-pictures-george-at-asda-unveils-menswear-range-with-micah-richards",
+      "summary": "Drapers In pictures: George at Asda unveils menswear range with Micah Richards George at Asda has teamed up with former England footballer and broadcaster Micah Richards on a new menswear range, launching today (14 September). The post In pictures: George at Asda unveils menswear range with Micah Richards appeared first on Drapers .",
+      "datetime": "2026-09-14T12:23:21",
+      "match_reason": "retailer:asda",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tech_signal": false,
+      "body": null
     },
     {
       "source_id": "talking_retail",
@@ -1090,6 +1107,23 @@
       "body": null
     },
     {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Media Information - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9aWURCSXU5a29qN2lpQWlHV0Nzc0oycDZzdkxBQm8yZlBzSzlnTUNwdHRZc0tkTVI2VnRDOV9QZ2MyV1VyLTA1Z0RZX2RwUQ?oc=5",
+      "summary": "Media Information &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-09-12T11:40:31",
+      "match_reason": "keyword:retail sector",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": null,
+      "tech_signal": false,
+      "body": null
+    },
+    {
       "source_id": "wales_online",
       "source_name": "Wales Online",
       "source_cat": "trade",
@@ -1664,6 +1698,23 @@
       "story_type": null,
       "is_noise": false,
       "retail_sector": "fashion",
+      "tech_signal": false,
+      "body": null
+    },
+    {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Currys’ revenues rise 6% in UK&I after strong summer - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcVIxWDA3QVRBYnVZenhoZ0pjWnFPSlFKT1VyYXpPQXltUHlrNjlsWHBNc3ZjM2I5RC0wdkZscmE4SkJ6Z294aTBxbEdUb2FrQmdnUjczVDlxTUp0Ni0za00zQlBfTzlvNmtKd1RjZ2g0bm12aEF5M0tiZ2IwV25JcEtXLVJsX0VTanhiZldQLUI1QQ?oc=5",
+      "summary": "Currys’ revenues rise 6% in UK&amp;I after strong summer &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-09-10T14:16:53",
+      "match_reason": "retailer:currys",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "electronics",
       "tech_signal": false,
       "body": null
     },
@@ -3504,6 +3555,23 @@
       "body": null
     },
     {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Why efficient printing still matters in modern retail - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdjFfNERaczBVX2pSTTJmTWJvYVowdl9DUkJ1SHItR3Jqc01IVjhJRXd4SGllRlJQbUgzRmNzQm5zUGplejJKUjE1dEtCakNHWmpud04tMzZRZi1mRnRfcnhqRmdPR1p4Y2VKU2JsY0I3elhUdlM5eFl6OVpBMk15eVVsQV8wZmRtdklhdjNZSlJJNmVSMkFN?oc=5",
+      "summary": "Why efficient printing still matters in modern retail &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-09-08T08:35:25",
+      "match_reason": "keyword:retail sector",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": null,
+      "tech_signal": false,
+      "body": null
+    },
+    {
       "source_id": "independent",
       "source_name": "The Independent",
       "source_cat": "general",
@@ -4301,74 +4369,6 @@
       "retail_sector": null,
       "tech_signal": false,
       "body": null
-    },
-    {
-      "source_id": "talking_retail",
-      "source_name": "Talking Retail",
-      "source_cat": "trade",
-      "paywall": false,
-      "title": "Walkers brings viral ‘Do Us A Flavour’ campaign to shelves",
-      "url": "https://www.talkingretail.com/products-news/crisps-snacks/walkers-bring-viral-do-us-a-flavour-campaign-to-shelves-07-09-2026/",
-      "summary": "Walkers has brought two finalist flavours from its Do Us A Flavour campaign to shelves nationwide. Having launched in January as a TikTok-first search for the brand’s next big flavour, the competition invited consumers to submit their dream crisp ideas. Narrowed down from thousands of&hellip; This story continues at Walkers brings viral ‘Do Us A Flavour’ campaign to shelves Or just read more coverage at Talking Retail",
-      "datetime": "2026-09-07T13:24:05",
-      "match_reason": "retailer:next (context)",
-      "stream": "news",
-      "story_type": null,
-      "is_noise": false,
-      "retail_sector": "fashion",
-      "tech_signal": false,
-      "body": "Having launched in January as a TikTok-first search for the brand’s next big flavour, the competition invited consumers to submit their dream crisp ideas.\nNarrowed down from thousands of entries through social engagement and expert input, including a panel featuring chef Poppy O’Toole, the six finalist flavours then went head-to-head in a series of challenges through the world’s first crisps game-show, which has now been viewed more than 90 million times.\nThe two limited-edition finalist flavours, Salt & Pepper Chicken and Grilled Cheese & Chilli Jam, are now competing for the chance to become a permanent part of the Walkers family.\nEach pack sold will count towards the final result, with the creator of the best-selling flavour also in line to win a share of product sales of up to £500,000**.\nWayne Newton, senior marketing director of Walkers Snacks at PepsiCo, said, “From thousands of ideas shared to just two finalists, our Walkers Do Us A Flavour competition has been an incredible journey.\n“We have been blown away by the response to the search for the next Walkers flavour, and now it is time to bring the action into store.\n“With two standout flavours and strong campaign support behind the launch, retailers have a real opportunity to drive trial, create standout in-store engagement and unlock incremental sales as shoppers decide which flavour earns a permanent place in the Walkers range.”\nAvailable in 45g singles at RRP £1.10, 70g sharing PMP packs at RRP £1.49 and 6x25g multipacks at RRP £2.15, the non-HFSS finalist flavours are available from 15 August to 30 of November.\nThe activity is supported by an integrated marketing campaign spanning social, influencer and PR, alongside stand-out shopper activity including pre-filled FSDU and retailer media, through September and October.\nHave your say\nor a new account to join the discussion."
-    },
-    {
-      "source_id": "retail_times",
-      "source_name": "Retail Times",
-      "source_cat": "trade",
-      "paywall": false,
-      "title": "Morrisons launches £12 mix & match laundry bundle",
-      "url": "https://retailtimes.co.uk/morrisons-launches-12-mix-match-laundry-bundle/",
-      "summary": "Discover what's happening in retail today, Retail Times publishes international &amp; UK retail news covering products, data, tech, packaging, people, research, comment and much more. As families swap beachwear for school uniform, Morrisons is helping households tackle the inevitable post-holiday laundry pile with stellar savings in its August Cleaning Event. At the heart of the event is a £12 mix-and-match laundry bundle, offering a saving of up to £4.75 compared with buying the three products separately, helping households get their laundry routine [&#8230;] If you want more information Retail Times get in touch! Retail Times - Retail Times, a free to view retail news website",
-      "datetime": "2026-09-07T13:16:44",
-      "match_reason": "retailer:morrisons",
-      "stream": "news",
-      "story_type": null,
-      "is_noise": false,
-      "retail_sector": "grocery",
-      "tech_signal": false,
-      "body": "As families swap beachwear for school uniform, Morrisons is helping households tackle the inevitable post-holiday laundry pile with stellar savings in its August Cleaning Event.\nAt the heart of the event is a £12 mix-and-match laundry bundle, offering a saving of up to £4.75 compared with buying the three products separately, helping households get their laundry routine back on track for less.\nThe bundle allows shoppers to choose one box of washing pods, one fabric conditioner and one scent booster, with options including Bold, Fairy and Ariel washing pods, alongside Lenor and Fairy fabric conditioners and scent boosters. In addition, for those post-holiday stains that have survived the suitcase journey, Vanish Gold Pink 850g is available at £7.25, down from £8.\nIt’s not just the laundry basket getting attention, to ease the post-meal time clean up, Fairy Skip the Soak Fresh Spray 500ml is reduced to £3 from £3.75 and for the jobs that require a little more elbow grease, Scrub Daddy Original Scourers and Scrub Mommy Dual-Sided Scrubbers & Sponges are included in a 2 for £5 offer.\nThe Morrisons August Cleaning Event is available in stores nationwide from Monday 24th August to Sunday 20th September 2026.\n| Product Name | Retail Price | Deal Price | \n| Bold Laundry Detergent Liquid Pod Spring Awakening 22 Washes | £6.25 | £12 Offer (one washing pod, one scent booster and one fabric conditioner) | \n| Lenor Fabric Conditioner Spring Awakening 48 Washes | £4.50 |  | \n| Lenor In-Wash Scent Booster Spring Awakening 280g | £6.00 |  | \n| Fairy Non Bio Pods Washing Liquid Capsule For Sensitive Skin 22 Washes | £6.25 |  | \n| Fairy Fabric Conditioner 48 Washes | £4.50 |  | \n| Fairy Scent Booster 280g | £6.00 |  | \n| Ariel Original All In 1 Pods Washing Liquid Capsules 22 Washes | £6.25 |  | \n| Lenor Fabric Conditioner Summer Breeze 48 Washes | £4.50 |  | \n| Lenor Unstoppables Fresh Scent Booster 280g | £6.00 |  | \n| Vanish Gold Pink 850g | £8.00 | £7.25 | \n| Vanish Gold White 850g | £8.00 | £7.25 | \n| Fairy STS Fresh Spray 500ml | £3.75 | £3.00 | \n| Fairy STS Lemon Spray 500ml | £3.75 | £3.00 | \n| Scrub Daddy Original Scourer | £2.75 | 2 For £5 | \n| Scrub Daddy Scrub Mommy Dual-Sided Scrubber & Sponge | £2.75 | 2 For £5 |"
-    },
-    {
-      "source_id": "the_grocer",
-      "source_name": "The Grocer",
-      "source_cat": "trade",
-      "paywall": true,
-      "title": "Aldi UK to open a new store every week in September - The Grocer",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdEd0cEVqcUhpUW1QRjlVaGR2STltX0U3TDhTZkFrMGVSWko3NjRld3FvWU1Yblk5OFlEN1hlTTNlSjZyVmxmUWp4UzNPcW0yWjdUdGFXbENKV21VLW9ZaXpkNXlrWDhtT1VnZjVvdERUNldYTzJaM1MyMXotcWhBc2lsQWJyV3d6dXktUndZb3lqd2lFVWh2OUVnUThscGJQ?oc=5",
-      "summary": "Aldi UK to open a new store every week in September &nbsp;&nbsp; The Grocer",
-      "datetime": "2026-09-07T13:16:24",
-      "match_reason": "retailer:aldi uk",
-      "stream": "news",
-      "story_type": null,
-      "is_noise": false,
-      "retail_sector": "grocery",
-      "tech_signal": false,
-      "body": null
-    },
-    {
-      "source_id": "retail_times",
-      "source_name": "Retail Times",
-      "source_cat": "trade",
-      "paywall": false,
-      "title": "Asda announces return of its popular Baby Event, live now until the 29th of September",
-      "url": "https://retailtimes.co.uk/asda-announces-return-of-its-popular-baby-event-live-now-until-the-29th-of-september/",
-      "summary": "Discover what's happening in retail today, Retail Times publishes international &amp; UK retail news covering products, data, tech, packaging, people, research, comment and much more. Asda is helping parents stock up on everyday essentials for less this September with the return of its Baby Event, running from 7 September &#8211; 29 September. Back bigger and better by popular demand; it features savings on more than 740 baby products across Asda and George, with discounts available in stores nationwide and online. The event includes savings of up to 60% on [&#8230;] If you want more information Retail Times get in touch! Retail Times - Retail Times, a free to view retail news website",
-      "datetime": "2026-09-07T13:15:00",
-      "match_reason": "retailer:asda",
-      "stream": "news",
-      "story_type": null,
-      "is_noise": false,
-      "retail_sector": "grocery",
-      "tech_signal": false,
-      "body": "Asda is helping parents stock up on everyday essentials for less this September with the return of its Baby Event, running from 7 September – 29 September. Back bigger and better by popular demand; it features savings on more than 740 baby products across Asda and George, with discounts available in stores nationwide and online.\nThe event includes savings of up to 60% on some of the most used and trusted baby brands, including Pampers and Huggies. The lineup also features 52 products from Asda’s well-loved, own-brand range, Little Angels, giving shoppers even more opportunities to save on essentials like nappies, wipes, toiletries, feeding accessories and more.\nArriving at a key time for growing families, the Baby Event aims to help customers during a period of new arrivals, nursery starts and settling back into routines after the summer holidays.\nAdding to the value on offer, George at Asda is also launching 20% off selected baby clothing, nursery products and toys, giving parents the chance to refresh everything from baby grows and sleepwear, to nursery essentials and playtime favourites – all under one roof.\nBiggest Rollbacks at Asda include:\n- Pampers 38 pack (WAS £9.98, NOW £4.00) – 59% off\n- Harmony Car Seat – Neutral (WAS £40.00, NOW £19.98) – 50% off\n- MAM Feeding Soothe Set (WAS £37.98, NOW £20.00) – 47% off\n- Nuby Flask Rapid Cool (WAS £40.00, NOW £24.98) – 38% off\n- Huggies Pure Wipes 12×48 pack (WAS £8.98, NOW £6.00) – 33% off\n- Little Dish meals (WAS £2.94, NOW £2.00) – 32% off\nBiggest savings at George include:\n- George Little Slumbers Cot Bedding (WS £13.96, NOW £6.50) – 20% off\n- George Print 3 Pack Sleepsuits (WAS £13.00, NOW £10.40) – 20% off\n- George Velour Dungarees (WAS £12.00, NOW £9.60) – 20% off\n- George Little One Knit Set (WAS £12.00, NOW £9.60) – 20% off\n- George Bear Stripe Set (WAS £11.00, NOW £8.80) – 20% off\n- George 5pk Owl Sleepsuits (WAS £10.00, NOW £8.00) – 20% off\nAnd the discounts don’t stop there. During the same period, Asda is running its big Toy and Wooden Toy Rollback events, providing families with even more reasons to visit stores and take advantage of great value all in the same shop. Perfect for stocking up ahead of Christmas, there are savings of over 50% to discover across toys.\nBiggest discounts on Asda’s Toys include:\n- Hapello Beany Bunch (WAS £13.96, NOW £6.50) – 53% off\n- Hot Wheels Multi-Loop Raceoff (WAS £50.02, NOW £25.00) – 50% off\n- Barbie Nursery Set (WAS £30.27, NOW £15.00) – 50% off\n- Wooden Vending Machine (WAs £30.00, NOW £15.00) – 50% off\n- Duckalooz Multipack (WAS £25.37, NOW £12.50) – 50% off\n- Wooden Toy Activity Table (WAS £39.94, NOW £28.00) – 30% off\nAn Asda spokesperson said: “We know affordability remains a top priority for parents, particularly during busy periods of change such as welcoming a new baby, starting nursery or getting back into routine after the summer. That’s why we’re delighted to be bringing back our Baby Event, offering savings across hundreds of products, including brilliant prices on over 50 items from our popular Little Angels range. Combined with great offers from George at Asda and our Toy Rollback event, we’re making it even easier for families to find everything they need under one roof, all at outstanding value”.\nAsda’s Baby Event, George at Asda’s 20% off Baby & Toddler Event and Asda’s Toy Rollback Events are live now until 29 September in Asda and George stores nationwide, and online at Asda.com and George.com."
     }
   ]
 }
