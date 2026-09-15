@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T11:55:49",
+  "generated_at": "2026-09-15T14:49:36",
   "items": [
     {
       "source_id": "zebra_technologies",
@@ -339,26 +339,6 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "supplier:Mondelez UK",
-      "body": null
-    },
-    {
-      "source_id": "pepsico_uk",
-      "source_name": "PepsiCo UK",
-      "companyname": "PepsiCo UK",
-      "retail_sector": "grocery",
-      "supply_category": "fmcg",
-      "listed": "NASDAQ",
-      "tier": 1,
-      "paywall": false,
-      "title": "PepsiCo launches better-for-you Wow snacking brand from Wotsits and Snack a Jacks - thegrocer.co.uk",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOY185cm1LcEMtSlFROGVmTmpPWVVIWXdHREp6ZXNvYlpfWVFkMzdYTmt3elRDLVU1M0RfT3BsVVRORUFWeUsxOURvLWVXaXJ3UHlIVEhjS1NIU0dtUlE4SURLNExzdWE4TXd2Rk5SMTY5TUNsZWtORjVseTZvdGM5VjZuVHdxOFJYMWFFSkl2Z2NtRnhJV1hfRGt0ZWswekkxWktYTjB5RHNEVXJDZ3FmcXJGTkdXbUJmaWdwa2NiY052QWxCSVR2aA?oc=5",
-      "summary": "PepsiCo launches better-for-you Wow snacking brand from Wotsits and Snack a Jacks &nbsp;&nbsp; thegrocer.co.uk",
-      "datetime": "2026-09-08T12:10:35",
-      "tech_signal": false,
-      "stream": "supplier",
-      "story_type": null,
-      "is_noise": false,
-      "match_reason": "supplier:PepsiCo UK",
       "body": null
     }
   ]
