@@ -1,6 +1,25 @@
 {
-  "generated_at": "2026-09-17T11:13:11",
+  "generated_at": "2026-09-17T14:08:25",
   "items": [
+    {
+      "source_id": "lush",
+      "source_name": "Lush",
+      "companyname": "Lush",
+      "retail_sector": "health",
+      "listed": "private",
+      "tier": 2,
+      "paywall": false,
+      "title": "Lush launches £24 Snow Fairy makeup set that's 'the perfect gift' - Liverpool Echo",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMlpjZ1plWE0tSjBIcnp6MV9TWXl3Z2ZRZUxiUTlhdGptRUw1bVZnOWFDaUtJcUFId3ZLTDF2UnZMT1MxRFl2REJfUFhRWUlTRmVkRlZFTk9Gc0xGN3c5aUxxcmdYSlNvQ2ZmQ0FrR002ZjVaaHFLLURnTGhGRWZZTU9yam53M01ObFdyUXQ2SdIBlAFBVV95cUxOcUhHUWpBRm1nRHBTSlVPNk1LRW9wbERtQldvcTBDYlFBY1dGczJTaFdSOTNuWkJRdE1jQkhId0VNU2N1WEVhNW1zYVNiYkluTXRYVV9ZUGtqWDlaYWZQU3VWNDBacWRMUC10a3VvTU9aTHphbktQVk42TklaRnI2X0hwU2c1NGRmZkN1RTBuTzRmSUdI?oc=5",
+      "summary": "Lush launches £24 Snow Fairy makeup set that's 'the perfect gift' &nbsp;&nbsp; Liverpool Echo",
+      "datetime": "2026-09-17T10:45:00",
+      "tech_signal": false,
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:Lush",
+      "body": null
+    },
     {
       "source_id": "warpaint",
       "source_name": "Warpaint London",
@@ -838,6 +857,25 @@
       "body": null
     },
     {
+      "source_id": "jdsports",
+      "source_name": "JD Sports",
+      "companyname": "JD Sports",
+      "retail_sector": "sport",
+      "listed": "FTSE100",
+      "tier": 1,
+      "paywall": false,
+      "title": "Affiliate Executive - Europe, Bury - JD Sports Fashion – Investor Relations",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12dEFkNHljdVVIQlBwckFET2NPZEVhdExKN2lkQVBVX053RHhBNmZvVXdmMlphMm5yRVk0bUVLRS1zTURDOHZXTnVEYkEzOUN3U3J5d29wdGR6dXk2VG1tTHBVZXpHOXpjcm9tb2lma0dYRUZk?oc=5",
+      "summary": "Affiliate Executive - Europe, Bury &nbsp;&nbsp; JD Sports Fashion – Investor Relations",
+      "datetime": "2026-09-15T07:00:00",
+      "tech_signal": false,
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:JD Sports",
+      "body": null
+    },
+    {
       "source_id": "victorian_plumbing",
       "source_name": "Victorian Plumbing",
       "companyname": "Victorian Plumbing",
@@ -1617,6 +1655,25 @@
       "body": null
     },
     {
+      "source_id": "primark",
+      "source_name": "Primark",
+      "companyname": "Primark",
+      "retail_sector": "fashion",
+      "listed": "private",
+      "tier": 1,
+      "paywall": false,
+      "title": "Primark announces UK home delivery for first time - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU3dTcjNocWN5X29ON2RLRHVHaUM1YWVQY1RQNUxOSWMwcy1HTENMRFcyRnRGQjVyVFRVamU5TFVlX2dJbHNmLThMXzlNeUp1MFpiZEJMcFRjdU1lVHg0MW9BbUJpWng0MDV6bklOQXVHdEIzdHFlQjg3SHRpdWp4OFdreUxVSWMzRnR6RlB3?oc=5",
+      "summary": "Primark announces UK home delivery for first time &nbsp;&nbsp; Sky News",
+      "datetime": "2026-09-11T05:52:32",
+      "tech_signal": false,
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:Primark",
+      "body": null
+    },
+    {
       "source_id": "aldi_uk",
       "source_name": "Aldi UK",
       "companyname": "Aldi UK",
@@ -1652,25 +1709,6 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "company:JD Sports",
-      "body": null
-    },
-    {
-      "source_id": "primark",
-      "source_name": "Primark",
-      "companyname": "Primark",
-      "retail_sector": "fashion",
-      "listed": "private",
-      "tier": 1,
-      "paywall": false,
-      "title": "Primark reveals plans to launch home delivery service - essexcountynews.co.uk",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWTlkcGtSbnRjSG1uRGdJRHVXdTVuaGVhLUMycDVuUXkyUmQ3RG54V1JYVlB4UDR6azBGNjdnYVdTZGxvc3VXS080RTg2T3JWOTlDeXFIank2TjVXc1doNzZNWlc4NVJmTTRuWWdFOTVuRUU5N3V6VmtjZE9lb2JHMWVUTWFzTk82Sk03SVJ2aEtEZ2FfUk1HdF9tc3VibENY?oc=5",
-      "summary": "Primark reveals plans to launch home delivery service &nbsp;&nbsp; essexcountynews.co.uk",
-      "datetime": "2026-09-10T12:10:00",
-      "tech_signal": false,
-      "stream": "company",
-      "story_type": null,
-      "is_noise": false,
-      "match_reason": "company:Primark",
       "body": null
     }
   ]
