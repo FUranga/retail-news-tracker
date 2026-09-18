@@ -1,135 +1,5 @@
 [
   {
-    "id": "1b1f34516cb0",
-    "source": "tradeshows",
-    "category": "evento-sectorial",
-    "title": "Autumn Fair (NEC Birmingham)",
-    "date": "2026-09-06",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Edición de otoño de la feria de compras mayoristas de gran consumo/regalos en NEC Birmingham.",
-    "detail_url": "https://www.autumnfair.com/",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:27.775539+00:00"
-  },
-  {
-    "id": "d7527cddda01",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Consumer price inflation, UK: August 2026 time series",
-    "date": "2026-09-16",
-    "time": "06:00",
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Comprehensive database of time series covering measures of inflation data for the UK including CPIH, CPI and RPI.",
-    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukaugust2026timeseries",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.566527+00:00"
-  },
-  {
-    "id": "4de6dab4a6d3",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Consumer price inflation, UK: August 2026",
-    "date": "2026-09-16",
-    "time": "06:00",
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation",
-    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukaugust2026",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.566552+00:00"
-  },
-  {
-    "id": "a00e4aa4efb1",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: August 2026",
-    "date": "2026-09-16",
-    "time": "08:30",
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
-    "detail_url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityaugust2026",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.566560+00:00"
-  },
-  {
-    "id": "e5d51d48a061",
-    "source": "boe",
-    "category": "macro",
-    "title": "Bank of England — MPC rate decision",
-    "date": "2026-09-17",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "El Comité de Política Monetaria del Banco de Inglaterra anuncia su decisión de tasa de interés — impacto directo en gasto de consumo, crédito e hipotecas.",
-    "detail_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:26.537148+00:00"
-  },
-  {
     "id": "db303dfd4e77",
     "source": "ons",
     "category": "estadistica",
@@ -153,7 +23,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.566593+00:00"
+    "scraped_at": "2026-09-18T05:42:16.503739+00:00"
   },
   {
     "id": "8995567834fb",
@@ -179,7 +49,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.567558+00:00"
+    "scraped_at": "2026-09-18T05:42:16.503753+00:00"
   },
   {
     "id": "909cec980265",
@@ -205,7 +75,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.567654+00:00"
+    "scraped_at": "2026-09-18T05:42:16.503826+00:00"
   },
   {
     "id": "4203e9ffa2f1",
@@ -231,7 +101,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:25.850258+00:00",
+    "scraped_at": "2026-09-18T05:42:22.543717+00:00",
     "needs_confirmation": true
   },
   {
@@ -258,7 +128,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.567727+00:00"
+    "scraped_at": "2026-09-18T05:42:16.503889+00:00"
   },
   {
     "id": "ee1131b15965",
@@ -284,7 +154,33 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.567773+00:00"
+    "scraped_at": "2026-09-18T05:42:16.503927+00:00"
+  },
+  {
+    "id": "cd28560d7737",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: September 2026 time series",
+    "date": "2026-10-21",
+    "time": "06:00",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Comprehensive database of time series covering measures of inflation data for the UK including CPIH, CPI and RPI.",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.503931+00:00"
   },
   {
     "id": "30284d4e04b8",
@@ -310,33 +206,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.567789+00:00"
-  },
-  {
-    "id": "5b7dd3d37dc6",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Retail sales, Great Britain: September 2026 time series",
-    "date": "2026-10-23",
-    "time": "06:00",
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
-    "detail_url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainseptember2026timeseries",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.567824+00:00"
+    "scraped_at": "2026-09-18T05:42:16.503937+00:00"
   },
   {
     "id": "53b3de0ad390",
@@ -362,7 +232,33 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.567829+00:00"
+    "scraped_at": "2026-09-18T05:42:16.503958+00:00"
+  },
+  {
+    "id": "5b7dd3d37dc6",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Retail sales, Great Britain: September 2026 time series",
+    "date": "2026-10-23",
+    "time": "06:00",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
+    "detail_url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainseptember2026timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.503961+00:00"
   },
   {
     "id": "209ca152cb34",
@@ -388,7 +284,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:26.537168+00:00"
+    "scraped_at": "2026-09-18T05:42:22.781419+00:00"
   },
   {
     "id": "ea7af3f7316a",
@@ -414,7 +310,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:25.850292+00:00",
+    "scraped_at": "2026-09-18T05:42:22.543773+00:00",
     "needs_confirmation": true
   },
   {
@@ -441,7 +337,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.567944+00:00"
+    "scraped_at": "2026-09-18T05:42:16.504052+00:00"
   },
   {
     "id": "36deeef709ee",
@@ -467,7 +363,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.567956+00:00"
+    "scraped_at": "2026-09-18T05:42:16.504062+00:00"
   },
   {
     "id": "352a74ef742e",
@@ -493,7 +389,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.567987+00:00"
+    "scraped_at": "2026-09-18T05:42:16.504077+00:00"
   },
   {
     "id": "61f472ca6763",
@@ -519,7 +415,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.567991+00:00"
+    "scraped_at": "2026-09-18T05:42:16.504080+00:00"
   },
   {
     "id": "eac26f819baf",
@@ -545,7 +441,33 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.568023+00:00"
+    "scraped_at": "2026-09-18T05:42:16.504112+00:00"
+  },
+  {
+    "id": "9e7f3036092d",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Impact of weather on consumer and business spending, UK: December 2026",
+    "date": "2026-12-04",
+    "time": "09:30",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Analysis of the impacts of weather on fluctuations in economic activity, using fixed-effects panel models with nonlinear and machine-learning methods.",
+    "detail_url": "https://www.ons.gov.uk/releases/impactofweatheronconsumerandbusinessspendingukdecember2026",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.504141+00:00"
   },
   {
     "id": "c9cada08a1c9",
@@ -571,8 +493,138 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:25.850310+00:00",
+    "scraped_at": "2026-09-18T05:42:22.543808+00:00",
     "needs_confirmation": true
+  },
+  {
+    "id": "05dbb1bf029e",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: November 2026",
+    "date": "2026-12-16",
+    "time": "07:00",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation.",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationuknovember2026",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.504189+00:00"
+  },
+  {
+    "id": "4b0d19af931a",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: November 2026",
+    "date": "2026-12-16",
+    "time": "09:30",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
+    "detail_url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensitynovember2026",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.504195+00:00"
+  },
+  {
+    "id": "ae8d53315c14",
+    "source": "boe",
+    "category": "macro",
+    "title": "Bank of England — MPC rate decision",
+    "date": "2026-12-17",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "El Comité de Política Monetaria del Banco de Inglaterra anuncia su decisión de tasa de interés — impacto directo en gasto de consumo, crédito e hipotecas.",
+    "detail_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:22.781439+00:00"
+  },
+  {
+    "id": "12f15de971d2",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Retail sales, Great Britain: November 2026",
+    "date": "2026-12-18",
+    "time": "07:00",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
+    "detail_url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainnovember2026",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.504204+00:00"
+  },
+  {
+    "id": "8429f552e657",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Retail sales, Great Britain: November 2026 time series",
+    "date": "2026-12-18",
+    "time": "07:00",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted",
+    "detail_url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainnovember2026timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.504207+00:00"
   },
   {
     "id": "3f8f2a1858f8",
@@ -598,164 +650,8 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:25.850326+00:00",
+    "scraped_at": "2026-09-18T05:42:22.543838+00:00",
     "needs_confirmation": true
-  },
-  {
-    "id": "4c291172bbd5",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Labour market statistics time series: July 2027",
-    "date": "2027-07-20",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Large dataset which contains labour market statistics data time series.",
-    "detail_url": "https://www.ons.gov.uk/releases/labourmarketstatisticstimeseriesjuly2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763210+00:00"
-  },
-  {
-    "id": "8a309c06bf7b",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "UK Labour Market: July 2027",
-    "date": "2027-07-20",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK.",
-    "detail_url": "https://www.ons.gov.uk/releases/uklabourmarketjuly2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763218+00:00"
-  },
-  {
-    "id": "3933b6a6dffe",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Private rent and house prices, UK: July 2027",
-    "date": "2027-07-21",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "The Price Index of Private Rents (PIPR) measures private rent inflation for new and existing tenancies. The UK House Price Index measures house price inflation.",
-    "detail_url": "https://www.ons.gov.uk/releases/privaterentandhousepricesukjuly2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763195+00:00"
-  },
-  {
-    "id": "57c02723f905",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Consumer price inflation, UK: June 2027",
-    "date": "2027-07-21",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation",
-    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukjune2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763203+00:00"
-  },
-  {
-    "id": "d693d69eae9f",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Retail Sales; Great Britain: June 2027",
-    "date": "2027-07-23",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted",
-    "detail_url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainjune2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763177+00:00"
-  },
-  {
-    "id": "d9829cc2036b",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Retail Sales; Great Britain, June 2027 time series",
-    "date": "2027-07-23",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted",
-    "detail_url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainjune2027timeseries",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763185+00:00"
   },
   {
     "id": "530b2be3a0d6",
@@ -781,33 +677,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763144+00:00"
-  },
-  {
-    "id": "868c70b311f2",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "UK Labour Market August 2027",
-    "date": "2027-08-17",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK.",
-    "detail_url": "https://www.ons.gov.uk/releases/uklabourmarketaugust2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763152+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645580+00:00"
   },
   {
     "id": "9f06a7f720f4",
@@ -833,13 +703,13 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763160+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645585+00:00"
   },
   {
-    "id": "272036ce23da",
+    "id": "868c70b311f2",
     "source": "ons",
     "category": "estadistica",
-    "title": "Labour market statistics time series: August 2027",
+    "title": "UK Labour Market August 2027",
     "date": "2027-08-17",
     "time": null,
     "location": null,
@@ -854,12 +724,12 @@
       "prior_report_link": null
     },
     "relevance_sectors": [],
-    "summary": "Large dataset that contains labour market statistics data time series.",
-    "detail_url": "https://www.ons.gov.uk/releases/labourmarketstatisticstimeseriesaugust2027",
+    "summary": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK.",
+    "detail_url": "https://www.ons.gov.uk/releases/uklabourmarketaugust2027",
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763169+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645592+00:00"
   },
   {
     "id": "21c0ec3492f8",
@@ -885,7 +755,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763129+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645568+00:00"
   },
   {
     "id": "93cd44ed9293",
@@ -911,7 +781,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763137+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645574+00:00"
   },
   {
     "id": "11386a324fb5",
@@ -937,7 +807,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763113+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645556+00:00"
   },
   {
     "id": "668a27f5bf90",
@@ -963,7 +833,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763121+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645562+00:00"
   },
   {
     "id": "ae82000e43c6",
@@ -989,7 +859,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763076+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645534+00:00"
   },
   {
     "id": "3c3a1287e602",
@@ -1015,7 +885,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763087+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645539+00:00"
   },
   {
     "id": "73628db1d86a",
@@ -1041,7 +911,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763095+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645545+00:00"
   },
   {
     "id": "d972fd44cde0",
@@ -1067,7 +937,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763105+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645551+00:00"
   },
   {
     "id": "5f70ee7a5d10",
@@ -1093,7 +963,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763061+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645520+00:00"
   },
   {
     "id": "99fe5fee9d33",
@@ -1119,7 +989,59 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763068+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645528+00:00"
+  },
+  {
+    "id": "5e7e4ddf7525",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "GDP quarterly national accounts, UK: April to June 2027",
+    "date": "2027-09-30",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Revised quarterly estimate of gross domestic product (GDP) for the UK. Uses additional data to provide a more precise indication of economic growth than the first estimate.",
+    "detail_url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukapriltojune2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.645507+00:00"
+  },
+  {
+    "id": "e358cf3e9fde",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "GDP quarterly national accounts, UK: April to June 2027 timeseries",
+    "date": "2027-09-30",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Time series data as part of the quarterly GDP publication.",
+    "detail_url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukapriltojune2027timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.645513+00:00"
   },
   {
     "id": "688b08ae5767",
@@ -1145,7 +1067,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763030+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645483+00:00"
   },
   {
     "id": "dcb72500b4dc",
@@ -1171,7 +1093,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763038+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645489+00:00"
   },
   {
     "id": "3885e2a721a3",
@@ -1197,7 +1119,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763045+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645496+00:00"
   },
   {
     "id": "944cbecd3ab6",
@@ -1223,7 +1145,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763053+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645502+00:00"
   },
   {
     "id": "8c2ccdd705b1",
@@ -1249,7 +1171,33 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763014+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645461+00:00"
+  },
+  {
+    "id": "a48e490a9bb2",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Producer price inflation, UK: September 2027, including services, July to September 2027 time series",
+    "date": "2027-10-20",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "The time series datasets connected to the Producer price inflation, UK: September 2027, including services, July to September 2027 bulletin.",
+    "detail_url": "https://www.ons.gov.uk/releases/producerpriceinflationukseptember2027includingservicesjulytoseptember2027timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.645466+00:00"
   },
   {
     "id": "aff17b8b4ab9",
@@ -1275,7 +1223,59 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763022+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645472+00:00"
+  },
+  {
+    "id": "b2c38a524af7",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Producer price inflation, UK: September 2027, including services, July to September 2027",
+    "date": "2027-10-20",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Changes in the prices of goods bought and sold by UK manufacturers including price indices of materials and fuels purchased (input prices) and factory gate prices (output prices).  Also including quarterly estimates monitoring the changes in prices received for selected services provided by UK businesses.",
+    "detail_url": "https://www.ons.gov.uk/releases/producerpriceinflationukseptember2027includingservicesjulytoseptember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.645478+00:00"
+  },
+  {
+    "id": "b4bb991b688e",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "GDP first quarterly estimate, UK: July to September 2027",
+    "date": "2027-11-12",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "First quarterly estimate of gross domestic product (GDP). Contains current and constant price data on the value of goods and services to indicate the economic performance of the UK.",
+    "detail_url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.645449+00:00"
   },
   {
     "id": "c9b794fab171",
@@ -1301,7 +1301,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.762979+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645427+00:00"
   },
   {
     "id": "289a24e3474e",
@@ -1327,33 +1327,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.762988+00:00"
-  },
-  {
-    "id": "16ba790342c5",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: November 2027",
-    "date": "2027-11-16",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistics (ONS)",
-    "detail_url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationuknovember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.762996+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645433+00:00"
   },
   {
     "id": "63be066624d6",
@@ -1379,7 +1353,33 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.763007+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645438+00:00"
+  },
+  {
+    "id": "16ba790342c5",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: November 2027",
+    "date": "2027-11-16",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistics (ONS)",
+    "detail_url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationuknovember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.645444+00:00"
   },
   {
     "id": "95004d0d853a",
@@ -1405,7 +1405,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.762948+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645415+00:00"
   },
   {
     "id": "4859bc0aa5c3",
@@ -1431,7 +1431,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.762956+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645421+00:00"
   },
   {
     "id": "a23d4a94dad4",
@@ -1457,7 +1457,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.762916+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645389+00:00"
   },
   {
     "id": "99fdb8ce6e6e",
@@ -1483,7 +1483,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.762924+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645397+00:00"
   },
   {
     "id": "3fc38ae47df8",
@@ -1509,7 +1509,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.762932+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645403+00:00"
   },
   {
     "id": "cd17bbd9d650",
@@ -1535,7 +1535,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.762940+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645409+00:00"
   },
   {
     "id": "8c1b8305eb96",
@@ -1561,7 +1561,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.762894+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645377+00:00"
   },
   {
     "id": "77a544e75967",
@@ -1587,7 +1587,59 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.762907+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645383+00:00"
+  },
+  {
+    "id": "43a97430f965",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "GDP quarterly national accounts, UK: July to September 2027",
+    "date": "2027-12-22",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Revised quarterly estimate of gross domestic product (GDP) for the UK. Uses additional data to provide a more precise indication of economic growth than the first estimate.",
+    "detail_url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.645362+00:00"
+  },
+  {
+    "id": "280bd2d41819",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "GDP quarterly national accounts, UK: July to September 2027 timeseries",
+    "date": "2027-12-22",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Time series data as part of the quarterly GDP publication.",
+    "detail_url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2027timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-09-18T05:42:16.645370+00:00"
   },
   {
     "id": "2a100eb212a1",
@@ -1613,7 +1665,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.762862+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645338+00:00"
   },
   {
     "id": "c5836a7ffcd8",
@@ -1639,6 +1691,6 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-09-01T08:22:17.762882+00:00"
+    "scraped_at": "2026-09-18T05:42:16.645354+00:00"
   }
 ]

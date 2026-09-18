@@ -1,12 +1,60 @@
 {
   "MSC": {
-    "count": 1,
+    "count": 2,
     "examples": [
       {
         "id": 17760515,
         "title": "Strategic partnership with Vestacy"
+      },
+      {
+        "id": 17765634,
+        "title": "ISS and Glass Lewis voting recommendations"
       }
     ],
     "first_seen": "2026-08-28T08:32:37"
+  },
+  "NRA": {
+    "count": 1,
+    "examples": [
+      {
+        "id": 17765189,
+        "title": "Yellowstone Advisory Presentation"
+      }
+    ],
+    "first_seen": "2026-09-18T06:42:28"
+  },
+  "ADM": {
+    "count": 2,
+    "examples": [
+      {
+        "id": 17764801,
+        "title": "Admission to Trading"
+      },
+      {
+        "id": 17762929,
+        "title": "Admission to Trading"
+      }
+    ],
+    "first_seen": "2026-09-18T06:42:28"
+  },
+  "OUP": {
+    "count": 1,
+    "examples": [
+      {
+        "id": 17763083,
+        "title": "Update on investment in HUGO BOSS"
+      }
+    ],
+    "first_seen": "2026-09-18T06:42:28"
+  },
+  "MSCL": {
+    "count": 1,
+    "examples": [
+      {
+        "id": 17793220,
+        "title": "Financial outlook update"
+      }
+    ],
+    "first_seen": "2026-09-18T07:05:45"
   }
 }
