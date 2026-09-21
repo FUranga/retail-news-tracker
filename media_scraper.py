@@ -17,6 +17,7 @@ from pathlib import Path
 import requests
 
 from schedule_guard import should_run
+from reject_log import append_rejected, prune_rejected
 
 try:
     import feedparser
@@ -215,7 +216,14 @@ def fetch_rss(source, noise_signals=None):
             title = entry.get("title", "").strip()
             title_lower = title.lower()
             url_lower = entry.get("link", "").lower()
-            if any(sig in title_lower or sig in url_lower for sig in noise_signals):
+            hit_signal = next((sig for sig in noise_signals if sig in title_lower or sig in url_lower), None)
+            if hit_signal:
+                append_rejected(
+                    "media",
+                    {"source_id": source["id"], "source_name": source["name"],
+                     "title": title, "url": entry.get("link", ""), "datetime": dt},
+                    f"noise_title_signal:{hit_signal}",
+                )
                 continue
 
             articles.append({
@@ -295,6 +303,10 @@ def run():
                 require_retailer_name=source.get("require_retailer_name", False)
             )
             if not relevant:
+                reason = "not_relevant"
+                if source.get("require_retailer_name", False):
+                    reason += " (require_retailer_name=true, sin match de retailer claro/ambiguo)"
+                append_rejected("media", a, reason)
                 continue
 
             # Si ya existe en el histórico, solo actualizar el body si falta
@@ -339,6 +351,9 @@ def run():
     purged = before_purge - len(all_items)
     if purged:
         print(f"{purged} artículos purgados (más de {keep_days} días)")
+
+    rejected_keep_days = config.get("rejected_log", {}).get("keep_days", 30)
+    prune_rejected("media", rejected_keep_days)
 
     payload = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),

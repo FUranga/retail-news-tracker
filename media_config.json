@@ -500,6 +500,17 @@
   "retention": {
     "keep_days": 7
   },
+  "rejected_log": {
+    "keep_days": 30
+  },
+  "clustering": {
+    "enabled": true,
+    "window_days": 1,
+    "jaccard_threshold": 0.6,
+    "min_title_tokens": 4,
+    "stopwords": ["the", "a", "an", "to", "of", "in", "on", "for", "and", "uk",
+                  "says", "after", "as", "with", "at", "is", "its", "over"]
+  },
   "noise_title_signals": [
     "sales advisor",
     "sales assistant",

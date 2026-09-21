@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "supplier-scraper-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add supplier_data.json
+          git add supplier_data.json data/rejected/supplier.jsonl
           git diff --staged --quiet && echo "Sin cambios nuevos" && exit 0
           git commit -m "Supplier update $(date -u +'%Y-%m-%d %H:%M UTC')"
           git pull --rebase origin main

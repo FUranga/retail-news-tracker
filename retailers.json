@@ -160,6 +160,12 @@
       "exchange": "LSE"
     },
     {
+      "name": "Heal's",
+      "listed": "private",
+      "ambiguous": true,
+      "note": "Agregado 2026-09-17. 'Heal's' es una palabra inglesa común (verbo 'to heal') además de nombre de retailer — requiere ambiguous_context_keywords. Fuente propia en company_config.json."
+    },
+    {
       "name": "Pets at Home",
       "ticker": "PETS",
       "listed": "FTSE250",

@@ -41,6 +41,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from reject_log import append_rejected
+
 # Fallback embedded default — used only if category_map.json is missing,
 # same cascade pattern as the LSE config (external file always preferred).
 DEFAULT_CATEGORY_MAP = {
@@ -130,6 +132,19 @@ def transform(csv_path, out_path="dashboard_data.json"):
         # y el código no está en el mapa — es decir, cayó en "Other" solo.
         if story_type == "Other" and str(article_id) not in article_overrides:
             unmapped_log = log_unmapped(unmapped_log, code, title, article_id)
+
+        if is_noise:
+            source = "override" if str(article_id) in article_overrides else f"category_map:{code}"
+            append_rejected(
+                "lse",
+                {"source_id": r.get("companycode") if pd.notna(r.get("companycode")) else None,
+                 "source_name": r.get("companyname") if pd.notna(r.get("companyname")) else None,
+                 "title": title, "url": r.get("url") if pd.notna(r.get("url")) else None,
+                 "datetime": str(r.get("datetime"))},
+                f"{source}->is_noise",
+                action="flagged_noise",
+                stage="transform",
+            )
 
         companyname = r.get("companyname") if pd.notna(r.get("companyname")) else None
         item = {

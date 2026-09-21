@@ -330,6 +330,15 @@
       "note": "Diagnóstico 2026-08-30: superdryglobal.com/investors daba 0 (subpath ignorado); superdry.com a secas trae catálogo de ropa, no prensa. Texto libre evita ambos problemas."
     },
     {
+      "id": "heals",
+      "name": "Heal's",
+      "tier": 2,
+      "listed": "private",
+      "rss": "https://news.google.com/rss/search?q=%22Heal%27s%22+furniture+UK+announces+OR+launches+OR+appoints+OR+opens&hl=en-GB&gl=GB&ceid=GB:en",
+      "retail_sector": "home",
+      "note": "Agregado 2026-09-17 (a partir de un comunicado de CEO enviado directo por la agencia de prensa, sin URL, ver drafts/company-heals-appoints-new-ceo.md). 'Heal's' es palabra inglesa común (to heal) — texto libre ancla con 'furniture UK' para desambiguar, mismo patrón que Lush ('cosmetics UK') y Mulberry ('Mulberry Group'). Pendiente de verificar en vivo con diagnose_sources.py."
+    },
+    {
       "id": "dfs",
       "name": "DFS",
       "tier": 2,

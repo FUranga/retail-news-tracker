@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "gov-scraper-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add gov_data.json
+          git add gov_data.json data/rejected/gov.jsonl
           git diff --staged --quiet && echo "Sin cambios nuevos" && exit 0
           git commit -m "Gov update $(date -u +'%Y-%m-%d %H:%M UTC')"
           git pull --rebase origin main

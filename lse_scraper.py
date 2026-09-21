@@ -37,6 +37,7 @@ import pandas as pd
 import requests
 
 from schedule_guard import should_run
+from reject_log import append_rejected, prune_rejected
 
 CONFIG_PATH = Path("lse_config.json")
 
@@ -217,7 +218,16 @@ def enrich_and_filter(df, config):
 
     kept_rows = []
     for _, row in df.iterrows():
+        log_item = {
+            "source_id": row.get("companycode"),
+            "source_name": row.get("companyname"),
+            "title": row.get("title"),
+            "url": row.get("url"),
+            "datetime": str(row.get("datetime")),
+        }
+
         if row.get("companycode") in exclude_tickers:
+            append_rejected("lse", log_item, f"excluded_ticker:{row.get('companycode')}")
             continue
 
         try:
@@ -236,6 +246,9 @@ def enrich_and_filter(df, config):
             new_row["icbsectorcode"] = icb_code
             new_row["icbsector"] = icb_sector
             kept_rows.append(new_row)
+        else:
+            reason = "detail_fetch_failed" if icb_code is None else f"sector_not_wanted:icb={icb_code}"
+            append_rejected("lse", log_item, reason)
 
         time.sleep(sleep_seconds)
 
@@ -274,6 +287,8 @@ def run(config_path=CONFIG_PATH, save_csv=True):
 
     df = enrich_and_filter(df_all, config)
     print(f"{len(df)} artículos retail/grocery confirmados (icbsectorcode + overrides)")
+
+    prune_rejected("lse", config.get("rejected_log", {}).get("keep_days", 30))
 
     if not df.empty:
         print(df[["datetime", "companyname", "icbsector", "title", "url"]].head(20).to_string())

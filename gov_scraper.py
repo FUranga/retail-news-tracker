@@ -18,6 +18,7 @@ from pathlib import Path
 import requests
 
 from schedule_guard import should_run
+from reject_log import append_rejected, prune_rejected
 
 try:
     import feedparser
@@ -217,6 +218,7 @@ def run():
         for a in articles:
             # Descartar entradas vacías del feed
             if not a.get("title") or not a.get("url"):
+                append_rejected("gov", a, "empty_title_or_url")
                 continue
 
             if a["url"] in existing_ids:
@@ -227,6 +229,7 @@ def run():
                 a["title"], a["summary"], source, clear_names, ambiguous_names, keywords, context_keywords
             )
             if not relevant:
+                append_rejected("gov", a, f"not_relevant (priority:{source.get('priority','medium')})")
                 continue
 
             a["match_reason"]  = match
@@ -263,6 +266,9 @@ def run():
     purged = before - len(all_items)
 
     all_items.sort(key=lambda x: x.get("datetime", ""), reverse=True)
+
+    rejected_keep_days = config.get("rejected_log", {}).get("keep_days", 30)
+    prune_rejected("gov", rejected_keep_days)
 
     payload = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),

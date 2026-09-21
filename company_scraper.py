@@ -16,6 +16,7 @@ from pathlib import Path
 import requests
 
 from schedule_guard import should_run
+from reject_log import append_rejected, prune_rejected
 
 try:
     import feedparser
@@ -106,13 +107,25 @@ def fetch_rss(source, noise_signals=None, sector_config=None):
 
             # Filtrar resultados que claramente no son noticias
             title = entry.get("title", "").strip()
+            link = entry.get("link", "")
             if not title or len(title) < 5:
+                append_rejected(
+                    "company",
+                    {"source_id": source["id"], "source_name": source["name"], "title": title, "url": link, "datetime": dt},
+                    "title_too_short",
+                )
                 continue
 
             # Descartar ruido típico de webs corporativas
             title_lower = title.lower()
-            url_lower = entry.get("link", "").lower()
-            if any(sig in title_lower or sig in url_lower for sig in noise_signals):
+            url_lower = link.lower()
+            hit_signal = next((sig for sig in noise_signals if sig in title_lower or sig in url_lower), None)
+            if hit_signal:
+                append_rejected(
+                    "company",
+                    {"source_id": source["id"], "source_name": source["name"], "title": title, "url": link, "datetime": dt},
+                    f"noise_title_signal:{hit_signal}",
+                )
                 continue
 
             summary = clean_html(entry.get("summary", ""))
@@ -196,6 +209,9 @@ def run():
     purged = before - len(all_items)
 
     all_items.sort(key=lambda x: x.get("datetime", ""), reverse=True)
+
+    rejected_keep_days = config.get("rejected_log", {}).get("keep_days", 30)
+    prune_rejected("company", rejected_keep_days)
 
     payload = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
