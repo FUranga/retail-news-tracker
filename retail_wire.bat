@@ -1,6 +1,6 @@
 @echo off
 echo Retail Wire — actualizando datos...
-set REPO="C:\Users\Francisco.Uranga\OneDrive - William Reed Ltd\Documents\proyectos claude\news tracker"
+set REPO="C:\dev\retail-news-tracker"
 set GIT="C:\Users\Francisco.Uranga\AppData\Local\GitHubDesktop\app-3.6.4\resources\app\git\cmd\git.exe"
 
 %GIT% -C %REPO% pull
