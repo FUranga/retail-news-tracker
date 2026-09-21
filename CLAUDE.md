@@ -1,3 +1,5 @@
+@../ai-workbench/AGENTS.md
+
 # Retail Wire — UK retail news tracker
 
 Editorial tracking tool for UK retail news, built for a Retail Week journalist.
