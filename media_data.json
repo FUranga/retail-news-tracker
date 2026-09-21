@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T13:12:41",
+  "generated_at": "2026-09-21T13:24:57",
   "items": [
     {
       "source_id": "the_sun",
@@ -17,6 +17,23 @@
       "retail_sector": "property",
       "tech_signal": false,
       "body": null
+    },
+    {
+      "source_id": "talking_retail",
+      "source_name": "Talking Retail",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Fed partners with payments provider Lopay",
+      "url": "https://www.talkingretail.com/news/industry-news/fed-partners-with-payments-provider-lopay-21-09-2026/",
+      "summary": "The Federation of Independent Retailers (the Fed) has teamed up with payments provider Lopay to offer members preferential card processing rates that it said could save typical businesses almost £3,000 a year. Fed members have exclusive access to the free Lopay Zero Card. For every&hellip; This story continues at Fed partners with payments provider Lopay Or just read more coverage at Talking Retail",
+      "datetime": "2026-09-21T12:28:03",
+      "match_reason": "keyword:retailer",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": null,
+      "tech_signal": true,
+      "body": "Fed members have exclusive access to the free Lopay Zero Card. For every £1 a member spends on stock through the Zero Card, at their usual wholesalers and cash & carries, Lopay will process £1 of customer card payments with zero processing fees.\nMembers don’t need to change how they buy stock to benefit. It’s the everyday spend they already make that unlocks the savings.\nCombined with the Fed’s preferential Lopay rate, the offer also includes a free business account with instant access to card takings, a card terminal from £9.99 a month with fully transparent pricing, and no contracts or exit fees, so members can switch with confidence, and leave just as easily if it isn’t right for them. Onboarding and ongoing support are UK-based.\nLopay founder and chief executive Richard Carter said: “For businesses, combining the Fed’s preferential Lopay rate with the Zero Card could mean reducing the amount they spend on payment processing by 60 to 70 per cent or more. And those savings add up quickly.\n“For a typical business paying around £300 a month in card processing fees, Lopay and the Zero Card could bring that figure down to around £55 a month – putting almost £3,000 a year back into the business.”\nThe Fed’s national president Hemanshu Patel said: ““At a time when the cost of trading is rising, we are pleased to have teamed up with Lopay to give Fed members access to preferential rates and an additional way to potentially reduce their card processing costs\n“As with any business service, we would encourage members to look at the offer carefully, consider their own circumstances and make sure it is right for their business.”\nHave your say\nor a new account to join the discussion."
     },
     {
       "source_id": "guardian_retail",
@@ -729,6 +746,23 @@
       "story_type": null,
       "is_noise": false,
       "retail_sector": "home",
+      "tech_signal": false,
+      "body": null
+    },
+    {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Media Information - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9aWURCSXU5a29qN2lpQWlHV0Nzc0oycDZzdkxBQm8yZlBzSzlnTUNwdHRZc0tkTVI2VnRDOV9QZ2MyV1VyLTA1Z0RZX2RwUQ?oc=5",
+      "summary": "Media Information &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-09-19T06:27:32",
+      "match_reason": "keyword:retail sector",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": null,
       "tech_signal": false,
       "body": null
     },
@@ -1481,6 +1515,23 @@
       "body": null
     },
     {
+      "source_id": "independent",
+      "source_name": "The Independent",
+      "source_cat": "general",
+      "paywall": false,
+      "title": "Department stores and online shopping drive rebound in UK retail sales - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRW5FWWxtZ3FEcEd5VmxxUVkya3ZmdENJUHNPazE0d3VvS0MxeFlQNXhadWVwcTd3Zy1jU25DVGE0X1loU041VGltR0lpYzJtbHdTczZfVE12YzNPWE9xYW9NTkkzdHhWa05CQ2FIYzN1TlhuNnRXX3lRRk5CclJ1R1JRdXhfanJEbllSdVhXWWtWZHNCME5uekhYbWJmcWhi?oc=5",
+      "summary": "Department stores and online shopping drive rebound in UK retail sales &nbsp;&nbsp; The Independent",
+      "datetime": "2026-09-18T07:04:00",
+      "match_reason": "keyword:retail sales",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tech_signal": false,
+      "body": null
+    },
+    {
       "source_id": "bloomberg_uk",
       "source_name": "Bloomberg UK",
       "source_cat": "general",
@@ -1630,6 +1681,23 @@
       "story_type": null,
       "is_noise": false,
       "retail_sector": "fashion",
+      "tech_signal": false,
+      "body": null
+    },
+    {
+      "source_id": "retail_sector",
+      "source_name": "Retail Sector",
+      "source_cat": "trade",
+      "paywall": false,
+      "title": "Puma chief commercial officer Matthias Baeumer to step down - Retail Sector",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdTZ3bmZtQ2RKRGVRWWFmeE1Td0Y3c1gzSl8wNER1eHQyei1YQ3VDRmp5YndsMllXLVR0Nk1MY2JRVlcwSGRHQVVOczZnQkVyTmlPcVVnRzd2M202VWJlZ1pXdDlscXI5WklfVndiNG1rWWREZHNWR0xmbGJSOGdRSTEzQnAxbzQtZzlIYkV4c3hFX1ZpRVhlTGp0MW5WZzg?oc=5",
+      "summary": "Puma chief commercial officer Matthias Baeumer to step down &nbsp;&nbsp; Retail Sector",
+      "datetime": "2026-09-17T21:41:26",
+      "match_reason": "keyword:retail sector",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": null,
       "tech_signal": false,
       "body": null
     },
@@ -4065,6 +4133,23 @@
       "body": null
     },
     {
+      "source_id": "this_is_money",
+      "source_name": "This is Money",
+      "source_cat": "general",
+      "paywall": false,
+      "title": "British heritage to strut its stuff on the catwalk at London Fashion Week",
+      "url": "https://www.dailymail.com/money/markets/article-16124131/British-heritage-strut-stuff-catwalk-London-Fashion-Week.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "summary": "Iconic British brands will be showcasing their designs at London Fashion Week from Thursday against a difficult background for the luxury good sector and challenges in the high street.",
+      "datetime": "2026-09-15T09:50:39",
+      "match_reason": "keyword:high street",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "fashion",
+      "tech_signal": false,
+      "body": "British heritage to strut its stuff on the catwalk at London Fashion Week\n- See more This is Money on Google - save us as a Preferred Source\nIconic British brands will be showcasing their designs at London Fashion Week from Thursday against a difficult background for the luxury good sector and challenges in the high street.\nUpmarket brands including Barbour, Burberry, McQueen and Mulberry will be among those unveiling collections. These four will be emphasising their mix of British heritage and contemporary cool.\nBut high street stalwart Marks & Spencer, which moved into clothing 100 years ago and now tops the YouGov style credential polls, will also be staging its first ever London Fashion womenswear and menswear show at noon on Friday.\nBritish model Alexa Chung has designed clothes for Barbour\nThose attending the event will be able to purchase everything from 12.30pm through the website or in major stores. A video will be streamed online at 6.30pm, giving everyone else the chance to do so. The deployment of this ‘see-now, buy-now’ format, pioneered by Burberry in 2016, underlines M&S’s confidence that it has definitely ditched its frumpy reputation.\nOn Thursday Barbour, the 132-year old family-owned company famed for its waxed jackets with tartan linings which sell in 55 countries and are worn by the Princess of Wales, will showcase its collection at the Saatchi Gallery. Barbour’s Bedale and Beaufort jackets are still made in its factory in South Shields.\nOn Saturday, McQueen show will be under scrutiny by fashionistas and luxury goods analysts. This couture house, founded by the late Alexander McQueen, dresses the Princess of Wales for formal occasions.\nBut its interest to the City lies in its ownership. McQueen is a division of the French luxury giant Kering whose empire also includes Gucci. Kering shares are down by 21 per cent this year and by 65 per cent over the past five years. The luxury goods industry has been hard hit by the Chinese consumer slowdown, higher costs and geopolitical tensions.\nShares in Mulberry, the Somerset-based luxury handbag company, are moving upwards, however, jumping by 165 per cent since January. This is thanks to a return to sales growth driven by an emphasis its artisan roots.\nWhen the company displays its lines on Saturday, some will be watching whether Mike Ashley, founder of Frasers, will be in the audience.\nFrasers has a 37 per cent stake in Mulberry. His 2024 takeover bid for the business failed. But Ashley is eager to expand his luxury ‘eco-system’ to which he recently added the Knightsbridge store Harvey Nichols.\nBurberry, the outerwear group founded in 1856, closes London Fashion Week on Monday September 21. The 19 per cent fall in the shares this year means that it must demonstrate its appeal to younger aspirational shoppers.\nBurberry, a brand still in turnaround, has been successfully winning back this clientele. But sentiment remains depressed. Analysts will be looking for pieces that appeal to Americans of all ages. In the US money made from artificial intelligence (AI) stocks is currently pushing up demand for Burberry’s classic trenchcoats and its Cotswold bag, pieces that aim to exemplify the best of Britishness.\nDIY INVESTING PLATFORMS\nAffiliate links: If you take out a product This is Money may earn a commission. These deals are chosen by our editorial team, as we think they are worth highlighting. This does not affect our editorial independence.\nCompare the best investing account for you"
+    },
+    {
       "source_id": "retail_sector",
       "source_name": "Retail Sector",
       "source_cat": "trade",
@@ -4524,6 +4609,23 @@
       "body": null
     },
     {
+      "source_id": "this_is_money",
+      "source_name": "This is Money",
+      "source_cat": "general",
+      "paywall": false,
+      "title": "'Stop hammering Middle England': Jigsaw owner slams Labour tax hikes",
+      "url": "https://www.dailymail.com/money/markets/article-16129587/Stop-hammering-Middle-England-Jigsaw-owner-slams-Labour-tax-hikes.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "summary": "David Ross, the owner of Jigsaw, told the Daily Mail Labour needs to stop hitting Middle England's income via frozen tax thresholds and higher costs and taxes.",
+      "datetime": "2026-09-14T19:11:00",
+      "match_reason": "retailer:jigsaw",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "fashion",
+      "tech_signal": false,
+      "body": "'Stop hammering Middle England': Jigsaw owner slams Labour tax hikes\n- See more This is Money on Google - save us as a Preferred Source\nThe boss of upmarket fashion retailer Jigsaw has urged Andy Burnham to ‘stop hammering Middle England’ as tax hikes weigh on spending.\nDavid Ross, who bought Jigsaw in 2018, urged the Prime Minister to reverse tax increases and make it a ‘fair deal’ for businesses and employees.\n‘The system is currently stacked against retailers and our customers,’ he said. ‘We will see whether Andy Burnham is genuine about reviving Britain’s high streets.’\nThe entrepreneur, who co-founded Carphone Warehouse, said the Government had to ‘stop hammering Middle England. Our customer works, pays her taxes, and has watched frozen thresholds and higher bills eat her pay rise.\n‘Very often she’s also the person behind the till. Squeeze her and you squeeze the shop, the jobs and the tax take together. Leave working households’ take home pay alone.’\nRising labour and energy costs, paired with changes to business rates, have hammered businesses, and there are mounting fears that there’s more to come in next month’s Budget, as Chancellor John Healey grapples with limited headroom and a pledge to increase spending on welfare and defence.\nRoss called on Burnham to reform business rates and ‘keep shops out of the new top that was aimed at warehouses and hit flagship stores instead.’\nJigsaw owner David Ross is calling on Burnham to reform business rates\nHe joins other retailers in calling for the threshold for employers’ National Insurance to be upped to £6,000, adding that changes to workers’ rights should target exploitative practices or contracts rather than flexible jobs.\n‘Youth unemployment is at a ten-year high, don’t let new employment rules kill the Saturday job, where millions of us learned the value of hard work. Target the exploitative contracts and leave the weekend jobs alone.’\nHe added: 'None of this is a handout. It's a fair deal for the businesses that create jobs and the people who do them. Give us a chance, Andy.'\nRoss’s comments came as Jigsaw claimed its ‘turnaround is working’ after an 18 per cent increase in sales in the six months to July, compared to a year earlier.\nIt was driven by a 43 per cent jump in dress sales, and its yellow suit, launched in March, sold out within three weeks.\nConcession sales, where Jigsaw products are sold in sites like department stores, jumped by 47 per cent on a like-for-like basis year-on-year, while online sales increased by 21 per cent.\nThe business said international online sales increased by 48 per cent year-on-year in the period. It plans to push further into the US via Macy's and Nordstrom's online marketplaces from this autumn.\nThat came despite a ‘subdued market backdrop’ as retailers absorb higher costs, with ‘little targeted support for business’ ahead of the Budget on October 28.\nJigsaw hailed its recent progress after launching a turnaround programme to help improve its performance after recording a £3.5million loss for the year to March 2025.\nMaking a stand: Sales at Jigsaw are on the up and shoppers are loving the chain's dresses\nIts 'strategic reset', started in 2025, has focused on strengthening its core business in Britain, upping its international reach and creating 'authority and consistency' across its product lines.\nTikki Godley, managing director of Jigsaw, said: 'This season is further evidence that our turnaround is working.\n'Customers are watching their wallets right now, but still choosing Jigsaw.’\nIn March, the group said it planned to open 10 new shops across Britain this year.\nFounded in 1970, luxury womenswear retailer Jigsaw has long been synonymous with timeless tailoring and quality craftsmanship. But in a market crowded with fast fashion and hyper-digitised retail, it has had to evolve rapidly.\nThe business struggled during the Covid-19 pandemic to retain its middle-class shopper base and was forced to close 30 shops.\nJonathan De Mello, founder of JDM Retail, said: 'While high street pressures, flat non-food retail markets, and rising business costs remain persistent challenges, Jigsaw has managed to shrug these off with good growth across all channels, driven by a surge in dress sales in particular.\n‘The future prognosis is encouraging as the brand pivots from stabilisation to international growth, with a forthcoming US launch this autumn via Nordstrom and Macy’s.’\nDIY INVESTING PLATFORMS\nAffiliate links: If you take out a product This is Money may earn a commission. These deals are chosen by our editorial team, as we think they are worth highlighting. This does not affect our editorial independence.\nCompare the best investing account for you"
+    },
+    {
       "source_id": "independent",
       "source_name": "The Independent",
       "source_cat": "general",
@@ -4607,6 +4709,23 @@
       "retail_sector": "electronics",
       "tech_signal": false,
       "body": "Gaming platform Roblox sues British charity\nThe group behind US gaming giant Roblox is suing a UK food brand and its philanthropic arm over alleged intellectual property infringement.\nRoblox Corporation, the Californian video game developer, filed a lawsuit in the London High Court on Friday against Roc Co, a British grocery business, and its charity arm, according to filings seen by City AM.\nRoc Co Brands is a for-profit food manufacturer, established in May 2020 by a British family and named after their son, Rocco, who survived a severe medical crisis at birth.\nThe lawsuit also names its charity arm, Rocco Brands Group. The charity donates all net trading profits from Rocco Brands Group sales to healthcare and childhood sickness charities, including the NHS and Ronald McDonald House Charities UK. Its website stated it has raised £15,000 for charity over the past 12 months.\nThe case was filed in the Intellectual Property and Enterprise Court, a specialist court within the High Court, with law firm Winston Taylor representing the blocky playground platform. Through the UK Intellectual Property Office, Roblox Corporation holds active trademarks, including its name and logo.\nIt is understood that one of the products the British brand recently released was Rocblox Confectionery, a collection of sour cable sweets in packages featuring robot characters on a blocky background. This case concerns Roblox seeking to defend its trademarks and IP from alleged unauthorised misuse.\nBusinesses or charities can obtain a license to use the Roblox logo and brand trademarks, but it is understood that Roc Co was not granted such a license in this case.\nIt is also understood that this lawsuit is not about money, and if the gaming giant succeeds, any money recovered through these proceedings will be donated to one of the three independent charitable organisations listed on the Roc Co website.\nRoblox Corporation, Roc Co Brands, and Winston Taylor were contacted for comment."
+    },
+    {
+      "source_id": "this_is_money",
+      "source_name": "This is Money",
+      "source_cat": "general",
+      "paywall": false,
+      "title": "M&S to sell bags of extra bakery items for under £4 in partnership with Too Good To Go",
+      "url": "https://www.dailymail.com/money/markets/article-16129955/M-S-sell-bags-extra-bakery-items-4-partnership-Good-Go.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "summary": "M&amp;S Food will offer bags of food to customers for less than £4 as it rolls out its partnership with Too Good To Go across the country.",
+      "datetime": "2026-09-14T14:20:25",
+      "match_reason": "retailer:m&s",
+      "stream": "news",
+      "story_type": null,
+      "is_noise": false,
+      "retail_sector": "fashion",
+      "tech_signal": false,
+      "body": "M&S to sell bags of extra bakery items for under £4 in partnership with Too Good To Go\n- See more This is Money on Google - save us as a Preferred Source\nM&S Food will offer bags of food to customers for less than £4 as it rolls out its partnership with Too Good To Go across the country.\nShoppers will be able to buy the surprise bags, which contain three to four bakery items worth a minimum of £10.20, at the end of the day from across 350 M&S stores.\nThe bags, which cost £3.80, can be ordered through the Too Good To Go app from Monday to Saturday, one hour before the store closes.\nThe nationwide rollout follows a trial in a select number of M&S stores over the past few months.\nLucinda Langton, head of sustainability at M&S Food, said: 'Too Good To Go is a brilliant example of how we're turning our commitment to reducing food waste into practical action.\n'By giving customers access to surprise bags of surplus bakery products, we can help ensure more of our food is enjoyed. The response from our trial stores has been outstanding, and this partnership is another positive step towards our goal of halving food waste by 2030.'\nToo good to go: M&S will sell surprise bags for under £4 in a bid to cut food waste\nThe Too Good To Go app, founded in 2015, connects customers with shops and restaurants that have extra food available.\nBrands such as Greggs and Pret have already partnered with the app, as well as supermarkets Aldi and Morrison's.\nThe company claims to have helped save over 600 million meals from going to waste, boasting 120 million registered users and 200,000 partners across 20 countries.\nChelsea Kerr, managing director at Too Good To Go UK & Ireland, said: 'We're delighted to be partnering with M&S to help make their surplus food available to even more customers across the UK and Ireland.\n'Food waste is a huge challenge, but partnerships like this show how simple it can be for businesses and consumers to take action together.\n'By giving food that might otherwise go unsold another chance to be enjoyed, we're making it easier for people to save good food while also getting great value.\n'M&S is a much-loved brand across the UK, so we're excited to be working together to make saving food from going to waste a simple and accessible part of everyday life for even more people.'\nAvailability of the bags will be limited and will vary daily depending on the store.\nSAVE MONEY, MAKE MONEY\nUp to £250 cashback\nUp to £150 cashback\nAffiliate links: If you take out a product This is Money may earn a commission. These deals are chosen by our editorial team, as we think they are worth highlighting. This does not affect our editorial independence. Terms and conditions apply on all offers."
     },
     {
       "source_id": "drapers",
