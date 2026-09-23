@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-09-23T11:53:55",
+  "generated_at": "2026-09-23T14:51:19",
   "items": [
+    {
+      "source_id": "adyen",
+      "source_name": "Adyen",
+      "companyname": "Adyen",
+      "retail_sector": "pureplay",
+      "supply_category": "tech",
+      "listed": "Euronext",
+      "tier": 1,
+      "paywall": false,
+      "title": "Adyen upgrades Authenticate to cut checkout friction - CFOtech Asia",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYUxqWUNlZTNEcWFHMFhRYldfaWlLNWdFZUo3bnlQSFZ1dDUzOU13VTcteHV2SXV2elIxNnMtOGZCXzlIcTNOdjY2bnlJWU95OVM5TnFEaUVFaW1saGRwOUxfSzEwNEs4RXFfMHJveGtpbXZoVW5mbTY2MUltS1ZaV1YxWVh1UQ?oc=5",
+      "summary": "Adyen upgrades Authenticate to cut checkout friction &nbsp;&nbsp; CFOtech Asia",
+      "datetime": "2026-09-23T02:06:04",
+      "tech_signal": false,
+      "stream": "supplier",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "supplier:Adyen",
+      "body": null
+    },
     {
       "source_id": "kraftheinz_uk",
       "source_name": "Kraft Heinz UK",
