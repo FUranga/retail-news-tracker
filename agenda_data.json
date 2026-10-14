@@ -1,31 +1,5 @@
 [
   {
-    "id": "6efca1944b1e",
-    "source": "parliament_committees",
-    "category": "reunion-publica",
-    "title": "Formal Evidence Session",
-    "date": "2026-10-13",
-    "time": "09:30",
-    "location": "The Thatcher Room, Portcullis House",
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Formal meeting (oral evidence session) — Revitalising High Streets",
-    "detail_url": "https://committees.parliament.uk/committee/17/",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-09T06:01:15.856462+00:00"
-  },
-  {
     "id": "ebcbcbd770b9",
     "source": "ons",
     "category": "estadistica",
@@ -49,33 +23,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425079+00:00"
-  },
-  {
-    "id": "ee1131b15965",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Consumer price inflation, UK: September 2026",
-    "date": "2026-10-21",
-    "time": "06:00",
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation.",
-    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425147+00:00"
+    "scraped_at": "2026-10-14T06:06:15.057599+00:00"
   },
   {
     "id": "cd28560d7737",
@@ -101,7 +49,33 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425157+00:00"
+    "scraped_at": "2026-10-14T06:06:15.057655+00:00"
+  },
+  {
+    "id": "ee1131b15965",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: September 2026",
+    "date": "2026-10-21",
+    "time": "06:00",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation.",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-14T06:06:15.057664+00:00"
   },
   {
     "id": "30284d4e04b8",
@@ -127,7 +101,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425169+00:00"
+    "scraped_at": "2026-10-14T06:06:15.057673+00:00"
   },
   {
     "id": "53b3de0ad390",
@@ -153,7 +127,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425203+00:00"
+    "scraped_at": "2026-10-14T06:06:15.057696+00:00"
   },
   {
     "id": "5b7dd3d37dc6",
@@ -179,7 +153,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425208+00:00"
+    "scraped_at": "2026-10-14T06:06:15.057700+00:00"
   },
   {
     "id": "209ca152cb34",
@@ -205,7 +179,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:01:16.431090+00:00"
+    "scraped_at": "2026-10-14T06:06:24.288591+00:00"
   },
   {
     "id": "ea7af3f7316a",
@@ -231,7 +205,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:01:15.857615+00:00",
+    "scraped_at": "2026-10-14T06:06:23.699829+00:00",
     "needs_confirmation": true
   },
   {
@@ -258,7 +232,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425380+00:00"
+    "scraped_at": "2026-10-14T06:06:15.057825+00:00"
   },
   {
     "id": "36deeef709ee",
@@ -284,7 +258,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425399+00:00"
+    "scraped_at": "2026-10-14T06:06:15.057852+00:00"
   },
   {
     "id": "352a74ef742e",
@@ -310,7 +284,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425423+00:00"
+    "scraped_at": "2026-10-14T06:06:15.057868+00:00"
   },
   {
     "id": "61f472ca6763",
@@ -336,7 +310,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425430+00:00"
+    "scraped_at": "2026-10-14T06:06:15.057872+00:00"
   },
   {
     "id": "eac26f819baf",
@@ -362,7 +336,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425487+00:00"
+    "scraped_at": "2026-10-14T06:06:15.057904+00:00"
   },
   {
     "id": "9e7f3036092d",
@@ -388,7 +362,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425530+00:00"
+    "scraped_at": "2026-10-14T06:06:15.057934+00:00"
   },
   {
     "id": "c9cada08a1c9",
@@ -414,7 +388,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:01:15.857643+00:00",
+    "scraped_at": "2026-10-14T06:06:23.699891+00:00",
     "needs_confirmation": true
   },
   {
@@ -441,7 +415,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425604+00:00"
+    "scraped_at": "2026-10-14T06:06:15.057985+00:00"
   },
   {
     "id": "4b0d19af931a",
@@ -467,7 +441,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425617+00:00"
+    "scraped_at": "2026-10-14T06:06:15.057993+00:00"
   },
   {
     "id": "ae8d53315c14",
@@ -493,7 +467,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:01:16.431113+00:00"
+    "scraped_at": "2026-10-14T06:06:24.288608+00:00"
   },
   {
     "id": "12f15de971d2",
@@ -519,7 +493,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425636+00:00"
+    "scraped_at": "2026-10-14T06:06:15.058005+00:00"
   },
   {
     "id": "8429f552e657",
@@ -545,7 +519,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425640+00:00"
+    "scraped_at": "2026-10-14T06:06:15.058009+00:00"
   },
   {
     "id": "869487442771",
@@ -571,7 +545,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.425683+00:00"
+    "scraped_at": "2026-10-14T06:06:15.058040+00:00"
   },
   {
     "id": "3f8f2a1858f8",
@@ -597,7 +571,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:01:15.857661+00:00",
+    "scraped_at": "2026-10-14T06:06:23.699910+00:00",
     "needs_confirmation": true
   },
   {
@@ -624,7 +598,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:01:15.857678+00:00",
+    "scraped_at": "2026-10-14T06:06:23.699927+00:00",
     "needs_confirmation": true
   },
   {
@@ -651,7 +625,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748843+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381346+00:00"
   },
   {
     "id": "a48e490a9bb2",
@@ -677,33 +651,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748851+00:00"
-  },
-  {
-    "id": "b2c38a524af7",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Producer price inflation, UK: September 2027, including services, July to September 2027",
-    "date": "2027-10-20",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Changes in the prices of goods bought and sold by UK manufacturers including price indices of materials and fuels purchased (input prices) and factory gate prices (output prices).  Also including quarterly estimates monitoring the changes in prices received for selected services provided by UK businesses.",
-    "detail_url": "https://www.ons.gov.uk/releases/producerpriceinflationukseptember2027includingservicesjulytoseptember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748859+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381350+00:00"
   },
   {
     "id": "aff17b8b4ab9",
@@ -729,7 +677,33 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748866+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381354+00:00"
+  },
+  {
+    "id": "b2c38a524af7",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Producer price inflation, UK: September 2027, including services, July to September 2027",
+    "date": "2027-10-20",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Changes in the prices of goods bought and sold by UK manufacturers including price indices of materials and fuels purchased (input prices) and factory gate prices (output prices).  Also including quarterly estimates monitoring the changes in prices received for selected services provided by UK businesses.",
+    "detail_url": "https://www.ons.gov.uk/releases/producerpriceinflationukseptember2027includingservicesjulytoseptember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-14T06:06:15.381359+00:00"
   },
   {
     "id": "de5b3a3198e9",
@@ -755,7 +729,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748817+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381330+00:00"
   },
   {
     "id": "167b574787a0",
@@ -781,7 +755,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748825+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381336+00:00"
   },
   {
     "id": "b4bb991b688e",
@@ -807,7 +781,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748835+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381340+00:00"
   },
   {
     "id": "63be066624d6",
@@ -833,7 +807,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748784+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381314+00:00"
   },
   {
     "id": "289a24e3474e",
@@ -859,7 +833,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748792+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381318+00:00"
   },
   {
     "id": "16ba790342c5",
@@ -885,7 +859,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748800+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381322+00:00"
   },
   {
     "id": "c9b794fab171",
@@ -911,7 +885,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748810+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381326+00:00"
   },
   {
     "id": "95004d0d853a",
@@ -937,7 +911,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748753+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381295+00:00"
   },
   {
     "id": "967eb3420820",
@@ -963,7 +937,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748761+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381301+00:00"
   },
   {
     "id": "89cfd454bedb",
@@ -989,7 +963,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748769+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381305+00:00"
   },
   {
     "id": "4859bc0aa5c3",
@@ -1015,7 +989,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748776+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381309+00:00"
   },
   {
     "id": "9768beaa2bb9",
@@ -1041,7 +1015,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748736+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381285+00:00"
   },
   {
     "id": "00c0d5f81f03",
@@ -1067,7 +1041,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748744+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381290+00:00"
   },
   {
     "id": "a2d13d817b34",
@@ -1093,7 +1067,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748721+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381277+00:00"
   },
   {
     "id": "aa4563716b1a",
@@ -1119,7 +1093,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748729+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381281+00:00"
   },
   {
     "id": "a23d4a94dad4",
@@ -1145,7 +1119,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748690+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381259+00:00"
   },
   {
     "id": "cd17bbd9d650",
@@ -1171,7 +1145,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748697+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381264+00:00"
   },
   {
     "id": "99fdb8ce6e6e",
@@ -1197,7 +1171,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748706+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381268+00:00"
   },
   {
     "id": "3fc38ae47df8",
@@ -1223,7 +1197,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748713+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381272+00:00"
   },
   {
     "id": "8c1b8305eb96",
@@ -1249,33 +1223,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748656+00:00"
-  },
-  {
-    "id": "77a544e75967",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Consumer price inflation, UK: November 2027",
-    "date": "2027-12-15",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation",
-    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationuknovember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748664+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381240+00:00"
   },
   {
     "id": "13fe992e5708",
@@ -1301,7 +1249,33 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748673+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381244+00:00"
+  },
+  {
+    "id": "77a544e75967",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: November 2027",
+    "date": "2027-12-15",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationuknovember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-14T06:06:15.381248+00:00"
   },
   {
     "id": "0e11a5d71f78",
@@ -1327,7 +1301,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748681+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381255+00:00"
   },
   {
     "id": "41f19e780c9c",
@@ -1353,7 +1327,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748606+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381212+00:00"
   },
   {
     "id": "c4c7812918c6",
@@ -1379,59 +1353,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748615+00:00"
-  },
-  {
-    "id": "43a97430f965",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "GDP quarterly national accounts, UK: July to September 2027",
-    "date": "2027-12-22",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Revised quarterly estimate of gross domestic product (GDP) for the UK. Uses additional data to provide a more precise indication of economic growth than the first estimate.",
-    "detail_url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748623+00:00"
-  },
-  {
-    "id": "280bd2d41819",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "GDP quarterly national accounts, UK: July to September 2027 timeseries",
-    "date": "2027-12-22",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Time series data as part of the quarterly GDP publication.",
-    "detail_url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2027timeseries",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748631+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381217+00:00"
   },
   {
     "id": "ed5de5ce1908",
@@ -1457,7 +1379,59 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748639+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381221+00:00"
+  },
+  {
+    "id": "43a97430f965",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "GDP quarterly national accounts, UK: July to September 2027",
+    "date": "2027-12-22",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Revised quarterly estimate of gross domestic product (GDP) for the UK. Uses additional data to provide a more precise indication of economic growth than the first estimate.",
+    "detail_url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-14T06:06:15.381226+00:00"
+  },
+  {
+    "id": "280bd2d41819",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "GDP quarterly national accounts, UK: July to September 2027 timeseries",
+    "date": "2027-12-22",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Time series data as part of the quarterly GDP publication.",
+    "detail_url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2027timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-14T06:06:15.381230+00:00"
   },
   {
     "id": "da8f754d2f67",
@@ -1483,7 +1457,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748648+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381235+00:00"
   },
   {
     "id": "eeece7643018",
@@ -1509,7 +1483,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748589+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381200+00:00"
   },
   {
     "id": "8f3f436c62b1",
@@ -1535,7 +1509,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748598+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381207+00:00"
   },
   {
     "id": "2a100eb212a1",
@@ -1561,7 +1535,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748561+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381184+00:00"
   },
   {
     "id": "c5836a7ffcd8",
@@ -1587,7 +1561,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748570+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381190+00:00"
   },
   {
     "id": "d0803633dd3d",
@@ -1613,7 +1587,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748579+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381195+00:00"
   },
   {
     "id": "75f1cdacf970",
@@ -1639,7 +1613,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748526+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381160+00:00"
   },
   {
     "id": "ad06db059749",
@@ -1665,6 +1639,6 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-09T06:00:57.748548+00:00"
+    "scraped_at": "2026-10-14T06:06:15.381177+00:00"
   }
 ]
