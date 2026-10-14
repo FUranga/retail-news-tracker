@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-10-14T06:07:16",
+  "generated_at": "2026-10-14T12:11:03",
   "items": [
+    {
+      "source_id": "greencore",
+      "source_name": "Greencore",
+      "companyname": "Greencore",
+      "retail_sector": "grocery",
+      "supply_category": "fresh_food",
+      "listed": "FTSE250",
+      "tier": 2,
+      "paywall": false,
+      "title": "Greencore Group (LSE:GNC) carries momentum into results? - Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ3ZCUUpvZ3RQMVQzYjRzNGg2dVhpbldiLXNGZnRWRWpEYURXUmpJUFkxVnFpSThDQnExcktCMUVPNXplRmY2Z0llZUZfRlpQWnhtWDR3T1VzeXVnY3dXNlpqU1hrVDc5bDBSV2lEb21XMFlLZkJGZjJ2Q3U1c1BKN25LRWl3Rm1qWTBBUjQ4Ri1jVGxXa2RiVGVR?oc=5",
+      "summary": "Greencore Group (LSE:GNC) carries momentum into results? &nbsp;&nbsp; Kalkine Media",
+      "datetime": "2026-10-14T08:36:00",
+      "tech_signal": false,
+      "stream": "supplier",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "supplier:Greencore",
+      "body": null
+    },
     {
       "source_id": "greencore",
       "source_name": "Greencore",
@@ -39,6 +59,26 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "supplier:Just Eat for Business",
+      "body": null
+    },
+    {
+      "source_id": "manhattan_associates",
+      "source_name": "Manhattan Associates",
+      "companyname": "Manhattan Associates",
+      "retail_sector": "pureplay",
+      "supply_category": "tech",
+      "listed": "NASDAQ",
+      "tier": 1,
+      "paywall": false,
+      "title": "A grocery operation with €6.5 billion in 2025 net sales chose new warehouse software. - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZlBQZFRDNVZYWUMzVkw1dzZCVTlMZVcyNUZ3VGFOdERsYTU0TjA3WVczbzNiSC0zbzJTOW0teXJNb3pqRFNXLTV3ZFBvc21CLVlBeWNCVXJmUWxEX2FndmJib2NlYWc4cV9ybEpTQWtWM3B1dl9ubkZjU280TkNjN3RJZF8tQS1jMm03bk9jU0VyN29vOXpCb1FvdTFiTDJlc1FBU0w0NWR6VG52VUdQc0NCcWQ5WDNsLVJCVA?oc=5",
+      "summary": "A grocery operation with €6.5 billion in 2025 net sales chose new warehouse software. &nbsp;&nbsp; Stock Titan",
+      "datetime": "2026-10-13T07:00:00",
+      "tech_signal": false,
+      "stream": "supplier",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "supplier:Manhattan Associates",
       "body": null
     },
     {
@@ -159,26 +199,6 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "supplier:Manhattan Associates",
-      "body": null
-    },
-    {
-      "source_id": "reckitt",
-      "source_name": "Reckitt",
-      "companyname": "Reckitt",
-      "retail_sector": "health",
-      "supply_category": "fmcg",
-      "listed": "FTSE100",
-      "tier": 1,
-      "paywall": false,
-      "title": "Reckitt Benckiser Group (LSE:RKT) Stock Forecast & Analyst Predictions - Simply Wall Street",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMkFGaWw2V0FIa3JWaHVjcm1zUHAyRGxDblhTb1cwMTZLeU5vSDB5YWU0MXBDV0tualBkXzFXQjI0bDRWam5oU1VjZnhPZ2ZVU2ZBTnZfVWdpVV9ndmdLZkVfay0zR0ozX1pIdkFUZ2l5QVEzLWZIeTdUSC1FU0MzMmNNdHMySjMxWTdLR3AtaV8?oc=5",
-      "summary": "Reckitt Benckiser Group (LSE:RKT) Stock Forecast & Analyst Predictions &nbsp;&nbsp; Simply Wall Street",
-      "datetime": "2026-10-07T07:00:00",
-      "tech_signal": false,
-      "stream": "supplier",
-      "story_type": null,
-      "is_noise": false,
-      "match_reason": "supplier:Reckitt",
       "body": null
     }
   ]
