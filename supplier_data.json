@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T15:13:33",
+  "generated_at": "2026-10-14T06:07:16",
   "items": [
     {
       "source_id": "greencore",
@@ -142,6 +142,26 @@
       "body": null
     },
     {
+      "source_id": "manhattan_associates",
+      "source_name": "Manhattan Associates",
+      "companyname": "Manhattan Associates",
+      "retail_sector": "pureplay",
+      "supply_category": "tech",
+      "listed": "NASDAQ",
+      "tier": 1,
+      "paywall": false,
+      "title": "Manhattan Associates Announces Date for Reporting Third Quarter 2026 Financial Results - www.marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWkpzTFA3VXdnTkM2Nkx0RUdWWUl2NlBQMm5NVmozUmZnb3h6MUhGZk9NbE5LdllEN2Fkc28zbUs4UXFCbS1sUGlMNVJERnF3aGZ1dWVWelZONHR2ZG93UXpUU3lGejcyM0hqZG9sVTQyaFJlWFVXYW14ZWZTYnROTXd3dlNDVlJ6eTI2MEd4UWZhVGFWejZpQkZDSnJNTGcxNlBma2o4UFpCbWFPcTFPYmVORF9WVjJyQWtXakpZaW5qbWZLX2RQTzRkTmNiWXhLSVNrdVdR?oc=5",
+      "summary": "Manhattan Associates Announces Date for Reporting Third Quarter 2026 Financial Results &nbsp;&nbsp; www.marketscreener.com",
+      "datetime": "2026-10-07T12:30:07",
+      "tech_signal": false,
+      "stream": "supplier",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "supplier:Manhattan Associates",
+      "body": null
+    },
+    {
       "source_id": "reckitt",
       "source_name": "Reckitt",
       "companyname": "Reckitt",
@@ -159,26 +179,6 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "supplier:Reckitt",
-      "body": null
-    },
-    {
-      "source_id": "justeat_business",
-      "source_name": "Just Eat for Business",
-      "companyname": "Just Eat for Business",
-      "retail_sector": "pureplay",
-      "supply_category": "tech",
-      "listed": "private (Prosus)",
-      "tier": 2,
-      "paywall": false,
-      "title": "Just Eat expands autonomous delivery with Morrisons - Retail Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRnJxQWRyWXRxdWQtM24xOUFEQ0xXb1BYaVlRWHhwT3hYTnVDc2hyekh4WFFyMm5rMjZKSkQ5U1NkZm85SC1lVHJNVFBTSmxQSzFBbjZSZW0tR3ZNOFJSZHVxX3FtYUVhNnR4TW1PSnVxal9qd3ZZZmlKN0lET0tqYzRGZkM?oc=5",
-      "summary": "Just Eat expands autonomous delivery with Morrisons &nbsp;&nbsp; Retail Times",
-      "datetime": "2026-10-06T16:38:08",
-      "tech_signal": false,
-      "stream": "supplier",
-      "story_type": null,
-      "is_noise": false,
-      "match_reason": "supplier:Just Eat for Business",
       "body": null
     }
   ]
