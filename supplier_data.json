@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-10-20T11:54:12",
+  "generated_at": "2026-10-21T12:06:18",
   "items": [
+    {
+      "source_id": "checkout_com",
+      "source_name": "Checkout.com",
+      "companyname": "Checkout.com",
+      "retail_sector": "pureplay",
+      "supply_category": "tech",
+      "listed": "private",
+      "tier": 1,
+      "paywall": false,
+      "title": "Checkout.com expands into in-person payments with Mollie - The Paypers",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd1g0VkNVbDNOX3R1ZEFoRy1NTXVVX3Q1RVlqOWloOTFjVTFHckxld280SWZuQ3JoaG55SmNEYjBKdXFja2VxNFZDdmJaZV9FRGdranJ6ZTNCbk8tdWZOZGVxbm5GR3dxVkNla1FOaFc3VksyWnJTX2k3MU5NRzVTRno0SXI3NHdSODBpLU5hZnZSZGdyMlp5X0tWLXRocENCbkhV?oc=5",
+      "summary": "Checkout.com expands into in-person payments with Mollie &nbsp;&nbsp; The Paypers",
+      "datetime": "2026-10-21T09:38:41",
+      "tech_signal": false,
+      "stream": "supplier",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "supplier:Checkout.com",
+      "body": null
+    },
     {
       "source_id": "ccep",
       "source_name": "Coca-Cola Europacific Partners",
@@ -279,26 +299,6 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "supplier:Manhattan Associates",
-      "body": null
-    },
-    {
-      "source_id": "greencore",
-      "source_name": "Greencore",
-      "companyname": "Greencore",
-      "retail_sector": "grocery",
-      "supply_category": "fresh_food",
-      "listed": "FTSE250",
-      "tier": 2,
-      "paywall": false,
-      "title": "Greencore Group (LSE:GNC) carries momentum into results? - Kalkine Media",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ3ZCUUpvZ3RQMVQzYjRzNGg2dVhpbldiLXNGZnRWRWpEYURXUmpJUFkxVnFpSThDQnExcktCMUVPNXplRmY2Z0llZUZfRlpQWnhtWDR3T1VzeXVnY3dXNlpqU1hrVDc5bDBSV2lEb21XMFlLZkJGZjJ2Q3U1c1BKN25LRWl3Rm1qWTBBUjQ4Ri1jVGxXa2RiVGVR?oc=5",
-      "summary": "Greencore Group (LSE:GNC) carries momentum into results? &nbsp;&nbsp; Kalkine Media",
-      "datetime": "2026-10-14T08:36:00",
-      "tech_signal": false,
-      "stream": "supplier",
-      "story_type": null,
-      "is_noise": false,
-      "match_reason": "supplier:Greencore",
       "body": null
     }
   ]
