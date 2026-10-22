@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:01:02",
+  "generated_at": "2026-10-22T12:10:24",
   "items": [
     {
       "source_id": "bidfood",
@@ -19,6 +19,26 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "supplier:Bidfood UK",
+      "body": null
+    },
+    {
+      "source_id": "ncr_voyix",
+      "source_name": "NCR Voyix",
+      "companyname": "NCR Voyix",
+      "retail_sector": "pureplay",
+      "supply_category": "tech",
+      "listed": "NYSE",
+      "tier": 1,
+      "paywall": false,
+      "title": "NCR Atleos Corporation (NATL) stock price, news, quote and history - Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rV3FhVVNpUWZrc3pvY1IyQ1dHSG56MUxoZldsckY5SGJpTzdqWEVQQWp2dENETnQ0UXQ2blh0SExWemdGT3UzNGMyZk1rYVFwc2c?oc=5",
+      "summary": "NCR Atleos Corporation (NATL) stock price, news, quote and history &nbsp;&nbsp; Yahoo Finance UK",
+      "datetime": "2026-10-21T10:30:30",
+      "tech_signal": false,
+      "stream": "supplier",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "supplier:NCR Voyix",
       "body": null
     },
     {
@@ -219,46 +239,6 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "supplier:Klarna",
-      "body": null
-    },
-    {
-      "source_id": "klarna",
-      "source_name": "Klarna",
-      "companyname": "Klarna",
-      "retail_sector": "pureplay",
-      "supply_category": "tech",
-      "listed": "NYSE",
-      "tier": 1,
-      "paywall": false,
-      "title": "Klarna partners with M&S for BNPL on website and app - Retail Systems",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZEkwMWx2RWQ5djh5N1RRYk1ERnhJUW54RHRZZmpBWWxkVjlLM1NwSzNYSERRdURDRFVNYVJDa1hXR2JpQ25CSzF0TUQ0U0p3bk5Cdm9sREJRak1uSTJ2ak1hVnUtLVE5YjdkUnJzMXFUX21YRUlFYUhMWndHNGItVnJ3emh5R0dmV1d1dG5B?oc=5",
-      "summary": "Klarna partners with M&amp;S for BNPL on website and app &nbsp;&nbsp; Retail Systems",
-      "datetime": "2026-10-15T08:55:51",
-      "tech_signal": true,
-      "stream": "supplier",
-      "story_type": null,
-      "is_noise": false,
-      "match_reason": "supplier:Klarna",
-      "body": null
-    },
-    {
-      "source_id": "diageo",
-      "source_name": "Diageo",
-      "companyname": "Diageo",
-      "retail_sector": "grocery",
-      "supply_category": "fmcg",
-      "listed": "FTSE100",
-      "tier": 1,
-      "paywall": false,
-      "title": "FTSE 100 Stock Diageo (LSE:DGE): What Its Latest Results Publication Means - Kalkine Media",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2NPcm4wdWctMC1JUmNUVHN5cUdOUFJVM21sbHk0UlFXdUlkZ3MtXzZVUmVfTEd2UWZ5b2VwU2tKX09ubHZ6Nm9veUc0TjY3NFBmdzg5YkxMTFl5Y3pIeHQxWm15dWd4Y29WdWl5YnpDLVMtdWpnbTNnV2phRE5kZ0FScWFoYlI4QVh3N1A5TWx3NjBGNjZ6ZFpzNUdWNmgtQmxaTzBGT0V6YUdJOGY1Y3h2ZDI?oc=5",
-      "summary": "FTSE 100 Stock Diageo (LSE:DGE): What Its Latest Results Publication Means &nbsp;&nbsp; Kalkine Media",
-      "datetime": "2026-10-15T07:06:00",
-      "tech_signal": false,
-      "stream": "supplier",
-      "story_type": null,
-      "is_noise": false,
-      "match_reason": "supplier:Diageo",
       "body": null
     }
   ]
