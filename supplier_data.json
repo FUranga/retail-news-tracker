@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-10-22T12:10:24",
+  "generated_at": "2026-10-22T15:00:52",
   "items": [
+    {
+      "source_id": "pg_uk",
+      "source_name": "Procter & Gamble",
+      "companyname": "Procter & Gamble",
+      "retail_sector": "grocery",
+      "supply_category": "fmcg",
+      "listed": "NYSE",
+      "tier": 1,
+      "paywall": false,
+      "title": "Barclays profit rises 12% as bank launches £500 million buyback - Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZmVTOGlFRXVSTFhCa1RScWlBRGMwTjRjMXR6NGRVcXA2bmhwSlZtLXhGT2QyNTZXdGZ5Yjk5SXBQQlZvYWFNWFVCX2ZZLW8zWlZJUTBJMWN6QlVEV00xZ1FaZlQxTVZIUWFCQ2kyRkhwOVE0clZQYW1LOThzWDFaRDN2TTA?oc=5",
+      "summary": "Barclays profit rises 12% as bank launches £500 million buyback &nbsp;&nbsp; Yahoo Finance UK",
+      "datetime": "2026-10-22T06:18:00",
+      "tech_signal": false,
+      "stream": "supplier",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "supplier:Procter & Gamble",
+      "body": null
+    },
     {
       "source_id": "bidfood",
       "source_name": "Bidfood UK",
