@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:53:10",
+  "generated_at": "2026-10-23T14:51:56",
   "items": [
     {
       "source_id": "bidfood",
@@ -142,6 +142,26 @@
       "body": null
     },
     {
+      "source_id": "adyen",
+      "source_name": "Adyen",
+      "companyname": "Adyen",
+      "retail_sector": "pureplay",
+      "supply_category": "tech",
+      "listed": "Euronext",
+      "tier": 1,
+      "paywall": false,
+      "title": "Adyen (ENXTAM:ADYEN) Stock Forecast & Analyst Predictions - Simply Wall Street",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYmVOd1VQYUNKVnQ0dm9jU1hVcFBKaUJQNk83bXBKNzdKcFlWX1diRW9RbFVFMkhQTEhQZUtlN1I1STlMYTdlY1hOVUFlZlRrRzM4ai1SR0ZwU3VRMThPbGNtUjNfZkJQMTM5UVpSOE9rYVhQRno0YXdWeWR6amRLSTBGR1dTdUhCMlgtTQ?oc=5",
+      "summary": "Adyen (ENXTAM:ADYEN) Stock Forecast & Analyst Predictions &nbsp;&nbsp; Simply Wall Street",
+      "datetime": "2026-10-19T07:00:00",
+      "tech_signal": false,
+      "stream": "supplier",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "supplier:Adyen",
+      "body": null
+    },
+    {
       "source_id": "costco_uk",
       "source_name": "Costco UK",
       "companyname": "Costco UK",
@@ -162,6 +182,26 @@
       "body": null
     },
     {
+      "source_id": "ncr_voyix",
+      "source_name": "NCR Voyix",
+      "companyname": "NCR Voyix",
+      "retail_sector": "pureplay",
+      "supply_category": "tech",
+      "listed": "NYSE",
+      "tier": 1,
+      "paywall": false,
+      "title": "NCR Voyix (VYX) Institutional Ownership 2026 $VYX - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TRldjazh5blhlYTlhdkNpLTZGbVVoZ2J1QjVpRHRCZ0E1d2ZtR21WOTc1bmNTcnNaQ2dsMTJTTFNSWC14ajFveENqUUoxX25yYjVHT0FEVnNLMU0tT0dRdG10dFRXUnl3Z0V6Y2ZfZmRtZUlIRlE?oc=5",
+      "summary": "NCR Voyix (VYX) Institutional Ownership 2026 $VYX &nbsp;&nbsp; MarketBeat",
+      "datetime": "2026-10-17T07:00:00",
+      "tech_signal": false,
+      "stream": "supplier",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "supplier:NCR Voyix",
+      "body": null
+    },
+    {
       "source_id": "ccep",
       "source_name": "Coca-Cola Europacific Partners",
       "companyname": "Coca-Cola Europacific Partners",
@@ -179,46 +219,6 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "supplier:Coca-Cola Europacific Partners",
-      "body": null
-    },
-    {
-      "source_id": "abinbev_uk",
-      "source_name": "AB InBev UK",
-      "companyname": "AB InBev UK",
-      "retail_sector": "grocery",
-      "supply_category": "fmcg",
-      "listed": "Euronext",
-      "tier": 1,
-      "paywall": false,
-      "title": "AB InBev’s BeatBox rapped in UK over packaging - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11cnI5OE1xeGd6bEZXSkN2Sjd3OHoxRi1CUVRua05PTU1WSlRlY1hMcXBFSUFLZk03eXFLZWI4QXJnb0UyX19CTzRua0xjSWZrZHhXRVlDVUg1cGpIdVJxWGllWFZDa0ZyaUVtME1Qa0lFWlNBQnJ3b0IzRG4?oc=5",
-      "summary": "AB InBev’s BeatBox rapped in UK over packaging &nbsp;&nbsp; Yahoo Finance",
-      "datetime": "2026-10-16T13:29:51",
-      "tech_signal": false,
-      "stream": "supplier",
-      "story_type": null,
-      "is_noise": false,
-      "match_reason": "supplier:AB InBev UK",
-      "body": null
-    },
-    {
-      "source_id": "pg_uk",
-      "source_name": "Procter & Gamble",
-      "companyname": "Procter & Gamble",
-      "retail_sector": "grocery",
-      "supply_category": "fmcg",
-      "listed": "NYSE",
-      "tier": 1,
-      "paywall": false,
-      "title": "Business News - LatestLY",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQS0tmUWtPVmpwMVVodUIzc2dPZzl0bkZvTThhaHdjbFZBdjdfN0l6STZ6ZXF1V01WMS00dWtUTmw3aDBXZnNiUjdYUDZQcjNTTEVteE96eGdzYUNpQXp2Z3N4a3lJTXNwNDdib2gzS2pfR1hRamRsS2dPVmVSOUZaOEpsVjRMcHJyN2JPYTR5RGlCQzctYV9KaFJsNnNGSTdjTlVSRDlXTzhGV3VEZEc5N25zWTQxbDMxTktoMUdBaXFfalhINnk0dFNTNVBFa21acndrNktBTUpVRkhxaUlmX1A3bVhxazNnY2fSAeoBQVVfeXFMUEtLZlFrT1ZqcDFVaHVCM3NnT2c5dG5Gb004YWh3Y2xWQXY3XzdJekk2emVxdVdNVjEtNHVrVE5sN2gwV2ZzYlI3WFA2UHIzU0xFbXhPenhnc2FDaUF6dmdzeGt5SU1zcDQ3Ym9oM0tqX0dYUWpkbEtnT1ZlUjlGWjhKbFY0THBycjdiT2E0eURpQkM3LWFfSmhSbDZzRkk3Y05VUkQ5V084Rld1RGRHOTduc1k0MWwzMU5LaDFHQWlxX2pYSDZ5NHRTUzVQRWttWnJ3azZLQU1KVUZIcWlJZl9QN21YcWszZ2Nn?oc=5",
-      "summary": "Business News &nbsp;&nbsp; LatestLY",
-      "datetime": "2026-10-16T12:24:24",
-      "tech_signal": false,
-      "stream": "supplier",
-      "story_type": null,
-      "is_noise": false,
-      "match_reason": "supplier:Procter & Gamble",
       "body": null
     }
   ]
