@@ -1,12 +1,12 @@
 [
   {
-    "id": "ebcbcbd770b9",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Travel trends: 2025",
-    "date": "2026-10-16",
-    "time": "08:30",
-    "location": null,
+    "id": "12ec1c735da5",
+    "source": "parliament_committees",
+    "category": "reunion-publica",
+    "title": "Consumer protection",
+    "date": "2026-11-03",
+    "time": "14:00",
+    "location": "The Grimond Room, Portcullis House",
     "company": null,
     "registration": {
       "required": false,
@@ -18,142 +18,12 @@
       "prior_report_link": null
     },
     "relevance_sectors": [],
-    "summary": "Annual estimates for overseas travel and tourism, including visits, spending, number of nights, and purpose of visit. These are official statistics in development.",
-    "detail_url": "https://www.ons.gov.uk/releases/traveltrends2025",
+    "summary": "Formal meeting (oral evidence session) — Consumer protection",
+    "detail_url": "https://committees.parliament.uk/committee/365/",
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057599+00:00"
-  },
-  {
-    "id": "cd28560d7737",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Consumer price inflation, UK: September 2026 time series",
-    "date": "2026-10-21",
-    "time": "06:00",
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Comprehensive database of time series covering measures of inflation data for the UK including CPIH, CPI and RPI.",
-    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026timeseries",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057655+00:00"
-  },
-  {
-    "id": "ee1131b15965",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Consumer price inflation, UK: September 2026",
-    "date": "2026-10-21",
-    "time": "06:00",
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation.",
-    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057664+00:00"
-  },
-  {
-    "id": "30284d4e04b8",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: September 2026",
-    "date": "2026-10-21",
-    "time": "08:30",
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
-    "detail_url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityseptember2026",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057673+00:00"
-  },
-  {
-    "id": "53b3de0ad390",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Retail sales, Great Britain: September 2026",
-    "date": "2026-10-23",
-    "time": "06:00",
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
-    "detail_url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainseptember2026",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057696+00:00"
-  },
-  {
-    "id": "5b7dd3d37dc6",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Retail sales, Great Britain: September 2026 time series",
-    "date": "2026-10-23",
-    "time": "06:00",
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": false,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
-    "detail_url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainseptember2026timeseries",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057700+00:00"
+    "scraped_at": "2026-10-29T19:53:28.952038+00:00"
   },
   {
     "id": "209ca152cb34",
@@ -179,7 +49,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:24.288591+00:00"
+    "scraped_at": "2026-10-29T19:53:36.732751+00:00"
   },
   {
     "id": "ea7af3f7316a",
@@ -205,8 +75,34 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:23.699829+00:00",
+    "scraped_at": "2026-10-29T19:53:35.697964+00:00",
     "needs_confirmation": true
+  },
+  {
+    "id": "89454a4f7665",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: October 2026 time series",
+    "date": "2026-11-18",
+    "time": "07:00",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.332473+00:00"
   },
   {
     "id": "01063e978d12",
@@ -232,7 +128,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057825+00:00"
+    "scraped_at": "2026-10-29T19:53:20.332495+00:00"
   },
   {
     "id": "36deeef709ee",
@@ -258,7 +154,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057852+00:00"
+    "scraped_at": "2026-10-29T19:53:20.332515+00:00"
   },
   {
     "id": "352a74ef742e",
@@ -284,7 +180,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057868+00:00"
+    "scraped_at": "2026-10-29T19:53:20.332536+00:00"
   },
   {
     "id": "61f472ca6763",
@@ -310,7 +206,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057872+00:00"
+    "scraped_at": "2026-10-29T19:53:20.332541+00:00"
   },
   {
     "id": "eac26f819baf",
@@ -336,7 +232,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057904+00:00"
+    "scraped_at": "2026-10-29T19:53:20.332596+00:00"
   },
   {
     "id": "9e7f3036092d",
@@ -362,7 +258,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057934+00:00"
+    "scraped_at": "2026-10-29T19:53:20.332657+00:00"
   },
   {
     "id": "c9cada08a1c9",
@@ -388,7 +284,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:23.699891+00:00",
+    "scraped_at": "2026-10-29T19:53:35.697994+00:00",
     "needs_confirmation": true
   },
   {
@@ -415,7 +311,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057985+00:00"
+    "scraped_at": "2026-10-29T19:53:20.332748+00:00"
   },
   {
     "id": "4b0d19af931a",
@@ -441,7 +337,33 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.057993+00:00"
+    "scraped_at": "2026-10-29T19:53:20.332760+00:00"
+  },
+  {
+    "id": "1188e9d55c45",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Public opinions and social trends, Great Britain: November 2026",
+    "date": "2026-12-17",
+    "time": "09:30",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Social insights on daily life and events, including Christmas spending and knowledge of cryptocurrency, from the Opinions and Lifestyle Survey (OPN).",
+    "detail_url": "https://www.ons.gov.uk/releases/publicopinionsandsocialtrendsgreatbritainnovember2026",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.332784+00:00"
   },
   {
     "id": "ae8d53315c14",
@@ -467,7 +389,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:24.288608+00:00"
+    "scraped_at": "2026-10-29T19:53:36.732770+00:00"
   },
   {
     "id": "12f15de971d2",
@@ -493,7 +415,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.058005+00:00"
+    "scraped_at": "2026-10-29T19:53:20.332794+00:00"
   },
   {
     "id": "8429f552e657",
@@ -519,7 +441,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.058009+00:00"
+    "scraped_at": "2026-10-29T19:53:20.332799+00:00"
   },
   {
     "id": "869487442771",
@@ -545,7 +467,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.058040+00:00"
+    "scraped_at": "2026-10-29T19:53:20.332843+00:00"
   },
   {
     "id": "3f8f2a1858f8",
@@ -571,8 +493,112 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:23.699910+00:00",
+    "scraped_at": "2026-10-29T19:53:35.698011+00:00",
     "needs_confirmation": true
+  },
+  {
+    "id": "7e181d4db84f",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: December 2026",
+    "date": "2027-01-20",
+    "time": "07:00",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation.",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukdecember2026",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.332899+00:00"
+  },
+  {
+    "id": "13192c62ee37",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: December 2026",
+    "date": "2027-01-20",
+    "time": "09:30",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly.",
+    "detail_url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensitydecember2026",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.332911+00:00"
+  },
+  {
+    "id": "5f451909ed58",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Retail Sales; Great Britain: December 2026",
+    "date": "2027-01-22",
+    "time": "07:00",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
+    "detail_url": "https://www.ons.gov.uk/releases/retailsalesgreatbritaindecember2026",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.332920+00:00"
+  },
+  {
+    "id": "556828b0ee5a",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Retail Sales; Great Britain, December 2026 time series",
+    "date": "2027-01-22",
+    "time": "07:00",
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": false,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
+    "detail_url": "https://www.ons.gov.uk/releases/retailsalesgreatbritaindecember2026timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.332931+00:00"
   },
   {
     "id": "d9522df17433",
@@ -598,268 +624,8 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:23.699927+00:00",
+    "scraped_at": "2026-10-29T19:53:35.698026+00:00",
     "needs_confirmation": true
-  },
-  {
-    "id": "8c2ccdd705b1",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Private rent and house prices, UK: October 2027",
-    "date": "2027-10-20",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "The Price Index of Private Rents (PIPR) measures private rent inflation for new and existing tenancies. The UK House Price Index measures house price inflation.",
-    "detail_url": "https://www.ons.gov.uk/releases/privaterentandhousepricesukoctober2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381346+00:00"
-  },
-  {
-    "id": "a48e490a9bb2",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Producer price inflation, UK: September 2027, including services, July to September 2027 time series",
-    "date": "2027-10-20",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "The time series datasets connected to the Producer price inflation, UK: September 2027, including services, July to September 2027 bulletin.",
-    "detail_url": "https://www.ons.gov.uk/releases/producerpriceinflationukseptember2027includingservicesjulytoseptember2027timeseries",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381350+00:00"
-  },
-  {
-    "id": "aff17b8b4ab9",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Consumer price inflation, UK: September 2027",
-    "date": "2027-10-20",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation.",
-    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381354+00:00"
-  },
-  {
-    "id": "b2c38a524af7",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Producer price inflation, UK: September 2027, including services, July to September 2027",
-    "date": "2027-10-20",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Changes in the prices of goods bought and sold by UK manufacturers including price indices of materials and fuels purchased (input prices) and factory gate prices (output prices).  Also including quarterly estimates monitoring the changes in prices received for selected services provided by UK businesses.",
-    "detail_url": "https://www.ons.gov.uk/releases/producerpriceinflationukseptember2027includingservicesjulytoseptember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381359+00:00"
-  },
-  {
-    "id": "de5b3a3198e9",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "GDP monthly estimate, UK: September 2027 time series",
-    "date": "2027-11-12",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Time series data as part of the monthly GDP publication.",
-    "detail_url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukseptember2027timeseries",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381330+00:00"
-  },
-  {
-    "id": "167b574787a0",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "GDP monthly estimate, UK: September 2027",
-    "date": "2027-11-12",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Gross domestic product (GDP) measures the value of goods and services produced in the UK. It estimates the size and growth in the economy.",
-    "detail_url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukseptember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381336+00:00"
-  },
-  {
-    "id": "b4bb991b688e",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "GDP first quarterly estimate, UK: July to September 2027",
-    "date": "2027-11-12",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "First quarterly estimate of gross domestic product (GDP). Contains current and constant price data on the value of goods and services to indicate the economic performance of the UK.",
-    "detail_url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381340+00:00"
-  },
-  {
-    "id": "63be066624d6",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Labour market in the regions of the UK: November 2027",
-    "date": "2027-11-16",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Regional, local authority and Parliamentary constituency breakdowns of changes in UK employment, unemployment, economic inactivity and other related statistics. These are official statistics.",
-    "detail_url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheuknovember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381314+00:00"
-  },
-  {
-    "id": "289a24e3474e",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Labour market statistics time series: November 2027",
-    "date": "2027-11-16",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Large dataset which contains labour market statistics data time series.",
-    "detail_url": "https://www.ons.gov.uk/releases/labourmarketstatisticstimeseriesnovember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381318+00:00"
-  },
-  {
-    "id": "16ba790342c5",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: November 2027",
-    "date": "2027-11-16",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistics (ONS)",
-    "detail_url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationuknovember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381322+00:00"
   },
   {
     "id": "c9b794fab171",
@@ -885,7 +651,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381326+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691749+00:00"
   },
   {
     "id": "95004d0d853a",
@@ -911,59 +677,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381295+00:00"
-  },
-  {
-    "id": "967eb3420820",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Producer price inflation, UK: October 2027 time series",
-    "date": "2027-11-17",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "The time series dataset connected to the Producer price inflation, UK: October 2027 bulletin.",
-    "detail_url": "https://www.ons.gov.uk/releases/producerpriceinflationukoctober2027timeseries",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381301+00:00"
-  },
-  {
-    "id": "89cfd454bedb",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Producer price inflation, UK: October 2027",
-    "date": "2027-11-17",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Changes in the prices of goods bought and sold by UK manufacturers including price indices of materials and fuels purchased (input prices) and factory gate prices (output prices).",
-    "detail_url": "https://www.ons.gov.uk/releases/producerpriceinflationukoctober2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381305+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691720+00:00"
   },
   {
     "id": "4859bc0aa5c3",
@@ -989,7 +703,111 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381309+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691727+00:00"
+  },
+  {
+    "id": "967eb3420820",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Producer price inflation, UK: October 2027 time series",
+    "date": "2027-11-17",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "The time series dataset connected to the Producer price inflation, UK: October 2027 bulletin.",
+    "detail_url": "https://www.ons.gov.uk/releases/producerpriceinflationukoctober2027timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691734+00:00"
+  },
+  {
+    "id": "89cfd454bedb",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Producer price inflation, UK: October 2027",
+    "date": "2027-11-17",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Changes in the prices of goods bought and sold by UK manufacturers including price indices of materials and fuels purchased (input prices) and factory gate prices (output prices).",
+    "detail_url": "https://www.ons.gov.uk/releases/producerpriceinflationukoctober2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691742+00:00"
+  },
+  {
+    "id": "55a8ee888c3a",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Public sector finances, UK: October 2027 time series",
+    "date": "2027-11-19",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "The time series datasets consistent with the Public sector finances, UK: October 2027 bulletin.",
+    "detail_url": "https://www.ons.gov.uk/releases/publicsectorfinancesukoctober2027timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691707+00:00"
+  },
+  {
+    "id": "77b7678669c1",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Public sector finances, UK: October 2027",
+    "date": "2027-11-19",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "A presentational framework for the headline measures of Public Sector Finance Statistics (net borrowing, net cash requirement and net debt) is explained in this release. This includes the reasons for changes in net borrowing (deficit) and debt.",
+    "detail_url": "https://www.ons.gov.uk/releases/publicsectorfinancesukoctober2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691714+00:00"
   },
   {
     "id": "9768beaa2bb9",
@@ -1015,7 +833,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381285+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691691+00:00"
   },
   {
     "id": "00c0d5f81f03",
@@ -1041,7 +859,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381290+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691698+00:00"
   },
   {
     "id": "a2d13d817b34",
@@ -1067,7 +885,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381277+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691678+00:00"
   },
   {
     "id": "aa4563716b1a",
@@ -1093,59 +911,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381281+00:00"
-  },
-  {
-    "id": "a23d4a94dad4",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "UK Labour Market: December 2027",
-    "date": "2027-12-14",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK.",
-    "detail_url": "https://www.ons.gov.uk/releases/uklabourmarketdecember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381259+00:00"
-  },
-  {
-    "id": "cd17bbd9d650",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Labour market in the regions of the UK: December 2027",
-    "date": "2027-12-14",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Regional, local authority and parliamentary constituency breakdowns of changes in UK employment, unemployment, economic inactivity and other related statistics. These are official statistics.",
-    "detail_url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheukdecember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381264+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691685+00:00"
   },
   {
     "id": "99fdb8ce6e6e",
@@ -1171,7 +937,59 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381268+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691649+00:00"
+  },
+  {
+    "id": "a23d4a94dad4",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "UK Labour Market: December 2027",
+    "date": "2027-12-14",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK.",
+    "detail_url": "https://www.ons.gov.uk/releases/uklabourmarketdecember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691656+00:00"
+  },
+  {
+    "id": "cd17bbd9d650",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Labour market in the regions of the UK: December 2027",
+    "date": "2027-12-14",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Regional, local authority and parliamentary constituency breakdowns of changes in UK employment, unemployment, economic inactivity and other related statistics. These are official statistics.",
+    "detail_url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheukdecember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691664+00:00"
   },
   {
     "id": "3fc38ae47df8",
@@ -1197,7 +1015,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381272+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691671+00:00"
   },
   {
     "id": "8c1b8305eb96",
@@ -1223,59 +1041,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381240+00:00"
-  },
-  {
-    "id": "13fe992e5708",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Producer price inflation, UK: November 2027 time series",
-    "date": "2027-12-15",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "The time series dataset connected to the Producer price inflation, UK: November 2027 bulletin.",
-    "detail_url": "https://www.ons.gov.uk/releases/producerpriceinflationuknovember2027timeseries",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381244+00:00"
-  },
-  {
-    "id": "77a544e75967",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Consumer price inflation, UK: November 2027",
-    "date": "2027-12-15",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation",
-    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationuknovember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381248+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691622+00:00"
   },
   {
     "id": "0e11a5d71f78",
@@ -1301,7 +1067,85 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381255+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691629+00:00"
+  },
+  {
+    "id": "77a544e75967",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: November 2027",
+    "date": "2027-12-15",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationuknovember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691635+00:00"
+  },
+  {
+    "id": "13fe992e5708",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Producer price inflation, UK: November 2027 time series",
+    "date": "2027-12-15",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "The time series dataset connected to the Producer price inflation, UK: November 2027 bulletin.",
+    "detail_url": "https://www.ons.gov.uk/releases/producerpriceinflationuknovember2027timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691642+00:00"
+  },
+  {
+    "id": "b22c50b719a5",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Public sector finances, UK: November 2027",
+    "date": "2027-12-21",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "A presentational framework for the headline measures of Public Sector Finance Statistics (net borrowing, net cash requirement and net debt) is explained in this release. This includes the reasons for changes in net borrowing (deficit) and debt.",
+    "detail_url": "https://www.ons.gov.uk/releases/publicsectorfinancesuknovember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691616+00:00"
   },
   {
     "id": "41f19e780c9c",
@@ -1327,7 +1171,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381212+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691573+00:00"
   },
   {
     "id": "c4c7812918c6",
@@ -1353,85 +1197,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381217+00:00"
-  },
-  {
-    "id": "ed5de5ce1908",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "UK Economic Accounts time series: July to September 2027",
-    "date": "2027-12-22",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Provides detailed estimates of national product income and expenditure, UK sector accounts and UK balance of payments.",
-    "detail_url": "https://www.ons.gov.uk/releases/ukeconomicaccountstimeseriesjulytoseptember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381221+00:00"
-  },
-  {
-    "id": "43a97430f965",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "GDP quarterly national accounts, UK: July to September 2027",
-    "date": "2027-12-22",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Revised quarterly estimate of gross domestic product (GDP) for the UK. Uses additional data to provide a more precise indication of economic growth than the first estimate.",
-    "detail_url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381226+00:00"
-  },
-  {
-    "id": "280bd2d41819",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "GDP quarterly national accounts, UK: July to September 2027 timeseries",
-    "date": "2027-12-22",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Time series data as part of the quarterly GDP publication.",
-    "detail_url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2027timeseries",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381230+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691579+00:00"
   },
   {
     "id": "da8f754d2f67",
@@ -1457,7 +1223,85 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381235+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691586+00:00"
+  },
+  {
+    "id": "43a97430f965",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "GDP quarterly national accounts, UK: July to September 2027",
+    "date": "2027-12-22",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Revised quarterly estimate of gross domestic product (GDP) for the UK. Uses additional data to provide a more precise indication of economic growth than the first estimate.",
+    "detail_url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691594+00:00"
+  },
+  {
+    "id": "280bd2d41819",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "GDP quarterly national accounts, UK: July to September 2027 timeseries",
+    "date": "2027-12-22",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Time series data as part of the quarterly GDP publication.",
+    "detail_url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2027timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691601+00:00"
+  },
+  {
+    "id": "ed5de5ce1908",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "UK Economic Accounts time series: July to September 2027",
+    "date": "2027-12-22",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Provides detailed estimates of national product income and expenditure, UK sector accounts and UK balance of payments.",
+    "detail_url": "https://www.ons.gov.uk/releases/ukeconomicaccountstimeseriesjulytoseptember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691609+00:00"
   },
   {
     "id": "eeece7643018",
@@ -1483,7 +1327,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381200+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691559+00:00"
   },
   {
     "id": "8f3f436c62b1",
@@ -1509,7 +1353,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381207+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691566+00:00"
   },
   {
     "id": "2a100eb212a1",
@@ -1535,33 +1379,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381184+00:00"
-  },
-  {
-    "id": "c5836a7ffcd8",
-    "source": "ons",
-    "category": "estadistica",
-    "title": "Consumer price inflation, UK: December 2027",
-    "date": "2028-01-19",
-    "time": null,
-    "location": null,
-    "company": null,
-    "registration": {
-      "required": null,
-      "cost": null,
-      "link": null
-    },
-    "materials": {
-      "agenda_link": null,
-      "prior_report_link": null
-    },
-    "relevance_sectors": [],
-    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation",
-    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukdecember2027",
-    "to_cover": false,
-    "manual": false,
-    "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381190+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691530+00:00"
   },
   {
     "id": "d0803633dd3d",
@@ -1587,7 +1405,59 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381195+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691538+00:00"
+  },
+  {
+    "id": "b92f552187cd",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Producer price inflation, UK: December 2027, including services, October to December 2027 time series",
+    "date": "2028-01-19",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "The time series datasets connected to the Producer price inflation, UK: December 2027, including services, October to December 2027 bulletin.",
+    "detail_url": "https://www.ons.gov.uk/releases/producerpriceinflationukdecember2027includingservicesoctobertodecember2027timeseries",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691545+00:00"
+  },
+  {
+    "id": "c5836a7ffcd8",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: December 2027",
+    "date": "2028-01-19",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukdecember2027",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691553+00:00"
   },
   {
     "id": "75f1cdacf970",
@@ -1613,7 +1483,7 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381160+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691514+00:00"
   },
   {
     "id": "ad06db059749",
@@ -1639,6 +1509,162 @@
     "to_cover": false,
     "manual": false,
     "research_summary": null,
-    "scraped_at": "2026-10-14T06:06:15.381177+00:00"
+    "scraped_at": "2026-10-29T19:53:20.691523+00:00"
+  },
+  {
+    "id": "60d9f85e04e0",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: March 2028",
+    "date": "2028-04-19",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation.",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukmarch2028",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691507+00:00"
+  },
+  {
+    "id": "8a68f5c855bf",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: May 2028",
+    "date": "2028-06-21",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukmay2028",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691499+00:00"
+  },
+  {
+    "id": "7b6dac86d6a8",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: July 2028",
+    "date": "2028-08-16",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation.",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukjuly2028",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691492+00:00"
+  },
+  {
+    "id": "9a008d2fd664",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: September 2028",
+    "date": "2028-10-18",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation.",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2028",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691484+00:00"
+  },
+  {
+    "id": "c7868a6a1058",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: October 2028",
+    "date": "2028-11-15",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation.",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2028",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691474+00:00"
+  },
+  {
+    "id": "ff1e38ee72d5",
+    "source": "ons",
+    "category": "estadistica",
+    "title": "Consumer price inflation, UK: December 2028",
+    "date": "2029-01-17",
+    "time": null,
+    "location": null,
+    "company": null,
+    "registration": {
+      "required": null,
+      "cost": null,
+      "link": null
+    },
+    "materials": {
+      "agenda_link": null,
+      "prior_report_link": null
+    },
+    "relevance_sectors": [],
+    "summary": "Price indices percentage changes and weights for the different measures of consumer price inflation.",
+    "detail_url": "https://www.ons.gov.uk/releases/consumerpriceinflationukdecember2028",
+    "to_cover": false,
+    "manual": false,
+    "research_summary": null,
+    "scraped_at": "2026-10-29T19:53:20.691455+00:00"
   }
 ]
