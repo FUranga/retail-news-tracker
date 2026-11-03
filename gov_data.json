@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-11-03T14:49:36",
+  "generated_at": "2026-11-03T17:25:51",
   "items": [
+    {
+      "source_id": "bank_of_england",
+      "source_name": "Bank of England",
+      "source_cat": "macro",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "Bank of England ‘must raise interest rates’ to tackle inflation - The Times",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMzNyMzJIbGVZRF83cVRTankxd05XZ2V3WVBwRkNodktLMl8zZ1RFZUZWazAtbHQ2bFM3ZWVvZzJIV0FueTIxbjE3ZjhwZTlDT281dl83dlRheVQwVDhFNHdFdl9FcTBSYWVnWkdfTnItZ20za2p4ZWhFZmQ1ZElHcndPakhnaTZrTVBFOFFtTHZ3c2dWZ3l4QTFPanlRQlNvZWVBVmNQbU42bkZaWVNFSjVYeWI1ZGNQcXpKa3FEZVM?oc=5",
+      "summary": "Bank of England ‘must raise interest rates’ to tackle inflation &nbsp;&nbsp; The Times",
+      "datetime": "2026-11-03T16:12:05",
+      "match_reason": "priority:high (bank_of_england)",
+      "stream": "government",
+      "story_type": "macro",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "interest rates",
+        "MPC",
+        "inflation",
+        "consumer credit",
+        "mortgage"
+      ],
+      "body": null
+    },
     {
       "source_id": "environment_agency",
       "source_name": "Environment Agency",
@@ -6341,6 +6365,28 @@
       "source_cat": "research",
       "source_pri": "medium",
       "paywall": false,
+      "title": "Store of the month November 2026: B&M, Wigan, UK - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYTVnS3pzRVR0UnEyOTAySGNWRUYtNHI2NEVzNExGQnNiZUE4REJXVTFGVUpWZE80dllaaDhDQ1ozTGJ5eVlMSXhFMnVadE1MMUM2ZW5CdndwNEo3S3JwZUVqSXFLa2s2UldGbVktZlZZTTI0SFU5cFpXT1pqOWk5NUhCeU8xTWdpUmxvWE5MbnRjZy0tM0VkRTBKWDBiV21lWVppa1EwSnEzMFpfSWlCQzM1OE1YeE91M2Z1bDFEQjhJVi1RbGFZZ0xqQS1ScXNs?oc=5",
+      "summary": "Store of the month November 2026: B&amp;M, Wigan, UK &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-11-03T13:50:15",
+      "match_reason": "tag:grocery",
+      "stream": "trade_body",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
       "title": "Halloween 2026: From all-in to lights-out, how shoppers really celebrated - IGD (Institute of Grocery Distribution)",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaERkNnozWXFYVjN3N3dFOW1JcDZaV1pjb0EwbHVnRXRkdnZkUTJmYUc5NFpXUlVyY2hrMmMyLWx2dWZyN3M5bDBvQkM2QWo1Uzc1T0dzSldXVWZ4Vi1USXUzYWlfYXEwdzVoVjJVb1hQZ3p6b2MxcVB6dGxUdnh3VU1YWFFpZFppSUlUVkg4RlRzSjduUGtldHUwSUlLck8yUVBTMnRTOFlTUQ?oc=5",
       "summary": "Halloween 2026: From all-in to lights-out, how shoppers really celebrated &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
@@ -6491,6 +6537,51 @@
         "inflation",
         "consumer credit",
         "mortgage"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "employment_tribunal_retail",
+      "source_name": "Employment tribunal cases — retail",
+      "source_cat": "judicial",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "RCN did not discriminate against Sandie Peggie, tribunal rules - Clacton Gazette",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUVlJRjVPWmR3ZWQ3X2JDVFZZejJGX2J1ZWJXc2gxMDNYS2pCaG9EbkxVd0hGa0RSV182SnNKdlFzLUdTeC1lM3ktaGVMekZUTmVqR2NGTU1KUjl6RGJma1hvc1JUaHBzWUFoZzhKMUZiMi1la0RYczA1ZDhGX1dnaHNKYnlBUlVfcGxsblVPdlBwUzNHM2ZPdVVtVFQ4aWlNLWZZZlZnX3VFQVY4dGRhM3BDbnVzclk?oc=5",
+      "summary": "RCN did not discriminate against Sandie Peggie, tribunal rules &nbsp;&nbsp; Clacton Gazette",
+      "datetime": "2026-11-02T17:23:06",
+      "match_reason": "tag:tribunal",
+      "stream": "government",
+      "story_type": "judicial",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "discrimination",
+        "pay equality",
+        "unfair dismissal",
+        "tribunal"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "The evolution of forecourt convenience stores globally - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPS05meUo0NUtxRVVTYlJKSzRBNVdCWEdIVkV6cVo4dzV5MEdIV2JuYzNYN3JtMnZZR21ldWZkaTFfRC1rSTlZTmNnZ2syR2RNbDkybVFhY3hmRTdmQk9KY2RtTGxZUGtweTdaQVJfalJKUVNzempEeFZ2MzdKbEpxU0o5OGNCYTNhU1U2ZkZZbGdVQ05nY1FhdTVHTHdaem1tSUMtMU1fVmNKVmlwbkpPS2NLdkpIU1BQaVdQSTN6QzhrSDdXYUY4dlBSMi16M0NvQXczQWhUN3NObjRkS3c?oc=5",
+      "summary": "The evolution of forecourt convenience stores globally &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-11-02T14:33:41",
+      "match_reason": "tag:grocery",
+      "stream": "trade_body",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
       ],
       "body": null
     },
@@ -7301,6 +7392,28 @@
         "inflation",
         "consumer credit",
         "mortgage"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Driving shopper engagement in-store and online - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeVBGRklza2oxTzNmSi1IaDBjNFZDSWJuWGc3LWxxUUdMUHV2aklhNUlfUHkyUERlckJyN0VWb3dLTWFEend2dkd3Qk5qZzFCekU2c1dtWWlQQnh2UFlMang2eEV3ZU03ZjdzeFZnd1F4M3hUV2VzQmRtd3hoaTdKck9BenJlM3M?oc=5",
+      "summary": "Driving shopper engagement in-store and online &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-10-30T13:32:51",
+      "match_reason": "tag:grocery",
+      "stream": "trade_body",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
       ],
       "body": null
     },
@@ -9089,6 +9202,50 @@
       "body": null
     },
     {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Europe's leading grocery retailers in 2031 - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUGJ2c3lHS09qSmdfNGRHbzdNSWNVQVJ5MnFvYUFkWW9DMUE5WFh6NlNKQ19FTEV5ZGthRThQSWdHcGZrQTlwMGdhV2c2U3M5ajRMREI4aEZmT0ZEWVJfLTluNmc2eWh2RVQ4dVZJandha1N0cU44eHo5UWladVZJSEFUVVBielpsaWQ4eHlJQm4wNnl3SzdvZU5pd1JDNEZ6RndyRVJyUkxnVG5BTUZZY3BFbXNzeEkxeEczQWxUc2pJemc?oc=5",
+      "summary": "Europe's leading grocery retailers in 2031 &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-10-29T08:31:20",
+      "match_reason": "tag:grocery",
+      "stream": "trade_body",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Asia's leading grocery retailers in 2031 - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9VVGhUZFBWN0ZOM0FaUEdTNXlDN3FsazYzX0Rsa0RraUJwczI3UnlVN0dKSGRpNFNRWTBpVWNpdDZNRXNLMVg0V3pYeFFMblUtWDBCSkF6MkdOR3ktNnNnLXJqOFRMQ0xBcHZmSUVuLVgwNGp3OTc2ZXdzeTRTQQ?oc=5",
+      "summary": "Asia's leading grocery retailers in 2031 &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-10-29T08:31:20",
+      "match_reason": "tag:grocery",
+      "stream": "trade_body",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
       "source_id": "bank_of_england",
       "source_name": "Bank of England",
       "source_cat": "macro",
@@ -9349,6 +9506,28 @@
       "paywall": false,
       "title": "Europe roundup: retailing for resilience - IGD (Institute of Grocery Distribution)",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV2F5MkpOcnUtanl2Q3U4QVBMRGtaalNYQ19nbjlSa3FhbjJRRWlJZWJLbUpmMlJqZkZaZzB3MFBxdTg2YjZ1WlNoU0hneHNncHB2SDA4WFZpd1NfT1FlMVczbmVSME5Ed1JDRzRkZTdSOE13UGxETTJVUnVuX1dDQUhHWVpWcUR0RWhucU82NmMzS2RqNXplM1A5blQyWUxNZ2lDRHg4RlRmOWU0R1NneEhyOVNtelQ4NUFuNXlaQkcyQQ?oc=5",
+      "summary": "Europe roundup: retailing for resilience &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-10-28T15:16:14",
+      "match_reason": "tag:grocery",
+      "stream": "trade_body",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "Europe roundup: retailing for resilience - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUbXItMmp0YUlJN0tfMnhmbEY0ZUNtbVNwVlhBVUlyZ2Rtak5mSVRpcnNTclZ5YnJNQU9GOUQ1ZnlvYVRKRUJERWE0RGd1Ul93U0VEM082bkpia1JzLVZ2YjhmRnB1ZzdVWUZNMVl6eUhvQXpxWjUtTk1XbDJ3azA?oc=5",
       "summary": "Europe roundup: retailing for resilience &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
       "datetime": "2026-10-28T15:16:14",
       "match_reason": "tag:grocery",
@@ -11087,6 +11266,27 @@
       "body": null
     },
     {
+      "source_id": "ons_retail",
+      "source_name": "ONS — Retail Sales",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "UK Retail Sales Q3 2026: ONS Reports Volume and Value Growth - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM1dzNEtSUjJqeTk5UjVIbEthNjFOWHVsaW84eTR5bkxqUzNKMkI3MENDdHJreE9ONks0cmR1b2NOUXhudFlnc1pUUWlYVUwySXFqbFl3UG1Kd29iTnk5M0FkZllhMmg1bzN2RzZnZmhLS1VxOWdjTk5HNHpFNV92bFRZQUkzVjVTUGpaLWMtVmJ3V2MzdGs0b3NwU3VJUQ?oc=5",
+      "summary": "UK Retail Sales Q3 2026: ONS Reports Volume and Value Growth - News and Statistics &nbsp;&nbsp; IndexBox",
+      "datetime": "2026-10-23T10:21:08",
+      "match_reason": "priority:high (ons_retail)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "retail sales",
+        "ONS"
+      ],
+      "body": null
+    },
+    {
       "source_id": "igd",
       "source_name": "IGD — Institute of Grocery Distribution",
       "source_cat": "research",
@@ -11403,6 +11603,27 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU21vaXNCeW5tQ3UtVjMzVzZqTVprWXhOT21mOUlqNGUwaTI3NkM4c3NoZXZycE1IbVNnTWljTDJBWUN0Mmh2UEdLTGw4Z3diYmxrVzJ4aW44Z1I2WkFkTjlfVHhUSXp5THRGMGdsZElYVGlEaXdBTUFLTTlXd3dOQ3hlRENiWEt3N2piaTZGSTFzNFh6bS0yVU5RWmd3SlVyamZhQVJtc21HVFdOY0ppNGMzQU1ob0tj?oc=5",
       "summary": "Retail sales in Great Britain fall as struggling households cut back &nbsp;&nbsp; The Guardian",
       "datetime": "2026-10-23T07:34:00",
+      "match_reason": "priority:high (ons_retail)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "retail sales",
+        "ONS"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "ons_retail",
+      "source_name": "ONS — Retail Sales",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "UK Retail Sales Volumes Fall 0.4% in September as Warm Weather Bites - AskTraders.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWmJZQkczaVZXWWRDZ2FjazJaZUZHN2ZsbnJBbm1YbUxsSWlYQUhhdDEyTGJEcmJETnpTN3dVdGU0ZDBuaENMV1MzUnhzRDlPQTVRQ1VEY18zdmJtRV83RTBLVEZ4YmJERmhGQmFBS0JGWG1zX2c0RzkybV9xRnNrRzhpSGVoenAxUzhKRDRxU2k5SDVsTDFoTXc1QjFsa0ItRGk5SVBxWQ?oc=5",
+      "summary": "UK Retail Sales Volumes Fall 0.4% in September as Warm Weather Bites &nbsp;&nbsp; AskTraders.com",
+      "datetime": "2026-10-23T07:00:00",
       "match_reason": "priority:high (ons_retail)",
       "stream": "government",
       "story_type": "statistics",
@@ -11994,6 +12215,27 @@
       "body": null
     },
     {
+      "source_id": "ons_retail",
+      "source_name": "ONS — Retail Sales",
+      "source_cat": "statistics",
+      "source_pri": "high",
+      "paywall": false,
+      "title": "UK Retail Sales Preview: August Volumes in Focus - AskTraders.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQUxNTUMtZTYzVndSVzl0Tmh3OWRPWUVfNkMzR2xIN1lmZkVUcDFoU3NtYXFkUWtpaHBzbkpxX000Zm9iMmgxSGV4ZFFDNlI2bWh2SGZfTV8zM3owdkVxUW1XczZsOUp6bFdmQm03ZWdIbFB1LWtpLUxXMkNBWnBDWkNqaU9PUXU5NmU4Mw?oc=5",
+      "summary": "UK Retail Sales Preview: August Volumes in Focus &nbsp;&nbsp; AskTraders.com",
+      "datetime": "2026-10-22T07:00:00",
+      "match_reason": "priority:high (ons_retail)",
+      "stream": "government",
+      "story_type": "statistics",
+      "is_noise": false,
+      "retail_sector": "macro",
+      "tags": [
+        "retail sales",
+        "ONS"
+      ],
+      "body": null
+    },
+    {
       "source_id": "gov_hmrc",
       "source_name": "GOV.UK — HMRC",
       "source_cat": "policy",
@@ -12177,6 +12419,28 @@
         "retail workers",
         "union",
         "shop worker"
+      ],
+      "body": null
+    },
+    {
+      "source_id": "igd",
+      "source_name": "IGD — Institute of Grocery Distribution",
+      "source_cat": "research",
+      "source_pri": "medium",
+      "paywall": false,
+      "title": "What is powering Lidl GB’s growth? - IGD (Institute of Grocery Distribution)",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HMEJiTl9LaUtzQ0xHcG9tVk0yX19LMHNqQmJmb0ZHNnJ5QkQ5OTRLQkk0Um1hVm5hS3hsZVBkLWYzNXdnQ3VjcFJyTWJscnZ2c3RRbkNXbDMycmxGMzJVRjVDMlpEWHhZeVdMRF9XZ05JMVZSdXc?oc=5",
+      "summary": "What is powering Lidl GB’s growth? &nbsp;&nbsp; IGD (Institute of Grocery Distribution)",
+      "datetime": "2026-10-21T07:00:00",
+      "match_reason": "tag:grocery",
+      "stream": "trade_body",
+      "story_type": "research",
+      "is_noise": false,
+      "retail_sector": "grocery",
+      "tags": [
+        "grocery",
+        "supply chain",
+        "supermarket"
       ],
       "body": null
     },
