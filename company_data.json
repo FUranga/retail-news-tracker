@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T14:59:42",
+  "generated_at": "2026-11-13T16:58:50",
   "items": [
     {
       "source_id": "asda",
@@ -56,6 +56,25 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "company:WH Smith",
+      "body": null
+    },
+    {
+      "source_id": "pets_at_home",
+      "source_name": "Pets at Home",
+      "companyname": "Pets at Home",
+      "retail_sector": "pets",
+      "listed": "FTSE250",
+      "tier": 1,
+      "paywall": false,
+      "title": "Helping pets and people stay together: Cherished Pets Foundation launches $100k fundraising campaign - Times News Group",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNDMyYzlCXzNESDB6MDAyT1phQVBYVExXUmQ3bEVielp5Vk5MZWhMbE9yTkJ0UzAxaGdMWjhXNTMtTGRvbWRjX1FNWENlcm94M3U1RS1lTkYzdEgtSF9YU1ljRTJBSjhKcXlHOUlXOG5OUEh5ZTNNbGZ3N081UVpFbGswYlMxUkdFSF9uRzdYS3ZKaEl6Tkl4VDZjQzNoaHVNZm1yLUhCSFMtNktwdHdPQVhiOW5wZXNRZGQ0Sk9jUXZQaWNKajJQblF4enBKb0VEMWVBaGlVV2oxZ3B5SXk3R1lobTJ1dw?oc=5",
+      "summary": "Helping pets and people stay together: Cherished Pets Foundation launches $100k fundraising campaign &nbsp;&nbsp; Times News Group",
+      "datetime": "2026-11-12T21:42:13",
+      "tech_signal": false,
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:Pets at Home",
       "body": null
     },
     {
@@ -1443,6 +1462,25 @@
       "story_type": null,
       "is_noise": false,
       "match_reason": "company:Primark",
+      "body": null
+    },
+    {
+      "source_id": "aldi_uk",
+      "source_name": "Aldi UK",
+      "companyname": "Aldi UK",
+      "retail_sector": "grocery",
+      "listed": "private",
+      "tier": 1,
+      "paywall": false,
+      "title": "ALDI LAUNCHES ITS CHRISTMAS ADVERT AND KEVIN’S ON A MISSION TO BRING MISSING CAULI DOG HOME - ALDI UK Press Office",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0Jpb0ZHU1VLYVVOOC05cDB0UDg5YkVWalBucHZiWEZpMlFSdG1Xb0Y5TWtOUU5UQk5udTR5dG5oY0ZfZ1FzbkFIWElubGE1MlFZenpTS25UMjl0M28yem5LUlpzWHZremRTVlp6ZVJzM2JLdV9JWEJQWWMzNUpMQUUtSVhVOFlrdGRjRFdRdDZRRFNQRGxwUUJueHNDVXRLSFd1ZzVaMUJOR3BuSzFXeDh4VDFVRExHV1BPMk93THl1ZjRoVy0ySEd1QWhtcE90?oc=5",
+      "summary": "ALDI LAUNCHES ITS CHRISTMAS ADVERT AND KEVIN’S ON A MISSION TO BRING MISSING CAULI DOG HOME &nbsp;&nbsp; ALDI UK Press Office",
+      "datetime": "2026-11-07T09:22:20",
+      "tech_signal": false,
+      "stream": "company",
+      "story_type": null,
+      "is_noise": false,
+      "match_reason": "company:Aldi UK",
       "body": null
     },
     {
